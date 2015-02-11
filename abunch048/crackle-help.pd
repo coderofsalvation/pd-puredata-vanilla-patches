@@ -1,0 +1,36 @@
+#N canvas 252 102 688 673 12;
+#X obj 40 544 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 53 85 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 55 619 Inlet 1 =;
+#X obj 65 153 vsl 15 128 0 127 0 0 empty empty length -15 -10 0 10
+-262144 -1 -1 0 1;
+#X obj 67 289 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 67 347 bng 15 250 50 0 empty empty go 17 7 0 10 -262144 -1 -1
+;
+#X obj 67 402 tgl 15 0 empty empty length/go 17 7 0 10 -262144 -1 -1
+0 64.5079;
+#X text 52 672 Inlet 2 =;
+#X text 52 725 Inlet 3 =;
+#X text 58 23 'Crackle' produces very short digital clicks. You can
+change the length of these short sounds (of just a few samples length).
+;
+#X text 176 348 = clicking on 'go' produces a crackle sound;
+#X text 187 403 = if this toggle is turned on (=a cross) \, the first
+inlet triggers a new crackle \, in this case the button 'go' won't
+produce any sound. If this toggle is turned off \, clicking on 'go'
+is the only way to produce the crackle sound.;
+#X text 37 495 'level' fader;
+#X text 170 496 = to adjust the level (amplitude) of the crackle;
+#X text 176 171 = with this you can change the length of the crackles
+\, this also influences the pitch. Length 1 produces a sound of just
+1 sample length \, 5 of 5 samples \, etc.;
+#X text 90 583 (in- and outlets \, numbered from left to right);
+#X text 146 619 (event) inlet to control the button 'go' \, any number
+higher than 0 turns on 'go' thus producing a sound.;
+#X text 146 669 (event) inlet to control the 'length' fader. If the
+toggle 'length/go' is turned on \, this also triggers the sound.;
+#X text 149 724 (event) inlet to control the fader 'level';
+#X connect 3 0 4 0;

@@ -1,0 +1,60 @@
+#N canvas 60 4 693 693 12;
+#X obj 40 1031 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 37 762 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 50 100 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 44 987 outlet 1 =;
+#X text 30 444 GLIDE ON:;
+#X obj 43 479 tgl 15 0 \$1-fm1sion \$1-fm1rion empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 43 524 tgl 15 0 \$1-fm1sron \$1-fm1rron empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X text 47 833 inlet 1 =;
+#X text 44 870 inlet 2 =;
+#X text 44 907 inlet 3 =;
+#X text 41 944 inlet 4 =;
+#X text 35 150 fader 'pitch' =;
+#X text 37 195 fader 'index' =;
+#X text 36 235 fader 'ratio' =;
+#X text 34 394 fader 'level' =;
+#X text 173 193 This fader changes the amount of modulation of the
+frequency of the main oscillator by the second oscillator.;
+#X text 172 395 Use this to change the level (amplitude) of the output
+sound.;
+#X text 55 796 (in- and outlets \, numbered from left to right);
+#X text 135 833 (event) inlet to control the fader 'pitch';
+#X text 135 870 (event) inlet to control the fader 'index';
+#X text 134 907 (event) inlet to control the fader 'ratio';
+#X text 135 943 (event) inlet to control the fader 'level';
+#X text 141 986 (audio) outlet for the produced FM-sound;
+#X text 88 478 = If this is turned on (crossed) \, the changes of the
+index fader will be smooth;
+#X text 86 523 = If this is turned on (crossed) \, the changes of the
+ratio fader (and the pitch of the modulator) will be smooth;
+#X text 47 19 This 'simple-fm' object allows you can to make simple
+FM (Frequency Modulation) sounds. In this object one oscillator (the
+modulator) modulates the frequency of one main oscillator (the carrier).
+;
+#X text 182 150 Use this to change the main pitch of the synthesized
+sound (the pitch of the carrier oscillator).;
+#X text 172 235 Move this fader to change the relation between the
+pitch of the main oscillator (carrier) and the pitch of the second
+oscillator (modulator). If this is 4 for example \, the pitch of the
+modulator is the carrier pitch (in Hertz) multiplied by 4 If the toggle
+'fixed_pitch' is crossed \, this fader changes the pitch of the modulator.
+In this case you can change this pitch independently from the pitch
+of the main oscillator (carrier) and this fader has the label 'p-mod'
+(pitch of modulator).;
+#X text 33 568 FIXED_PITCH:;
+#X text 84 591 = If this switch is turned on \, you can change the
+pitch of the modulator independently from the pitch of the carrier
+(see fader 'ratio').;
+#X text 33 650 LOW_PITCH(LFO):;
+#X obj 36 677 tgl 15 0 oek last empty 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 36 596 tgl 15 0 oek lats empty 17 7 0 10 -262144 -1 -1 0 1;
+#X text 84 673 = If this switch is turned on \, you can change the
+pitch of the modulator independently from the pitch of the carrier
+(see fader 'ratio'). The fader ratio (or 'p-mod') is adapted to very
+low frequencies as in a Low Frequency Oscillator (LFO).;

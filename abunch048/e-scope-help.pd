@@ -1,0 +1,64 @@
+#N canvas 327 24 671 737 12;
+#X obj 26 951 cnv 15 400 30 empty empty remarks 160 14 0 14 -233017
+-66577 0;
+#X obj 27 732 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 43 85 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 37 803 inlet 1 =;
+#X text 44 763 (in- and outlets \, numbered from left to right);
+#X text 51 25 With 'e-scope' ('event scope' as opposed to the o-scope
+which shows audio) you can view the incoming events in a table.;
+#X obj 36 146 cnv 15 300 30 empty empty X-view 110 12 0 10 -233017
+-66577 0;
+#X obj 273 158 nbx 5 14 -1e+037 1e+037 0 0 dfgfgggg wnoa max 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 31 247 cnv 15 60 150 empty empty Y-view 1 70 0 10 -233017 -66577
+0;
+#X obj 35 372 nbx 5 14 -1e+037 1e+037 0 0 \$1-esosymin \$1-esorymin
+min 0 -8 0 10 -262144 -1 -1 0 256;
+#X obj 33 260 nbx 5 14 -1e+037 1e+037 0 0 syuyuuyu yuyuyuyu max 0 -8
+0 10 -262144 -1 -1 0 256;
+#X text 99 282 You can change the minimum and maximum of the Y-axis
+(the value of the incoming events) with the number boxes 'min' and
+'max'.;
+#X obj 28 493 vradio 15 1 0 2 \$1-esostrig \$1-esortrig empty 0 -8
+0 10 -262144 -1 -1 0;
+#X text 48 490 event=trigger;
+#X text 47 508 clock=trigger;
+#X obj 32 665 nbx 5 14 -1e+037 1e+037 0 0 wmljh qrtea(e clock_speed
+0 -8 0 8 -262144 -1 -1 0 256;
+#X obj 29 451 bng 15 250 50 0 ores qrres clear 20 7 0 8 -262144 -1
+-1;
+#X obj 29 414 tgl 15 0 sonder ronder on_off 17 7 0 10 -262144 -1 -1
+0 1;
+#X text 106 412 = Turn this 'e-scope' on or off (on = crossed).;
+#X text 107 447 = Erase all the data in the table.;
+#X obj 30 589 tgl 15 0 \$1-esosext \$1-esorext ext_clock 17 7 0 10
+-262144 -1 -1 0 1;
+#X text 133 666 If 'clock=trigger' is switched on (and the toggle 'ext_clock'
+is off) \, the speed of the clock can be changed by this number box.
+The speed is in milliseconds.;
+#X text 133 586 If 'clock=trigger' is switched on \, you can choose
+to use the internal clock (speed changed by 'clock_speed' number box)
+or an external clock. Click this toggle to use the external clock (crossed
+= on).;
+#X text 169 492 When the 'event=trigger' box is turned on \, every
+event is shown on the window and thus moves the read index to a next
+step on the X-axis. If 'clock=trigger' is chosen \, a clock triggers
+a new step on the X-axis and writes the incoming value to the table.
+;
+#X text 125 803 (event) inlet for the events that are going to be shown
+in the window i.e. that are going to be written to the table.;
+#X text 37 843 inlet 2 =;
+#X text 37 893 inlet 3 =;
+#X text 123 892 (event) inlet for the external clock;
+#X text 122 842 (event) inlet to control the toggle 'on_off'. Any number
+higher than 0 turns the toggle on \, a 0 turns it off.;
+#X text 32 996 When the maximum size of the X-axis is reduced (with
+number box 'max') the table is shortened and resized so some data will
+be lost. Zooming in on a table without resizing is still impossible
+in Pd at this moment.;
+#X text 47 181 = You can zoom in or out on the X-axis (number of events
+that should be shown). You can change the maximum number of events
+with the number box 'max'.;

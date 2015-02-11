@@ -1,0 +1,16 @@
+#N canvas 257 461 254 196 10;
+#X obj 45 32 loadbang;
+#X obj 45 167 outlet;
+#X obj 45 144 *;
+#X obj 45 115 t b f;
+#X obj -39 11 inlet secs;
+#X obj 45 64 samplerate~;
+#X obj -39 94 f \$1;
+#X connect 0 0 5 0;
+#X connect 0 0 6 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
+#X connect 3 1 2 1;
+#X connect 4 0 6 0;
+#X connect 5 0 3 0;
+#X connect 6 0 2 0;

@@ -1,0 +1,34 @@
+1 symbol 0 0 0 () norm 0 0 1-parrrx1 1053 () norm 0 0 1-parrrx2 0 ()
+norm 0 0 1-parrrx3 0 () norm 0 0 1-parrrx4 36 () norm 0 0 1-parrrx5
+1 () norm 0 0 1-parrrx6 58 () norm 0 0 1-parrrx7 75 () arr 0 0 1-parrray1
+60.9595 63.4995 69.5954 67.5634 63.4995 67.0554 65.5314 64.7034 67.5634
+62.9915 68.0714 73.1514 63.4995 59.0995 66.5474 69.0874 62.4835 66.0394
+68.5794 64.0074 67.5634 61.4675 70.7434 66.4074 68.5074 64.5074 60.9595
+65.0234 62.4835 64.0074 68.5794 67.0554 69.5954 65.0234 62.4835 0 ()
+norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () sym 0 0 9-sapry1 C:/Program Files/pd/patch/own/les/voice11ing.wav
+() norm 0 0 9-saprx1 74 () norm 0 0 9-saprx2 74 () norm 0 0 9-saprx3
+88 () norm 0 0 9-saprx4 0 () norm 0 0 9-saprx5 0.343434 () sym 0 0
+8-sapry1 C:/Program Files/pd/patch/own/les/voice10x.wav () norm 0 0
+8-saprx1 72 () norm 0 0 8-saprx2 72 () norm 0 0 8-saprx3 73 () norm
+0 0 8-saprx4 0 () norm 0 0 8-saprx5 0.343434 () sym 0 0 7-sapry1 C:/Program Files/pd/patch/own/les/voice8t.wav
+() norm 0 0 7-saprx1 71 () norm 0 0 7-saprx2 71 () norm 0 0 7-saprx3
+71 () norm 0 0 7-saprx4 0 () norm 0 0 7-saprx5 0.212121 () sym 0 0
+6-sapry1 C:/Program Files/pd/patch/own/les/voice7f.wav () norm 0 0
+6-saprx1 69 () norm 0 0 6-saprx2 69 () norm 0 0 6-saprx3 69 () norm
+0 0 6-saprx4 0 () norm 0 0 6-saprx5 0.434343 () sym 0 0 5-sapry1 C:/Program Files/pd/patch/own/les/voice6o.wav
+() norm 0 0 5-saprx1 66 () norm 0 0 5-saprx2 66 () norm 0 0 5-saprx3
+67 () norm 0 0 5-saprx4 0 () norm 0 0 5-saprx5 0 () sym 0 0 4-sapry1
+C:/Program Files/pd/patch/own/les/voice5ss.wav () norm 0 0 4-saprx1
+65 () norm 0 0 4-saprx2 65 () norm 0 0 4-saprx3 65 () norm 0 0 4-saprx4
+0 () norm 0 0 4-saprx5 0.393939 () sym 0 0 2-sapry1 C:/Program Files/pd/patch/own/les/voice2on.wav
+() norm 0 0 2-saprx1 62 () norm 0 0 2-saprx2 61 () norm 0 0 2-saprx3
+62 () norm 0 0 2-saprx4 0 () norm 0 0 2-saprx5 0.242424 () sym 0 0
+1-sapry1 C:/Program Files/pd/patch/own/les/voice1C.wav () norm 0 0
+1-saprx1 60 () norm 0 0 1-saprx2 50 () norm 0 0 1-saprx3 60 () norm
+0 0 1-saprx4 0 () norm 0 0 1-saprx5 0.444444 () norm 0 0 1-azerx1 1
+() norm 0 0 1-azerx2 0 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4
+0 () norm 0 0 1-azerx5 0 () norm 0 0 1-azerx6 500 () sym 0 0 3-sapry1
+C:/Program Files/pd/patch/own/les/voice3t.wav () norm 0 0 3-saprx1
+64 () norm 0 0 3-saprx2 63 () norm 0 0 3-saprx3 64 () norm 0 0 3-saprx4
+0 () norm 0 0 3-saprx5 0.464646;

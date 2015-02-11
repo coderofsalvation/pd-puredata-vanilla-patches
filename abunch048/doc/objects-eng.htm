@@ -1,0 +1,185 @@
+<HTML>
+<HEAD>
+<TITLE>OBJECTS IN ABUNCH</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=none">
+<STYLE TYPE="text/css">
+body {
+margin: 0;
+background-color: #D0D8CD;
+scrollbar-base-color: #C9D1C6;
+color: #000000;
+}
+A:link {
+text-decoration: underline;
+color: #696A97;
+}
+A:hover {
+text-decoration: underline;
+color: #CC3300;
+}
+A:active {
+text-decoration: none;
+color: #CC3300;
+}
+A:visited {
+text-decoration: underline;
+color: #696A67;
+}
+p, li, dt, dd {
+font-family: "Arial", sans-serif;
+font-size: 10pt;
+text-align: left;
+color: #000000;
+}
+pre {
+color: #000000;
+}
+h1 {
+font-family: "Arial", sans-serif;
+font-size: 15pt;
+text-align: center;
+color: #4A735A;
+}
+h2 {
+font-family: "Arial", sans-serif;
+font-size: 13pt;
+text-align: left;
+color: #4A735A;
+}
+h3 {
+font-family: "Arial", sans-serif;
+font-size: 11pt;
+text-align: left;
+color: #000000;
+}
+.tleft {
+margin-left: 6px;
+font-family: "Tahoma", sans-serif;
+font-size: 8pt;
+text-align: left;
+}
+.tright {
+margin-right: 6px;
+font-family: "Tahoma", sans-serif;
+font-size: 8pt;
+text-align: right;
+}
+hr {
+height: 1px;
+border: 1px solid #4A735A;
+}
+.tmain {
+background-color: #EFF2EB;
+border: 1px solid #4A735A;
+border-collapse: collapse;
+}
+.tdark {
+background-color: #E8EBE4;
+border: 1px solid #4A735A;
+border-collapse: collapse;
+}
+</STYLE>
+</HEAD>
+
+<BODY><A NAME="top"></A>
+<DIV ALIGN="center">
+<TABLE CLASS="tmain" WIDTH="90%" CELLPADDING="4" CELLSPACING="0">
+<TR>
+<TD CLASS="tdark">
+<H1>OBJECTS IN ABUNCH - <i>version 048</i></H1>
+</TD>
+</TR>
+<TR>
+<TD CLASS="tmain">
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD WIDTH="20"></TD>
+<TD>&nbsp;<BR>
+<p align=center><A href="index-eng.htm"> --home-- </A>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<A href="bio-eng.htm"> --bio-- </A>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<A href="works-eng.htm"> --works-- </A>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<A href="news-eng.htm"> --news-- </A>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<A href="abunch-eng.htm"> --abunch-- </A></p>
+<HR>
+<p>AUDIO EFFECTS</P>
+<P><b>phaser </b> : a phaser effect<BR>
+<b>simple-delay</b> : a simple delay effect with a maximum delay of 1 second<BR>
+<b>long-delay</b> : a delay effect with a maximum delay of 10 seconds<BR>
+<b>feed-delay</b> : a delay with an 'infinite' feedback<BR>
+<b>reverb</b> : a reverb effect<BR>
+<b>simple-chorus</b> : a chorus effect<BR>
+<b>simple-pitchshift</b> : transpose the pitch of a sound stream <BR>
+<b>envelopes</b> : 8 different envelopes to cut a short sound from a sound stream<BR>
+<b>simple-filter</b> : a bandpass filter with 8 bands<BR>
+<b>8band-filter</b> : an expanded version of the previous 'simple-filter' object<BR>
+<b>lowhigh-filter</b> : a lowpass and an highpass filter<BR>
+<b>disto-filter</b> : a distortion effect based on a filter<BR>
+<b>old-vocoder</b> : a 'traditional' vocoder effect<BR>
+<b>matrix4</b> : a matrix or switch to distribute 4 sound inputs to 4 outputs<BR>
+<b>panning</b> : distribute one audio channel (mono) to 2 channels (stereo)<BR>
+<b>al-disto</b> : a gain and distortion effect</P>
+<HR>
+<p>SOUND SOURCE</P>
+<P><b>waves </b>: 6 different wave forms (oscillators) and a noise generator<BR>
+<b>waves-add</b> : adjust 16 harmonics and synthesize them in one wave form (additive synthesis) <BR>
+<b>play-file</b> : play a sound file from the hard disk<BR>
+<b>record-file</b> : record a sound to a new file on your disk<BR>
+<b>play-sample</b> : play a short sample from the computers memory<BR>
+<b>simple-sampler</b> : play a short sample from the computers memory by sending pitch values to its inlet<BR>
+<b>record-sample</b> : record a short sound fragment that can be used immediately in other abunch objects like play-sample or grain-sample<BR>
+<b>scratch-sample</b> : scratch a sample like a vinyl record<BR>
+<b>crackle</b> : some basic digital 'cracking' sounds<BR>
+<b>sound-out</b>: send the sound to the sound output of the computer<BR>
+<b>addy</b> : an additive synthesizer<BR>
+<b>ozzy</b> : a classical synthesizer with oscillators, filters and envelopes<BR>
+<b>tarra</b> : a synthesizer based on a string model<BR>
+<b>crynth</b> : a rather strange wavetable synthesizer <BR>
+<b>grain-sample</b> : granular synthesis of a sound sample (pitch and length of the grains are independent)<BR>
+<b>grain48-sample</b> : the same as grain-sample but with maximum 48 simultaneous grains<BR>
+<b>graino-sample</b> : granular synthesis of a sound sample (length and traject influence the transposition of the grains)<BR>
+<b>grain-synth</b> : a granular synthesizer<BR>
+<b>grain-live</b> : a first (unfinished) version of a granular delay<BR>
+<b>wa-synth</b> : a simple waveshaping synthesizer<BR>
+<b>simple-fm</b> : a very basic object to make FM sounds<BR>
+<b>2mod-fm</b> : FM synthesis with 2 modulators<BR>
+<b>syna-fm</b> : an FM synthesizer (with 2 operators)<BR>
+<b>cross-fm</b> : a second FM synthesizer<BR>
+<b>wind-synth</b> : an simple synthesizer based on filtered noise</P>
+<HR>
+<p>CONTROL</P>
+<P><b>timeline</b> : draw values in a table (f.e. to control a slider in an other object)<BR>
+<b>sequencer</b> : a simple sequencer with maximum 16 steps (with on/off toggles for every step)<BR>
+<b>sequencer</b> : a simple sequencer with maximum 16 steps (with number boxes for every step)<BR>
+<b>multi-seq</b> : a sequencer with 6 tracks and 16 patterns (with on/off toggles for every step)<BR>
+<b>multi-seqn</b> : a sequencer with 6 tracks and 16 patterns (with number boxes for every step)<BR>
+<b>keyboard-azerty</b> : use your azerty computer keyboard as a simple piano (midi) keyboard<BR>
+<b>keyboard-qwerty</b> : use your qwerty computer keyboard as a simple piano (midi) keyboard<BR>
+<b>clock</b> : a clock with adjustable tempo (to synchronize abunch objects like timeline or sequencer)<BR>
+<b>multi-clock</b> : a clock with 6 clock signals (one main clock and 5 other ones in an adjustable ratio to this main clock)(to synchronize abunch objects like timeline or sequencer)<BR>
+<b>random-out</b> : send out random numbers<BR>
+<b>random-walk</b> : send out numbers from a randomly a- or descending curve<BR>
+<b>scales</b> : adjust a pitch to a chosen scale<BR>
+<b>scales-div</b> : divide an octave in any number of tones<BR>
+<b>play-score</b> : play a score (in txt format)<BR>
+<b>record-score</b> : record a stream of controle data to a txt file<BR>
+<b>midi-ctlin</b> : receive values from your midi controller hardware<BR>
+<b>metronome</b> : show a tempo and/or hear a metronome tick<BR>
+<b>o-scope</b> : an oscilloscope to view the wave form of an audio stream<BR>
+<b>e-scope</b> : show the curve of an event stream (not audio)<BR>
+<b>spectrum</b> : watch the spectrum of a sound<BR>
+<b>analyse</b> : analyse a sound stream (harmonics, pitch, rhythm)</P>
+<HR>
+<P>PRESETS</P>
+<P><b>presets</b> : store the position of faders, the values of number boxes, the name of sound files, etc. (in abunch objects) as a preset file</P>
+<HR>
+<P>OBSOLETE</P>
+<p><b>text-score</b> : changed the name of this object to <b>play-score</b><BR>
+<p><b>slice</b> : replaced by the abunch object <b>envelopes</b><BR>
+<b>matrix4-in</b> and <b>matrix4-out</b> : replaced by the abunch object <b>matrix4</b><BR>
+</p>
+<P>&nbsp;</P>
+<TD WIDTH="20"></TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+</TABLE>
+</DIV>
+</BODY>
+</HTML>

@@ -1,0 +1,9 @@
+1 gliding_sine 0 0 0 () norm 0 0 1-wavrx1 0 () norm 0 0 1-wavrx2 1
+() norm 0 0 1-wavrx3 78.74 () norm 0 0 1-wavrx4 0.0787402 () norm 0
+0 1-wavrx5 1000 () norm 0 0 1-parrrx1 54.1654 () norm 0 0 1-parrrx2
+0 () norm 0 0 1-parrrx3 0 () norm 0 0 1-parrrx4 20 () norm 0 0 1-parrrx5
+1 () norm 0 0 1-parrrx6 0 () norm 0 0 1-parrrx7 127 () arr 0 0 1-parrray1
+66.5474 61.9755 56.3875 49.2756 46.2276 44.7036 47.2436 55.8795 64.0074
+71.1194 78.7393 85.3433 89.4072 88.3912 84.3273 80.7713 74.6754 70.1034
+66.0394 62.9915 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1;

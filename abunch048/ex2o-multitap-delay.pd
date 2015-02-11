@@ -1,0 +1,32 @@
+#N canvas 531 39 584 504 12;
+#X obj 250 93 multi-clock 1;
+#X obj 178 349 sound-out 1;
+#X obj 404 294 presets ex2o;
+#X obj 107 176 play-sample 1;
+#X obj 106 135 sequencer 1;
+#X text 26 7 This example shows how you can create a multi tap delay
+line with abunch objects. The 'multi-clock' controls the length of
+the delay in the 'simple-delay' objects (and -less important- the tempo
+of the 'sequencer').;
+#X text 40 425 <1> Open preset 1 and click the 'start' toggle in 'multi-clock'.
+;
+#X text 35 473 There is only 1 preset (with 4 patterns in 'multi-clock').
+;
+#X obj 47 249 long-delay 1;
+#X obj 178 249 simple-delay 2;
+#X obj 306 250 simple-delay 3;
+#X obj 429 250 simple-delay 4;
+#X connect 0 0 4 2;
+#X connect 0 1 8 5;
+#X connect 0 2 9 5;
+#X connect 0 3 10 5;
+#X connect 0 4 11 5;
+#X connect 3 0 8 0;
+#X connect 3 0 9 0;
+#X connect 3 0 10 0;
+#X connect 3 0 11 0;
+#X connect 4 0 3 0;
+#X connect 8 0 1 0;
+#X connect 9 0 1 0;
+#X connect 10 0 1 1;
+#X connect 11 0 1 1;

@@ -1,0 +1,11 @@
+#N canvas 1 81 450 300 10;
+#X obj 38 44 inlet~;
+#X obj 59 186 outlet~;
+#X obj 63 139 delread~ \$0delay;
+#X obj 145 44 inlet;
+#X obj 221 144 delwrite~ \$0delay \$1;
+#X text 150 26 time;
+#X text 154 4 simple delay \, \$1 parameter = max delaytime;
+#X connect 0 0 4 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;

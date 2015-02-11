@@ -1,0 +1,32 @@
+#N canvas 192 173 863 390 12;
+#X obj 181 252 simple-delay 1;
+#X obj 175 169 waves 1;
+#X obj 269 170 sequencer 1;
+#X obj 22 10 presets ex3f;
+#X obj 319 88 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 212 137 timeline 1;
+#X obj 171 290 sound-out 1;
+#X obj 182 214 envelopes 1;
+#X obj 329 213 random-out 1;
+#X text 220 21 ...another example of an oscillator (in 'waves') getting
+an amplitude envelope.;
+#X text 341 85 <- start ( turn on 'timeline' \, 'sequencer' and 'random-out')
+;
+#X text 301 136 -> tabel with pitches for the sine tone (in 'waves')
+;
+#X text 364 170 -> this is the basic rhythm;
+#X text 435 214 <- now and then change then the delay time randomly
+;
+#X text 70 335 <1> Open preset 1 (there is only 1 preset);
+#X text 69 356 <2> turn on the 'start' toggle in this main file;
+#X connect 0 0 6 0;
+#X connect 0 0 6 1;
+#X connect 1 0 7 0;
+#X connect 2 0 7 1;
+#X connect 4 0 2 3;
+#X connect 4 0 5 3;
+#X connect 4 0 8 3;
+#X connect 5 0 1 2;
+#X connect 7 0 0 0;
+#X connect 8 0 0 2;

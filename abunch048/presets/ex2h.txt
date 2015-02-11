@@ -1,0 +1,24 @@
+1 short 0 0 0 () norm 0 0 1-rndrx1 1 () norm 0 0 1-rndrx2 0.5 () norm
+0 0 1-rndrx3 0.1 () norm 0 0 1-rndrx4 63.9862 () norm 0 0 1-rndrx5
+0 () norm 0 0 1-rndrx6 0.320472 () norm 0 0 1-rndrx7 0 () norm 0 0
+1-rndrx8 0.692913 () norm 0 0 1-rndrx9 0.279528 () norm 0 0 1-rndrx10
+1 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 62.76 () norm 0 0 1-wavrx4 0.23622 () norm 0
+0 1-wavrx5 0 () norm 0 0 1-osorx1 0 () norm 0 0 1-osorx2 377 () norm
+0 0 1-osorx3 1 () norm 0 0 1-osorx4 0 () norm 0 0 1-osorx5 37.6715
+() norm 0 0 1-envrx1 0.967717 () norm 0 0 1-envrx2 18.1417 () norm
+0 0 1-envrx3 12.0945 () norm 0 0 1-envrx4 42.3307 () norm 0 0 1-envrx5
+16 () norm 0 0 1-envrx6 47.2441 () norm 0 0 1-envrx7 7;
+2 sustain 0 0 0 () norm 0 0 1-rndrx1 1 () norm 0 0 1-rndrx2 0.5 ()
+norm 0 0 1-rndrx3 0.1 () norm 0 0 1-rndrx4 63.9862 () norm 0 0 1-rndrx5
+0 () norm 0 0 1-rndrx6 0.320472 () norm 0 0 1-rndrx7 0 () norm 0 0
+1-rndrx8 0.692913 () norm 0 0 1-rndrx9 0.279528 () norm 0 0 1-rndrx10
+1 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 57.92 () norm 0 0 1-wavrx4 0.23622 () norm 0
+0 1-wavrx5 0 () norm 0 0 1-osorx1 0 () norm 0 0 1-osorx2 377 () norm
+0 0 1-osorx3 1 () norm 0 0 1-osorx4 0 () norm 0 0 1-osorx5 37.6715
+() norm 0 0 1-envrx1 1.26457 () norm 0 0 1-envrx2 116.913 () norm 0
+0 1-envrx3 80.6299 () norm 0 0 1-envrx4 54.4252 () norm 0 0 1-envrx5
+56 () norm 0 0 1-envrx6 47.2441 () norm 0 0 1-envrx7 8;

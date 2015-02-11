@@ -1,0 +1,12 @@
+1 untah 0 0 0 () norm 0 0 1-fm1rx1 45 () norm 0 0 1-fm1rx2 14 () norm
+0 0 1-fm1rx3 2.25 () norm 0 0 1-fm1rx4 0.0314961 () norm 0 0 1-fm1rx5
+0 () norm 0 0 1-fm1rx6 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+0 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1;
+2 putah 0 0 0 () norm 0 0 1-fm1rx1 45 () norm 0 0 1-fm1rx2 7 () norm
+0 0 1-fm1rx3 1 () norm 0 0 1-fm1rx4 0.0314961 () norm 0 0 1-fm1rx5
+0 () norm 0 0 1-fm1rx6 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+0 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1;
+3 ladah 0 0 0 () norm 0 0 1-fm1rx1 45 () norm 0 0 1-fm1rx2 3 () norm
+0 0 1-fm1rx3 5 () norm 0 0 1-fm1rx4 0.188976 () norm 0 0 1-fm1rx5 1
+() norm 0 0 1-fm1rx6 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+0 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1;

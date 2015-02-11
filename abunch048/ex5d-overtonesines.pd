@@ -1,0 +1,72 @@
+#N canvas 234 10 746 596 12;
+#X obj 17 327 addy 1;
+#X obj 123 284 ftom;
+#X obj 196 187 mtof;
+#X obj 12 92 random-out 1;
+#X obj 121 245 * 2.74;
+#X obj 193 285 ftom;
+#X obj 180 245 * 2.81;
+#X obj 273 284 ftom;
+#X obj 251 246 * 5.76;
+#X obj 116 324 waves 1;
+#X obj 190 325 waves 2;
+#X obj 263 325 waves 3;
+#X obj 95 423 sound-out 1;
+#X obj 569 26 presets ex5d;
+#X obj 35 141 scales 1;
+#X obj 111 362 envelopes 1;
+#X obj 211 363 envelopes 2;
+#X obj 314 366 envelopes 3;
+#X obj 154 91 notein;
+#X obj 81 566 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X text 102 560 = native Pd object (not Abunch);
+#X text 36 22 3 sine oscillators glide from one partial to another
+of the additive synthesizer 'addy'.;
+#X text 217 89 -> random notes or the midi keyboard;
+#X text 103 139 -> adjust the notes to a scale;
+#X text 305 244 -> same partials as partial *4 *5 and *7 in 'addy'
+synthesizer;
+#X text 248 185 -> converts midi pitches to frequency in Hertz;
+#X text 317 284 -> convert frequency in Hertz back to midi;
+#X text 324 324 -> 3 sine generators;
+#X text 411 365 -> amplitude envelope for the sines;
+#X text 54 465 <1> Open preset 1 (there is 1 preset). In 'random-out'
+op ON/OFF klikken of spelen op je midi toetsenbord.;
+#X text 53 505 <2> Turn on the 'ON/OFF' toggle in 'random-out' or play
+notes on your midi keyboard;
+#X obj 81 291 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 81 252 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 161 195 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj 132 98 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X connect 0 0 12 0;
+#X connect 0 0 12 1;
+#X connect 1 0 9 2;
+#X connect 2 0 4 0;
+#X connect 2 0 6 0;
+#X connect 2 0 8 0;
+#X connect 3 0 14 0;
+#X connect 3 1 14 1;
+#X connect 4 0 1 0;
+#X connect 5 0 10 2;
+#X connect 6 0 5 0;
+#X connect 7 0 11 2;
+#X connect 8 0 7 0;
+#X connect 9 0 15 0;
+#X connect 10 0 16 0;
+#X connect 11 0 17 0;
+#X connect 14 0 0 0;
+#X connect 14 0 2 0;
+#X connect 14 1 0 1;
+#X connect 14 1 15 1;
+#X connect 14 1 16 1;
+#X connect 14 1 17 1;
+#X connect 15 0 12 1;
+#X connect 16 0 12 0;
+#X connect 17 0 12 1;
+#X connect 18 0 14 0;
+#X connect 18 1 14 1;

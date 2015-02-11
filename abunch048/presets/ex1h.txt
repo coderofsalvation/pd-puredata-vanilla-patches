@@ -1,0 +1,27 @@
+1 flow 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-grory1 pianob7.wav
+() sym 0 0 1-grory2 kxpqwmk () norm 0 0 1-grorx1 1 () norm 0 0 1-grorx2
+100 () norm 0 0 1-grorx3 102.11 () norm 0 0 1-grorx4 37 () norm 0 0
+1-grorx5 283.939 () norm 0 0 1-grorx6 0.0707071 () norm 0 0 1-grorx7
+22.6772 () norm 0 0 1-grorx8 0.227273 () norm 0 0 1-grorx9 20.5354
+() norm 0 0 1-grorx10 0.141414 () norm 0 0 1-grorx11 0.180213 () norm
+0 0 1-grorx12 0.145039 () norm 0 0 1-grorx13 0 () norm 0 0 1-grorx14
+0 () norm 0 0 1-grorx15 1;
+2 whatswrong 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+0 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-grory1
+whip.wav () sym 0 0 1-grory2 kxpqwmk () norm 0 0 1-grorx1 44.3727 ()
+norm 0 0 1-grorx2 98.9192 () norm 0 0 1-grorx3 42.9276 () norm 0 0
+1-grorx4 42.94 () norm 0 0 1-grorx5 42.938 () norm 0 0 1-grorx6 0.5
+() norm 0 0 1-grorx7 31.1968 () norm 0 0 1-grorx8 0.181818 () norm
+0 0 1-grorx9 41.5039 () norm 0 0 1-grorx10 0.19697 () norm 0 0 1-grorx11
+0.01 () norm 0 0 1-grorx12 0.01 () norm 0 0 1-grorx13 0 () norm 0 0
+1-grorx14 0 () norm 0 0 1-grorx15 1;
+3 boat 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-grory1 whip.wav
+() sym 0 0 1-grory2 kxpqwmk () norm 0 0 1-grorx1 44.3727 () norm 0
+0 1-grorx2 98.9192 () norm 0 0 1-grorx3 42.9276 () norm 0 0 1-grorx4
+3.94 () norm 0 0 1-grorx5 262.529 () norm 0 0 1-grorx6 0.0151515 ()
+norm 0 0 1-grorx7 36.7087 () norm 0 0 1-grorx8 0.0909091 () norm 0
+0 1-grorx9 24.9685 () norm 0 0 1-grorx10 0.00505051 () norm 0 0 1-grorx11
+0.01 () norm 0 0 1-grorx12 0.229921 () norm 0 0 1-grorx13 0 () norm
+0 0 1-grorx14 0 () norm 0 0 1-grorx15 1;

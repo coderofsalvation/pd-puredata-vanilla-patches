@@ -1,0 +1,37 @@
+#N canvas 440 32 536 544 12;
+#X obj 125 305 dac~;
+#X obj 27 159 sequencer 1;
+#X obj 24 237 crackle 1;
+#X obj 130 238 crackle 2;
+#X obj 220 239 crackle 3;
+#X obj 123 159 sequencer 2;
+#X obj 220 156 sequencer 3;
+#X obj 323 234 presets ex3g;
+#X obj 44 196 random-out 1;
+#X obj 156 196 random-out 2;
+#X obj 265 193 random-out 3;
+#X obj 125 117 multi-clock 1;
+#X text 78 351 <1> open preset 1;
+#X text 78 374 <2> turn on the 'start' switch in 'multi-clock';
+#X text 20 462 There are 3 presets. Every preset has 4 patterns in
+'multi-clock'.;
+#X text 15 11 Every sequencer (with an other rhythmical pattern) triggers
+digital crackle sounds. The tempo of the sequencers is controlled by
+the 'multi-clock' object. The length (and thus the pitch) of the crackles
+is controlled by random values from 'random-out'.;
+#X text 80 400 <3> In every 'random-out' you can switch on the ON/OFF
+toggle and the length (and thus pitch) of the crackles will be randomized.
+;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 2 0 0 1;
+#X connect 3 0 0 1;
+#X connect 4 0 0 0;
+#X connect 5 0 3 0;
+#X connect 6 0 4 0;
+#X connect 8 0 2 1;
+#X connect 9 0 3 1;
+#X connect 10 0 4 1;
+#X connect 11 1 1 2;
+#X connect 11 2 5 2;
+#X connect 11 3 6 2;

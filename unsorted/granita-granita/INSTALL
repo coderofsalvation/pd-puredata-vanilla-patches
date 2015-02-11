@@ -1,0 +1,14 @@
+Granita requires Pd Vanilla only. 
+and all the patches in the provided directory (except of course the audio files
+provided for testing and the screenshot)
+
+Extract the directory to some location and open Granita.pd (alternatively
+Granita64.pd or Granita32.pd)
+
+Granita64.pd and Granita32.pd are exactly the same patch as Granita.pd but with
+64 and 32 poliphony for lower resource consumption. Try these if Granita seems
+to be eating all your CPU (see also README).
+
+NOTE: On linux run pd with -rt flag (pd -rt) and set cpu to a "performance"
+setup (on-demand will create audio drop)! DO THIS if you hear audio drops, even
+if jack is not reporting any XRUN and Pd seems to be ok!!

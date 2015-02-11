@@ -1,0 +1,44 @@
+#N canvas 317 17 611 633 12;
+#X obj 63 108 analyse 1;
+#X obj 35 201 addy 1;
+#X obj 101 200 addy 2;
+#X obj 66 75 adc~;
+#X obj 66 242 dac~;
+#X obj 47 143 notein;
+#X obj 346 554 hradio 15 1 0 4 empty empty empty 0 -8 0 10 -262144
+-1 -1 0;
+#X obj 266 235 presets ex2k;
+#X text 12 6 This example analyses the partials of a sound from the
+microphone and uses this information to change the faders of the additive
+synthesizer 'addy'.;
+#X text 121 74 -> input from the microphone (native Pd object);
+#X text 147 106 -> analyse and send a spectrum analysis;
+#X text 151 147 -> pitch and velocity from the midi-keyboard to trigger
+notes in the 'addy' synthesizer;
+#X text 165 200 -> 2 additive synthesizers receive the spectrum analysis
+;
+#X text 33 366 <1> Open preset 1 \, sing or play an instrument in the
+microphone \, st the same time click on the 'snapshot' button in 'analyse'.
+;
+#X text 33 421 <2> Play on your midi keyboard to hear the synthesized
+tone based on the analysis. (The fundamental pitch of the analysed
+sound is printed in the Pd main window).;
+#X text 19 481 The analysis only sets the values of the number boxes
+'partial number' and 'hold amp' in 'addy 1' en 'addy 2'. You can give
+whatever values you want to the attack and release of the envelope
+in the 'addy' synthesizer.;
+#X text 416 550 row of boxes;
+#X text 21 568 is set to 2 to make this synthesizer receive the analysis
+of the second group of 8 partials \, in 'addy 1' it is set to receive
+the first group);
+#X text 16 551 (In the 'extra options' of 'addy 2' this;
+#X connect 0 2 1 2;
+#X connect 0 2 2 2;
+#X connect 1 0 4 0;
+#X connect 2 0 4 1;
+#X connect 3 0 0 0;
+#X connect 3 1 0 0;
+#X connect 5 0 1 0;
+#X connect 5 0 2 0;
+#X connect 5 1 1 1;
+#X connect 5 1 2 1;

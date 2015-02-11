@@ -1,0 +1,33 @@
+#N canvas 572 126 624 527 12;
+#X obj 57 350 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 51 84 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 17 139 tgl 30 0 \$1-ma4st1 \$1-ma4rt1 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 17 188 tgl 30 0 \$1-ma4st2 \$1-ma4rt2 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 16 237 tgl 30 0 \$1-ma4st3 \$1-ma4rt3 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 16 288 tgl 30 0 \$1-ma4st4 \$1-ma4rt4 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X text 25 265 3;
+#X text 25 317 4;
+#X text 27 217 2;
+#X text 24 168 1;
+#X text 53 388 (in- and outlets \, numbered from left to right);
+#X text 47 28 The abunch object 'matrix-4out' sends the sound from
+one inlet to one or more outlets (maximum 4 outlets).;
+#X text 70 139 = if this toggle is on (=crossed) \, the sound from
+the inlet is sent to outlet 1;
+#X text 70 189 = if this toggle is on (=crossed) \, the sound from
+the inlet is sent to outlet 2;
+#X text 70 239 = if this toggle is on (=crossed) \, the sound from
+the inlet is sent to outlet 3;
+#X text 70 289 = if this toggle is on (=crossed) \, the sound from
+the inlet is sent to outlet 4;
+#X text 13 425 Inlet 1 =;
+#X text 99 426 (audio) inlet for the sound that can be led to one of
+the four outlets;
+#X text 11 472 Outlet 1 \, 2 \, 3 \, 4 =;
+#X text 147 473 (audio) outlets for the sound from the inlet;

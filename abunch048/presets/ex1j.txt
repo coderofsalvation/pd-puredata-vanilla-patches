@@ -1,0 +1,86 @@
+1 noisy 0 0 0 () sym 0 0 1-tscry1 1-bflrf1 () sym 0 0 1-tscry2 1-bflrf2
+() sym 0 0 1-tscry3 1-bflrf3 () sym 0 0 1-tscry4 1-bflrf4 () sym 0
+0 1-tscry5 1-bflrf5 () sym 0 0 1-tscry6 1-bflrf6 () sym 0 0 1-tscry7
+1-bflrf7 () sym 0 0 1-tscry8 1-bflrf8 () sym 0 0 1-tscry9 1-bflrlev
+() sym 0 0 1-tscry10 1-bflrtime () sym 0 0 1-tscry11 1-bflrlev () sym
+0 0 1-tscry12 1-bflrlev () sym 0 0 1-tscry13 1-bflrlev () sym 0 0 1-tscry14
+1-bflrlev () sym 0 0 1-tscry15 1-bflrlev () sym 0 0 1-tscry16 1-bflrlev
+() sym 0 0 1-tscry17 1-bflrlev () sym 0 0 1-tscry18 1-bflrlev () sym
+0 0 1-tscry19 1-bflrlev () sym 0 0 1-tscry20 1-bflrlev () sym 0 0 1-tscry21
+1-bflrlev () sym 0 0 1-tscry22 1-bflrlev () sym 0 0 1-tscry23 1-bflrlev
+() sym 0 0 1-tscry24 1-bflrlev () sym 0 0 1-tscry25 1-bflrlev () sym
+0 0 1-tscry26 1-bflrlev () sym 0 0 1-tscry27 1-bflrlev () sym 0 0 1-tscry28
+1-bflrlev () sym 0 0 1-tscry29 1-bflrlev () sym 0 0 1-tscry30 kxpqwmk
+() sym 0 0 1-tscry31 scorefilter1.txt () sym 0 0 1-tscry32 kxpqwmk
+() norm 0 0 1-tscrx1 70 () norm 0 0 1-tscrx2 0 () norm 0 0 1-tscrx3
+0 () norm 0 0 1-tscrx4 0 () norm 0 0 1-tscrx5 0 () norm 0 0 1-tscrx6
+0 () norm 0 0 1-tscrx7 0 () norm 0 0 1-tscrx8 0 () norm 0 0 1-tscrx9
+0 () norm 0 0 1-tscrx10 0 () norm 0 0 1-tscrx11 1 () norm 0 0 1-tscrx12
+0 () norm 0 0 1-tscrx13 0 () norm 0 0 1-tscrx14 0 () norm 0 0 1-tscrx15
+0 () norm 0 0 1-tscrx16 0 () norm 0 0 1-tscrx17 0 () norm 0 0 1-tscrx18
+0 () norm 0 0 1-tscrx19 0 () norm 0 0 1-tscrx20 0 () norm 0 0 1-tscrx21
+0 () norm 0 0 1-tscrx22 0 () norm 0 0 1-tscrx23 0 () norm 0 0 1-tscrx24
+0 () norm 0 0 1-tscrx25 0 () norm 0 0 1-tscrx26 0 () norm 0 0 1-tscrx27
+0 () norm 0 0 1-tscrx28 0 () norm 0 0 1-tscrx29 0 () norm 0 0 1-tscrx30
+0 () norm 0 0 1-tscrx31 0 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 0.732283 () norm 0 0
+1-wavrx5 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-bflrx1 0 ()
+norm 0 0 1-bflrx2 5143.62 () norm 0 0 1-bflrx3 72 () norm 0 0 1-bflrx4
+0.330709 () norm 0 0 1-bflrx5 1.32283 () norm 0 0 1-bflrx6 9.67923
+() norm 0 0 1-bflrx7 78 () norm 0 0 1-bflrx8 0.259843 () norm 0 0 1-bflrx9
+1.32283 () norm 0 0 1-bflrx10 9.67923 () norm 0 0 1-bflrx11 76 () norm
+0 0 1-bflrx12 0.212598 () norm 0 0 1-bflrx13 1.32283 () norm 0 0 1-bflrx14
+9.67923 () norm 0 0 1-bflrx15 67 () norm 0 0 1-bflrx16 0.15748 () norm
+0 0 1-bflrx17 1.32283 () norm 0 0 1-bflrx18 9.67923 () norm 0 0 1-bflrx19
+75 () norm 0 0 1-bflrx20 0.125984 () norm 0 0 1-bflrx21 1.32283 ()
+norm 0 0 1-bflrx22 9.67923 () norm 0 0 1-bflrx23 76 () norm 0 0 1-bflrx24
+0.0787402 () norm 0 0 1-bflrx25 1.32283 () norm 0 0 1-bflrx26 9.67923
+() norm 0 0 1-bflrx27 82 () norm 0 0 1-bflrx28 0.0629921 () norm 0
+0 1-bflrx29 1.32283 () norm 0 0 1-bflrx30 9.67923 () norm 0 0 1-bflrx31
+85 () norm 0 0 1-bflrx32 0.0629921 () norm 0 0 1-bflrx33 1.32283 ()
+norm 0 0 1-bflrx34 9.67923 () norm 0 0 1-bflrx35 0;
+2 synafm 0 0 0 () norm 0 0 1-fm2rx1 48 () norm 0 0 1-fm2rx2 10.5 ()
+norm 0 0 1-fm2rx3 1 () norm 0 0 1-fm2rx4 10.281 () norm 0 0 1-fm2rx5
+7.05556 () norm 0 0 1-fm2rx6 304.762 () norm 0 0 1-fm2rx7 63.4921 ()
+norm 0 0 1-fm2rx8 20.1587 () norm 0 0 1-fm2rx9 322.54 () norm 0 0 1-fm2rx10
+1015.87 () sym 0 0 1-tscry1 pitch1 () sym 0 0 1-tscry2 velo1 () sym
+0 0 1-tscry3 kxpqwmk () sym 0 0 1-tscry4 kxpqwmk () sym 0 0 1-tscry5
+kxpqwmk () sym 0 0 1-tscry6 kxpqwmk () sym 0 0 1-tscry7 kxpqwmk ()
+sym 0 0 1-tscry8 kxpqwmk () sym 0 0 1-tscry9 kxpqwmk () sym 0 0 1-tscry10
+kxpqwmk () sym 0 0 1-tscry11 kxpqwmk () sym 0 0 1-tscry12 kxpqwmk ()
+sym 0 0 1-tscry13 kxpqwmk () sym 0 0 1-tscry14 kxpqwmk () sym 0 0 1-tscry15
+kxpqwmk () sym 0 0 1-tscry16 kxpqwmk () sym 0 0 1-tscry17 kxpqwmk ()
+sym 0 0 1-tscry18 kxpqwmk () sym 0 0 1-tscry19 kxpqwmk () sym 0 0 1-tscry20
+kxpqwmk () sym 0 0 1-tscry21 kxpqwmk () sym 0 0 1-tscry22 kxpqwmk ()
+sym 0 0 1-tscry23 kxpqwmk () sym 0 0 1-tscry24 kxpqwmk () sym 0 0 1-tscry25
+kxpqwmk () sym 0 0 1-tscry26 kxpqwmk () sym 0 0 1-tscry27 kxpqwmk ()
+sym 0 0 1-tscry28 kxpqwmk () sym 0 0 1-tscry29 kxpqwmk () sym 0 0 1-tscry30
+kxpqwmk () sym 0 0 1-tscry31 score-ex1j-preset1.txt
+() sym 0 0 1-tscry32 kxpqwmk () norm 0 0 1-tscrx1 82 () norm 0 0 1-tscrx2
+0 () norm 0 0 1-tscrx3 0 () norm 0 0 1-tscrx4 0 () norm 0 0 1-tscrx5
+0 () norm 0 0 1-tscrx6 0 () norm 0 0 1-tscrx7 0 () norm 0 0 1-tscrx8
+0 () norm 0 0 1-tscrx9 0 () norm 0 0 1-tscrx10 0 () norm 0 0 1-tscrx11
+0 () norm 0 0 1-tscrx12 0 () norm 0 0 1-tscrx13 0 () norm 0 0 1-tscrx14
+0 () norm 0 0 1-tscrx15 0 () norm 0 0 1-tscrx16 0 () norm 0 0 1-tscrx17
+0 () norm 0 0 1-tscrx18 0 () norm 0 0 1-tscrx19 0 () norm 0 0 1-tscrx20
+0 () norm 0 0 1-tscrx21 0 () norm 0 0 1-tscrx22 0 () norm 0 0 1-tscrx23
+0 () norm 0 0 1-tscrx24 0 () norm 0 0 1-tscrx25 0 () norm 0 0 1-tscrx26
+0 () norm 0 0 1-tscrx27 0 () norm 0 0 1-tscrx28 0 () norm 0 0 1-tscrx29
+0 () norm 0 0 1-tscrx30 0 () norm 0 0 1-tscrx31 0 () norm 0 0 1-wavrx1
+0 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4
+0 () norm 0 0 1-wavrx5 100 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-bflrx1
+0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 0 () norm 0 0 1-bflrx4
+0 () norm 0 0 1-bflrx5 0 () norm 0 0 1-bflrx6 2.9997 () norm 0 0 1-bflrx7
+0 () norm 0 0 1-bflrx8 0 () norm 0 0 1-bflrx9 0 () norm 0 0 1-bflrx10
+2.9997 () norm 0 0 1-bflrx11 0 () norm 0 0 1-bflrx12 0 () norm 0 0
+1-bflrx13 0 () norm 0 0 1-bflrx14 2.9997 () norm 0 0 1-bflrx15 0 ()
+norm 0 0 1-bflrx16 0 () norm 0 0 1-bflrx17 0 () norm 0 0 1-bflrx18
+2.9997 () norm 0 0 1-bflrx19 0 () norm 0 0 1-bflrx20 0 () norm 0 0
+1-bflrx21 0 () norm 0 0 1-bflrx22 2.9997 () norm 0 0 1-bflrx23 0 ()
+norm 0 0 1-bflrx24 0 () norm 0 0 1-bflrx25 0 () norm 0 0 1-bflrx26
+2.9997 () norm 0 0 1-bflrx27 0 () norm 0 0 1-bflrx28 0 () norm 0 0
+1-bflrx29 0 () norm 0 0 1-bflrx30 2.9997 () norm 0 0 1-bflrx31 0 ()
+norm 0 0 1-bflrx32 0 () norm 0 0 1-bflrx33 0 () norm 0 0 1-bflrx34
+2.9997 () norm 0 0 1-bflrx35 0;

@@ -1,0 +1,54 @@
+#N canvas 511 -1 659 689 12;
+#X obj 41 1039 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 40 675 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 48 982 outlet 1 =;
+#X obj 51 617 tgl 15 0 \$1-fm1sion \$1-fm1rion empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X text 49 768 inlet 1 =;
+#X text 46 805 inlet 2 =;
+#X text 40 592 INDEX GLIDE ON:;
+#X text 47 839 inlet 3 =;
+#X text 44 876 inlet 4 =;
+#X text 50 915 inlet 5 =;
+#X text 47 952 inlet 6 =;
+#X text 54 717 (in- and outlets \, numbered from left to right);
+#X text 60 45 With the '2mod-fm' object you can make FM (Frequency
+Modulation) sounds. In '2mod-fm' the main oscillator (carrier) is modulated
+in its frequency by two other oscillators.;
+#X text 33 211 fader 'pitch' =;
+#X text 36 269 fader 'index1' =;
+#X text 30 333 fader 'index2' =;
+#X text 28 391 fader 'ratio1' =;
+#X text 33 482 fader 'ratio2' =;
+#X text 38 562 fader 'level' =;
+#X text 176 213 Use this to change the main pitch of the FM-sound.
+;
+#X text 172 558 Use this to change the level (amplitude) of the output
+sound.;
+#X text 170 333 Use this to change the amount of modulation of the
+frequency of the main oscillator by the second oscillator (modulator
+1).;
+#X text 178 268 Use this to change the amount of modulation of the
+frequency of the main oscillator by the first oscillator (modulator
+1).;
+#X text 172 390 Move this to change between the relation between the
+pitch of the main oscillator and the pitch of the first oscillator
+(modulator 1). If this is 4 for example \, the pitch of the modulator
+is the carrier pitch (in Hertz) multiplied by 4;
+#X text 172 476 Move this to change between the relation between the
+pitch of the main oscillator and the pitch of the second oscillator
+(modulator 2). If this is 4 for example \, the pitch of the modulator
+is the carrier pitch (in Hertz) multiplied by 4;
+#X text 132 768 (event) inlet to control the fader 'pitch';
+#X text 137 952 (event) inlet to control the fader 'level';
+#X text 141 983 (audio) outlet for the produced FM-sound;
+#X text 124 878 (event) inlet to control the fader 'ratio1';
+#X text 125 916 (event) inlet to control the fader 'ratio2';
+#X text 130 804 (event) inlet to control the fader 'index1';
+#X text 130 838 (event) inlet to control the fader 'index2';
+#X text 88 614 = If this is switched on (crossed) \, the index fader
+will change smoothly;

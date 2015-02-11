@@ -1,0 +1,53 @@
+#N canvas 175 75 607 773 12;
+#X obj 58 855 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 51 96 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 52 235 bng 15 250 50 0 empty empty play 0 -6 0 8 -262144 -1
+-1;
+#X obj 55 304 bng 15 250 50 0 empty empty stop -5 -6 0 8 -262144 -1
+-1;
+#X symbolatom 51 529 35 0 0 0 - #1-refrsym -;
+#X obj 55 169 bng 15 250 50 0 empty empty open -5 -6 0 8 -262144 -1
+-1;
+#X obj 52 599 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 54 347 tgl 15 0 poop moop main_out -5 -10 0 8 -262144 -1 -1
+0 1;
+#X obj 52 431 tgl 15 0 koop joop loop -5 -10 0 8 -262144 -1 -1 0 1
+;
+#X text 44 727 Inlet 2 =;
+#X text 55 33 Play-file plays a sound file from the hard disk of your
+computer (a .wav or .aiff file).;
+#X text 91 159 = click this button to open the sound file that you
+wish to play;
+#X text 87 227 = click this button to start the playing (don't forget
+to open a file first with the button 'open');
+#X text 83 303 = this button stops the playing of the sound file;
+#X text 84 345 = if this toggle is turned on \, the sound is sent straight
+to the sound card of the computer \, in this case you don't have to
+connect the outlet of this play-file object to the Pd dac~ object or
+the abunch sound-out~ object.;
+#X text 84 429 = if this toggle is switched on (=crossed) \, the sound
+file will resume playing at the end of the file.;
+#X text 47 485 fader 'level output':;
+#X text 339 529 = this boxs shows you;
+#X text 76 547 the location and name of the file that you have opened
+(with the button 'open');
+#X text 43 665 Inlet 1 =;
+#X text 83 629 (in- and outlets \, numbered from left to right);
+#X text 125 665 inlet to control the 'start' and 'stop' button \; any
+number higher than zero in this inlet starts the playing of the sound
+file \, a zero stops it.;
+#X text 132 728 (event) inlet to control the fader 'output level';
+#X text 41 757 Outlet 1 =;
+#X text 41 792 Outlet 2 =;
+#X text 133 757 (audio) 'left' outlet for the sound of the file that
+is played (use this if a mono file is played);
+#X text 133 792 (audio) 'right' outlet for the sound of the file that
+is played if a stereo file is played;
+#X text 70 903 -play-file plays file from the hard disk and not from
+the memory of the computer (like play-sample). Use play-file for longer
+sound files and play-sample for short files.;
+#X text 63 963 -play-file can't play mp3 files;
+#X text 220 486 use this fader to change the output amplitude;

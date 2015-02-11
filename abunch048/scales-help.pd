@@ -1,0 +1,67 @@
+#N canvas 535 6 654 658 12;
+#X obj 28 795 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 20 569 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 26 80 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 31 737 outlet 1 =;
+#X text 30 640 inlet 1 =;
+#X obj 27 151 nbx 5 14 -1e+037 1e+037 0 0 \$1-scaston \$1-scarton tonic
+0 -8 0 10 -262144 -1 -1 0 256;
+#X symbolatom 242 212 18 0 0 2 show: #1-scarshow -;
+#X obj 27 186 nbx 5 14 -1e+037 1e+037 0 0 \$1-scassca \$1-scarsca scale
+0 -8 0 10 -262144 -1 -1 0 256;
+#X text 291 359 c;
+#X text 292 385 d;
+#X text 293 413 e;
+#X text 293 436 f;
+#X text 292 461 g;
+#X text 293 491 a;
+#X text 139 359 c---------------->;
+#X text 138 371 cis-------------->;
+#X text 140 385 d---------------->;
+#X text 140 398 dis-------------->;
+#X text 141 413 e---------------->;
+#X text 141 436 f---------------->;
+#X text 142 449 fis-------------->;
+#X text 140 461 g---------------->;
+#X text 142 477 gis-------------->;
+#X text 141 491 a---------------->;
+#X text 143 504 ais-------------->;
+#X text 143 518 b---------------->;
+#X text 293 517 b;
+#X text 290 371 c;
+#X text 292 398 d;
+#X text 294 449 f;
+#X text 294 477 g;
+#X text 295 504 a;
+#X text 31 761 outlet 2 =;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X coords 0 1 100 -1 500 260 1;
+#X restore 44 283 graph;
+#X text 100 146 With the 'tonic' number box you can chose the tonic
+of a scale and with 'scale' you can chose the scale from a set of 24
+fixed scales. In this box:;
+#X text 98 237 you can see the chosen scale.;
+#X text 30 18 The abunch object 'scales' adjusts incoming pitch-values
+and fits them in a chosen scale. There are 24 scales (some with other
+tunings than the Western 12 tone system).;
+#X text 65 604 (in- and outlets \, numbered from left to right);
+#X text 111 641 (event) inlet for the pitch that will be adjusted to
+a chosen scale;
+#X text 111 682 (event) inlet to control the number box 'tonic';
+#X text 111 704 (event) inlet to control the number box 'scale';
+#X text 118 737 (event) outlet for the adjusted pitch;
+#X text 118 761 (event) outlet for the velocity;
+#X text 51 286 In 'scales.pdf' in the abunch folder you can find an
+overview of the 24 scales. If you chose 'major' as the scale and C
+as the tonic \, these are the values:;
+#X text 120 343 inlet 1;
+#X text 266 344 outlet 1;
+#X text 29 682 inlet 2 =;
+#X text 29 704 inlet 3 =;
+#X text 26 846 Pitch events entering at inlet 1 are rounded to the
+nearest integer \, the pitch class of these integers becomes the index
+of an array with size 12 \, the values that are read in the array change
+according to the chosen scale.;

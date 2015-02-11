@@ -1,0 +1,36 @@
+1 slap 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-samry1 slap.wav
+() sym 0 0 1-samry2 kxpqwmk () sym 0 0 1-samry3 kxpqwmk () norm 0 0
+1-samrx1 0 () norm 0 0 1-samrx2 0 () norm 0 0 1-samrx3 0.68254 () norm
+0 0 1-samrx4 0 () norm 0 0 1-samrx5 0 () norm 0 0 1-samrx6 0 () norm
+0 0 1-samrx7 0 () norm 0 0 1-samrx8 0;
+2 low_pals 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-samry1
+slap.wav () sym 0 0 1-samry2 kxpqwmk () sym 0 0 1-samry3 kxpqwmk ()
+norm 0 0 1-samrx1 -33 () norm 0 0 1-samrx2 1 () norm 0 0 1-samrx3 0.68254
+() norm 0 0 1-samrx4 0 () norm 0 0 1-samrx5 0 () norm 0 0 1-samrx6
+0 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8 0;
+3 piano_high 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+0 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-samry1
+pianob7.wav () sym 0 0 1-samry2 kxpqwmk () sym 0 0 1-samry3 kxpqwmk
+() norm 0 0 1-samrx1 0 () norm 0 0 1-samrx2 0 () norm 0 0 1-samrx3
+0.68254 () norm 0 0 1-samrx4 0 () norm 0 0 1-samrx5 0 () norm 0 0 1-samrx6
+0 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8 0;
+4 low_onaip 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-samry1
+pianob7.wav () sym 0 0 1-samry2 kxpqwmk () sym 0 0 1-samry3 kxpqwmk
+() norm 0 0 1-samrx1 -27 () norm 0 0 1-samrx2 1 () norm 0 0 1-samrx3
+0.68254 () norm 0 0 1-samrx4 0 () norm 0 0 1-samrx5 0 () norm 0 0 1-samrx6
+0 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8 0;
+5 high_piano 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+0 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-samry1
+pianob7.wav () sym 0 0 1-samry2 kxpqwmk () sym 0 0 1-samry3 kxpqwmk
+() norm 0 0 1-samrx1 17 () norm 0 0 1-samrx2 0 () norm 0 0 1-samrx3
+0.68254 () norm 0 0 1-samrx4 0 () norm 0 0 1-samrx5 0 () norm 0 0 1-samrx6
+0 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8 0;
+6 waterdrop 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-samry1
+waterdrop.wav () sym 0 0 1-samry2 kxpqwmk () sym 0 0 1-samry3 kxpqwmk
+() norm 0 0 1-samrx1 0 () norm 0 0 1-samrx2 0 () norm 0 0 1-samrx3
+0.68254 () norm 0 0 1-samrx4 0 () norm 0 0 1-samrx5 0 () norm 0 0 1-samrx6
+0 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8 0;

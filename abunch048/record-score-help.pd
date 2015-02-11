@@ -1,0 +1,79 @@
+#N canvas 376 38 683 623 12;
+#X obj 33 895 cnv 15 400 30 empty empty remarks 160 14 0 14 -233017
+-66577 0;
+#X obj 50 386 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 54 166 An example:;
+#X text 54 185 1 60 20 0 75;
+#X text 54 204 2 50 0 0 20;
+#X symbolatom 44 624 12 0 0 2 - #1-tscrs1 #1-tscss1;
+#X obj 339 121 cnv 15 45 20 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 443 120 cnv 15 45 20 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 232 116 cnv 15 45 20 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 55 121 cnv 15 120 20 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 55 121 moment-in-ticks<space>value1<space>value2<space>value3<carriage
+return>...;
+#X text 54 95 The format of the recorded text file is:;
+#X text 53 226 One column can also contain simultaneous data. Have
+a look at the help file of the abunch object 'play-score' to find more
+information about the file format.;
+#X obj 38 561 tgl 15 0 \$1-rscson \$1-rscron on_off(write) 17 7 0 10
+-258113 -1 -1 0 1;
+#X obj 38 484 nbx 2 14 -1e+037 1e+037 0 0 bonr bocrnr number_of_streams
+35 7 0 10 -262144 -1 -1 0 256;
+#X obj 38 444 bng 15 250 50 0 \$1-rscsfile \$1-rscrfile file_name 17
+7 0 10 -262144 -1 -1;
+#X text 176 560 = If you click on this toggle \, the recording starts.
+Crossed toggle = recording \, empty toggle = stop recording.;
+#X text 21 622 1;
+#X text 29 1072 For example this is the receive name of the on/off
+button in the abunch object 'waves':;
+#X text 31 1133 So this is the send name:;
+#X text 31 1107 1-wavron;
+#X text 30 1156 1-wavson;
+#X text 52 297 After recording a file with 'record-score' you can play
+it with the 'play-score' object.;
+#X obj 22 709 cnv 15 30 40 empty empty pitch 0 5 0 10 -233017 -66577
+0;
+#X obj 55 709 cnv 15 30 40 empty empty velo 0 5 0 10 -233017 -66577
+0;
+#X obj 23 724 nbx 2 14 1 36 0 0 woeps bkrp1 empty 7 -8 0 10 -262144
+-1 -1 1 256;
+#X obj 56 724 nbx 2 14 1 36 0 0 qqqv1 soeps empty 2 -8 0 10 -86853
+-257985 -1 1 256;
+#X obj 88 724 tgl 15 0 \$1-rscsbpv1 \$1-rscrbpv1 set/undo 17 7 0 10
+-262144 -1 -1 0 1;
+#X text 165 719 = You can also record pitch velocity (MIDI) couples
+but they have to be in right order. The pitch should always be in a
+column/stream before the accompanying velocity. Change the number in
+the number box 'pitch' to the number of the column in which you want
+to record the pitch data. If you click on the set toggle the number
+'velo'(the column for the velocity) will automatically be adjusted
+and you are ready to record. If you don't want to record pitch-velocity
+values to these columns \, click on the set/undo toggle again.;
+#X text 150 621 = in this symbol-box \, you can type the send name
+(one word) of the controle data that you want to record (for the values
+of the first column in your text/score file). Click on the symbol-box
+to change the name and afterwards click 'enter'.;
+#X text 179 482 = Click and drag on this number box to adjust the number
+of streams that you are going to record. This should be the same as
+the number of sends that are entered in the symbol boxes (see further).
+;
+#X text 177 441 = If you click on this button \, a window will open
+and you can give a name to the file with the future recording.;
+#X text 52 12 With record-score you can record all kinds of control
+data (up to 8 streams at this moment) to a text-file as a kind of score.
+The data enters this 'record-score' object by the inlets (restricted
+to 8 streams) or by writing the name of the source (send name) that
+you want to record in the boxes.;
+#X text 30 935 If you want to know the send names of some of the abunch
+objects \, click on 'extra-options' in one of these objects and click
+'print_all_receives'. To change the receive name into a send name \,
+just change the fourth letter 'r' in the receive name by the letter
+'s'. Not all objects show their receives-names yet \, all the control
+objects in abunch (see objects.htm in abunch/doc) can't do this at
+the moment.;

@@ -1,0 +1,34 @@
+#N canvas 362 139 693 677 12;
+#X obj 25 594 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 23 258 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 20 78 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 21 344 Inlet 1 =;
+#X obj 26 134 hsl 128 15 1 100 0 0 empty empty squelch -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 28 207 hsl 128 15 0 127 0 0 empty empty level -2 -8 0 10 -262144
+-1 -1 0 1;
+#X text 21 394 Inlet 2 =;
+#X text 20 450 Inlet 3 =;
+#X text 68 293 (in- en uitgangen \, genummerd van links naar rechts)
+;
+#X text 19 499 Inlet 4 =;
+#X text 21 551 Outlet 1 =;
+#X text 25 -13 Vocoder effect: the sound in the left inlet is being
+modulated by the right inlet. So two sound should enter at the first
+2 inlets to make this vocoder produce sound. This vocoder is a slightly
+adjusted version of the vocoder of Miller Puckette in the Pd-folder
+doc/7.stuff/soundfile-tools;
+#X text 180 129 = you can adjust the squelch-factor \, the amount with
+which the amplitude is being clipped;
+#X text 188 206 = changes the level (amplitude) of the output;
+#X text 99 342 (audio) inlet for the sound that will be modulated by
+the sound of inlet 2;
+#X text 104 395 (audio) inlet for the sound that will modulate the
+sound of inlet 1;
+#X text 106 451 (event) inlet to control the fader 'level';
+#X text 104 498 (event) inlet to control the level 'squelch';
+#X text 112 549 (audio) outlet for the processed sound of the vocoder
+;

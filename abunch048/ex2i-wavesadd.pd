@@ -1,0 +1,22 @@
+#N canvas 551 125 610 367 12;
+#X obj 39 150 waves-add 1;
+#X obj 74 185 envelopes 1;
+#X obj 424 180 presets ex2i;
+#X obj 39 67 random-out 1;
+#X obj 39 119 int;
+#X obj 73 220 sound-out 1;
+#X text 57 13 An example of a (monophonic) synthesizer based on additive
+synthesis.;
+#X text 142 66 -> sends out random pitches (left outlet) and velocities
+(right outlet);
+#X text 134 116 -> round to an integer number (native Pd object);
+#X text 133 149 -> wave form produced by additive synthesis;
+#X text 171 186 -> amplitude envelope;
+#X text 59 319 Open a preset. There are 8 presets in this example file.
+;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 1 0 5 1;
+#X connect 3 0 4 0;
+#X connect 3 1 1 1;
+#X connect 4 0 0 0;

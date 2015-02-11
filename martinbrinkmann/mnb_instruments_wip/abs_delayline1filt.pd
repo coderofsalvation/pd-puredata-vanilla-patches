@@ -1,0 +1,27 @@
+#N canvas 1 79 524 443 10;
+#X obj -14 55 inlet~;
+#X obj 203 360 outlet~;
+#X obj 2 212 +~;
+#X obj 60 151 *~;
+#X obj 223 68 inlet;
+#X obj 218 249 delread~ \$0bdl1;
+#X obj 26 292 delwrite~ \$0bdl1 4000;
+#X obj 83 55 inlet;
+#X text 232 44 feedback 0..1;
+#X text 86 36 time (ms);
+#X obj 337 73 inlet;
+#X text 340 53 freq;
+#X obj 122 202 vcf~ 1;
+#X obj 96 170 hip~ 100;
+#X text 34 12 delayline (delread/write) with feedback and filter \,
+max 4 sec.;
+#X connect 0 0 2 0;
+#X connect 2 0 6 0;
+#X connect 3 0 2 1;
+#X connect 4 0 3 1;
+#X connect 5 0 1 0;
+#X connect 5 0 12 0;
+#X connect 7 0 5 0;
+#X connect 10 0 12 1;
+#X connect 12 0 13 0;
+#X connect 13 0 3 0;

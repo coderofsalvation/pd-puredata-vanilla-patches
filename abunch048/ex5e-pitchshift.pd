@@ -1,0 +1,67 @@
+#N canvas 384 64 541 543 12;
+#X obj 33 171 play-sample 1;
+#X obj 22 240 simple-pitchshift 1;
+#X obj 109 373 sound-out 1;
+#X obj 90 263 simple-pitchshift 2;
+#X obj 169 293 simple-pitchshift 3;
+#X obj 233 317 simple-pitchshift 4;
+#X obj 329 204 presets ex5e;
+#N canvas 0 0 516 329 calculate 0;
+#X obj 31 100 * -1;
+#X obj 62 142 + 12;
+#X obj 103 142 - 12;
+#X obj 148 140 - 24;
+#X obj 31 73 receive 1-samstrans;
+#X text 23 30 receive the values from the number box 'transpose' in
+'play-sample 1';
+#X text 87 102 inverse: transpose up becomes transpose down;
+#X obj 31 173 send 1-pshrp;
+#X obj 50 195 send 2-pshrp;
+#X obj 80 215 send 3-pshrp;
+#X obj 151 238 send 4-pshrp;
+#X text 192 138 transpose up or down 1 or 2 octaves;
+#X text 174 181 send these values to the fader pitch in;
+#X text 192 201 simple-pitchshift 1 2 3 and 4;
+#X obj 172 299 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X text 188 293 = native Pd object (not Abunch);
+#X obj 12 79 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 12 105 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 42 148 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 12 179 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X connect 0 0 7 0;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 0 0 3 0;
+#X connect 1 0 8 0;
+#X connect 2 0 9 0;
+#X connect 3 0 10 0;
+#X connect 4 0 0 0;
+#X restore 185 172 pd calculate;
+#X text 33 436 <1> Open preset 1 (there are 2 presets).;
+#X text 290 173 -> click to open;
+#X text 28 25 A soundfile is transposed a certain amount by playing
+it slower or faster in 'play-sample 1' and then transposed back to
+the original pitch with 'simple-pitchshift 1'. The calculation of the
+pitchshifts happens in the subpatch 'calculate'. If you use an extreme
+transposition (-44 in preset 2) it is not the pitch but mainly the
+spectrum and timbre that is transformed.;
+#X text 35 461 <2> Open 'play-sample 1' and click on the 'play_sample'
+button. Try changing the amount of transposition in the 'transpose'
+number box. Try opening other sound files in 'play-sample 1'.;
+#X connect 0 0 1 0;
+#X connect 0 0 3 0;
+#X connect 0 0 4 0;
+#X connect 0 0 5 0;
+#X connect 1 0 2 0;
+#X connect 1 0 2 1;
+#X connect 3 0 2 1;
+#X connect 3 0 2 0;
+#X connect 4 0 2 1;
+#X connect 4 0 2 0;
+#X connect 5 0 2 0;
+#X connect 5 0 2 1;

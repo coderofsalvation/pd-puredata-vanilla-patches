@@ -1,0 +1,82 @@
+#N canvas 358 -14 733 737 12;
+#X obj 47 1105 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 43 841 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 51 168 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 54 1049 outlet 1 =;
+#X text 53 912 inlet 1 =;
+#X obj 35 219 cnv 15 600 35 empty empty *1 0 20 0 14 -180159 -66577
+0;
+#X obj 31 669 bng 10 250 50 0 \$1-addsextraoptions empty extra_options
+17 7 0 8 -262144 -1 -1;
+#X obj 49 720 hradio 15 1 0 4 \$1-addspak \$1-addrpak empty 0 -8 0
+10 -262144 -1 -1 0;
+#X text 49 700 1;
+#X text 66 700 2;
+#X text 80 700 3;
+#X text 98 700 4;
+#X text 53 932 inlet 2 =;
+#X text 53 979 inlet 3 =;
+#X text 36 25 Addy is an additive synthesizer with a seperate amplitude
+envelope for every harmonic. You can have maximum 8 harmonics (sine
+tones) at the same moment.;
+#X text 34 88 This synthesizer only works if you send a pitch value
+to inlet 1 and a velocity value (with note-on and note-off) to inlet
+2 (connect a 'notein' object to these inlets).;
+#X text 34 267 column 'partial number' =;
+#X text 31 365 column 'attack amp' =;
+#X text 28 402 column 'attack dur' =;
+#X text 32 453 column 'hold amp' =;
+#X text 34 500 column 'hold dur' =;
+#X text 36 544 column 'release' =;
+#X text 238 268 use the number boxes in this column to change the harmonic
+(2 = ground frequency in Hz * 2 \, ...);
+#X text 205 402 use the number boxes in this column to change the duration
+(in milliseconds) it takes to reach the attack amplitude of every harmonic
+;
+#X text 204 499 use the number boxes in this column to change the duration
+(in milliseconds) it takes to go from the attack amplitude to the hold
+amplitude;
+#X text 202 548 use the number boxes in this column to change the duration
+(in milliseconds) of the release time (from the moment a note-off velocity
+arrives in inlet 2);
+#X text 131 716 = with this boxes you can choose which group of 8 harmonics
+you will receive when this addy object is connected to the abunch 'analyse'
+object (inlet 3). The frequency and amplitude of these (analysed) harmonics
+is inserted in the columns 'partial number' and 'hold amp' (the ground
+frequency is printed in the main window of Pd).;
+#X text 85 874 (in- and outlets \, numbered from left to right);
+#X text 141 912 (event) inlet for the pitch values;
+#X text 141 934 (event) inlet for the velocity values \, a note-on
+and a note-off value is required for this 'addy' synthesizer.;
+#X text 140 978 (event) inlet to receive the frequency analysis of
+the abunch 'analyse' object \, in the 'extra_options' window \, you
+can choose if you want to receive the first \, second \, third or fourth
+group of harmonics.;
+#X text 148 1049 (audio) outlet for the sound produced by the 'addy'
+synthesizer;
+#X text 50 1147 If your computer is powerful enough you can use two
+or more 'addy' objects to create a synthesizer with 16 or more harmonics.
+;
+#X text 148 221 The horizontal rows (*1 \, *2 \, ...) represent the
+different harmonics (sine waves).;
+#X obj 88 332 hsl 54 15 0 1 0 0 ydspn1 ppn1 empty -2 -8 0 10 -128992
+-1 -1 0 1;
+#X obj 86 384 hsl 54 15 0 1 0 0 ydspxq ppnb empty -2 -8 0 10 -128992
+-1 -1 0 1;
+#X obj 89 475 hsl 54 15 0 1 0 0 ydspn1ee ppoi empty -2 -8 0 10 -128992
+-1 -1 0 1;
+#X obj 25 625 hsl 54 15 0 1 0 0 zeapn1 ezapn1 empty -2 -8 0 10 -128992
+-1 -1 0 1;
+#X text 9 604 randomize ->;
+#X text 32 311 column 'pan' =;
+#X text 177 312 use this fader to change the panning of this partial
+(or sine wave);
+#X text 205 366 use this fader to change the amplitude of the attack
+of every harmonic;
+#X text 205 453 use this fader to change the amplitude of the sustained
+or hold part of every harmonic;
+#X text 118 602 = Use this fader to change the randomization amount
+of the number boxes or faders (above) in the same column.;

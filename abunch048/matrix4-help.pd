@@ -1,0 +1,61 @@
+#N canvas 569 106 704 529 12;
+#X obj 54 350 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 48 114 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 46 426 Inlet 1 \, 2 \, 3 \, 4 =;
+#X obj 55 180 tgl 30 1 \$1-ma4st1 \$1-ma4rt1 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 55 212 tgl 30 1 \$1-ma4st2 \$1-ma4rt2 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 55 244 tgl 30 1 \$1-ma4st3 \$1-ma4rt3 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 55 276 tgl 30 1 \$1-ma4st4 \$1-ma4rt4 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X text 132 157 3;
+#X text 39 276 4;
+#X text 96 156 2;
+#X text 63 157 1;
+#X obj 90 180 tgl 30 1 \$1-ma4st5 \$1-ma4rt5 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 90 212 tgl 30 1 \$1-ma4st6 \$1-ma4rt6 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 90 244 tgl 30 1 \$1-ma4st7 \$1-ma4rt7 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 90 276 tgl 30 1 \$1-ma4st8 \$1-ma4rt8 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 124 180 tgl 30 1 \$1-ma4st9 \$1-ma4rt9 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 124 212 tgl 30 1 \$1-ma4st10 \$1-ma4rt10 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 124 244 tgl 30 1 \$1-ma4st11 \$1-ma4rt11 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 124 276 tgl 30 1 \$1-ma4st12 \$1-ma4rt12 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 158 180 tgl 30 1 \$1-ma4st13 \$1-ma4rt13 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 158 212 tgl 30 1 \$1-ma4st14 \$1-ma4rt14 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 158 244 tgl 30 1 \$1-ma4st15 \$1-ma4rt15 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 158 276 tgl 30 1 \$1-ma4st16 \$1-ma4rt16 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X text 39 185 1;
+#X text 40 215 2;
+#X text 38 245 3;
+#X text 165 157 4;
+#X text 47 470 Outlet 1 \, 2 \, 3 \, 4 =;
+#X text 54 32 The abunch object can connect any of the four audio inputs
+to any of the four audio outputs. It is possible to send the sound
+of one inlet to several outlets.;
+#X text 201 201 The inlets are positioned vertivally under each other
+and the outlets are horiontally next to eacht other. You can connect
+an inlet with an outlet by turning on (=cross) the right toggle. For
+example: if you want to connect inlet 1 to outlet 1 click on the toggle
+in left upper corner. If you want to connect inlet 4 to outlet 4 click
+on the toggle in the right lower corner.;
+#X text 67 384 (in- and outlets \, numbered from left to right);
+#X text 210 428 (audio) inlets for the sound that can be sent to the
+outlets;
+#X text 209 470 (audio) outlet for the sound that is sent to outlet
+1 \, 2 \, 3 or 4;

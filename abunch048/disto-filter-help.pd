@@ -1,0 +1,38 @@
+#N canvas 459 0 685 710 12;
+#X obj 37 629 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 36 381 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 102 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 81 416 (in- en uitgangen \, genummerd van links naar rechts)
+;
+#X text 43 456 Inlet 1 =;
+#X text 40 492 Inlet 2 =;
+#X text 43 520 Inlet 3 =;
+#X text 43 555 Inlet 4 =;
+#X text 33 590 Outlet 1 =;
+#X text 37 672 This effect is based on the DAFx 2008 paper by Jussi
+Pekonen "Coefficient Modulated Allpass Filter as Distortion Effect"
+and on the Pd patch apdist~ by Frank Barknecht.;
+#X text 49 26 "Disto-filter" is a distortion effect based on a filter.
+You can change the frequency band in which the distortion takes place.
+;
+#X text 39 153 fader 'pitch' =;
+#X text 39 212 fader 'drive' =;
+#X text 35 266 fader 'dry/wet';
+#X text 38 340 fader 'level';
+#X text 194 153 This fader changes the cut-off frequency of a (lowpass)
+filter. All frequencies below this cut-off is distorted.;
+#X text 194 212 This fader changes the amount of distortion.;
+#X text 197 265 = If this fader is in its highest position (=dry) \,
+you only hear the unprocessed sound (the same sound as on the input
+of 'disto-filter'). In the 'wet' position (down) you only hear the
+distorted sound (without the original sound).;
+#X text 191 338 = This fader changes the output level.;
+#X text 143 452 (audio) inlet for the sound that will be changed by
+the disto-filter effect;
+#X text 139 490 (event) inlet to control the fader 'pitch';
+#X text 138 556 (event) inlet to control the fader 'level';
+#X text 135 521 (event) inlet to control the fader'dry/wet';
+#X text 129 591 (audio) outlet for the distorted sound;

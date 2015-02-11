@@ -1,0 +1,92 @@
+#N canvas 388 29 626 737 12;
+#X obj 62 816 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 55 334 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 23 452 nbx 5 14 -60 60 0 0 der ter shift_all 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 30 605 nbx 5 14 -60 60 0 0 tey yet shift_upper 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 27 531 nbx 5 14 -60 60 0 0 saz rez shift_lower 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 28 393 tgl 15 0 kop kol on/off 17 7 0 10 -262144 -1 -1 0 1;
+#X text 95 240 z = midi note 60 \, s = 61 \, ...;
+#X obj 24 659 tgl 15 0 emmelon wcuaalon send_pitch_and_velocity 17
+7 0 8 -262144 -1 -1 0 1;
+#X text 19 275 A computer keyboard isn't polyphonic \, so don't try
+to press 2 or more keys at once and of course it also isn't velocity
+sensitive.;
+#X text 118 390 = this toggle turns the 'kayboard-azerty' object on
+or off (when off no values are sent to the outlet if you press a key)
+;
+#X text 121 450 = Use this number box to shift the values that are
+being sent to the outlet (1 = one semitone higher \, -12 twelf semitones
+lower);
+#X text 236 657 = If this toggle is turned on (=crossed);
+#X text 118 679 pitch (outlet 1) and velocity (outlet 2) values are
+sent. Because a computer keyboard isn't velocity sensitive and it behaves
+strange if you want to sustain a key for a while \, the standard velocity
+(for the note-on) is 90 and the duration 500 milliseconds. You can
+change this if you click on the 'extra_options' buttons and enter a
+new value in the 'duration of note-on' numberbox.;
+#X text 122 530 = Use this number box to shift the values of the lower
+half of the keyboard (1 = one semitone higher);
+#X text 145 592 = Use this number box to shift the values of the upper
+half of the keyboard (1 = one semitone higher);
+#X text 28 897 outlet 1;
+#X text 25 954 outlet 2;
+#X text 60 856 (in- and outlets \, numbered from left to right);
+#X text 110 898 = outlet for the values that are sent by the 'keyboard-azerty'
+object (values between 0 and 127);
+#X text 114 956 = outlet for the velocity values (a note-on velocity
+value is sent when you press a key \, a note-off is sent from the moment
+you release a key. Because a computer keyboard isn't velocity sensitive
+a standard value of 90 is used as the note-on velocity value (and a
+zero for the note-off of course).;
+#X obj 357 161 vsl 18 50 0 127 0 0 xxxhh hhhxx u 5 60 0 10 -262144
+-262144 -1 0 1;
+#X obj 319 161 vsl 18 50 0 127 0 0 jbj bjb t 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 338 161 vsl 18 50 0 127 0 0 bbb jjj y 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 279 161 vsl 18 50 0 127 0 0 zuu uuz e 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 299 161 vsl 18 50 0 127 0 0 sms msm r 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 241 161 vsl 18 50 0 127 0 0 mtm tmt q 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 260 161 vsl 18 50 0 127 0 0 aua uau w 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 272 160 tgl 15 0 empty empty 3 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 252 160 tgl 15 0 empty empty 2 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 329 160 tgl 15 0 empty empty 6 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 349 160 tgl 15 0 empty empty 7 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 310 159 tgl 15 0 empty empty 5 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 222 161 vsl 18 50 0 127 0 0 hihi ih m 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 184 161 vsl 18 50 0 127 0 0 xbx bxb b 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 203 161 vsl 18 50 0 127 0 0 qq hqh n 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 145 161 vsl 18 50 0 127 0 0 teref feft c 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 164 161 vsl 18 50 0 127 0 0 yuk kly v 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 105 161 vsl 18 50 0 127 0 0 yuyu yuu z 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 125 161 vsl 18 50 0 127 0 0 zza zaza x 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 138 159 tgl 15 0 empty empty d 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 116 159 tgl 15 0 empty empty s 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 196 160 tgl 15 0 empty empty h 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 216 159 tgl 15 0 empty empty j 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 176 160 tgl 15 0 empty empty g 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 376 161 vsl 18 50 0 127 0 0 qqqqtt ttttqq i 5 60 0 10 -262144
+-262144 -1 0 1;
+#X text 21 16 The abunch 'keyboard-qwerty' object turns your computer
+keyboard into a very simple midi piano keyboard. The top row (with
+numbers) on the computer keyboard are the black keys of a piano \,
+the row with the letters 'q' \, 'w' \, ... are the white keys. The
+row with the letters 'a' \, 's' \, 'd' \, ... are the black keys but
+an octave lower. The lowest row are the white keys (an octave lower).
+;

@@ -1,0 +1,206 @@
+#N canvas 331 11 591 612 12;
+#X obj 57 1396 cnv 10 430 30 empty empty help_file 20 12 0 14 -241291
+-66577 0;
+#X obj 53 601 cnv 10 430 30 empty empty create_and_edit_patches 20
+12 0 14 -241291 -66577 0;
+#X obj 60 217 cnv 10 430 30 empty empty how_to_play 20 12 0 14 -241291
+-66577 0;
+#X text 335 507 <- click and open;
+#X text 63 1434 If you right click on an object (ctrl + click on Mac)
+and choose help \, a help file about this object will open with an
+explanation about the object \, its user interface and its in- and
+outlets.;
+#X obj 611 215 cnv 15 145 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 611 245 cnv 15 185 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#N canvas 500 33 553 606 usedtoPD 0;
+#X obj 25 19 cnv 10 430 30 empty empty how_to_play 20 12 0 14 -241291
+-66577 0;
+#X obj 104 264 cnv 15 185 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 132 205 cnv 15 260 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 567 187 cnv 15 145 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 567 212 cnv 15 185 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 570 237 cnv 15 145 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 570 262 cnv 15 185 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 567 290 cnv 15 145 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 567 315 cnv 15 185 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 252 60 cnv 15 110 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 560 78 cnv 15 185 18 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 30 58 Start by opening one of the example files in the abunch
+folder (ex1 or ex2 files);
+#X obj 26 156 cnv 10 430 30 empty empty create_and_edit_patches 20
+12 0 14 -241291 -66577 0;
+#X obj 20 628 cnv 10 430 30 empty empty help_file 20 12 0 14 -241291
+-66577 0;
+#X text 27 205 You can find the whole list of abunch objects or abstractions
+in the file objects.html in the abunch folder.;
+#X text 25 248 If you type the name of a new Abunch object \, ALWAYS
+ADD A SPACE AND A NUMBER as an argument. This number should be unique
+in your patch. If you want to create 2 reverbs \, then make the objects
+'reverb 1' and 'reverb 2'. (These number arguments are necessary for
+the presets and the sends and receives.);
+#X text 25 664 If you right click on an Abunch object (ctrl + click
+on Mac) and choose help \, a help file about this object will open
+with an explanation about the object \, its user interface and its
+in- and outlets.;
+#X text 24 101 Every example file has at least one preset. Put the
+number box in presets on 1 and click on 'open preset'.;
+#X text 23 354 If you want to make a new file (patch) \, open the file.pd
+patch in the Abunch folder \, start adding and connecting objects and
+save the file under a new name in the abunch folder. As with all abstractions
+\, you can only use them if they are in the same folder as the file
+you have opened. There is another solution for this: add the abunch
+folder to the search path of Pd (path in the menu).;
+#X text 25 490 There is one exception to the rule of always using a
+number as the argument of a new Abunch object: if you want to create
+and save presets (f.e. to remember the value of faders in your file)
+\, you should create the object 'presets' and not a number but a global
+name for these presets \, f.e. 'presets distortionset'.;
+#X restore 198 104 pd usedtoPD;
+#X text 59 332 Then turn on the sound in PD by clicking 'compute audio'
+in the main PD window (not the window of the file that you opened).
+;
+#X text 58 391 Click on one of the objects in the example file and
+a new window will open with the user interface for that object. This
+interface (faders \, buttons \, ...) can be different for every object.
+I have made a subpatch -pd userinterface- with a short explanation.
+Click on this object to open it (or right-click in Windows or ctrl
++ click in Mac-).;
+#N canvas 425 44 792 773 userinterface 0;
+#X obj 36 106 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 90 106 bng 22 250 50 0 empty empty go 2 -10 0 10 -24198 -258699
+-1;
+#X obj 40 189 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 96 186 tgl 15 0 empty empty empty 17 7 0 10 -355 -262144 -1
+0 1;
+#X obj 150 185 tgl 30 0 empty empty empty 17 7 0 10 -90133 -1 -1 0
+1;
+#X obj 86 278 hsl 56 20 0 127 0 0 empty empty empty -2 -8 0 10 -44926
+-1 -1 0 1;
+#X obj 42 230 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 97 436 nbx 7 14 -1e+037 1e+037 0 0 empty empty amt 0 -8 0 10
+-260818 -90881 -1 0 256;
+#X floatatom 33 525 5 0 0 0 - - -;
+#X obj 28 436 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 87 659 vradio 15 1 0 3 empty empty empty 0 -8 0 10 -241291 -250685
+-1 0;
+#X obj 48 634 hradio 15 1 0 8 empty empty empty 0 -8 0 10 -262144 -1
+-1 0;
+#X obj 93 328 hsl 128 15 0 127 0 0 empty empty pitch -2 -8 0 10 -241291
+-42246 -1 0 1;
+#X obj 44 369 hsl 350 8 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-258699 -1 0 1;
+#X obj 64 1080 vu 15 120 empty empty -1 -8 0 8 -66577 -1 1 0;
+#X obj 176 9 cnv 15 300 40 empty empty waarmee_spelen? 20 12 0 14 -233017
+-66577 0;
+#X text 126 49 Hoe krijg ik een patch aan de praat? De grafische user
+interface in PD.;
+#X text 228 609 = schakelaar met verschillende standen/knoppen;
+#X obj 64 602 hradio 15 1 0 6 empty empty lfo 0 -8 0 10 -262144 -1
+-1 0;
+#X obj 196 594 vradio 15 1 0 8 empty empty Z 0 -8 0 10 -258699 -257472
+-355 0;
+#X obj 52 942 cnv 15 500 60 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 90 950 !!!! Alle objecten die hierboven staan kunnen ook gewoon
+iets weergeven !!!! en moeten dan niet 'bespeeld' worden;
+#X text 139 109 = 'bang' (doe iets!) \, op de ronde in het midden klikken
+;
+#X text 196 184 = schakelaar (kruisje = 1 \, leeg = 0)(engels: toggle)
+;
+#X text 236 294 = schuivers (engels: faders);
+#X text 92 527 = zelfde als 'number box' hierboven \, kan enkel geen
+kleur krijgen;
+#X text 166 1111 = geeft de geluidssterkte weer;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array tabel1 100 float 3;
+#A 0 0 0.63998 0.679979 0.559983 0.459986 0.379988 0.31999 0.359989
+0.419987 0.419987 0.33999 0.33999 0.359989 0.359989 0.31999 0.299991
+0.199994 0.199994 0.239993 0.259992 0.299991 0.33999 0.33999 0.279992
+0.219993 0.159995 0.179995 0.219993 0.239993 0.259992 0.279992 0.219993
+0.179995 0.099997 0.0199995 -0.0799975 -0.159995 -0.219993 -0.199994
+-0.239993 -0.279991 -0.299991 -0.359989 -0.379988 -0.439986 -0.399988
+-0.299991 -0.279991 -0.419987 -0.479985 -0.499985 -0.579982 -0.619981
+-0.619981 -0.599982 -0.559983 -0.539983 -0.559983 -0.63998 -0.64998
+-0.65998 -0.599982 -0.619981 -0.699979 -0.779976 -0.819975 -0.879973
+-0.879973 -0.839974 -0.819975 -0.779976 -0.759977 -0.859974 -0.879973
+-0.959971 -0.939971 -0.919972 -0.97997 -1.01997 -0.959971 -0.879973
+-0.819975 -0.699979 -0.66998 -0.599982 -0.559983 -0.499985 -0.379988
+-0.31999 -0.0599982 0.0999969 0.0599981 0.0199993 -5.96046e-008 -0.139996
+-0.419987 -0.539984 0.0799975 0.179994 0.279991;
+#X coords 0 1 99 -1 150 100 1;
+#X restore 63 769 graph;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array tabel2 10 float 3;
+#A 0 0.160007 0.400017 0.555023 0.320013 0.450019 0.590024 0.690028
+0.280012 0.530022 0.420018;
+#X coords 0 1 10 0 80 80 1;
+#X restore 237 770 graph;
+#X text 190 431 = klikken en naar boven of onder verschuiven om de
+getallen te veranderen \, shift + links klikken doet het getal per
+hondersten veranderen \, klikken + nummer typen + enter om onmiddelijk
+een bepaald nummer in te geven;
+#X text 351 766 = tabel (array) waarin je kan 'tekenen' (cursor wordt
+zwart als je kan tekenen);
+#X text 67 1030 ... en deze VU-meter kan enkel iets weergeven (hier
+kan je dus niets aan veranderen);
+#X restore 198 505 pd userinterface;
+#X text 57 529 Every example file has at least one preset. Put the
+number in presets on 1 and click on 'open preset'.;
+#X text 58 641 The nice thing about PD is that you can change a lot
+in any file or patch. F.e. you can add extra effects.;
+#X text 60 683 To do this you have to know the difference between edit
+and play mode. In 'edit mode' you can change the structure. In 'play
+mode' you can play with the faders and other user interface objects
+without changing the inside structure.;
+#X text 61 761 By pressing ctrl + e (or apple + e in Mac) you can switch
+from edit mode (cursor with a small hand) to play mode (normal cursor).
+;
+#X text 61 816 Objects have inlets (above) and outlets (underneath)
+\, these are the small black blocks above or underneath an object.
+;
+#X text 65 859 There is also a difference between thick and thin connections
+between the objects. The thick ones are audio connections (continuous
+fast stream of samples) \, the thin ones are control connections (these
+are only sent when necessary \, not continuous). You can't connect
+an audio object (with an ~ in the name) with a control object.;
+#X text 58 1294 If you want to create and save presets (f.e. to remember
+the value of faders in your file) \, you should create the object 'presets'
+\, a space and a global name for these presets \, f.e. 'presets distortionset'.
+;
+#X text 63 981 You can add objects by choosing 'put' and 'object' in
+the menu and typing the name of the object that you want (f.e. reverb
+1). Once you've placed a new object \, edit mode is automaticaly turned
+on. You can find the whole list of objects of Abunch in the file objects.html
+in the Abunch folder.;
+#X text 57 30 Abunch is a user friendly application within the program
+Pd. If you are used to Pd \, the manual for abunch will be very short.
+Open this subpatch in this case.;
+#X text 55 148 If you aren't really used to Pd \, you'd better read
+on \, the explanation that follows is about Pd and about abunch.;
+#X text 62 257 The fastest way to get to know abunch \, is to start
+Pd \, go to File > open in the main menu and open one of the example
+files in the abunch folder that start with ex1 or ex2 (f.e. ex1c-phaser.pd)
+;
+#X text 58 1126 If you type the name of a new Abunch object \, ALWAYS
+ADD A SPACE AND A NUMBER. This number should be unique in your patch.
+If you want to create 2 reverbs \, then make the objects 'reverb 1'
+and 'reverb 2'.;
+#X text 59 1218 If you want to make a new file (patch) \, open the
+file.pd patch in the Abunch folder \, start adding and connecting objects
+and save the file under a new name in the abunch folder.;

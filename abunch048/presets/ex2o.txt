@@ -1,0 +1,35 @@
+1 riraro 0 0 0 () norm 0 0 1-ldlrx1 1000 () norm 0 0 1-ldlrx2 0.354331
+() norm 0 0 1-ldlrx3 0 () norm 0 0 1-ldlrx4 1 () norm 0 0 1-ldlrx5
+0 () norm 0 0 1-seqrx1 127 () norm 0 0 1-seqrx2 0 () norm 0 0 1-seqrx3
+0 () norm 0 0 1-seqrx4 0 () norm 0 0 1-seqrx5 127 () norm 0 0 1-seqrx6
+0 () norm 0 0 1-seqrx7 0 () norm 0 0 1-seqrx8 0 () norm 0 0 1-seqrx9
+127 () norm 0 0 1-seqrx10 0 () norm 0 0 1-seqrx11 0 () norm 0 0 1-seqrx12
+0 () norm 0 0 1-seqrx13 127 () norm 0 0 1-seqrx14 0 () norm 0 0 1-seqrx15
+0 () norm 0 0 1-seqrx16 0 () norm 0 0 1-seqrx17 30 () norm 0 0 1-seqrx18
+1 () norm 0 0 1-seqrx19 0 () norm 0 0 1-seqrx20 16 () norm 0 0 1-seqrx21
+0 () sym 0 0 1-samry1 slap.wav () sym 0 0 1-samry2 kxpqwmk () sym 0
+0 1-samry3 kxpqwmk () norm 0 0 1-samrx1 0 () norm 0 0 1-samrx2 0 ()
+norm 0 0 1-samrx3 0.235714 () norm 0 0 1-samrx4 0 () norm 0 0 1-samrx5
+0 () norm 0 0 1-samrx6 0 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8
+0 () norm 0 0 4-delrx1 166.614 () norm 0 0 4-delrx2 0.795276 () norm
+0 0 4-delrx3 0 () norm 0 0 4-delrx4 0.913386 () norm 0 0 4-delrx5 0
+() norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () norm 0 0 2-delrx1 666.535 () norm 0
+0 2-delrx2 0.23622 () norm 0 0 2-delrx3 0 () norm 0 0 2-delrx4 0.929134
+() norm 0 0 2-delrx5 0 () norm 0 0 3-delrx1 333.307 () norm 0 0 3-delrx2
+0.590551 () norm 0 0 3-delrx3 0 () norm 0 0 3-delrx4 0.984252 () norm
+0 0 3-delrx5 0 () norm 0 0 1-clmrx1 90.016 () norm 0 0 1-clmrx2 1 ()
+norm 0 0 1-clmrx3 1.5 () norm 0 0 1-clmrx4 1 () norm 0 0 1-clmrx5 1
+() norm 0 0 1-clmrx6 0 () norm 0 0 1-clmrx7 2 () norm 0 0 1-clmrx8
+0 () norm 0 0 1-clmrx9 4 () norm 0 0 1-clmrx10 0 () norm 0 0 1-clmrx11
+2 () norm 0 0 1-clmrx12 1 () norm 0 0 1-clmrx13 2 () norm 0 0 1-clmrx14
+1 () norm 0 0 1-clmrx15 1 () norm 0 0 1-clmrx16 1 () norm 0 0 1-clmrx17
+1.5 () norm 0 0 1-clmrx18 0 () norm 0 0 1-clmrx19 3 () norm 0 0 1-clmrx20
+0 () norm 0 0 1-clmrx21 2 () norm 0 0 1-clmrx22 1 () norm 0 0 1-clmrx23
+2 () norm 0 0 1-clmrx24 1 () norm 0 0 1-clmrx25 1.33 () norm 0 0 1-clmrx26
+1 () norm 0 0 1-clmrx27 1.66 () norm 0 0 1-clmrx28 3 () norm 0 0 1-clmrx29
+1 () norm 0 0 1-clmrx30 1 () norm 0 0 1-clmrx31 1 () norm 0 0 1-clmrx32
+1 () norm 0 0 1-clmrx33 1.5 () norm 0 0 1-clmrx34 1 () norm 0 0 1-clmrx35
+1 () norm 0 0 1-clmrx36 0 () norm 0 0 1-clmrx37 2 () norm 0 0 1-clmrx38
+0 () norm 0 0 1-clmrx39 6 () norm 0 0 1-clmrx40 0 () norm 0 0 1-clmrx41
+2 () norm 0 0 1-clmrx42 1 () norm 0 0 1-clmrx43 0;

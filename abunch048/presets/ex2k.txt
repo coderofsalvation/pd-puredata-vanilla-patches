@@ -1,0 +1,52 @@
+1 test 0 0 0 () norm 0 0 2-addrx1 13.05 () norm 0 0 2-addrx2 0.358491
+() norm 0 0 2-addrx3 0.66 () norm 0 0 2-addrx4 248 () norm 0 0 2-addrx5
+0.00245283 () norm 0 0 2-addrx6 100 () norm 0 0 2-addrx7 700 () norm
+0 0 2-addrx8 12.03 () norm 0 0 2-addrx9 0.471698 () norm 0 0 2-addrx10
+0.9 () norm 0 0 2-addrx11 247 () norm 0 0 2-addrx12 0.00264151 () norm
+0 0 2-addrx13 341 () norm 0 0 2-addrx14 1200 () norm 0 0 2-addrx15
+16.0936 () norm 0 0 2-addrx16 0.603774 () norm 0 0 2-addrx17 0.58 ()
+norm 0 0 2-addrx18 233 () norm 0 0 2-addrx19 0.00245283 () norm 0 0
+2-addrx20 10 () norm 0 0 2-addrx21 2300 () norm 0 0 2-addrx22 17.0832
+() norm 0 0 2-addrx23 0.320755 () norm 0 0 2-addrx24 0.4 () norm 0
+0 2-addrx25 451 () norm 0 0 2-addrx26 0.00245283 () norm 0 0 2-addrx27
+13 () norm 0 0 2-addrx28 345 () norm 0 0 2-addrx29 7.01875 () norm
+0 0 2-addrx30 0.716981 () norm 0 0 2-addrx31 0.5 () norm 0 0 2-addrx32
+500 () norm 0 0 2-addrx33 0.00245283 () norm 0 0 2-addrx34 300 () norm
+0 0 2-addrx35 20 () norm 0 0 2-addrx36 19.0061 () norm 0 0 2-addrx37
+0.90566 () norm 0 0 2-addrx38 0.45 () norm 0 0 2-addrx39 350 () norm
+0 0 2-addrx40 0.00226415 () norm 0 0 2-addrx41 183 () norm 0 0 2-addrx42
+50 () norm 0 0 2-addrx43 10.7802 () norm 0 0 2-addrx44 0.0943396 ()
+norm 0 0 2-addrx45 0 () norm 0 0 2-addrx46 280 () norm 0 0 2-addrx47
+0.00207547 () norm 0 0 2-addrx48 120 () norm 0 0 2-addrx49 247 () norm
+0 0 2-addrx50 11.3013 () norm 0 0 2-addrx51 0.566038 () norm 0 0 2-addrx52
+0.23 () norm 0 0 2-addrx53 430 () norm 0 0 2-addrx54 0.00169811 ()
+norm 0 0 2-addrx55 400 () norm 0 0 2-addrx56 80 () norm 0 0 2-addrx57
+19.0061 () norm 0 0 2-addrx58 1 () norm 0 0 2-addrx59 4 () norm 0 0
+2-addrx60 0.631944 () norm 0 0 2-addrx61 0 () norm 0 0 2-addrx62 0.56
+() norm 0 0 2-addrx63 0 () norm 0 0 2-addrx64 0 () norm 0 0 2-addrx65
+0.72 () norm 0 0 1-addrx1 1 () norm 0 0 1-addrx2 0.301887 () norm 0
+0 1-addrx3 0.66 () norm 0 0 1-addrx4 158 () norm 0 0 1-addrx5 1 ()
+norm 0 0 1-addrx6 100 () norm 0 0 1-addrx7 700 () norm 0 0 1-addrx8
+2.00365 () norm 0 0 1-addrx9 0.603774 () norm 0 0 1-addrx10 0.9 ()
+norm 0 0 1-addrx11 169 () norm 0 0 1-addrx12 0.453019 () norm 0 0 1-addrx13
+341 () norm 0 0 1-addrx14 1200 () norm 0 0 1-addrx15 3.99733 () norm
+0 0 1-addrx16 0.358491 () norm 0 0 1-addrx17 0.58 () norm 0 0 1-addrx18
+255 () norm 0 0 1-addrx19 0.0718868 () norm 0 0 1-addrx20 10 () norm
+0 0 1-addrx21 2300 () norm 0 0 1-addrx22 3.02067 () norm 0 0 1-addrx23
+0.811321 () norm 0 0 1-addrx24 0.4 () norm 0 0 1-addrx25 196 () norm
+0 0 1-addrx26 0.0364151 () norm 0 0 1-addrx27 13 () norm 0 0 1-addrx28
+345 () norm 0 0 1-addrx29 4.9906 () norm 0 0 1-addrx30 0.113208 ()
+norm 0 0 1-addrx31 0.5 () norm 0 0 1-addrx32 500 () norm 0 0 1-addrx33
+0.0303774 () norm 0 0 1-addrx34 300 () norm 0 0 1-addrx35 20 () norm
+0 0 1-addrx36 5.99092 () norm 0 0 1-addrx37 0.698113 () norm 0 0 1-addrx38
+0.45 () norm 0 0 1-addrx39 350 () norm 0 0 1-addrx40 0.00698113 ()
+norm 0 0 1-addrx41 183 () norm 0 0 1-addrx42 50 () norm 0 0 1-addrx43
+20.0469 () norm 0 0 1-addrx44 0.433962 () norm 0 0 1-addrx45 0 () norm
+0 0 1-addrx46 280 () norm 0 0 1-addrx47 0.00396226 () norm 0 0 1-addrx48
+120 () norm 0 0 1-addrx49 247 () norm 0 0 1-addrx50 9.8672 () norm
+0 0 1-addrx51 0.698113 () norm 0 0 1-addrx52 0.23 () norm 0 0 1-addrx53
+430 () norm 0 0 1-addrx54 0.00283019 () norm 0 0 1-addrx55 400 () norm
+0 0 1-addrx56 80 () norm 0 0 1-addrx57 5.99092 () norm 0 0 1-addrx58
+0 () norm 0 0 1-addrx59 4 () norm 0 0 1-addrx60 0.631944 () norm 0
+0 1-addrx61 0 () norm 0 0 1-addrx62 0.56 () norm 0 0 1-addrx63 0 ()
+norm 0 0 1-addrx64 0 () norm 0 0 1-addrx65 0.72;

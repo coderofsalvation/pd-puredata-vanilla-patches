@@ -1,0 +1,46 @@
+#N canvas 32 88 659 823 12;
+#X obj 29 426 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 41 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 24 727 outlet 1 =;
+#X text 39 502 inlet 1 =;
+#X text 38 536 inlet 2 =;
+#X text 35 578 inlet 3 =;
+#X text 34 607 inlet 4 =;
+#X text 32 634 inlet 5 =;
+#X text 31 670 inlet 6 =;
+#X text 29 698 inlet 7 =;
+#X text 33 111 fader 'peak' =;
+#X text 31 152 fader 'attack' =;
+#X text 29 196 fader 'decay' =;
+#X text 26 274 fader 'release' =;
+#X text 30 325 fader 'shape' =;
+#X text 48 -20 The abunch object 'wa-synth' is a very simple waveshapng
+syntheizer with 6 voices. It is based on 'E07.evenodd.pd' in the audio/doc
+files of Miller Puckette.;
+#X text 163 111 this fader defines the peak value of the attack of
+the amplitude envelope;
+#X text 169 151 this fader changes the attack time of the amplitude
+envelope;
+#X text 168 274 this fader changes the release time of the amplitude
+envelope;
+#X text 157 328 this fader changes the amount of harmonics \, at its
+lowest position one hears mostly the even harmonics \, at its highest
+position one hears the uneven harmonics. In between a mixture of even
+and uneven harmonics is produced.;
+#X text 43 459 (in- and outlets \, numbered from left to right);
+#X text 115 501 (event) inlet for the pitch of the synthesized tone
+;
+#X text 123 537 (event) inlet for the velocity values (note-on and
+note-off);
+#X text 120 578 (event) inlet to control the 'peak' fader;
+#X text 116 605 (event) inlet to control the 'attack' fader;
+#X text 114 633 (event) inet to control the 'decay' fader;
+#X text 115 665 (event) inlet to control the 'release' fader;
+#X text 115 695 (event) inlet to control the 'shape' fader;
+#X text 116 725 (audio) outlet for the sound produced by the synthesizer
+;
+#X text 163 194 this fader changes the time between the attack and
+the sustain portion of the envelope. The sustain is the velocity value
+from inlet 2;

@@ -1,0 +1,63 @@
+#N canvas 0 0 1009 705 10;
+#X obj 482 598 outlet~;
+#X floatatom 340 388 0 0 0 0 - - -;
+#N canvas 0 0 450 300 graph1 0;
+#X array drawtable1 259 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0.612 0.612 0.612 0.612 0.612 0.627692 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 -0.470769 -0.470769 -0.470769 -0.470769 -0.470769
+-0.470769 -0.470769 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0.627692 0.627692 0.627692 0.643385 0.643385 0.643385
+0.659077 0 -0.502154 -0.502154 -0.502154 -0.486462 -0.486462 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0.580615 0.596308 0.596308 0.596308 0.596308
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
+#X coords 0 1.02 258 -1.02 258 130 1;
+#X restore 71 83 graph;
+#X obj 340 414 tabosc4~ drawtable1;
+#X obj 440 21 inlet;
+#X text 237 11 INSTRUMENT 3;
+#X text 239 26 wavetable synth;
+#X text 47 215 wavetable used for this synth;
+#X text 44 231 you can draw directly in the table if you like;
+#X text 480 22 note value \, trigger inlet;
+#X obj 488 543 *~;
+#X msg 473 300 bang;
+#X obj 495 441 line~;
+#X obj 499 372 del 200;
+#X obj 495 479 *~;
+#X obj 493 508 *~;
+#X text 477 268 ENVELOPE SECTION;
+#X msg 452 341 1 50;
+#X msg 499 408 0 1000;
+#X text 504 302 trigger envelope;
+#X text 548 406 decay time (1000 ms to get to zero);
+#X text 496 341 attack time (50 ms to get to 1);
+#X text 553 372 note length (200);
+#X text 535 441 controls envelope level;
+#X text 613 492 envelope bangs the line to raise the envelope;
+#X text 613 507 then after a delay (note length);
+#X text 613 521 it sends a fade signal to the line object;
+#X text 212 413 plays back wavetable;
+#X text 167 388 frequency to play back table;
+#X obj 340 354 mtof;
+#X text 184 352 convert midi to frequency;
+#X text 264 323 WAVE SECTION;
+#X connect 1 0 3 0;
+#X connect 3 0 10 0;
+#X connect 4 0 11 0;
+#X connect 4 0 29 0;
+#X connect 10 0 0 0;
+#X connect 11 0 13 0;
+#X connect 11 0 17 0;
+#X connect 12 0 14 0;
+#X connect 12 0 14 1;
+#X connect 13 0 18 0;
+#X connect 14 0 15 0;
+#X connect 14 0 15 1;
+#X connect 15 0 10 1;
+#X connect 17 0 12 0;
+#X connect 18 0 12 0;
+#X connect 29 0 1 0;

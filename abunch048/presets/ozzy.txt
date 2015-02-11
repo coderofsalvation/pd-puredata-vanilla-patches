@@ -1,0 +1,50 @@
+1 ups 0 0 0 () norm 0 0 1-ozzrx1 12 () norm 0 0 1-ozzrx2 3 () norm
+0 0 1-ozzrx3 1 () norm 0 0 1-ozzrx4 0 () norm 0 0 1-ozzrx5 0.793651
+() norm 0 0 1-ozzrx6 1 () norm 0 0 1-ozzrx7 0.428571 () norm 0 0 1-ozzrx8
+0 () norm 0 0 1-ozzrx9 0 () norm 0 0 1-ozzrx10 255 () norm 0 0 1-ozzrx11
+255 () norm 0 0 1-ozzrx12 90 () norm 0 0 1-ozzrx13 1280.16 () norm
+0 0 1-ozzrx14 255 () norm 0 0 1-ozzrx15 255 () norm 0 0 1-ozzrx16 42.8571
+() norm 0 0 1-ozzrx17 499.972 () norm 0 0 1-ozzrx18 2.40476 () norm
+0 0 1-ozzrx19 9.52381 () norm 0 0 1-ozzrx20 0.444882 () norm 0 0 1-revrx1
+100 () norm 0 0 1-revrx2 85.9055 () norm 0 0 1-revrx3 4999.98 () norm
+0 0 1-revrx4 90;
+2 ping 0 0 0 () norm 0 0 1-ozzrx1 12 () norm 0 0 1-ozzrx2 0 () norm
+0 0 1-ozzrx3 1 () norm 0 0 1-ozzrx4 24 () norm 0 0 1-ozzrx5 13.4921
+() norm 0 0 1-ozzrx6 1 () norm 0 0 1-ozzrx7 1 () norm 0 0 1-ozzrx8
+0.126984 () norm 0 0 1-ozzrx9 7.93651 () norm 0 0 1-ozzrx10 0 () norm
+0 0 1-ozzrx11 40.4762 () norm 0 0 1-ozzrx12 90 () norm 0 0 1-ozzrx13
+1182.64 () norm 0 0 1-ozzrx14 0 () norm 0 0 1-ozzrx15 210.476 () norm
+0 0 1-ozzrx16 53.9683 () norm 0 0 1-ozzrx17 1052.61 () norm 0 0 1-ozzrx18
+1.64286 () norm 0 0 1-ozzrx19 0 () norm 0 0 1-ozzrx20 0.318898 () norm
+0 0 1-revrx1 100 () norm 0 0 1-revrx2 82.9528 () norm 0 0 1-revrx3
+3705.1 () norm 0 0 1-revrx4 113;
+3 at_home? 0 0 0 () norm 0 0 1-ozzrx1 12 () norm 0 0 1-ozzrx2 3 ()
+norm 0 0 1-ozzrx3 1 () norm 0 0 1-ozzrx4 0 () norm 0 0 1-ozzrx5 0.793651
+() norm 0 0 1-ozzrx6 2 () norm 0 0 1-ozzrx7 0.984127 () norm 0 0 1-ozzrx8
+2.28571 () norm 0 0 1-ozzrx9 88.8889 () norm 0 0 1-ozzrx10 0 () norm
+0 0 1-ozzrx11 255 () norm 0 0 1-ozzrx12 90 () norm 0 0 1-ozzrx13 1280.16
+() norm 0 0 1-ozzrx14 113.333 () norm 0 0 1-ozzrx15 255 () norm 0 0
+1-ozzrx16 95.2381 () norm 0 0 1-ozzrx17 499.972 () norm 0 0 1-ozzrx18
+13.4524 () norm 0 0 1-ozzrx19 50.7937 () norm 0 0 1-ozzrx20 0.972441
+() norm 0 0 1-revrx1 100 () norm 0 0 1-revrx2 85.9055 () norm 0 0 1-revrx3
+4999.98 () norm 0 0 1-revrx4 90;
+4 Steeldrum 0 0 0 () norm 0 0 1-revrx1 100 () norm 0 0 1-revrx2 81.7717
+() norm 0 0 1-revrx3 3228.35 () norm 0 0 1-revrx4 28 () norm 0 0 1-ozzrx1
+0 () norm 0 0 1-ozzrx2 0 () norm 0 0 1-ozzrx3 0.920635 () norm 0 0
+1-ozzrx4 24 () norm 0 0 1-ozzrx5 19.8413 () norm 0 0 1-ozzrx6 1 ()
+norm 0 0 1-ozzrx7 0.587302 () norm 0 0 1-ozzrx8 1.90476 () norm 0 0
+1-ozzrx9 0 () norm 0 0 1-ozzrx10 4.04762 () norm 0 0 1-ozzrx11 255
+() norm 0 0 1-ozzrx12 69.3651 () norm 0 0 1-ozzrx13 780.19 () norm
+0 0 1-ozzrx14 12.1429 () norm 0 0 1-ozzrx15 36.4286 () norm 0 0 1-ozzrx16
+36.5079 () norm 0 0 1-ozzrx17 227.556 () norm 0 0 1-ozzrx18 1.64286
+() norm 0 0 1-ozzrx19 0 () norm 0 0 1-ozzrx20 0.311024;
+5 ups 0 0 0 () norm 0 0 1-revrx1 100 () norm 0 0 1-revrx2 85.9055 ()
+norm 0 0 1-revrx3 4999.98 () norm 0 0 1-revrx4 90 () norm 0 0 1-ozzrx1
+32 () norm 0 0 1-ozzrx2 3 () norm 0 0 1-ozzrx3 1 () norm 0 0 1-ozzrx4
+0 () norm 0 0 1-ozzrx5 0.793651 () norm 0 0 1-ozzrx6 0 () norm 0 0
+1-ozzrx7 0.428571 () norm 0 0 1-ozzrx8 0 () norm 0 0 1-ozzrx9 0 ()
+norm 0 0 1-ozzrx10 255 () norm 0 0 1-ozzrx11 255 () norm 0 0 1-ozzrx12
+90 () norm 0 0 1-ozzrx13 1280.16 () norm 0 0 1-ozzrx14 255 () norm
+0 0 1-ozzrx15 255 () norm 0 0 1-ozzrx16 42.8571 () norm 0 0 1-ozzrx17
+499.972 () norm 0 0 1-ozzrx18 2.40476 () norm 0 0 1-ozzrx19 9.52381
+() norm 0 0 1-ozzrx20 0.444882;

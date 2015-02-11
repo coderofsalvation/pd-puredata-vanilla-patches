@@ -1,0 +1,26 @@
+#N canvas 615 190 685 506 12;
+#X obj 52 301 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 46 107 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 59 379 inlet 1 =;
+#X text 57 406 inlet 2 =;
+#X text 59 433 inlet 3 =;
+#X text 53 462 outlet 1 =;
+#X text 42 19 The abunch object 'simple-pitchshift' changes the pitch
+of a sound. It is a basic technique based on a delay (see G09.pitchshift.pd
+in doc/audio.files by Miller Puckette).;
+#X text 42 148 fader 'pitch';
+#X text 46 206 fader 'delay' =;
+#X text 184 151 = use this fader to change the number of semitones
+with which you want to transpose the sound (-5 = 5 semitones down \,
+3 = 3 semitones up \, ...);
+#X text 205 205 use this fader to change the time (in milliseconds)
+that the sound will be delayed;
+#X text 53 343 (in- and outlets \, numbered from left to right);
+#X text 145 380 (audio) inlet for the sounds that will be transposed
+;
+#X text 145 406 (event) inlet to control the fader 'pitch';
+#X text 147 433 (event) inlet to control the fader 'delay';
+#X text 147 462 (audio) outlet for the transposed (and delayed) sound
+;

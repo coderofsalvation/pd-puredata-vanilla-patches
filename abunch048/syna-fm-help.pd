@@ -1,0 +1,76 @@
+#N canvas 512 3 696 878 12;
+#X obj 46 1149 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 41 896 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 50 177 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 39 1078 outlet 1 =;
+#X text 48 961 inlet 1 =;
+#X text 44 991 inlet 2 =;
+#X text 41 1017 inlet 3 =;
+#X text 39 1044 inlet 4 =;
+#X text 36 414 index_envelope =;
+#X text 48 437 amp_envelope =;
+#X obj 27 478 cnv 15 170 200 empty empty index_envelope 0 12 0 10 -258699
+-143491 0;
+#X obj 28 698 cnv 15 170 160 empty empty amp_envelope 0 12 0 10 -260818
+-123526 0;
+#X obj 22 249 cnv 15 170 155 empty empty empty 0 12 0 10 -260818 -123526
+0;
+#X text 54 22 The abunch object 'syna-fm' is a six-voice FM-synthesizer
+(one oscillator controlling the frequency of an other oscillator).
+The index and amplitude have an envelope. Send pitch (inlet 1) and
+velocity (inlet 2) note-on and note-off values to this synthesizer
+to make it produce sound.;
+#X text 49 120 (If you leave out the two envelopes \, this object is
+almost the same as the abunch object 'simple-fm' (only the ratio carrier-modulator
+is reversed).;
+#X text 34 247 fader 'pitch' =;
+#X text 36 276 fader 'index' =;
+#X text 35 319 fader 'ratio' =;
+#X text 35 495 fader 'attack' =;
+#X text 37 534 fader 'decay' =;
+#X text 35 573 fader 'sustain' =;
+#X text 36 657 fader 'release' =;
+#X text 31 718 fader 'attack' =;
+#X text 32 771 fader 'decay' =;
+#X text 32 836 fader 'release' =;
+#X text 202 247 Use this fader to change the pitch of produced tone
+;
+#X text 200 275 Use this fader to change the amount of modulation (of
+the pitch of the main oscilllator).;
+#X text 189 412 Under these titles are the envelope of the index and
+of the amplitude. The index envelope is exponential \, the amplitude
+envelope is linear.;
+#X text 197 319 Use this fader to change the ratio (or relation) between
+the pitch of the main oscillator and the pitch of the modulating oscillator.
+Index value 4 means that the pitch of the modulating oscillator (in
+Hertz) is 4 times the pitch of the main oscillator (in Hertz).;
+#X text 206 535 This fader changes the time between the attack and
+the sustain portion of the envelope.;
+#X text 205 497 This fader changes the time it takes to reach the index
+value (= the value of the fader 'index');
+#X text 205 573 This fader changes the sustain value (0 to 100) of
+the index envelope. If this is 50 \, the sustain value is half the
+index value. If this is 100 \, the sustain value is the same as the
+peak value ( = fader 'index') and the decay doesn't matter any more
+in this case.;
+#X text 202 661 This fader changes the release time of the index envelope
+;
+#X text 210 709 This fader changes the time (in milliseconds) it takes
+to reach the attack value (=fixed to 1.2 times the velocity from inlet
+2);
+#X text 206 771 This fader changes the time between the attack and
+the sustain portion of the envelope. The sustain is the velocity value
+from inlet 2;
+#X text 206 838 This fader changes the release time of the amplitude
+envelope (the time to reach velocity 0);
+#X text 52 923 (in- and outlets \, numbered from left to right);
+#X text 125 962 (event) inlet for the pitch of the synthesized tone
+;
+#X text 128 993 (event) inlet for the velocity values (note-on and
+note-off);
+#X text 133 1020 (event) inlet to control the fader 'index';
+#X text 134 1045 (event) inlet to control the fader 'ratio';
+#X text 140 1076 (audio) outlet for the produced FM sound;

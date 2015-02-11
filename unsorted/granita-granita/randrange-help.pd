@@ -1,0 +1,27 @@
+#N canvas 507 301 358 201 10;
+#X obj 23 101 randrange 20 30;
+#X obj 23 43 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 23 128 5 0 0 0 - - -;
+#X text 16 4 randrange - Random number within a range;
+#X floatatom 66 57 5 0 0 0 - - -;
+#X floatatom 110 78 5 0 0 0 - - -;
+#X text 108 56 min;
+#X text 147 78 max;
+#X obj 244 55 metro 1000;
+#X obj 244 124 mtof;
+#X floatatom 244 148 5 0 0 0 - - -;
+#X floatatom 244 103 5 0 0 0 - - -;
+#X obj 244 34 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 173 177 Lorenzo Sutton 2008;
+#X obj 244 79 randrange 48 72;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 4 0 0 1;
+#X connect 5 0 0 2;
+#X connect 8 0 14 0;
+#X connect 9 0 10 0;
+#X connect 11 0 9 0;
+#X connect 12 0 8 0;
+#X connect 14 0 11 0;

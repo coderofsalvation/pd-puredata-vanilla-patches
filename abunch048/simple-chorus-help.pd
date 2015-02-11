@@ -1,0 +1,47 @@
+#N canvas 449 17 678 669 12;
+#X obj 26 746 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 29 488 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 26 681 outlet 1 =;
+#X text 27 580 inlet 1 =;
+#X text 28 628 inlet 2 =;
+#X obj 38 313 vradio 15 1 0 3 bizswav wsrwav LFO_wave 0 -8 0 12 -22433
+-1 -1 0;
+#X text 56 309 sine;
+#X text 58 324 tri;
+#X text 57 341 log;
+#X obj 33 398 vradio 15 1 0 4 osgsrel gtworrel relation 0 -8 0 12 -22367
+-1 -1 0;
+#X text 54 411 1;
+#X text 53 426 1.5;
+#X text 52 442 2;
+#X text 54 396 0.5;
+#X text 28 658 inlet 3 =;
+#X text 52 91 (this object is a changed and adapted version of the
+chorus in Rjlib by Frank Barknecht);
+#X text 33 196 fader 'freq';
+#X text 31 246 fader 'mod';
+#X text 171 195 = this fader changes the speed (or frequency) of the
+modulator in the chorus effect;
+#X text 171 245 = this fader changes the amount of modulation in the
+chorus effect;
+#X text 167 307 = with these buttons you can change the curve of the
+modulator (sine \, triangle or a logarithmic curve);
+#X text 165 389 = there are 4 modulators in this chorus effect. These
+buttons change the relation between the speed (frequency) of these
+modulators (1= *2 \, *4 and *8 compared to the speed of modulator 1
+\; 2= *4 \, *8 en *16 \, ...);
+#X text 34 527 (in- and outlets \, numbered from left to right);
+#X text 116 580 (audio) inlet for the sound that should be modified
+by this chorus effect;
+#X text 113 629 (event) inlet to control the fader 'freq';
+#X text 113 659 (event) inlet to control the fader 'mod';
+#X text 53 17 As expected 'simple-chorus' is a chorus effect which
+should make one voice or instrument sound like a choir or ensemble...
+This effect sounds better if you use both the (stereo) outlets.;
+#X text 117 680 (audio) left outlet for the modified sound;
+#X text 24 715 outlet 1 =;
+#X text 115 714 (audio) right outlet for the modified sound;

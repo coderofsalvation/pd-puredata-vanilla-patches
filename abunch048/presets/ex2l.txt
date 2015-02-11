@@ -1,0 +1,135 @@
+1 boeh 0 0 0 () sym 0 0 4-grary1 waterdrop.wav () sym 0 0 4-grary2
+kxpqwmk () norm 0 0 4-grarx1 1 () norm 0 0 4-grarx2 91.1905 () norm
+0 0 4-grarx3 90.0154 () norm 0 0 4-grarx4 0 () norm 0 0 4-grarx5 102.933
+() norm 0 0 4-grarx6 0 () norm 0 0 4-grarx7 40 () norm 0 0 4-grarx8
+0.5 () norm 0 0 4-grarx9 50 () norm 0 0 4-grarx10 0 () norm 0 0 4-grarx11
+0.0713242 () norm 0 0 4-grarx12 0.199981 () norm 0 0 4-grarx13 0 ()
+norm 0 0 4-grarx14 0 () norm 0 0 4-grarx15 1 () norm 0 0 4-grarx16
+69 () norm 0 0 4-grarx17 1 () sym 0 0 2-grary1 waterdrop.wav () sym
+0 0 2-grary2 kxpqwmk () norm 0 0 2-grarx1 1 () norm 0 0 2-grarx2 90
+() norm 0 0 2-grarx3 90.0154 () norm 0 0 2-grarx4 0 () norm 0 0 2-grarx5
+149.988 () norm 0 0 2-grarx6 0 () norm 0 0 2-grarx7 4.56693 () norm
+0 0 2-grarx8 0.136364 () norm 0 0 2-grarx9 97 () norm 0 0 2-grarx10
+0.0782828 () norm 0 0 2-grarx11 0.200011 () norm 0 0 2-grarx12 0.199981
+() norm 0 0 2-grarx13 0 () norm 0 0 2-grarx14 0 () norm 0 0 2-grarx15
+5.03937 () norm 0 0 2-grarx16 69 () norm 0 0 2-grarx17 1 () sym 0 0
+1-grary1 waterdrop.wav () sym 0 0 1-grary2 kxpqwmk () norm 0 0 1-grarx1
+1 () norm 0 0 1-grarx2 82.1429 () norm 0 0 1-grarx3 90.0154 () norm
+0 0 1-grarx4 0 () norm 0 0 1-grarx5 32.3506 () norm 0 0 1-grarx6 0
+() norm 0 0 1-grarx7 17.1654 () norm 0 0 1-grarx8 0.338384 () norm
+0 0 1-grarx9 51 () norm 0 0 1-grarx10 0.123737 () norm 0 0 1-grarx11
+0.200011 () norm 0 0 1-grarx12 0.199981 () norm 0 0 1-grarx13 0 ()
+norm 0 0 1-grarx14 0 () norm 0 0 1-grarx15 3.05512 () norm 0 0 1-grarx16
+69 () norm 0 0 1-grarx17 1 () sym 0 0 3-grary1 waterdrop.wav () sym
+0 0 3-grary2 kxpqwmk () norm 0 0 3-grarx1 1 () norm 0 0 3-grarx2 77.381
+() norm 0 0 3-grarx3 90.0154 () norm 0 0 3-grarx4 0 () norm 0 0 3-grarx5
+204.886 () norm 0 0 3-grarx6 0 () norm 0 0 3-grarx7 4.72441 () norm
+0 0 3-grarx8 0.343434 () norm 0 0 3-grarx9 40 () norm 0 0 3-grarx10
+0 () norm 0 0 3-grarx11 0.200011 () norm 0 0 3-grarx12 0.199981 ()
+norm 0 0 3-grarx13 0 () norm 0 0 3-grarx14 0 () norm 0 0 3-grarx15
+1 () norm 0 0 3-grarx16 69 () norm 0 0 3-grarx17 1 () norm 0 0 1-clmrx1
+154.204 () norm 0 0 1-clmrx2 1 () norm 0 0 1-clmrx3 3 () norm 0 0 1-clmrx4
+0 () norm 0 0 1-clmrx5 2 () norm 0 0 1-clmrx6 0 () norm 0 0 1-clmrx7
+4 () norm 0 0 1-clmrx8 0 () norm 0 0 1-clmrx9 2 () norm 0 0 1-clmrx10
+0 () norm 0 0 1-clmrx11 2 () norm 0 0 1-clmrx12 1 () norm 0 0 1-clmrx13
+6 () norm 0 0 1-clmrx14 0 () norm 0 0 1-clmrx15 4 () norm 0 0 1-clmrx16
+0 () norm 0 0 1-clmrx17 4 () norm 0 0 1-clmrx18 0 () norm 0 0 1-clmrx19
+3 () norm 0 0 1-clmrx20 0 () norm 0 0 1-clmrx21 2 () norm 0 0 1-clmrx22
+1 () norm 0 0 1-clmrx23 3 () norm 0 0 1-clmrx24 0 () norm 0 0 1-clmrx25
+6 () norm 0 0 1-clmrx26 1 () norm 0 0 1-clmrx27 1.5 () norm 0 0 1-clmrx28
+0 () norm 0 0 1-clmrx29 1 () norm 0 0 1-clmrx30 0 () norm 0 0 1-clmrx31
+1 () norm 0 0 1-clmrx32 1 () norm 0 0 1-clmrx33 12 () norm 0 0 1-clmrx34
+0 () norm 0 0 1-clmrx35 4 () norm 0 0 1-clmrx36 0 () norm 0 0 1-clmrx37
+8 () norm 0 0 1-clmrx38 0 () norm 0 0 1-clmrx39 1 () norm 0 0 1-clmrx40
+0 () norm 0 0 1-clmrx41 1 () norm 0 0 1-clmrx42 0 () norm 0 0 1-clmrx43
+0;
+2 raining-ritm 0 0 0 () sym 0 0 4-grary1 waterdrop.wav () sym 0 0 4-grary2
+kxpqwmk () norm 0 0 4-grarx1 1 () norm 0 0 4-grarx2 91.6667 () norm
+0 0 4-grarx3 90.0154 () norm 0 0 4-grarx4 0 () norm 0 0 4-grarx5 48.0356
+() norm 0 0 4-grarx6 0 () norm 0 0 4-grarx7 40 () norm 0 0 4-grarx8
+0.267677 () norm 0 0 4-grarx9 94 () norm 0 0 4-grarx10 0.0328283 ()
+norm 0 0 4-grarx11 0.0416273 () norm 0 0 4-grarx12 0.199981 () norm
+0 0 4-grarx13 0 () norm 0 0 4-grarx14 0 () norm 0 0 4-grarx15 1 ()
+norm 0 0 4-grarx16 69 () norm 0 0 4-grarx17 1 () sym 0 0 2-grary1 waterdrop.wav
+() sym 0 0 2-grary2 kxpqwmk () norm 0 0 2-grarx1 1 () norm 0 0 2-grarx2
+60.7143 () norm 0 0 2-grarx3 90.0154 () norm 0 0 2-grarx4 0 () norm
+0 0 2-grarx5 149.988 () norm 0 0 2-grarx6 0 () norm 0 0 2-grarx7 4.56693
+() norm 0 0 2-grarx8 0.136364 () norm 0 0 2-grarx9 97 () norm 0 0 2-grarx10
+0.0782828 () norm 0 0 2-grarx11 0.0762737 () norm 0 0 2-grarx12 0.199981
+() norm 0 0 2-grarx13 0 () norm 0 0 2-grarx14 0 () norm 0 0 2-grarx15
+5.03937 () norm 0 0 2-grarx16 69 () norm 0 0 2-grarx17 1 () sym 0 0
+1-grary1 waterdrop.wav () sym 0 0 1-grary2 kxpqwmk () norm 0 0 1-grarx1
+1 () norm 0 0 1-grarx2 55.9524 () norm 0 0 1-grarx3 90.0154 () norm
+0 0 1-grarx4 0 () norm 0 0 1-grarx5 28.4293 () norm 0 0 1-grarx6 0
+() norm 0 0 1-grarx7 0 () norm 0 0 1-grarx8 0 () norm 0 0 1-grarx9
+100 () norm 0 0 1-grarx10 0.0808081 () norm 0 0 1-grarx11 0.0465768
+() norm 0 0 1-grarx12 0.199981 () norm 0 0 1-grarx13 0 () norm 0 0
+1-grarx14 0 () norm 0 0 1-grarx15 3.05512 () norm 0 0 1-grarx16 69
+() norm 0 0 1-grarx17 1 () sym 0 0 3-grary1 waterdrop.wav () sym 0
+0 3-grary2 kxpqwmk () norm 0 0 3-grarx1 1 () norm 0 0 3-grarx2 70.2381
+() norm 0 0 3-grarx3 90.0154 () norm 0 0 3-grarx4 0 () norm 0 0 3-grarx5
+44.1143 () norm 0 0 3-grarx6 0 () norm 0 0 3-grarx7 4.72441 () norm
+0 0 3-grarx8 0.343434 () norm 0 0 3-grarx9 88 () norm 0 0 3-grarx10
+0.0277778 () norm 0 0 3-grarx11 0.0515263 () norm 0 0 3-grarx12 0.199981
+() norm 0 0 3-grarx13 0 () norm 0 0 3-grarx14 0 () norm 0 0 3-grarx15
+1 () norm 0 0 3-grarx16 69 () norm 0 0 3-grarx17 1 () norm 0 0 1-clmrx1
+150.353 () norm 0 0 1-clmrx2 1 () norm 0 0 1-clmrx3 1.5 () norm 0 0
+1-clmrx4 0 () norm 0 0 1-clmrx5 6 () norm 0 0 1-clmrx6 0 () norm 0
+0 1-clmrx7 3 () norm 0 0 1-clmrx8 0 () norm 0 0 1-clmrx9 1 () norm
+0 0 1-clmrx10 1 () norm 0 0 1-clmrx11 1 () norm 0 0 1-clmrx12 1 ()
+norm 0 0 1-clmrx13 3 () norm 0 0 1-clmrx14 0 () norm 0 0 1-clmrx15
+4 () norm 0 0 1-clmrx16 0 () norm 0 0 1-clmrx17 4 () norm 0 0 1-clmrx18
+0 () norm 0 0 1-clmrx19 2 () norm 0 0 1-clmrx20 0 () norm 0 0 1-clmrx21
+1 () norm 0 0 1-clmrx22 0 () norm 0 0 1-clmrx23 2 () norm 0 0 1-clmrx24
+0 () norm 0 0 1-clmrx25 4 () norm 0 0 1-clmrx26 0 () norm 0 0 1-clmrx27
+3 () norm 0 0 1-clmrx28 0 () norm 0 0 1-clmrx29 1 () norm 0 0 1-clmrx30
+0 () norm 0 0 1-clmrx31 1 () norm 0 0 1-clmrx32 1 () norm 0 0 1-clmrx33
+1.5 () norm 0 0 1-clmrx34 0 () norm 0 0 1-clmrx35 6 () norm 0 0 1-clmrx36
+0 () norm 0 0 1-clmrx37 6 () norm 0 0 1-clmrx38 0 () norm 0 0 1-clmrx39
+1 () norm 0 0 1-clmrx40 0 () norm 0 0 1-clmrx41 1 () norm 0 0 1-clmrx42
+0 () norm 0 0 1-clmrx43 0;
+3 too-fast 0 0 0 () sym 0 0 4-grary1 waterdrop.wav () sym 0 0 4-grary2
+kxpqwmk () norm 0 0 4-grarx1 1 () norm 0 0 4-grarx2 100 () norm 0 0
+4-grarx3 90.0154 () norm 0 0 4-grarx4 0 () norm 0 0 4-grarx5 48.0356
+() norm 0 0 4-grarx6 0 () norm 0 0 4-grarx7 40 () norm 0 0 4-grarx8
+0.267677 () norm 0 0 4-grarx9 94 () norm 0 0 4-grarx10 0.0176768 ()
+norm 0 0 4-grarx11 0.0366778 () norm 0 0 4-grarx12 0.199981 () norm
+0 0 4-grarx13 0 () norm 0 0 4-grarx14 0 () norm 0 0 4-grarx15 1 ()
+norm 0 0 4-grarx16 69 () norm 0 0 4-grarx17 1 () sym 0 0 2-grary1 waterdrop.wav
+() sym 0 0 2-grary2 kxpqwmk () norm 0 0 2-grarx1 1 () norm 0 0 2-grarx2
+89.2857 () norm 0 0 2-grarx3 90.0154 () norm 0 0 2-grarx4 0 () norm
+0 0 2-grarx5 40.1931 () norm 0 0 2-grarx6 0 () norm 0 0 2-grarx7 6.92913
+() norm 0 0 2-grarx8 0.136364 () norm 0 0 2-grarx9 97 () norm 0 0 2-grarx10
+0.237374 () norm 0 0 2-grarx11 0.0762737 () norm 0 0 2-grarx12 0.199981
+() norm 0 0 2-grarx13 0 () norm 0 0 2-grarx14 0 () norm 0 0 2-grarx15
+1 () norm 0 0 2-grarx16 69 () norm 0 0 2-grarx17 1 () sym 0 0 1-grary1
+waterdrop.wav () sym 0 0 1-grary2 kxpqwmk () norm 0 0 1-grarx1 1 ()
+norm 0 0 1-grarx2 33.3333 () norm 0 0 1-grarx3 90.0154 () norm 0 0
+1-grarx4 0 () norm 0 0 1-grarx5 28.4293 () norm 0 0 1-grarx6 0 () norm
+0 0 1-grarx7 0 () norm 0 0 1-grarx8 0 () norm 0 0 1-grarx9 100 () norm
+0 0 1-grarx10 0.0808081 () norm 0 0 1-grarx11 0.0465768 () norm 0 0
+1-grarx12 0.199981 () norm 0 0 1-grarx13 0 () norm 0 0 1-grarx14 0
+() norm 0 0 1-grarx15 3.05512 () norm 0 0 1-grarx16 69 () norm 0 0
+1-grarx17 1 () sym 0 0 3-grary1 waterdrop.wav () sym 0 0 3-grary2 kxpqwmk
+() norm 0 0 3-grarx1 1 () norm 0 0 3-grarx2 100 () norm 0 0 3-grarx3
+90.0154 () norm 0 0 3-grarx4 0 () norm 0 0 3-grarx5 55.8781 () norm
+0 0 3-grarx6 0 () norm 0 0 3-grarx7 17.3228 () norm 0 0 3-grarx8 0.343434
+() norm 0 0 3-grarx9 91 () norm 0 0 3-grarx10 0.0277778 () norm 0 0
+3-grarx11 0.0515263 () norm 0 0 3-grarx12 0.199981 () norm 0 0 3-grarx13
+0 () norm 0 0 3-grarx14 0 () norm 0 0 3-grarx15 1 () norm 0 0 3-grarx16
+69 () norm 0 0 3-grarx17 1 () norm 0 0 1-clmrx1 744.094 () norm 0 0
+1-clmrx2 1 () norm 0 0 1-clmrx3 1.5 () norm 0 0 1-clmrx4 0 () norm
+0 0 1-clmrx5 1 () norm 0 0 1-clmrx6 0 () norm 0 0 1-clmrx7 1 () norm
+0 0 1-clmrx8 0 () norm 0 0 1-clmrx9 1 () norm 0 0 1-clmrx10 0 () norm
+0 0 1-clmrx11 1 () norm 0 0 1-clmrx12 0 () norm 0 0 1-clmrx13 1 ()
+norm 0 0 1-clmrx14 0 () norm 0 0 1-clmrx15 1 () norm 0 0 1-clmrx16
+1 () norm 0 0 1-clmrx17 1.5 () norm 0 0 1-clmrx18 0 () norm 0 0 1-clmrx19
+1 () norm 0 0 1-clmrx20 0 () norm 0 0 1-clmrx21 1 () norm 0 0 1-clmrx22
+1 () norm 0 0 1-clmrx23 1.5 () norm 0 0 1-clmrx24 1 () norm 0 0 1-clmrx25
+3 () norm 0 0 1-clmrx26 1 () norm 0 0 1-clmrx27 3 () norm 0 0 1-clmrx28
+0 () norm 0 0 1-clmrx29 1 () norm 0 0 1-clmrx30 0 () norm 0 0 1-clmrx31
+1 () norm 0 0 1-clmrx32 1 () norm 0 0 1-clmrx33 3 () norm 0 0 1-clmrx34
+1 () norm 0 0 1-clmrx35 6 () norm 0 0 1-clmrx36 1 () norm 0 0 1-clmrx37
+8 () norm 0 0 1-clmrx38 0 () norm 0 0 1-clmrx39 1 () norm 0 0 1-clmrx40
+0 () norm 0 0 1-clmrx41 1 () norm 0 0 1-clmrx42 0 () norm 0 0 1-clmrx43
+0;

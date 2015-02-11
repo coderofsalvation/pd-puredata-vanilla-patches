@@ -1,0 +1,23 @@
+1 theone 0 0 0 () norm 0 0 1-parrrx1 150.021 () norm 0 0 1-parrrx2
+0 () norm 0 0 1-parrrx3 1 () norm 0 0 1-parrrx4 24 () norm 0 0 1-parrrx5
+1 () norm 0 0 1-parrrx6 0 () norm 0 0 1-parrrx7 127 () arr 0 0 1-parrray1
+57.096 57.9121 44.7041 53.848 60.452 67.0561 72.6441 77.2161 80.7721
+85.3442 91.4402 94.9962 0 0 0 0 0 0 0 0 0 0 0 0 () norm 0 0 1-clorx1
+178.435 () sym 0 0 1-sapry1 pianob7.wav () norm 0 0 1-saprx1 59 ()
+norm 0 0 1-saprx2 11 () norm 0 0 1-saprx3 106 () norm 0 0 1-saprx4
+1 () norm 0 0 1-saprx5 0.717172 () norm 0 0 1-azerx1 1 () norm 0 0
+1-azerx2 24 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm 0
+0 1-azerx5 0 () norm 0 0 1-azerx6 0 () norm 0 0 1-seqrx1 127 () norm
+0 0 1-seqrx2 0 () norm 0 0 1-seqrx3 0 () norm 0 0 1-seqrx4 0 () norm
+0 0 1-seqrx5 127 () norm 0 0 1-seqrx6 0 () norm 0 0 1-seqrx7 127 () norm
+0 0 1-seqrx8 0 () norm 0 0 1-seqrx9 127 () norm 0 0 1-seqrx10 0 () norm
+0 0 1-seqrx11 127 () norm 0 0 1-seqrx12 0 () norm 0 0 1-seqrx13 127 ()
+norm 0 0 1-seqrx14 0 () norm 0 0 1-seqrx15 0 () norm 0 0 1-seqrx16
+127 () norm 0 0 1-seqrx17 180.361 () norm 0 0 1-seqrx18 1 () norm 0
+0 1-seqrx19 0 () norm 0 0 1-seqrx20 16 () norm 0 0 1-seqrx21 0 () norm
+0 0 1-wavrx1 2 () norm 0 0 1-wavrx2 1 () norm 0 0 1-wavrx3 100 () norm
+0 0 1-wavrx4 0.275591 () norm 0 0 1-wavrx5 0 () norm 0 0 1-delrx1 330.709
+() norm 0 0 1-delrx2 0.590551 () norm 0 0 1-delrx3 0 () norm 0 0 1-delrx4
+0.700787 () norm 0 0 1-delrx5 0 () norm 0 0 1-pharx1 6.1 () norm 0
+0 1-pharx2 0.015748 () norm 0 0 1-pharx3 3.33858 () norm 0 0 1-pharx4
+0.661417;

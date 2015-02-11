@@ -1,0 +1,49 @@
+#N canvas 187 31 650 600 12;
+#X obj 20 728 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 20 449 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 43 80 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 22 652 outlet 1 =;
+#X text 30 520 inlet 1 =;
+#X obj 31 133 nbx 5 14 -1e+037 1e+037 0 0 \$1-scaston \$1-scarton centre
+0 -8 0 10 -262144 -1 -1 0 256;
+#X obj 30 169 nbx 5 14 -1e+037 1e+037 0 0 aftssca affcarsca divide
+0 -8 0 10 -262144 -1 -1 0 256;
+#X text 22 676 outlet 2 =;
+#X text 26 568 inlet 2 =;
+#X text 27 608 inlet 3 =;
+#X obj 26 406 nbx 5 14 -1e+037 1e+037 0 0 aftsscat affcarscab transpose_output
+0 -8 0 10 -262144 -1 -1 0 256;
+#X text 47 18 'Scales-div' adjusts the entering pitch values and thus
+enables all kinds of alternative subdivisions of an octave can be made.
+;
+#X text 115 651 (event) outlet for the adapted pitch;
+#X text 115 675 (event) outlet for the velocity;
+#X text 111 521 (event) inlet for the pitch that will be adjusted;
+#X text 111 570 (event) inlet to control the number box 'centre';
+#X text 110 609 (event) inlet to control the number box 'divide';
+#X text 112 138 The number box 'basic_interval' changes the basic interval
+(in semitones) that will be divided. With 'divide' you can adjust in
+how many parts this basic interval should be divided. The number box
+'centre' changes the tone centre (or starting point) from which the
+division starts.;
+#X obj 60 344 nbx 3 14 -1e+037 1e+037 0 0 \$1-scdsin \$1-scdrin in
+3 -8 0 12 -86277 -257985 -1 0 256;
+#X obj 105 344 nbx 5 14 -1e+037 1e+037 0 0 \$1-scdsout \$1-scdrout
+out 3 -8 0 12 -86277 -257985 -1 0 256;
+#X obj 41 344 tgl 15 0 1-scdsw 1-sdrow show -32 7 0 12 -262144 -1 -1
+0 1;
+#X text 116 224 Two examples: 'basic_interval' = 12 \, 'divide' = 24
+and 'centre' = 60 results in a subdivision of an octave in quarter
+tones starting from the central C \; 'basic_interval' = 7 \, 'divide'
+= 5 and 'centre' = 60 divides a fifth in 5 equal parts starting from
+the central do.;
+#X obj 30 209 nbx 5 14 -1e+037 1e+037 0 0 aftssa affcarscao basic_interval'
+0 -8 0 10 -262144 -1 -1 0 256;
+#X text 175 341 If the switch 'show' is on (crossed) you can see the
+entering (unchanged) and outgoing (adapted) pitches.;
+#X text 145 399 This transposes the pitch after the changes by 'centre'
+\, 'divide' and 'basic_interval' up or down (in semitones).;
+#X text 15 484 (in- and outlets \, numbered from left to right);

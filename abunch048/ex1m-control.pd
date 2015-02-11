@@ -1,0 +1,30 @@
+#N canvas 365 4 532 621 12;
+#X obj 67 361 sound-out 1;
+#X obj 113 273 timeline 1;
+#X obj 239 269 presets ex1m;
+#X obj 78 324 waves 1;
+#X text 16 10 You can play or perform with any fader or knob in an
+abunch object using the computer mouse. But you can also control this
+faders externally and make them move automatically. Most of the faders
+and knobs have an inlet (in the abunch object) to which you can send
+values to control that specific knob or fader. In the help file of
+the abunch object -in the section called 'inlets'- you can find information
+about which inlet to use for a certain fader.;
+#X text 14 151 In this example you can change the pitch in 'waves'
+(fader 'pitch') using the mouse. You can also click on 'start/reset'
+in 'timeline' and the values of the table in 'timeline' will be sent
+to the 'pitch' fader in 'waves' (because inlet 3 of 'timeline' is the
+inlet to control this fader).;
+#X text 36 409 <1> Open preset 1 (there is only 1 preset);
+#X text 33 434 <2> Open 'waves' and change the value of the fader 'pitch'
+;
+#X text 33 459 <3> Open 'timeline' and click on 'start/reset' \, from
+now on the 'pitch' fader in 'waves' change automatically.;
+#X text 14 522 To control a parameter in an abunch object you have
+to send values between 0 and 127 (just as in MIDI). All control objects
+(like 'timeline' or 'sequencer') and control inlets are adjusted to
+this range \, so it should be easy to connect abunch objects with each
+other.;
+#X connect 1 0 3 2;
+#X connect 3 0 0 0;
+#X connect 3 0 0 1;

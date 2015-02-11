@@ -1,0 +1,19 @@
+1 ticking 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 3-panrx1
+0.857559 () norm 0 0 2-panrx1 0.169606 () norm 0 0 1-panrx1 0.857559
+() norm 0 0 1-revrx1 100 () norm 0 0 1-revrx2 88.4646 () norm 0 0 1-revrx3
+9231.89 () norm 0 0 1-revrx4 16 () norm 0 0 1-clorx1 290.765 () norm
+0 0 2-crarx1 21.54 () norm 0 0 2-crarx2 64.5079 () norm 0 0 2-crarx3
+88.189 () norm 0 0 2-parrrx1 150.021 () norm 0 0 2-parrrx2 0 () norm
+0 0 2-parrrx3 1 () norm 0 0 2-parrrx4 24 () norm 0 0 2-parrrx5 1 ()
+norm 0 0 2-parrrx6 0 () norm 0 0 2-parrrx7 127 () arr 0 0 2-parrray1
+20.52 25.092 26.108 21.536 21.536 24.076 24.584 18.488 13.4081 6.80416
+9.34413 10.8681 12.3921 88.0834 91.6394 7.31216 10.8681 8.83615 15.4401
+98.7513 20.5201 26.108 109.727 12.1919 () norm 0 0 1-delrx1 206.378
+() norm 0 0 1-delrx2 0.519685 () norm 0 0 1-delrx3 0 () norm 0 0 1-delrx4
+1 () norm 0 0 1-delrx5 0 () norm 0 0 1-parrrx1 150.021 () norm 0 0
+1-parrrx2 0 () norm 0 0 1-parrrx3 1 () norm 0 0 1-parrrx4 12 () norm
+0 0 1-parrrx5 1 () norm 0 0 1-parrrx6 0 () norm 0 0 1-parrrx7 127 ()
+arr 0 0 1-parrray1 113.991 108.911 101.799 95.7033 85.5434 77.9234
+70.3035 60.1436 51.5077 43.8877 35.7598 26.1079 () norm 0 0 1-crarx1
+108.91 () norm 0 0 1-crarx2 64.5079 () norm 0 0 1-crarx3 77.1654;

@@ -1,0 +1,12 @@
+#N canvas 328 162 503 311 12;
+#X obj 27 119 presets ex1h;
+#X obj 256 134 graino-sample 1;
+#X obj 254 180 sound-out 1;
+#X text 23 21 An example of granular synthesis using the 'graino-sample'
+object in abunch.;
+#X text 22 63 (see ex2j for an additional example of granular synthesis)
+;
+#X text 28 255 Open one of the 3 presets \, open 'graino-sample' and
+experiment with the knobs and faders in 'graino-sample'.;
+#X connect 1 0 2 0;
+#X connect 1 0 2 1;

@@ -1,0 +1,121 @@
+#N canvas 409 49 683 621 12;
+#X obj 29 1488 cnv 15 400 30 empty empty remarks 160 14 0 14 -233017
+-66577 0;
+#X obj 50 696 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 55 13 With text-score you can play a text-file as a kind of
+score and send it to a receive name of an other object.;
+#X text 55 48 The format of the text file should be:;
+#X text 55 119 An example:;
+#X text 55 138 1 60 20 0 75;
+#X text 55 157 2 50 0 0 20;
+#X text 52 276 2 50 0.2 1 20;
+#X obj 41 752 bng 15 250 50 0 \$1-tscsopen \$1-tscropen open_text_file
+17 7 0 10 -262144 -1 -1;
+#X obj 39 781 tgl 15 0 \$1-tscsstart \$1-tscrstart start_pauze 17 7
+0 10 -262144 -1 -1 0 1;
+#X obj 43 870 bng 15 250 50 0 \$1-tscsrew \$1-tscrrew rewind 17 7 0
+10 -262144 -1 -1;
+#X obj 40 938 hsl 128 15 30 157 0 0 \$1-tscstempo \$1-tscrtempo tempo
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X floatatom 36 954 5 0 0 0 - - -;
+#X text 209 750 = open a text-file as a score (take care of the format!!)
+;
+#X text 178 779 = If you click this (crossed) the file is being played.
+You can pauze by clicking again (uncrossed) and restarting from the
+point where you stopped. If you reach the end of the opened text-file
+this start-toggle is turned off.;
+#X text 148 867 = rewind the text-file to the beginning (and push 'start'
+to start again);
+#X text 179 934 = the tempo (in beats per minute) with which the file
+is played;
+#X symbolatom 58 1071 12 0 0 2 - #1-tscrs1 #1-tscss1;
+#X obj 42 1072 tgl 15 0 \$1-tscstic1 \$1-tscrtic1 col2 -2 -11 0 8 -262144
+-1 -1 0 1;
+#X text 47 626 There are 2 examples in the abunch folder: score1.txt
+and score2.txt. Also have a look at ex1j-textscore.pd;
+#X text 49 660 At this moment one line/row in a score txt-file can't
+have more than 30 columns/values.;
+#X obj 33 1023 nbx 3 14 -1e+037 1e+037 0 0 yuyuyuyuo \$1-tscrmin empty
+0 -8 0 10 -86277 -257985 -1 0 256;
+#X obj 72 1023 nbx 3 14 -1e+037 1e+037 0 0 aaearrr \$1-tscrsec empty
+0 -8 0 10 -86277 -257985 -1 0 256;
+#X text 36 1005 min;
+#X text 75 1005 sec;
+#X text 164 1068 = in this symbol-box \, you can type the name of the
+receive (for the values of the column 2 in your text/score file). Click
+on the symbol-box \, type the name and click somewhere outside the
+symbol-box. If you cross the toggle (under 'col2') the values in column
+2 are tempo-related and will be adjusted. If for example a O.5 is written
+in this column and the tempo fader is at 60 (bpm) \, this value will
+be transformed into half a beat \, so 500 milliseconds in this example.
+;
+#X text 26 1528 If you want to know the names of the receives of some
+of the abunch objects \, click on 'extra-options' in one of these objects
+and click 'print_all_receives'. Not all objects show their receives-names
+yet \, all the control objects in abunch (see objects.htm) can't do
+this at the moment.;
+#X text 23 1710 glide_time[0-xxx]: 1-wavrglt;
+#X text 25 1690 on/off[0-1]: 1-wavron;
+#X text 25 1625 Attention: take care that the values that you send
+to an object (with the receive name) have the correct range. If you
+click 'print_all_receives' in an abunch object \, the range is printed
+between square brackets \, for example:;
+#X text 19 1873 (hidden)glide_time(index)[0-xxx]: 1-fm1xigt;
+#X text 22 1801 You can also send values to hidden parameters that
+aren't shown in the user interface of an abunch object. When these
+receive names are printed \, they start with (hidden) like this example
+in the abunch object 'simple-fm':;
+#X text 21 1897 Sending a value to this receive name changes the glide
+time of the index fader in the 'simple-fm' object.;
+#X text 57 193 If in a column/value nothing should be sent \, write
+'xx' \, f.e.:;
+#X text 52 238 1 60 20 xx 75;
+#X text 52 257 1.33 50 0 xx 20;
+#X text 25 1732 1-wavron is the receive name and the range should be
+between 0 and 1 \, 1-wavrglt is an other receive name (for the glide_time
+number box) and the range should be between 0 and any high number.
+;
+#X text 50 349 5 xx ( 30 35 40 ) xx xx;
+#X text 55 303 You can send simultaneous values to one receiver by
+using brackets in this way:;
+#X text 51 373 The 3 values in the third column are sent to the third
+receiver (first column is the timing column). Don't forget to use the
+spaces before and after the brackets!;
+#X obj 337 69 cnv 15 45 20 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 442 70 cnv 15 45 20 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 233 69 cnv 15 45 20 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 55 68 cnv 15 120 20 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 55 68 moment-in-ticks<space>value1<space>value2<space>value3<carriage
+return>...;
+#X text 51 429 Also by using brackets you can send pitch velocity couples
+(as in MIDI): always write the pitch values in the column before the
+column for the velocity values and make sure that as many velocity
+values as pitch values are sent. An example in which we send a C chord
+(pitch values 60 64 67):;
+#X text 49 522 5 xx xx ( 60 64 67 ) ( 90 90 90 );
+#X text 50 550 At the moment '5' nothing is sent to the receivers of
+column 2 and 3 \, the receiver of column 4 receives 3 pitch values
+and the receiver of column 5 gets 3 velocity values.;
+#X text 172 1021 = this shows the timing (in minutes and seconds).
+This timing depends on the tempo you have chosen.;
+#X obj 35 1229 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X text 32 1386 outlet 1 =;
+#X text 39 1299 inlet 1 =;
+#X text 39 1332 inlet 2 =;
+#X text 30 1263 (in- and outlets \, numbered from left to right);
+#X text 125 1298 (event) inlet to control the 'start/pauze' toggle
+(positive number = start \, 0 or negative = pauze);
+#X text 126 1333 (event) inlet to control the 'rewind' number (any
+number bangs the 'rewind' button);
+#X text 30 1424 outlet 2 =;
+#X text 121 1386 (event) outlet for values in the first column in the
+score (text) file;
+#X text 119 1424 (event) outlet for the values in the second column
+in the score (text) file;
+#X connect 11 0 12 0;

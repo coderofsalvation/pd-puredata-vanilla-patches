@@ -1,0 +1,58 @@
+#N canvas 438 4 663 696 12;
+#X obj 51 558 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 57 92 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 53 631 Inlet 1 =;
+#X text 53 654 Inlet 2 =;
+#X text 53 676 Inlet 3 =;
+#X text 53 697 Inlet 4 =;
+#X text 51 716 Inlet 5 =;
+#X text 51 771 Outlet 1 =;
+#X obj 49 802 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X text 26 139 fader 'delay time';
+#X text 26 344 fader 'level';
+#X text 23 243 fader 'dry/wet';
+#X text 24 216 fader 'feed back';
+#X text 178 216 = use this to change the amount of feedback;
+#X text 177 239 = use this fader to change the distribution of the
+original and the processed sound. When the fader is in the position
+'dry' (lowest position) \, only the delayed sound is heard \, in the
+'wet' position (highest position) both the original and the delayed
+sound will be send to the output of the simple-delay object.;
+#X text 44 599 (in- and outlets \, numbered from left to right);
+#X text 153 632 (audio) sound to be delayed;
+#X text 145 654 (event) inlet to control the fader 'delay time';
+#X text 145 674 (event) inlet to control the fader 'feedback';
+#X text 145 694 (event) inlet to control the fader 'dry/wet';
+#X text 145 714 (event) inlet to control the fader 'level';
+#X text 149 769 (audio) output for the delayed sound;
+#X obj 39 396 bng 10 250 50 0 paoptions mop extra_options 17 7 0 8
+-262144 -1 -1;
+#X floatatom 41 431 5 0 2000 1 latency eopat taaat;
+#X text 177 342 = use this fader to change the amplitude of the output
+sound;
+#X text 151 391 = click on this button to open some extra functions:
+;
+#X text 157 428 : if you are using a sound from your computer input
+\, you should take care of the latency of your computer sound card.
+Input the latency in milliseconds in this number box in this case and
+the delay time of the fader 'delay time' will be adjusted automatically.
+You can find the value of your latency (or buffer) in the main Pd menu
+under Media in Windows (or File > preferences on Mac).;
+#X text 145 734 (event) inlet to connect to an external clock \, this
+clock will control the delay time (of the fader 'delay time').;
+#X text 57 11 The abunch object 'simple-delay' delays the entering
+sound. The difference with the other abunch object 'long-delay' is
+the limitation of 1 second for the maximum delay time. To create a
+multitap delay you can also connect it to an external clock.;
+#X text 51 736 Inlet 6 =;
+#X obj 30 163 nbx 5 14 -1e+037 1e+037 0 0 reof oerf ms 58 8 0 10 -86277
+-260097 -86277 0 256;
+#X obj 29 188 nbx 5 14 -1e+037 1e+037 0 0 roerf feoff bpm 58 8 0 10
+-86277 -260097 -86277 0 256;
+#X text 180 162 = shows the delay time in milliseconds;
+#X text 178 139 = use this fader to change the delay time;
+#X text 180 182 = shows the delay time in beats per minute (like a
+metronome);

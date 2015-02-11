@@ -1,0 +1,136 @@
+1 tubissimo 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-rndrx1
+1 () norm 0 0 1-rndrx2 0.30315 () norm 0 0 1-rndrx3 0.0866142 () norm
+0 0 1-rndrx4 91.9783 () norm 0 0 1-rndrx5 0 () norm 0 0 1-rndrx6 0.1
+() norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8 0.76378 () norm 0 0 1-rndrx9
+0.42126 () norm 0 0 1-rndrx10 1 () norm 0 0 1-envrx1 0.1 () norm 0
+0 1-envrx2 10.0787 () norm 0 0 1-envrx3 0 () norm 0 0 1-envrx4 26.2047
+() norm 0 0 1-envrx5 0 () norm 0 0 1-envrx6 614.173 () norm 0 0 1-envrx7
+1 () norm 0 0 1-wvtrx1 1 () norm 0 0 1-wvtrx2 0.606299 () norm 0 0
+1-wvtrx3 0.858268 () norm 0 0 1-wvtrx4 0.527559 () norm 0 0 1-wvtrx5
+0.740157 () norm 0 0 1-wvtrx6 0.425197 () norm 0 0 1-wvtrx7 0.637795
+() norm 0 0 1-wvtrx8 0.267717 () norm 0 0 1-wvtrx9 0.480315 () norm
+0 0 1-wvtrx10 0.141732 () norm 0 0 1-wvtrx11 0.275591 () norm 0 0 1-wvtrx12
+0.015748 () norm 0 0 1-wvtrx13 0.102362 () norm 0 0 1-wvtrx14 0 ()
+norm 0 0 1-wvtrx15 0.023622 () norm 0 0 1-wvtrx16 0 () norm 0 0 1-wvtrx17
+43 () norm 0 0 1-wvtrx18 0.377953 () norm 0 0 1-wvtrx19 0 () norm 0
+0 1-wvtrx20 0;
+2 cheap 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-rndrx1 1 ()
+norm 0 0 1-rndrx2 0.637795 () norm 0 0 1-rndrx3 0.0551181 () norm 0
+0 1-rndrx4 15 () norm 0 0 1-rndrx5 0 () norm 0 0 1-rndrx6 0.141732
+() norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8 0.346457 () norm 0 0 1-rndrx9
+0.897638 () norm 0 0 1-rndrx10 1 () norm 0 0 1-envrx1 0.990551 () norm
+0 0 1-envrx2 70.5512 () norm 0 0 1-envrx3 24.189 () norm 0 0 1-envrx4
+26.2047 () norm 0 0 1-envrx5 0 () norm 0 0 1-envrx6 566.929 () norm
+0 0 1-envrx7 4 () norm 0 0 1-wvtrx1 0.826772 () norm 0 0 1-wvtrx2 0.637795
+() norm 0 0 1-wvtrx3 0.590551 () norm 0 0 1-wvtrx4 0.929134 () norm
+0 0 1-wvtrx5 0.496063 () norm 0 0 1-wvtrx6 0.582677 () norm 0 0 1-wvtrx7
+0.669291 () norm 0 0 1-wvtrx8 0.724409 () norm 0 0 1-wvtrx9 0.0944882
+() norm 0 0 1-wvtrx10 0.141732 () norm 0 0 1-wvtrx11 0.0787402 () norm
+0 0 1-wvtrx12 0.228346 () norm 0 0 1-wvtrx13 0.0314961 () norm 0 0
+1-wvtrx14 0.0866142 () norm 0 0 1-wvtrx15 0.00787402 () norm 0 0 1-wvtrx16
+0 () norm 0 0 1-wvtrx17 78 () norm 0 0 1-wvtrx18 0.275591 () norm 0
+0 1-wvtrx19 0 () norm 0 0 1-wvtrx20 0;
+3 jollyjumper 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-rndrx1
+1 () norm 0 0 1-rndrx2 0.488189 () norm 0 0 1-rndrx3 0.0708661 () norm
+0 0 1-rndrx4 210.945 () norm 0 0 1-rndrx5 0 () norm 0 0 1-rndrx6 0.0393701
+() norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8 0.314961 () norm 0 0 1-rndrx9
+0.204724 () norm 0 0 1-rndrx10 1 () norm 0 0 1-envrx1 0.1 () norm 0
+0 1-envrx2 4.0315 () norm 0 0 1-envrx3 24.189 () norm 0 0 1-envrx4
+26.2047 () norm 0 0 1-envrx5 0 () norm 0 0 1-envrx6 1448.82 () norm
+0 0 1-envrx7 0 () norm 0 0 1-wvtrx1 0.0787402 () norm 0 0 1-wvtrx2
+0.212598 () norm 0 0 1-wvtrx3 0.519685 () norm 0 0 1-wvtrx4 0.929134
+() norm 0 0 1-wvtrx5 0.716535 () norm 0 0 1-wvtrx6 0.377953 () norm
+0 0 1-wvtrx7 0.15748 () norm 0 0 1-wvtrx8 0.267717 () norm 0 0 1-wvtrx9
+0.440945 () norm 0 0 1-wvtrx10 0.511811 () norm 0 0 1-wvtrx11 0.354331
+() norm 0 0 1-wvtrx12 0.102362 () norm 0 0 1-wvtrx13 0.015748 () norm
+0 0 1-wvtrx14 0.0944882 () norm 0 0 1-wvtrx15 0.0787402 () norm 0 0
+1-wvtrx16 0.0314961 () norm 0 0 1-wvtrx17 58 () norm 0 0 1-wvtrx18
+0.377953 () norm 0 0 1-wvtrx19 0 () norm 0 0 1-wvtrx20 0;
+4 cheap2 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-rndrx1 1 ()
+norm 0 0 1-rndrx2 0.574803 () norm 0 0 1-rndrx3 0.0393701 () norm 0
+0 1-rndrx4 70.9843 () norm 0 0 1-rndrx5 19.685 () norm 0 0 1-rndrx6
+0.125984 () norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8 0.377953 () norm
+0 0 1-rndrx9 0.787402 () norm 0 0 1-rndrx10 1 () norm 0 0 1-envrx1
+0.1 () norm 0 0 1-envrx2 62.4882 () norm 0 0 1-envrx3 42.3307 () norm
+0 0 1-envrx4 72.5669 () norm 0 0 1-envrx5 56 () norm 0 0 1-envrx6 409.449
+() norm 0 0 1-envrx7 3 () norm 0 0 1-wvtrx1 0.834646 () norm 0 0 1-wvtrx2
+0.496063 () norm 0 0 1-wvtrx3 0.724409 () norm 0 0 1-wvtrx4 0.503937
+() norm 0 0 1-wvtrx5 0.456693 () norm 0 0 1-wvtrx6 0.149606 () norm
+0 0 1-wvtrx7 0.188976 () norm 0 0 1-wvtrx8 0.165354 () norm 0 0 1-wvtrx9
+0.251969 () norm 0 0 1-wvtrx10 0.0629921 () norm 0 0 1-wvtrx11 0.133858
+() norm 0 0 1-wvtrx12 0.110236 () norm 0 0 1-wvtrx13 0.110236 () norm
+0 0 1-wvtrx14 0.0708661 () norm 0 0 1-wvtrx15 0.0629921 () norm 0 0
+1-wvtrx16 0.023622 () norm 0 0 1-wvtrx17 71 () norm 0 0 1-wvtrx18 0.377953
+() norm 0 0 1-wvtrx19 0 () norm 0 0 1-wvtrx20 0;
+5 clavissimo 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-rndrx1
+1 () norm 0 0 1-rndrx2 0.732283 () norm 0 0 1-rndrx3 0.0393701 () norm
+0 0 1-rndrx4 201.614 () norm 0 0 1-rndrx5 0 () norm 0 0 1-rndrx6 0.0551181
+() norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8 0.496063 () norm 0 0 1-rndrx9
+0.267717 () norm 0 0 1-rndrx10 1 () norm 0 0 1-envrx1 0.1 () norm 0
+0 1-envrx2 10.0787 () norm 0 0 1-envrx3 0 () norm 0 0 1-envrx4 72.5669
+() norm 0 0 1-envrx5 0 () norm 0 0 1-envrx6 944.882 () norm 0 0 1-envrx7
+1 () norm 0 0 1-wvtrx1 0.779528 () norm 0 0 1-wvtrx2 0.826772 () norm
+0 0 1-wvtrx3 0.88189 () norm 0 0 1-wvtrx4 0.937008 () norm 0 0 1-wvtrx5
+0.866142 () norm 0 0 1-wvtrx6 0.779528 () norm 0 0 1-wvtrx7 0.826772
+() norm 0 0 1-wvtrx8 0.700787 () norm 0 0 1-wvtrx9 0.598425 () norm
+0 0 1-wvtrx10 0.653543 () norm 0 0 1-wvtrx11 0.692913 () norm 0 0 1-wvtrx12
+0.724409 () norm 0 0 1-wvtrx13 0.692913 () norm 0 0 1-wvtrx14 0.598425
+() norm 0 0 1-wvtrx15 0.614173 () norm 0 0 1-wvtrx16 0.535433 () norm
+0 0 1-wvtrx17 94 () norm 0 0 1-wvtrx18 0.377953 () norm 0 0 1-wvtrx19
+0 () norm 0 0 1-wvtrx20 0;
+6 marimbissimo 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-rndrx1
+1 () norm 0 0 1-rndrx2 0.661417 () norm 0 0 1-rndrx3 0.0393701 () norm
+0 0 1-rndrx4 108.307 () norm 0 0 1-rndrx5 0 () norm 0 0 1-rndrx6 0.141732
+() norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8 0.149606 () norm 0 0 1-rndrx9
+0.314961 () norm 0 0 1-rndrx10 1 () norm 0 0 1-envrx1 0.1 () norm 0
+0 1-envrx2 10.0787 () norm 0 0 1-envrx3 0 () norm 0 0 1-envrx4 44.3465
+() norm 0 0 1-envrx5 0 () norm 0 0 1-envrx6 614.173 () norm 0 0 1-envrx7
+1 () norm 0 0 1-wvtrx1 0.606299 () norm 0 0 1-wvtrx2 0.0314961 () norm
+0 0 1-wvtrx3 0 () norm 0 0 1-wvtrx4 0.88189 () norm 0 0 1-wvtrx5 0.0866142
+() norm 0 0 1-wvtrx6 0 () norm 0 0 1-wvtrx7 0.574803 () norm 0 0 1-wvtrx8
+0.173228 () norm 0 0 1-wvtrx9 0.015748 () norm 0 0 1-wvtrx10 0.0708661
+() norm 0 0 1-wvtrx11 0.11811 () norm 0 0 1-wvtrx12 0.188976 () norm
+0 0 1-wvtrx13 0.125984 () norm 0 0 1-wvtrx14 0.023622 () norm 0 0 1-wvtrx15
+0.102362 () norm 0 0 1-wvtrx16 0 () norm 0 0 1-wvtrx17 83 () norm 0
+0 1-wvtrx18 0.377953 () norm 0 0 1-wvtrx19 0 () norm 0 0 1-wvtrx20
+0;
+7 oink? 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-rndrx1 1 ()
+norm 0 0 1-rndrx2 0.291339 () norm 0 0 1-rndrx3 0.0944882 () norm 0
+0 1-rndrx4 98.9764 () norm 0 0 1-rndrx5 0 () norm 0 0 1-rndrx6 0.102362
+() norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8 0.244094 () norm 0 0 1-rndrx9
+0.897638 () norm 0 0 1-rndrx10 1 () norm 0 0 1-envrx1 1.62992 () norm
+0 0 1-envrx2 69.2611 () norm 0 0 1-envrx3 50.3937 () norm 0 0 1-envrx4
+44.3465 () norm 0 0 1-envrx5 63 () norm 0 0 1-envrx6 614.173 () norm
+0 0 1-envrx7 2 () norm 0 0 1-wvtrx1 0.299213 () norm 0 0 1-wvtrx2 0.456693
+() norm 0 0 1-wvtrx3 0.811024 () norm 0 0 1-wvtrx4 0.251969 () norm
+0 0 1-wvtrx5 0.173228 () norm 0 0 1-wvtrx6 0.228346 () norm 0 0 1-wvtrx7
+0.267717 () norm 0 0 1-wvtrx8 0.133858 () norm 0 0 1-wvtrx9 0.330709
+() norm 0 0 1-wvtrx10 0.787402 () norm 0 0 1-wvtrx11 0.834646 () norm
+0 0 1-wvtrx12 0.102362 () norm 0 0 1-wvtrx13 0.102362 () norm 0 0 1-wvtrx14
+0.346457 () norm 0 0 1-wvtrx15 0.102362 () norm 0 0 1-wvtrx16 0.023622
+() norm 0 0 1-wvtrx17 36 () norm 0 0 1-wvtrx18 0.141732 () norm 0 0
+1-wvtrx19 0 () norm 0 0 1-wvtrx20 0;
+8 abitdrunk 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-rndrx1
+1 () norm 0 0 1-rndrx2 0.283465 () norm 0 0 1-rndrx3 0.023622 () norm
+0 0 1-rndrx4 80.315 () norm 0 0 1-rndrx5 3.14961 () norm 0 0 1-rndrx6
+0.102362 () norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8 0.244094 () norm
+0 0 1-rndrx9 0.897638 () norm 0 0 1-rndrx10 1 () norm 0 0 1-envrx1
+1.62992 () norm 0 0 1-envrx2 111.592 () norm 0 0 1-envrx3 50.3937 ()
+norm 0 0 1-envrx4 26.2047 () norm 0 0 1-envrx5 63 () norm 0 0 1-envrx6
+1181.1 () norm 0 0 1-envrx7 6 () norm 0 0 1-wvtrx1 0.181102 () norm
+0 0 1-wvtrx2 0 () norm 0 0 1-wvtrx3 0.503937 () norm 0 0 1-wvtrx4 0.0314961
+() norm 0 0 1-wvtrx5 0.173228 () norm 0 0 1-wvtrx6 0.968504 () norm
+0 0 1-wvtrx7 0.669291 () norm 0 0 1-wvtrx8 0.275591 () norm 0 0 1-wvtrx9
+0.181102 () norm 0 0 1-wvtrx10 0.0629921 () norm 0 0 1-wvtrx11 0.456693
+() norm 0 0 1-wvtrx12 0.00787402 () norm 0 0 1-wvtrx13 0.0472441 ()
+norm 0 0 1-wvtrx14 0.023622 () norm 0 0 1-wvtrx15 0.267717 () norm
+0 0 1-wvtrx16 0.188976 () norm 0 0 1-wvtrx17 35 () norm 0 0 1-wvtrx18
+0.141732 () norm 0 0 1-wvtrx19 0 () norm 0 0 1-wvtrx20 0;

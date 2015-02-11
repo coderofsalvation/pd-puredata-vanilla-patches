@@ -1,0 +1,18 @@
+1 just_one 0 0 0 () norm 0 0 4-pshrx1 -36 () norm 0 0 4-pshrx2 0 ()
+norm 0 0 3-pshrx1 -24 () norm 0 0 3-pshrx2 0 () norm 0 0 2-pshrx1 0
+() norm 0 0 2-pshrx2 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-pshrx1
+-12 () norm 0 0 1-pshrx2 0 () sym 0 0 1-samry1 rhapso.wav
+() sym 0 0 1-samry2 kxpqwmk () sym 0 0 1-samry3 kxpqwmk () norm 0 0
+1-samrx1 12 () norm 0 0 1-samrx2 0 () norm 0 0 1-samrx3 0.124603 ()
+norm 0 0 1-samrx4 0 () norm 0 0 1-samrx5 0 () norm 0 0 1-samrx6 0 ()
+norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8 0;
+2 lotoftime 0 0 0 () norm 0 0 4-pshrx1 20 () norm 0 0 4-pshrx2 0 ()
+norm 0 0 3-pshrx1 32 () norm 0 0 3-pshrx2 0 () norm 0 0 2-pshrx1 56
+() norm 0 0 2-pshrx2 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-pshrx1
+44 () norm 0 0 1-pshrx2 0 () sym 0 0 1-samry1 rhapso.wav
+() sym 0 0 1-samry2 kxpqwmk () sym 0 0 1-samry3 kxpqwmk () norm 0 0
+1-samrx1 -44 () norm 0 0 1-samrx2 0 () norm 0 0 1-samrx3 0.0611111
+() norm 0 0 1-samrx4 0 () norm 0 0 1-samrx5 0 () norm 0 0 1-samrx6
+0 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8 0;

@@ -1,0 +1,9 @@
+#N canvas 270 335 513 228 12;
+#X obj 226 127 sound-out 1;
+#X obj 224 62 simple-fm 1;
+#X obj 24 42 presets ex1i;
+#X text 129 10 A simple example of FM synthesis.;
+#X text 27 167 Open one of the 3 presets \, open 'simple-fm' and play
+with the faders...;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;

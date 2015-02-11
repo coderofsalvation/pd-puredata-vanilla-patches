@@ -1,0 +1,53 @@
+#N canvas 318 93 710 681 12;
+#X obj 41 805 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 41 514 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 51 94 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 40 577 Inlet 1 =;
+#X text 39 632 Inlet 2 =;
+#X obj 45 155 vradio 17 1 0 6 zeyt qeyt empty 0 -8 0 10 -262144 -1
+-1 0;
+#X text 67 152 sine;
+#X text 66 169 saw;
+#X text 67 188 tri;
+#X text 65 206 square;
+#X obj 46 269 tgl 15 0 deut teut glide 17 7 0 10 -262144 -1 -1 0 1
+;
+#X text 67 223 noise;
+#X text 40 686 Inlet 3 =;
+#X text 41 731 Inlet 4 =;
+#X obj 40 327 nbx 5 14 -1e+037 1e+037 0 0 qrtopaz kklkmlk gl_time 58
+7 0 10 -262144 -1 -1 0 256;
+#X text 40 774 Outlet 1 =;
+#X text 67 239 pulse;
+#X text 51 30 The abunch object 'waves' synthesises a tone. You can
+chose from a selection of 6 waveforms.;
+#X text 40 382 fader 'pitch':;
+#X text 39 468 fader 'level':;
+#X text 137 266 = this toggle turns the glide (or glissando) on of
+off between the different pitches (produced by changing the fader 'pitch').
+;
+#X text 178 324 = with this number box you can change the time (in
+milliseconds) that it takes to glide from one pitch to an other (so
+the 'glide' toggle should be switched on).;
+#X text 143 173 With these buttons you can choose a waveform: sine
+= sine wave \, saw = saw tooth wave \, tri = triangle wave \, square
+= square wave \, noise = noise \, pulse = pulse wave.;
+#X text 163 382 this fader changes the pitch of the chosen wave form
+\, the pitches are midi values (60 = middle C of the piano \, 69 =
+440 Hertz). As noise has no (main) pitch \, this fader doesn't influence
+the sound when 'noise' is chosen in the wave selector buttons.;
+#X text 166 468 this fader changes the amplitude of the sound output
+of the waves object.;
+#X text 120 577 (event) inlet to control the wave selector buttons
+(0 = sine \, 1 = saw \, 2 = triangle \, 3 = square \, 4 = noise \,
+5 = pulse);
+#X text 43 548 (in- and outlets \, numbered from left to right);
+#X text 123 632 inlet to control the toggle 'glide' \; any number higher
+than zero in this inlet turns the toggle on \, a zero turns it off.
+;
+#X text 130 683 (event) inlet to control the fader 'pitch';
+#X text 130 730 (event) inlet to control the fader 'level';
+#X text 134 771 (audio) outlet for the synthesized tone;

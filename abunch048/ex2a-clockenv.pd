@@ -1,0 +1,28 @@
+#N canvas 480 78 557 424 12;
+#X obj 227 123 play-file 1;
+#X obj 348 120 clock 1;
+#X obj 294 79 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 36 93 presets ex2a;
+#X text 318 77 <- start;
+#X obj 229 184 envelopes 1;
+#X obj 350 183 envelopes 2;
+#X obj 289 224 sound-out 1;
+#X text 34 265 <1> Open preset 1 (there is only 1 preset in this example)
+;
+#X text 36 285 <2> Turn on the 'start' toggle in this main file;
+#X text 35 304 <3> You can change the attack and release of the envelope
+in 'envelopes' \, in 'clock' you can change the tempo.;
+#X text 36 357 In this example the clock signal is used as the velocity
+(inlet 2 in 'envelopes' to trigger the envelope.;
+#X text 28 10 In this example the abunch object 'envelopes' cuts a
+piece of sound from a sound file being played by the object 'play-file'.
+;
+#X connect 0 0 5 0;
+#X connect 0 0 6 0;
+#X connect 1 0 5 1;
+#X connect 1 4 6 1;
+#X connect 2 0 1 0;
+#X connect 2 0 0 0;
+#X connect 5 0 7 0;
+#X connect 6 0 7 1;

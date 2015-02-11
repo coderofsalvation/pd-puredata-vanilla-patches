@@ -1,0 +1,27 @@
+#N canvas 0 22 698 542 10;
+#X obj 79 22 inlet;
+#X obj 88 84 f;
+#X obj 88 128 moses 0;
+#X obj 88 150 t b;
+#X obj 88 187 outlet;
+#X text 36 225 If it can't find a voice for this continuing track \,
+we send a bang out the outlet. that way we can choose to either start
+a new voice up or not at the parent level.;
+#X msg 303 410 \; \$4-martha-freq-update-\$1 \$2 \; \$4-martha-amp-update-\$1
+\$3 \;;
+#X obj 302 369 pack f f f \$1;
+#X text 387 46 \$1: dollar-zero value of parent patch;
+#X obj 119 57 r \$1-martha-cur-peak-idx;
+#X obj 88 106 tabread \$1-martha-trackVoices;
+#X obj 352 303 r \$1-martha-cur-peak-freq;
+#X obj 362 323 r \$1-martha-cur-peak-amp;
+#X connect 0 0 1 0;
+#X connect 1 0 10 0;
+#X connect 2 0 3 0;
+#X connect 2 1 7 0;
+#X connect 3 0 4 0;
+#X connect 7 0 6 0;
+#X connect 9 0 1 1;
+#X connect 10 0 2 0;
+#X connect 11 0 7 1;
+#X connect 12 0 7 2;

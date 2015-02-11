@@ -1,0 +1,45 @@
+1 symbol 0 0 0 () norm 0 0 3-envrx1 0.1 () norm 0 0 3-envrx2 118.929
+() norm 0 0 3-envrx3 211.654 () norm 0 0 3-envrx4 0 () norm 0 0 3-envrx5
+95 () norm 0 0 3-envrx6 2000 () norm 0 0 3-envrx7 3 () norm 0 0 2-envrx1
+0.1 () norm 0 0 2-envrx2 243.906 () norm 0 0 2-envrx3 213.669 () norm
+0 0 2-envrx4 0 () norm 0 0 2-envrx5 97 () norm 0 0 2-envrx6 1716.54
+() norm 0 0 2-envrx7 3 () norm 0 0 1-envrx1 0.511024 () norm 0 0 1-envrx2
+165.291 () norm 0 0 1-envrx3 80.6299 () norm 0 0 1-envrx4 0 () norm
+0 0 1-envrx5 117 () norm 0 0 1-envrx6 1968.5 () norm 0 0 1-envrx7 3
+() norm 0 0 1-scarx1 0 () norm 0 0 1-scarx2 10 () norm 0 0 1-soutrx1
+100 () norm 0 0 1-soutrx2 0.740157 () norm 0 0 1-soutrx3 100 () norm
+0 0 1-soutrx4 0.740157 () norm 0 0 3-wavrx1 0 () norm 0 0 3-wavrx2
+1 () norm 0 0 3-wavrx3 86.91 () norm 0 0 3-wavrx4 0.0393701 () norm
+0 0 3-wavrx5 4500 () norm 0 0 2-wavrx1 0 () norm 0 0 2-wavrx2 1 ()
+norm 0 0 2-wavrx3 74.49 () norm 0 0 2-wavrx4 0.0551181 () norm 0 0
+2-wavrx5 1200 () norm 0 0 1-wavrx1 0 () norm 0 0 1-wavrx2 1 () norm
+0 0 1-wavrx3 74.05 () norm 0 0 1-wavrx4 0.0472441 () norm 0 0 1-wavrx5
+1000 () norm 0 0 1-rndrx1 0 () norm 0 0 1-rndrx2 0.38189 () norm 0
+0 1-rndrx3 0.0606299 () norm 0 0 1-rndrx4 15 () norm 0 0 1-rndrx5 10.2362
+() norm 0 0 1-rndrx6 0.438583 () norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8
+0.535433 () norm 0 0 1-rndrx9 0.720472 () norm 0 0 1-rndrx10 1 () norm
+0 0 1-addrx1 1.01 () norm 0 0 1-addrx2 0.45283 () norm 0 0 1-addrx3
+0.93 () norm 0 0 1-addrx4 53 () norm 0 0 1-addrx5 0.03 () norm 0 0
+1-addrx6 1056 () norm 0 0 1-addrx7 2000 () norm 0 0 1-addrx8 1 () norm
+0 0 1-addrx9 0.490566 () norm 0 0 1-addrx10 0.81 () norm 0 0 1-addrx11
+0 () norm 0 0 1-addrx12 0.16 () norm 0 0 1-addrx13 745 () norm 0 0
+1-addrx14 1800 () norm 0 0 1-addrx15 9 () norm 0 0 1-addrx16 0.245283
+() norm 0 0 1-addrx17 1 () norm 0 0 1-addrx18 0 () norm 0 0 1-addrx19
+0.04 () norm 0 0 1-addrx20 605 () norm 0 0 1-addrx21 590 () norm 0
+0 1-addrx22 2.74 () norm 0 0 1-addrx23 0.566038 () norm 0 0 1-addrx24
+0.62 () norm 0 0 1-addrx25 14 () norm 0 0 1-addrx26 0.27 () norm 0
+0 1-addrx27 187 () norm 0 0 1-addrx28 993 () norm 0 0 1-addrx29 2.81
+() norm 0 0 1-addrx30 0.0754717 () norm 0 0 1-addrx31 0.64 () norm
+0 0 1-addrx32 0 () norm 0 0 1-addrx33 0.17 () norm 0 0 1-addrx34 559.01
+() norm 0 0 1-addrx35 2300 () norm 0 0 1-addrx36 3 () norm 0 0 1-addrx37
+0.698113 () norm 0 0 1-addrx38 0.49 () norm 0 0 1-addrx39 100 () norm
+0 0 1-addrx40 0.1 () norm 0 0 1-addrx41 995 () norm 0 0 1-addrx42 660
+() norm 0 0 1-addrx43 5.76 () norm 0 0 1-addrx44 1 () norm 0 0 1-addrx45
+0 () norm 0 0 1-addrx46 1 () norm 0 0 1-addrx47 0.19 () norm 0 0 1-addrx48
+658 () norm 0 0 1-addrx49 1878 () norm 0 0 1-addrx50 6.11 () norm 0
+0 1-addrx51 0.358491 () norm 0 0 1-addrx52 0.66 () norm 0 0 1-addrx53
+22 () norm 0 0 1-addrx54 0.16 () norm 0 0 1-addrx55 800 () norm 0 0
+1-addrx56 360 () norm 0 0 1-addrx57 3 () norm 0 0 1-addrx58 0 () norm
+0 0 1-addrx59 4 () norm 0 0 1-addrx60 0.631944 () norm 0 0 1-addrx61
+0.25 () norm 0 0 1-addrx62 0 () norm 0 0 1-addrx63 0 () norm 0 0 1-addrx64
+0.1 () norm 0 0 1-addrx65 0.81;

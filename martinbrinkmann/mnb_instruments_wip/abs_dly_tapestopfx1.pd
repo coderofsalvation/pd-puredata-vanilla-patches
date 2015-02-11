@@ -1,0 +1,10 @@
+#N canvas 1 80 450 300 10;
+#X obj -57 144 vd~ \$0bdl;
+#X obj -170 101 delwrite~ \$0bdl 10000;
+#X obj -172 65 inlet~;
+#X obj -44 199 outlet~;
+#X text -101 35 delayline for tapstop fx;
+#X obj 22 76 inlet~;
+#X connect 0 0 3 0;
+#X connect 2 0 1 0;
+#X connect 5 0 0 0;

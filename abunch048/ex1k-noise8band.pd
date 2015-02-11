@@ -1,0 +1,17 @@
+#N canvas 649 19 510 394 12;
+#X obj 23 82 waves 1;
+#X obj 23 133 8band-filter 1;
+#X obj 23 190 sound-out 1;
+#X obj 270 87 presets ex1k;
+#X text 32 13 An other example of filtered noise. This time the '8band-filter'
+in abunch is used.;
+#X text 90 82 -> noise;
+#X text 19 262 Open a preset (there's 23 of them) and try out the faders
+in '8band-filter'.;
+#X text 21 301 (If you set the fader 'time' in '8band-filter' to a
+high value \, open 'extra_options' in '8band-filter' \, turn the toggle
+'open_time_fader_in_presets' off and open a new preset \, a smooth
+change (from one preset to an other) will be produced.);
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 0 2 1;

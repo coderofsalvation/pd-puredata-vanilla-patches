@@ -1,0 +1,98 @@
+#N canvas 354 177 774 587 10;
+#X obj 57 116 readsf~;
+#N canvas 0 22 592 473 output 0;
+#X obj 370 277 *~;
+#X obj 362 306 dac~;
+#X floatatom 110 128 5 0 0 1 dB - -;
+#X obj 380 195 dbtorms;
+#X obj 273 305 env~;
+#X obj 380 217 pack f 40;
+#X obj 380 239 line~;
+#X obj 306 126 inlet~;
+#X obj 273 327 - 100;
+#X obj 111 170 vu 15 120 empty empty -1 -8 0 10 -66577 -1 1 0;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 4 0 8 0;
+#X connect 5 0 6 0;
+#X connect 6 0 0 1;
+#X connect 7 0 4 0;
+#X connect 7 0 0 0;
+#X connect 8 0 9 0;
+#X coords 0 -1 1 1 100 200 1 100 100;
+#X restore 57 342 pd output;
+#N canvas 431 78 891 606 commands 1;
+#X obj 77 527 outlet;
+#X obj 101 80 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 294 290 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 262 227 manual-trig bang;
+#X text 273 89 Turn on buffering first or you won't hear anything;
+#X msg 294 310 auto-trig-switch \$1;
+#X msg 343 404 auto-trig-rate 250;
+#X text 479 350 Set the probability of auto-triggering a new stream
+on every tick that goes by (by default \, once per 500ms).;
+#X text 509 405 Make the rate of ticks faster for more density;
+#X msg 323 354 auto-trig-prob 50;
+#X text 455 300 Or \, turn auto-trigger on to keep generating new streams
+continuously;
+#X text 405 226 Manually trigger a new stream (polyphonic up to 20
+voices);
+#X text 371 147 Transposition range in 100ths of a semitone (cents)
+;
+#X text 371 175 Playback speed from 0-100%;
+#X msg 353 487 window-size 4096;
+#X text 509 455 Make the FFT analysis window bigger (overlap of 4 is
+hard-coded);
+#X msg 101 100 buffer-rec-switch \$1;
+#X msg 49 33 buffer-rec-switch 0 \, trig-play-switch 0 \, window-size
+2048 \, trig-prob 70 \, speed-range 50 90 \, transpo-range 0 0 \;;
+#X text 438 39 Internal defaults;
+#X msg 187 146 transpo-range -300 300;
+#X msg 353 518 window-size 2048;
+#X msg 353 454 window-size 8192;
+#X msg 207 176 speed-range 0 100;
+#X connect 1 0 16 0;
+#X connect 2 0 5 0;
+#X connect 3 0 0 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 0;
+#X connect 9 0 0 0;
+#X connect 14 0 0 0;
+#X connect 16 0 0 0;
+#X connect 17 0 0 0;
+#X connect 19 0 0 0;
+#X connect 20 0 0 0;
+#X connect 21 0 0 0;
+#X connect 22 0 0 0;
+#X restore 177 267 pd commands;
+#X text 278 118 NOTE: The following parameters are hard-coded \, but
+can be adjusted as you like by editing the abstraction;
+#X text 502 478 w@williambrent.com;
+#X text 502 458 www.williambrent.com;
+#X text 502 438 William Brent 2013;
+#X text 278 178 - The buffer length is hard-coded to about 10 seconds
+;
+#X msg 97 73 stop;
+#X text 233 29 streamStretch~ buffers multiple copies of incoming live
+audio and creates overlapping streams of time-stretched & transposed
+output that trail the input. It is a Pd-vanilla abstraction.;
+#X text 278 198 - streamStretch~ records to a new 10-second buffer
+about once per second;
+#X obj 57 302 streamStretch~;
+#X text 278 158 - Stream polyphony is hard-coded to 20 voices;
+#X text 271 266 <<<< See commands inside to turn on buffering and activate
+streams;
+#X msg 57 33 open voice.wav \, start;
+#X obj 203 351 dac~;
+#X connect 0 0 11 0;
+#X connect 0 1 14 0;
+#X connect 2 0 11 1;
+#X connect 8 0 0 0;
+#X connect 11 0 1 0;
+#X connect 11 0 15 0;
+#X connect 11 0 15 1;
+#X connect 14 0 0 0;

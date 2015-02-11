@@ -1,0 +1,14 @@
+#N canvas 208 281 419 305 10;
+#X text -639 -14 oneshot sampleplayer tables;
+#X obj -537 205 tabread4~ \$0osp1;
+#X obj -422 200 table \$0osp1;
+#X obj -563 105 inlet~;
+#X obj -540 264 outlet~;
+#X text -576 90 tabread line;
+#X obj -351 64 loadbang;
+#X obj -346 115 \$0;
+#X obj -334 159 outlet;
+#X connect 1 0 4 0;
+#X connect 3 0 1 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;

@@ -1,0 +1,24 @@
+#N canvas 464 126 518 461 12;
+#X obj 25 239 play-sample 1;
+#X obj 149 288 dac~;
+#X obj 140 240 play-sample 2;
+#X obj 259 239 play-sample 3;
+#X obj 142 183 multi-seq 1;
+#X obj 303 101 presets ex2m;
+#X text 23 14 An example with the 'multi-seq' sequencer in abunch sending
+its values to 3 'play-sample' objects. You can use maximum 6 tracks
+in 'multi-seq'.;
+#X text 31 318 <1> Open a preset (there are 2 presets in this example).
+;
+#X text 32 339 <2> Click on the 'start' toggle in 'multi-seqn' and
+try out one of the 4 patterns (by using the 'read_pattern_nr' row of
+boxes).;
+#X text 26 400 Every preset has 4 patterns in 'multi-seq'. Preset 2
+shows that you can also store different tempi in different patterns.
+;
+#X connect 0 0 1 0;
+#X connect 2 0 1 1;
+#X connect 3 0 1 0;
+#X connect 4 0 0 0;
+#X connect 4 1 2 0;
+#X connect 4 2 3 0;

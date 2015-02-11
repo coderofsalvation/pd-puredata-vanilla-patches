@@ -1,0 +1,14 @@
+1 symbol 0 0 0 () norm 0 0 1-ctirx1 18 () norm 0 0 1-ctirx2 19 () norm
+0 0 1-ctirx3 0 () norm 0 0 1-ctirx4 0 () norm 0 0 1-ctirx5 0 () norm
+0 0 1-ctirx6 0 () norm 0 0 1-ctirx7 0 () norm 0 0 1-ctirx8 0 () norm
+0 0 1-ctirx9 1 () norm 0 0 1-ctirx10 4 () sym 0 0 5-plfry1 rhapso.wav
+() sym 0 0 5-plfry2 kxpqwmk () sym 0 0 5-plfry3 kxpqwmk () norm 0 0
+5-plfrx1 0 () norm 0 0 5-plfrx2 0.6 () norm 0 0 5-plfrx3 0 () norm
+0 0 1-azerx1 1 () norm 0 0 1-azerx2 0 () norm 0 0 1-azerx3 0 () norm
+0 0 1-azerx4 0 () norm 0 0 1-azerx5 0 () norm 0 0 1-azerx6 500 () sym
+0 0 2-plfry1 rhapso.wav
+() sym 0 0 2-plfry2 kxpqwmk () sym 0 0 2-plfry3 kxpqwmk () norm 0 0
+2-plfrx1 0 () norm 0 0 2-plfrx2 0.357576 () norm 0 0 2-plfrx3 0 ()
+sym 0 0 1-plfry1 rhapso.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 0 () norm 0 0 1-plfrx2 0.428283 () norm 0 0 1-plfrx3 0;

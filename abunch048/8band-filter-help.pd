@@ -1,0 +1,60 @@
+#N canvas 357 -5 735 723 12;
+#X obj 45 704 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 52 102 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 44 782 Inlet 1 =;
+#X text 42 940 Outlet 1 =;
+#X text 45 812 Inlet 2 =;
+#X text 45 850 Inlet 3 =;
+#X text 43 878 Inlet 4 =;
+#X text 20 149 'a1' \, 'a2' \, ... faders:;
+#X text 19 175 'f1' \, 'f2' \, ... faders:;
+#X text 18 213 'q1' \, 'q2' \, ... faders:;
+#X text 18 249 'o1' \, 'o2' \, ... faders:;
+#X text 22 329 'level' fader:;
+#X text 22 351 'time' fader:;
+#X text 30 451 'Q' fader:;
+#X text 30 478 '0' fader:;
+#X text 217 149 change the amplitude of every band with this fader
+;
+#X text 217 177 change the cut-off frequency of every band filter with
+this fader;
+#X text 213 215 change the resonancy of every band filter with this
+fader;
+#X text 212 249 this fader changes the amount of damping for every
+band. If this fader has a high value \, the sound is passed through
+5 identical band pass filters \; if it is very low \, the sound passes
+through only one band pass filter.;
+#X text 209 328 this fader changes the amplitude of the output;
+#X text 213 353 this fader changes the transition time (in milliseconds)
+of all the other faders \; if it has a high value (say 25000) \, it
+takes 25 seconds before the change in any fader (that you have adjusted)
+has been completed. The effect of this fader is only audible if you
+move an other fader afterwards.;
+#X text 209 456 this fader changes all the 'q1' \, 'q2' \, ... faders
+at once;
+#X text 216 477 this fader changes all the 'o1' \, 'o2' \, ... faders
+at once;
+#X text 47 739 (in- and outlets \, numbered from left to right);
+#X text 145 782 (audio) sound that will be filtered;
+#X text 146 810 (event) inlet to control the fader 'level';
+#X text 145 849 (event) inlet to control the fader 'time';
+#X text 139 879 (event) inlet to control the fader 'Q';
+#X text 45 906 Inlet 5 =;
+#X text 141 907 (event) inlet to control the fader '0';
+#X text 146 940 (audio) outlet for the filtered sound;
+#X text 43 18 The '8band-filter' object is a bank of 8 bandpass filters.
+For every band the cut-off frequency (f) \, the amplitude (a) \, the
+resonancy (q) and the strength (o) of the filter can be adjusted.;
+#X obj 21 589 tgl 15 0 yyton wkoon open_time_fader_in_presets 17 7
+0 10 -262144 -1 -1 0 1;
+#X obj 24 539 bng 10 250 50 0 zzextraoptions empty extra_options 17
+7 0 8 -262144 -1 -1;
+#X text 204 533 if you click on this utton \, a window with extra possibilities
+pops up;
+#X text 210 585 = if this toggle is switched on (crossed) and a preset
+is opened \, the stored values of the 'time' fader are opened -as expected.
+But if this toggle is off \, the preset values for this 'time' fader
+aren't opened. In this way you can change the 'time' fader in a live
+performing situation while loading different presets.;

@@ -1,0 +1,26 @@
+#N canvas 463 87 560 475 12;
+#X obj 191 156 multi-clock 1;
+#X obj 270 224 grain-sample 3;
+#X obj 198 275 dac~;
+#X obj 19 224 grain-sample 1;
+#X obj 147 224 grain-sample 2;
+#X obj 389 226 grain-sample 4;
+#X obj 392 87 presets ex2l;
+#X text 18 16 An external clock is controlling the speed or tempo of
+the grain production in 'grain-sample'. In this example the 'multi-clock'
+objects controls the 4 tempi of the 4 'grain-sample' objects.;
+#X text 28 339 <1> Open a preset (there are 3 presets).;
+#X text 28 363 <2> Turn on the toggle 'start' in 'multi-clock'. In
+every preset there are 4 patterns in 'multi-clock' \, you can change
+the pattern by clicking on the vertical row of bowes labelled 'pattern'.
+;
+#X text 23 433 (Alle presets use the same waterdrop.wav sample in the
+abunch folder again.);
+#X connect 0 0 3 10;
+#X connect 0 1 4 10;
+#X connect 0 2 1 10;
+#X connect 0 3 5 10;
+#X connect 1 0 2 1;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;
+#X connect 5 0 2 1;

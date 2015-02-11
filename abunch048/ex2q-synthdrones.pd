@@ -1,0 +1,20 @@
+#N canvas 302 187 511 355 12;
+#X obj 24 95 crynth 1;
+#X obj 22 214 sound-out 1;
+#X obj 23 129 8band-filter 1;
+#X obj 58 170 reverb 1;
+#X text 138 91 -> synthesizer;
+#X text 150 127 -> filter;
+#X text 152 166 -> reverb;
+#X obj 284 97 presets ex2q;
+#X text 16 24 Producing a drone by filtering the sound of a synthesizer
+with a rich spectrum (many harmonics).;
+#X text 22 262 <1> open preset 1 (there are 6 presets);
+#X text 25 286 <2> open the object '8band-filter 1' and mainly play
+with the faders 'f5' \, 'f6' \, 'f7' \, 'f8' and 'time'.;
+#X connect 0 0 2 0;
+#X connect 2 0 1 1;
+#X connect 2 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 1;
+#X connect 3 0 1 0;

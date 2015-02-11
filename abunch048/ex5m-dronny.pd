@@ -1,0 +1,71 @@
+#N canvas 239 39 750 584 12;
+#X obj 107 455 sound-out 1;
+#X obj 82 200 sequencer 1;
+#X obj 86 242 crackle 1;
+#X obj 5 155 random-out 1;
+#X obj 259 82 clock 1;
+#X obj 115 153 random-out 2;
+#X obj 115 339 panning 1;
+#X obj 219 56 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 238 154 random-out 3;
+#X obj 238 214 line;
+#X msg 238 187 \$1 4000;
+#X obj 376 150 random-out 4;
+#X obj 380 212 line;
+#X msg 379 182 \$1 8000;
+#X obj 281 304 *;
+#X text 244 53 -> start;
+#X obj 27 411 2mod-fm 1;
+#X obj 392 18 presets ex5m;
+#X text 112 15 An FM drone...;
+#X text 421 213 -> smooth change from one random;
+#X text 387 234 value to an other (see help file of;
+#X text 387 253 Pd oject 'line');
+#X obj 280 275 trigger bang float;
+#X text 204 338 -> the 'left mid right' fader in 'panning' is controlled
+by the random values from 'random-out 3'.;
+#X text 197 409 -> produces an FM tone;
+#X text 24 498 Open a preset and click on 'start' in this main file.
+There are 2 presets. You can also change the rhythm in 'sequencer'
+\, slowly change 'index1' and 'index2' in '2mod-fm' \, ...;
+#X obj 457 465 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X text 478 459 = native Pd object (not Abunch);
+#X obj 267 280 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj 366 217 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj 224 218 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj 364 188 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj 225 193 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj 205 58 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X text 447 182 (message for the 'line' object);
+#X connect 1 0 2 0;
+#X connect 2 0 6 0;
+#X connect 3 0 16 4;
+#X connect 4 1 3 2;
+#X connect 4 1 5 2;
+#X connect 4 1 8 2;
+#X connect 4 2 11 2;
+#X connect 5 0 2 1;
+#X connect 6 0 0 0;
+#X connect 6 1 0 1;
+#X connect 7 0 4 0;
+#X connect 7 0 1 3;
+#X connect 7 0 22 0;
+#X connect 8 0 10 0;
+#X connect 9 0 6 1;
+#X connect 10 0 9 0;
+#X connect 11 0 13 0;
+#X connect 12 0 14 0;
+#X connect 13 0 12 0;
+#X connect 14 0 16 5;
+#X connect 16 0 0 0;
+#X connect 16 0 0 1;
+#X connect 22 0 14 0;
+#X connect 22 1 14 1;

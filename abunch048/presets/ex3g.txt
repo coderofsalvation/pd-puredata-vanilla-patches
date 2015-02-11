@@ -1,0 +1,51 @@
+1 tal-digi-tum 0 0 0 () norm 0 0 1-clmrx1 375.092 () norm 0 0 1-clmrx2
+1 () norm 0 0 1-clmrx3 1 () norm 0 0 1-clmrx4 1 () norm 0 0 1-clmrx5
+2 () norm 0 0 1-clmrx6 1 () norm 0 0 1-clmrx7 2 () norm 0 0 1-clmrx8
+0 () norm 0 0 1-clmrx9 2 () norm 0 0 1-clmrx10 0 () norm 0 0 1-clmrx11
+2 () norm 0 0 1-clmrx12 1 () norm 0 0 1-clmrx13 2 () norm 0 0 1-clmrx14
+1 () norm 0 0 1-clmrx15 2 () norm 0 0 1-clmrx16 1 () norm 0 0 1-clmrx17
+1 () norm 0 0 1-clmrx18 0 () norm 0 0 1-clmrx19 2 () norm 0 0 1-clmrx20
+0 () norm 0 0 1-clmrx21 2 () norm 0 0 1-clmrx22 1 () norm 0 0 1-clmrx23
+2 () norm 0 0 1-clmrx24 1 () norm 0 0 1-clmrx25 1 () norm 0 0 1-clmrx26
+1 () norm 0 0 1-clmrx27 1 () norm 0 0 1-clmrx28 0 () norm 0 0 1-clmrx29
+2 () norm 0 0 1-clmrx30 0 () norm 0 0 1-clmrx31 2 () norm 0 0 1-clmrx32
+1 () norm 0 0 1-clmrx33 1 () norm 0 0 1-clmrx34 1 () norm 0 0 1-clmrx35
+3 () norm 0 0 1-clmrx36 1 () norm 0 0 1-clmrx37 4 () norm 0 0 1-clmrx38
+0 () norm 0 0 1-clmrx39 2 () norm 0 0 1-clmrx40 0 () norm 0 0 1-clmrx41
+2 () norm 0 0 1-clmrx42 1 () norm 0 0 1-clmrx43 0 () norm 0 0 3-rndrx1
+1 () norm 0 0 3-rndrx2 0.826772 () norm 0 0 3-rndrx3 0.149606 () norm
+0 0 3-rndrx4 122.117 () norm 0 0 3-rndrx5 0 () norm 0 0 3-rndrx6 0
+() norm 0 0 3-rndrx7 0 () norm 0 0 3-rndrx8 0 () norm 0 0 3-rndrx9
+0 () norm 0 0 3-rndrx10 0 () norm 0 0 2-rndrx1 1 () norm 0 0 2-rndrx2
+0.354331 () norm 0 0 2-rndrx3 0.141732 () norm 0 0 2-rndrx4 122.117
+() norm 0 0 2-rndrx5 0 () norm 0 0 2-rndrx6 0 () norm 0 0 2-rndrx7
+0 () norm 0 0 2-rndrx8 0 () norm 0 0 2-rndrx9 0 () norm 0 0 2-rndrx10
+0 () norm 0 0 1-rndrx1 1 () norm 0 0 1-rndrx2 0.228346 () norm 0 0
+1-rndrx3 0.0551181 () norm 0 0 1-rndrx4 122.117 () norm 0 0 1-rndrx5
+0 () norm 0 0 1-rndrx6 0 () norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8
+0 () norm 0 0 1-rndrx9 0 () norm 0 0 1-rndrx10 0 () norm 0 0 3-seqrx1
+127 () norm 0 0 3-seqrx2 0 () norm 0 0 3-seqrx3 127 () norm 0 0 3-seqrx4
+0 () norm 0 0 3-seqrx5 127 () norm 0 0 3-seqrx6 0 () norm 0 0 3-seqrx7
+0 () norm 0 0 3-seqrx8 127 () norm 0 0 3-seqrx9 127 () norm 0 0 3-seqrx10
+0 () norm 0 0 3-seqrx11 127 () norm 0 0 3-seqrx12 0 () norm 0 0 3-seqrx13
+0 () norm 0 0 3-seqrx14 127 () norm 0 0 3-seqrx15 127 () norm 0 0 3-seqrx16
+127 () norm 0 0 3-seqrx17 60.008 () norm 0 0 3-seqrx18 1 () norm 0 0
+3-seqrx19 0 () norm 0 0 3-seqrx20 16 () norm 0 0 3-seqrx21 0 () norm
+0 0 2-seqrx1 0 () norm 0 0 2-seqrx2 0 () norm 0 0 2-seqrx3 0 () norm
+0 0 2-seqrx4 1 () norm 0 0 2-seqrx5 1 () norm 0 0 2-seqrx6 0 () norm
+0 0 2-seqrx7 1 () norm 0 0 2-seqrx8 0 () norm 0 0 2-seqrx9 1 () norm
+0 0 2-seqrx10 0 () norm 0 0 2-seqrx11 0 () norm 0 0 2-seqrx12 0 ()
+norm 0 0 2-seqrx13 0 () norm 0 0 2-seqrx14 1 () norm 0 0 2-seqrx15
+1 () norm 0 0 2-seqrx16 0 () norm 0 0 2-seqrx17 60.008 () norm 0 0
+2-seqrx18 1 () norm 0 0 2-seqrx19 0 () norm 0 0 2-seqrx20 16 () norm
+0 0 2-seqrx21 0 () norm 0 0 3-crarx1 113.93 () norm 0 0 3-crarx2 0
+() norm 0 0 3-crarx3 86.5354 () norm 0 0 2-crarx1 38.68 () norm 0 0
+2-crarx2 0 () norm 0 0 2-crarx3 82.5984 () norm 0 0 1-crarx1 31.18
+() norm 0 0 1-crarx2 0 () norm 0 0 1-crarx3 81.811 () norm 0 0 1-seqrx1
+0 () norm 0 0 1-seqrx2 0 () norm 0 0 1-seqrx3 127 () norm 0 0 1-seqrx4
+0 () norm 0 0 1-seqrx5 127 () norm 0 0 1-seqrx6 127 () norm 0 0 1-seqrx7
+0 () norm 0 0 1-seqrx8 127 () norm 0 0 1-seqrx9 127 () norm 0 0 1-seqrx10
+127 () norm 0 0 1-seqrx11 0 () norm 0 0 1-seqrx12 0 () norm 0 0 1-seqrx13
+127 () norm 0 0 1-seqrx14 127 () norm 0 0 1-seqrx15 127 () norm 0 0 1-seqrx16
+127 () norm 0 0 1-seqrx17 60.008 () norm 0 0 1-seqrx18 1 () norm 0 0
+1-seqrx19 0 () norm 0 0 1-seqrx20 16 () norm 0 0 1-seqrx21 0;

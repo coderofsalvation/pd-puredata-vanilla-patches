@@ -1,0 +1,16 @@
+#N canvas 129 210 594 336 12;
+#X obj 216 85 waves 1;
+#X obj 217 127 simple-filter 1;
+#X obj 17 89 presets ex1g;
+#X obj 216 184 sound-out 1;
+#X text 349 127 -> filter;
+#X text 294 87 -> noise;
+#X text 310 182 -> sound output of the computer;
+#X text 39 240 <1> Set 'number_preset' to 1 in 'presets' and click
+on 'open_preset'. There are 5 presets.;
+#X text 39 278 <2> If you open 'simple-filter' \, you can change the
+settings of the filter.;
+#X text 50 15 An example of filtered noise.;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 1 0 3 1;

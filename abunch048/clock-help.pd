@@ -1,0 +1,35 @@
+#N canvas 519 160 671 621 12;
+#X obj 45 217 cnv 15 400 30 empty empty inlet_outlet 160 14 0 14 -233017
+-66577 0;
+#X obj 47 100 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 43 305 Inlet 1 =;
+#X text 46 145 fader 'tempo':;
+#X text 167 147 tempo of the clock in tempo 'bpm' (beats per minute
+\, like a metronome);
+#X text 83 259 (in- and outlets \, numbered from left to right);
+#X text 130 305 inlet to control the 'start' toggle of the clock \;
+any number higher than zero in this inlet starts the clock \, a zero
+stops it.;
+#X text 41 373 outlet 1 =;
+#X text 136 372 outlet of the clock signal;
+#X text 42 397 outlet 2 =;
+#X text 138 398 outlet of the clock signal but twice as slow (two ticks
+of the clock to outlet 1 in the same time as 1 tick to this outlet)
+;
+#X text 42 447 outlet 3 =;
+#X text 138 448 outlet of the clock signal but three times as slow
+(three ticks of the clock to outlet 1 in the same time as 1 tick to
+this outlet);
+#X text 41 503 outlet 4 =;
+#X text 42 527 outlet 5 =;
+#X text 40 552 outlet 6 =;
+#X text 136 503 clock signal four times as slow as outlet 1;
+#X text 136 527 clock signal five times as slow as outlet 1;
+#X text 139 553 clock signal six times as slow as outlet 1;
+#X text 41 -14 'Clock' is a clock sending out a number (the tempo in
+milliseconds) in a certain tempo. You can connect it to other abunch
+objects like sequencer \, time-line or multi-seq to synchronize these
+objects.;
+#X text 45 56 (see the example ex2d-timelinesampler.pd in the abunch
+folder);

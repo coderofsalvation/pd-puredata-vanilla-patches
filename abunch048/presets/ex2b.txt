@@ -1,0 +1,9 @@
+1 distant 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-pharx1
+2.9 () norm 0 0 1-pharx2 0.110236 () norm 0 0 1-pharx3 1.19685 () norm
+0 0 1-pharx4 1 () norm 0 0 2-revrx1 100 () norm 0 0 2-revrx2 88.9764
+() norm 0 0 2-revrx3 8996.46 () norm 0 0 2-revrx4 29 () norm 0 0 1-revrx1
+100 () norm 0 0 1-revrx2 90.5512 () norm 0 0 1-revrx3 8996.46 () norm
+0 0 1-revrx4 38 () sym 0 0 1-plfry1 rhapso.wav () sym 0 0 1-plfry2
+kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0 1-plfrx1 100 () norm
+0 0 1-plfrx2 1 () norm 0 0 1-plfrx3 0;

@@ -1,0 +1,27 @@
+#N canvas 267 52 463 548 10;
+#X obj 210 359 dac~;
+#X obj 31 279 loadbang;
+#X msg 31 308 1;
+#X msg 31 337 \; pd dsp \$1;
+#X obj 20 212 sel 1;
+#X obj 65 212 sel 1;
+#X obj 105 214 sel 1;
+#X obj 150 214 sel 1;
+#X obj 234 288 osc~ 220;
+#X obj 234 230 + 200;
+#X obj 59 160 lib/ipod_decode;
+#X obj 17 38 hsl 128 15 0 400 0 0 empty pod_slider empty -2 -6 0 8
+-262144 -1 -1 0 1;
+#X text 42 17 frequency;
+#X obj 319 281 s pod_slider;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 8 0 0 0;
+#X connect 8 0 0 1;
+#X connect 9 0 8 0;
+#X connect 9 0 13 0;
+#X connect 10 0 4 0;
+#X connect 10 1 5 0;
+#X connect 10 2 6 0;
+#X connect 10 3 7 0;
+#X connect 10 4 9 0;

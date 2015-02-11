@@ -1,0 +1,188 @@
+#N canvas 548 4 759 925 12;
+#X obj 33 2375 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 29 1951 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 44 242 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 29 2332 outlet 1 =;
+#X obj 38 1592 bng 15 250 50 0 \$1-grasopen \$1-graropen open_file
+17 7 0 10 -262144 -1 -1;
+#X obj 37 1242 hsl 128 15 2 500 0 0 \$1-graslen \$1-grarlen length
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 38 1292 hsl 100 15 0 0.5 0 0 \$1-grasrndlen \$1-grarrndlen random_length
+-2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 38 1148 hsl 128 15 0 100 0 0 \$1-graspos \$1-grarpos position
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 37 1095 hsl 100 15 0 99 0 0 \$1-grasrndtempo \$1-grarrndtempo
+random_tempo -2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 37 1189 hsl 100 15 0 0.5 0 0 \$1-grasrndpos \$1-grarrndpos random_pos
+-2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 35 1634 cnv 15 80 50 empty empty max_voices 0 12 0 6 -233017
+-66577 0;
+#X obj 37 1656 nbx 3 14 -1e+037 1e+037 0 0 empty \$1-crrnrvoices empty
+0 -8 0 10 -262144 -1 -1 0 256;
+#X obj 34 1721 bng 10 250 50 0 zerraoptions empty extra_options 17
+7 0 8 -262144 -1 -1;
+#X obj 33 1763 tgl 15 0 \$1-grasuse \$1-graruse use_live_recorded_file
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 32 1855 tgl 15 0 \$1-grasautorec \$1-grarautorec start_playing_after_rec
+17 7 0 10 -262144 -1 -1 0 1;
+#X text 37 2020 inlet 1 =;
+#X text 34 2047 inlet 2 =;
+#X text 37 2085 inlet 3 =;
+#X text 34 2126 inlet 4 =;
+#X text 30 2160 inlet 5 =;
+#X text 33 2188 inlet 6 =;
+#X text 32 2227 inlet 7 =;
+#X text 29 2262 inlet 8 =;
+#X obj 35 1453 hsl 100 15 0 0.5 0 0 \$1-grasrndlen \$1-grarrndlen random_pitch
+-2 -8 0 8 -262144 -1 -1 0 1;
+#X text 175 1589 = by clicking on this button you can open a sound
+file (.wav or .aiff) and apply granular synthesis to this file;
+#X text 201 1049 = this fader changes the speed (in milliseconds) at
+which grains are produced in the sound file;
+#X text 174 1087 = with this fader you can randomize the tempo at which
+new grains are read;
+#X text 187 1142 = this fader changes the position where the grains
+are produced in the sound file;
+#X text 176 1185 = this fader randomizes the position where the grains
+are read in the sound file;
+#X text 184 1237 = use this fader to change the length (in milliseconds)
+of a grain;
+#X text 177 1289 = this fader changes the amount of randomization applied
+to the length of a grain;
+#X text 173 1440 = use this fader to adjust the amount of randomization
+(jitter) applied to the pitch of the grain.;
+#X text 174 1498 = this fader changes the attack time (in percentage
+of the length) of the amplitude envelope of a grain;
+#X text 178 1545 = this fader changes the release time (in percentage
+of the length) of the amplitude envelope of a grain;
+#X text 182 1720 = this open a new window with these possibilities:
+;
+#X text 284 1757 = if this crossed (turned on) you can use this object
+in combination with the 'record-sample' object. In this case grain-sample
+won't granulize the opened soundfile but the sound file that was recorded
+in record-sample (see example ex3i-loopstation.pd);
+#X text 294 1851 = if this toggle and the 'use_live_recorded_file'
+are turned on \, the granular synthesis starts immediately after the
+recording of a sound sample (in 'record-sample') stopped;
+#X text 117 2224 (event) inlet to control the fader 'length';
+#X text 110 2262 (event) inlet to connect to the outlet of 'record-sample'
+(take care 'use_live_recorded_file' in extra_options window is turned
+on;
+#X text 35 1984 (in- and outlets \, numbered from left to right);
+#X text 46 6 Grain-synth is a granular synthesizer (with granular synthesis
+of a sound file). This synth has 3 voices and can have maximum 10 grains
+simultaneaously in every voice. The length and transposition (pitch)
+of the grain happen independently (as in 'grain-sample'). Because the
+number of voices and grains is restricted \, the length of the grains
+and the speed (tempo_in_ms fader) is a bit more restricted than in
+the grain-sample object.;
+#X text 46 144 Grain-synth only works if you open a sound-file (with
+'open_file' button) and send midi (pitch velocity) pairs to inlet 1
+and 2 So this synth needs note-on and note-off values.;
+#X obj 39 1052 hsl 128 15 30 543 0 0 artuyto deduop tempo_in_ms -2
+-9 0 10 -262144 -1 -1 0 1;
+#X obj 39 328 cnv 15 120 150 empty empty amplitude 5 145 0 12 -233017
+-66577 0;
+#X obj 49 344 vsl 15 100 0 499 0 0 rtatt yuatt A 3 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 71 344 vsl 15 100 0 199 0 0 yiyoec eeyec D 3 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 93 344 vsl 15 100 1 100 0 0 ryrkus zrztus S 3 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 116 344 vsl 15 100 0 1999 0 0 zzrztel zrztrel R 3 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 112 763 tgl 15 0 \$1-grssect1 \$1-grsrect1 1 3 8 0 11 -241291
+-1 -258699 0 1;
+#X text 38 768 send to:;
+#X obj 130 763 tgl 15 0 \$1-grssect2 \$1-grsrect2 2 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 147 763 tgl 15 0 \$1-grssect3 \$1-grsrect3 3 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 164 763 tgl 15 0 \$1-grssect4 \$1-grsrect4 4 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 181 763 tgl 15 0 \$1-grssect5 \$1-grsrect5 5 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 113 780 tgl 15 0 \$1-grssect6 \$1-grsrect6 6 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 130 780 tgl 15 0 \$1-grssect7 \$1-grsrect7 7 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 147 780 tgl 15 0 \$1-grssect8 \$1-grsrect8 8 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 165 780 tgl 15 0 \$1-grssect9 \$1-grsrect9 9 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 182 780 tgl 15 0 \$1-grssect10 \$1-grsrect10 P 3 8 0 11 -241291
+-1 -258699 0 1;
+#X obj 37 487 cnv 15 170 150 empty empty empty 20 12 0 14 -237127 -66577
+0;
+#X obj 52 505 vsl 15 100 -1 1 0 0 \$1-grsseatt \$1-grsreatt A 3 -9
+0 10 -262144 -1 -1 0 1;
+#X obj 104 505 vsl 15 100 -1 1 0 0 \$1-grssesus \$1-grsresus S 3 -9
+0 10 -262144 -1 -1 0 1;
+#X obj 149 505 vsl 15 100 -1 1 0 0 \$1-grsserel \$1-grsrerel R 3 -9
+0 10 -262144 -1 -1 0 1;
+#X obj 51 623 nbx 5 14 0 1e+037 0 0 \$1-grssesti \$1-grsresti A_dur
+8 -8 0 8 -262144 -1 -1 0 256;
+#X obj 149 623 nbx 5 14 0 1e+037 0 0 \$1-grsserti \$1-grsrerti R_dur
+7 -8 0 8 -262144 -1 -1 0 256;
+#X text 23 546 0;
+#X text 182 546 0;
+#X text 30 545 -------------------;
+#X text 199 327 With these faders you can change the values of the
+amplitude envelope of the synthesizer: A (attack) in milliseconds \,
+D (decay) in milliseconds \, S (sustain) percentage of the incoming
+velocity (inlet 2) used as sustain value and R (release) in milliseconds.
+;
+#X text 232 490 With these faders you can adjust the values for an
+extra envelope of one of the 9 main faders. This envelope is added
+to the value of the chosen main fader. Values that are higher or lower
+than the maximum or minimum of these main faders are restricted to
+this mamimum or minimum.;
+#X text 228 592 With the number boxes 'A_dur' and 'R_dur' you can change
+the time (in milliseconds) needed to go from the attack to the sustain
+of this extra envelope and for the length (in milliseconds) of the
+release of this envelope. It is quite absurd to give a very high value
+(for example 2000) to R_dur and and the same time put the R(elease)
+of the amplitude envelope quite low (for example 300) because the amplitude
+will be zero (no sound) before you can hear the changes of this extra
+envelope.;
+#X text 215 762 If you cross one of the numbers the extra envelope
+will be send to the main slider with this number (1 = to 'tempo_in_ms).
+The last choice is 'P' (pitch) with a range of 4 semitones higher or
+lower than the pitch entering in inlet 1;
+#X text 64 867 Summary:;
+#X text 167 870 Suppose that fader 'A' has a very low value \, 'S'
+is in the middle (zero) \, 'R' has a very high value \, A_dur has a
+value of 200 and R-dur of 500 and number 1 is crossed in 'send to'
+and this main slider 1 ('tempo_in_ms') is in the middle \, from the
+moment a pitch and velocity arrive in inlet 1 and 2) \, the tempo_in_ms
+will be slower \, then in 200 milliseconds it will go the middle and
+at the end (when the note off velocit arrives in inlet 2) it will slow
+down in 500 milliseconds time.;
+#X obj 19 1351 nbx 5 14 -1e+037 1e+037 0 0 \$1-grlsorip \$1-grlrorip
+original_pitch 50 7 0 8 -262144 -1 -1 0 256;
+#X text 200 1347 = Fill in the original pitch of the sample that you
+have opened with the 'open_file' button. For example if this is 60
+and the pitch entering in inlet 1 is 65 every grain will be transposed
+5 semitones up.;
+#X text 75 1654 / 10;
+#X text 160 1644 = this number box shows the number of simultaneous
+grains are being produced (depending on the tempo \, length and density)
+\, don't surpass 10 or you will hear distortion.;
+#X obj 33 1508 hsl 100 15 0.01 0.5 0 0 \$1-grasatt \$1-graratt attack_grain
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 30 1557 hsl 128 15 0.01 0.5 0 0 \$1-grasdec \$1-grardec decay_grain
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X text 117 2021 (event) inlet for the pitch;
+#X text 117 2047 (event) inlet for the velocity (note on and note off
+required);
+#X text 117 2084 (event) inlet to control the fader 'A' (attack of
+the amplitude envelope);
+#X text 117 2124 (event) inlet to control the fader 'R' (release of
+the amplitude envelope);
+#X text 117 2159 (event) inlet to control the fader 'tempo_in_ms';
+#X text 117 2188 (event) inlet to control the fader 'position';
+#X text 118 2332 (audio) sound produced by this granular synthesizer
+;

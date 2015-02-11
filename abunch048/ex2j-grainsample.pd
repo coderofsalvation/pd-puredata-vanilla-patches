@@ -1,0 +1,32 @@
+#N canvas 509 11 588 459 12;
+#X obj 302 274 sound-out 1;
+#X obj 303 228 grain-sample 1;
+#X obj 194 160 timeline 1;
+#X obj 286 159 timeline 2;
+#X obj 382 159 timeline 3;
+#X obj 370 118 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 479 160 timeline 4;
+#X obj 27 127 presets ex2j;
+#X text 393 112 ON/OFF;
+#X text 60 11 Granulaire synthesis of the (well known) waterdrop sample
+in the abunch folder. The values of the 4 'timeline' objects control
+the 'position' 'length' \, 'pitch' and 'random-pitch' faders of the
+granular synthesis in 'grain-sample'.;
+#X text 23 314 <1> Set 'number_presets' in 'presets' to 1 and click
+on 'open_preset'. There are 2 presets in this example.;
+#X text 24 356 <2> turn on toggle 'ON/OFF' in this main file;
+#X text 26 384 <3> You can also turn off the 'ON/OFF' switch in this
+main file \, open 'grain-sample' \, turn on the 'on_off' toggle in
+this window and try out all the faders in 'grain-sample'.;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
+#X connect 2 0 1 4;
+#X connect 3 0 1 6;
+#X connect 4 0 1 8;
+#X connect 5 0 2 3;
+#X connect 5 0 3 3;
+#X connect 5 0 4 3;
+#X connect 5 0 6 3;
+#X connect 5 0 1 0;
+#X connect 6 0 1 9;

@@ -1,0 +1,66 @@
+#N canvas 689 392 450 300 10;
+#X msg 230 72 120;
+#N canvas 290 216 649 492 beatdly1psf 0;
+#X obj -7 95 inlet~;
+#X obj 231 59 inlet;
+#X obj 25 493 outlet~;
+#X obj 130 130 pow -1;
+#X obj 151 168 / 4;
+#X obj 182 197 *;
+#X obj 166 233 * 60000;
+#X obj 20 12 hsl 96 8 0 0.95 0 1 empty empty fb -16 5 0 8 -262144 -1
+-1 8600 1;
+#X obj 121 12 nbx 3 14 0 32 0 1 empty empty empty 0 -8 0 10 -262144
+-1 -1 2 256;
+#X text 268 60 <- bpm in;
+#X obj 100 101 float;
+#X obj 104 59 t b f;
+#X obj 20 21 hsl 96 8 20 5000 1 1 empty empty frq -20 5 0 8 -262144
+-1 -1 8900 1;
+#X obj 20 40 hsl 96 8 0 1 0 1 empty empty dw -17 5 0 10 -262144 -1
+-1 7800 1;
+#X obj 26 469 +~;
+#X obj 48 439 *~;
+#X obj -23 435 *~;
+#X obj -7 387 * -1;
+#X obj -7 411 + 1;
+#X text -70 359 simple crossfader (or dry/wet slider);
+#X obj 121 32 nbx 3 14 -36 36 0 1 empty empty empty 0 -8 0 10 -262144
+-1 -1 5 256;
+#X obj 20 30 hsl 96 8 10 200 0 1 empty empty ws -16 7 0 10 -262144
+-1 -1 3600 1;
+#X text 200 -3 beatsynced delay with pitchshifter and feedback;
+#X obj 130 -48 inlet;
+#X text 128 -63 delaytime;
+#X text 206 -59 transpose;
+#X obj 204 -42 inlet;
+#X obj 80 287 abs_delayline1psf;
+#X connect 0 0 16 0;
+#X connect 0 0 27 0;
+#X connect 1 0 10 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 27 1;
+#X connect 7 0 27 2;
+#X connect 8 0 11 0;
+#X connect 10 0 3 0;
+#X connect 11 0 10 0;
+#X connect 11 1 5 1;
+#X connect 12 0 27 3;
+#X connect 13 0 17 0;
+#X connect 13 0 15 1;
+#X connect 14 0 2 0;
+#X connect 15 0 14 1;
+#X connect 16 0 14 0;
+#X connect 17 0 18 0;
+#X connect 18 0 16 1;
+#X connect 20 0 27 4;
+#X connect 21 0 27 5;
+#X connect 23 0 8 0;
+#X connect 26 0 20 0;
+#X connect 27 0 15 0;
+#X coords 0 -1 1 1 160 50 1 0 0;
+#X restore 72 100 pd beatdly1psf;
+#X text 81 21 beatsynced delay with filter and pitchshifter;
+#X connect 0 0 1 3;

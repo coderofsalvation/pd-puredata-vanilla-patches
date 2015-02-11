@@ -1,0 +1,14 @@
+#N canvas 516 469 534 335 10;
+#X obj 26 93 *~ 8.38861e+06;
+#X obj 26 130 clip~ -1 1;
+#X text 95 23 This should implement a moderately inexpensive way of
+making a square wave...by amplifying the hell out of a signal before
+clipping it back down. Not pure \, but should be close enough for general
+use. -jason plumb;
+#X obj 26 166 outlet~;
+#X obj 25 20 inlet;
+#X obj 25 59 osc~ \$1;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;

@@ -1,0 +1,618 @@
+#N canvas 293 174 555 309 12;
+#X declare -path ../../abunch048;
+#N canvas 282 -10 770 680 map1 0;
+#X obj 14 122 cnv 15 140 100 empty empty user-interface 7 12 0 14 -4032
+-66577 0;
+#X obj 14 243 cnv 15 140 200 empty empty mapping 7 12 0 14 -257985
+-66577 0;
+#X obj 15 451 cnv 15 140 100 empty empty sound-production 7 12 0 14
+-4032 -66577 0;
+#X floatatom 189 176 5 0 0 0 - - -;
+#X obj 16 7 cnv 15 500 100 empty empty EXAMPLE_1 170 12 0 18 -128992
+-262144 0;
+#X obj 174 525 dac~;
+#X obj 177 130 ctlin;
+#X obj 177 251 / 127;
+#X obj 177 316 * 12;
+#X obj 177 385 + 60;
+#X obj 16 564 cnv 15 500 25 empty empty EXTRA 170 12 0 18 -128992 -262144
+0;
+#X text 26 50 Produce a glissando between the MIDI pitches 60 and 72
+with a MIDI controller.;
+#X text 244 129 This object receives values from midi controllers \,
+in this case of any controller. If you move a fader or knob \, the
+left outlet of this object will send out the values. (The second outlet
+sends the 'identity' number of the controller that you are using and
+the third outlet sends the MIDI channel that is used.);
+#X text 245 248 The values of a midi controller are between 0 and 127
+If we divide by 127 the range is between 0 and 1;
+#X text 241 316 We want a glissando of 1 octave (12 semitones or 12
+MIDI pitch values) \, thus we have to multiply by 12;
+#X text 241 386 The range is between 0 and 12 now \, thus we have to
+add 60 to become a range between 60 and 72;
+#N canvas 164 59 339 300 sine 0;
+#X obj 67 24 inlet pitch;
+#X obj 67 101 t f b b b;
+#X obj 67 126 mtof;
+#X obj 67 151 osc~;
+#X obj 67 176 *~;
+#X obj 161 150 vline~;
+#X obj 67 201 outlet~;
+#X msg 161 125 0.2 10 \, 0 400 20;
+#X obj 67 64 spigot;
+#X obj 164 25 inlet;
+#X connect 0 0 8 0;
+#X connect 1 0 2 0;
+#X connect 1 3 7 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 1;
+#X connect 7 0 5 0;
+#X connect 8 0 1 0;
+#X connect 9 0 8 1;
+#X restore 177 494 pd sine;
+#X text 250 492 This object produces a sine tone with a duration of
+400 milliseconds.;
+#X obj 230 456 tgl 30 0 ex1 exr1 empty 3 15 0 20 -258113 -99865 -1
+0 1;
+#X obj 263 458 cnv 15 500 24 empty empty empty 20 12 0 14 -258828 -66577
+0;
+#X text 269 459 Switch this toggle on to produce sound in this example.
+;
+#X obj 113 657 == 10;
+#X obj 179 658 * 10;
+#X obj 22 656 select 10;
+#X obj 121 784 == 10;
+#X obj 182 786 * 10;
+#X obj 30 783 select 10;
+#X obj 211 744 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -4034 -1 -1 0 256;
+#X obj 30 729 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -257985 -1 -1 0 256;
+#X obj 30 818 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 121 809 5 0 0 0 - - -;
+#X floatatom 182 811 5 0 0 0 - - -;
+#X text 165 610 INITIAL VALUE:;
+#X text 272 639 In these 3 objects 10 is only the initial value (just
+as the zero in the above [> 0] object). From the moment a new value
+arrives in the right inlet this initial value is changed into this
+new value.;
+#X text 276 736 Thus of you change the value in the yellow number box
+\, the calculation is done with the start value 10 If you change the
+values in the green number box afterwards \, the initial values disappears
+and replaced by the new value arriving at the right inlet. If you change
+the values in the yellow number box again you will have a different
+result (although you still see the value 10 !!).;
+#X connect 6 0 3 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 16 0;
+#X connect 16 0 5 0;
+#X connect 16 0 5 1;
+#X connect 18 0 16 1;
+#X connect 24 0 30 0;
+#X connect 25 0 31 0;
+#X connect 26 0 29 0;
+#X connect 27 0 25 1;
+#X connect 27 0 24 1;
+#X connect 27 0 26 1;
+#X connect 28 0 26 0;
+#X connect 28 0 24 0;
+#X connect 28 0 25 0;
+#X restore 24 77 pd map1;
+#N canvas 113 13 759 653 map2 0;
+#X obj 14 122 cnv 15 140 60 empty empty user-interface 7 12 0 14 -4032
+-66577 0;
+#X obj 13 192 cnv 15 140 114 empty empty mapping 7 12 0 14 -257985
+-66577 0;
+#X obj 14 315 cnv 15 140 110 empty empty sound-production 7 12 0 14
+-4032 -66577 0;
+#X floatatom 159 180 5 0 0 0 - - -;
+#X obj 16 7 cnv 15 500 100 empty empty EXAMPLE_2 170 12 0 18 -128992
+-262144 0;
+#X obj 199 396 dac~;
+#X obj 17 457 cnv 15 500 25 empty empty EXTRA 170 12 0 18 -128992 -262144
+0;
+#X obj 177 130 notein;
+#X obj 199 243 > 0;
+#X obj 199 371 play-file 1;
+#X text 25 47 If a key on a MIDI keyboard is pressed \, a sound file
+is played. If you release the key \, the playing stops.;
+#X text 242 127 This object receives the pitch and velocity values
+from the MIDI keyboard. The left outlet sends the received pitches
+\, the second outlet the velocities. These velocity values are positive
+if the key is pressed and 0 if the key is released.;
+#X text 249 237 Compare the velocity values with zero. Result: if this
+velocity is higher than zero \, a 1 is sent. If it is equals or smaller
+than zero a zero is sent.;
+#X obj 244 311 tgl 30 0 ex1 exr1 empty 3 15 0 20 -258113 -99865 -1
+0 1;
+#X obj 199 346 spigot;
+#X obj 277 314 cnv 15 460 24 empty empty empty 20 12 0 14 -258828 -66577
+0;
+#X text 283 315 Switch this toggle on to produce sound in this example.
+;
+#X obj 36 538 trigger bang float;
+#X obj 257 540 t b f;
+#X text 215 538 =;
+#X obj 40 581 float 60;
+#X obj 258 576 f 60;
+#X obj 372 576 60;
+#X text 215 573 =;
+#X text 325 576 =;
+#X text 165 497 ABBREVIATIONS:;
+#X connect 7 1 8 0;
+#X connect 7 1 3 0;
+#X connect 8 0 14 0;
+#X connect 9 0 5 0;
+#X connect 9 0 5 1;
+#X connect 13 0 14 1;
+#X connect 14 0 9 0;
+#X restore 25 109 pd map2;
+#N canvas 54 -5 755 687 map3 0;
+#X obj 14 227 cnv 15 140 60 empty empty user-interface 7 12 0 14 -4032
+-66577 0;
+#X obj 14 295 cnv 15 140 330 empty empty mapping 7 12 0 14 -257985
+-66577 0;
+#X obj 13 641 cnv 15 140 110 empty empty sound-production 7 12 0 14
+-4032 -66577 0;
+#X floatatom 156 286 5 0 0 0 - - -;
+#X obj 16 7 cnv 15 500 100 empty empty EXAMPLE_3 170 12 0 18 -128992
+-262144 0;
+#X obj 177 714 dac~;
+#X obj 13 759 cnv 15 500 25 empty empty EXTRA 170 12 0 18 -128992 -262144
+0;
+#X obj 177 689 play-file 2;
+#X obj 81 167 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 81 196 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 148 124 ! TIP :;
+#X obj 177 235 key;
+#X obj 177 562 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X msg 205 536 0;
+#X msg 33 1300 set 0;
+#X obj 94 1350 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 94 1294 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 94 1385 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 178 914 notein;
+#X obj 178 989 stripnote;
+#X obj 14 904 cnv 15 140 60 empty empty user-interface 7 12 0 14 -4032
+-66577 0;
+#X obj 13 979 cnv 15 140 220 empty empty mapping 7 12 0 14 -257985
+-66577 0;
+#X floatatom 195 960 5 0 0 0 - - -;
+#X floatatom 242 959 5 0 0 0 - - -;
+#X msg 129 1301 0;
+#X text 25 47 If the key 'd' is pressed on a computer keyboard \, sound
+file starts playing. If the same key is pressed again \, the sound
+file stops playing.;
+#X text 126 169 If you send a bang to a toggle (switch) \, this toggle
+is alternately switched on and off.;
+#X text 270 229 Every key on the computer keyboard has a different
+number that is sent to the outlet of the [key] object. The letter 'd'
+is number 100;
+#X text 269 556 If you send a bang to a toggle (switch) \, this toggle
+is alternately switched on (number 1) and off (number 0). To be sure
+that it sends a zero the first time \, you can send a zero to this
+toggle beforehand.;
+#X text 45 793 You can replace 'key' by 'notein' in the example above
+and thus the key C (midi pitch value 60) switches the sound file on
+and off. But take care: the pitch and velocity values are sent when
+the key is pressed and released. Thus there is a small difference and
+we have to add the object 'stripnote'.;
+#X text 253 908 This object receives the pitch and velocity values
+from your MIDI keyboard.;
+#X text 271 987 The values when the key is released (note-off) are
+omitted.;
+#X text 110 1225 A small remark:;
+#X text 206 1258 There is a difference between sending the message
+'0' and 'set 0' to a toggle. This can be important if you want to set
+the toggle to zero in advance (thus the next bang will produce a 1
+-play the file- in the toggle). '0' sets the toggle to zero and also
+triggers a zero value at the outlet of the toggle. 'set 0' sets the
+toggle internally to zero but doesn't trigger an output value. Visually
+the toggle changes but its outlet doesn't send anything. As said before
+this can be handy to prepare a value in advance. 'Set' messages can
+also be used in the same way with faders and number boxes.;
+#X obj 222 630 tgl 30 0 ex1 exr1 empty 3 15 0 20 -258113 -99865 -1
+0 1;
+#X obj 177 665 spigot;
+#X obj 258 635 cnv 15 460 24 empty empty empty 20 12 0 14 -258828 -66577
+0;
+#X text 264 636 Switch this toggle on to produce sound in this example.
+;
+#X obj 177 317 trigger bang float;
+#X obj 318 389 == 100;
+#X obj 177 452 spigot;
+#X text 385 378 Compare a number to 100 (the value of the key 'f')
+\, the result of the comparison is a 0 (not equal) or a 1 (equal) at
+the outlet of this object.;
+#X text 385 445 Spigot is relay switch \, if the right inlet receives
+a nonzero number \, all values from the left inlet are passed to the
+outlet. If the value is zero \, these values from the left inlet aren't
+passed. Result in this case: if the number from [key] object is equal
+to 102 \, 'spigot' will pass a 'bang' (from the trigger object).;
+#X text 384 306 Trigger enforces a (timing) order on the values in
+the inlet. We will first check if the key of the keyboard is 'f' (value
+'102') and then change this number 102 to 60 (by changing 100 to a
+bang and then to 60).;
+#X obj 177 1135 spigot;
+#X text 328 1047 ... and further like the above example;
+#X obj 177 1049 trigger bang float;
+#X connect 7 0 5 0;
+#X connect 7 0 5 1;
+#X connect 8 0 9 0;
+#X connect 11 0 3 0;
+#X connect 11 0 38 0;
+#X connect 12 0 35 0;
+#X connect 13 0 12 0;
+#X connect 14 0 15 0;
+#X connect 15 0 17 0;
+#X connect 16 0 15 0;
+#X connect 18 0 19 0;
+#X connect 18 0 22 0;
+#X connect 18 1 19 1;
+#X connect 18 1 23 0;
+#X connect 19 0 46 0;
+#X connect 24 0 15 0;
+#X connect 34 0 35 1;
+#X connect 35 0 7 0;
+#X connect 38 0 40 0;
+#X connect 38 1 39 0;
+#X connect 39 0 40 1;
+#X connect 40 0 12 0;
+#X connect 46 0 44 0;
+#X restore 25 141 pd map3;
+#N canvas 87 1 861 668 map4 0;
+#X obj 14 122 cnv 15 140 60 empty empty user-interface 7 12 0 14 -4032
+-66577 0;
+#X obj 13 197 cnv 15 140 250 empty empty mapping 7 12 0 14 -257985
+-66577 0;
+#X obj 16 474 cnv 15 140 110 empty empty sound-production 7 12 0 14
+-4032 -66577 0;
+#X obj 16 7 cnv 15 500 100 empty empty EXAMPLE_4 170 12 0 18 -128992
+-262144 0;
+#X obj 172 564 dac~;
+#X obj 16 607 cnv 15 500 25 empty empty EXTRA 170 12 0 18 -128992 -262144
+0;
+#X obj 182 666 == 0;
+#X obj 182 642 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 182 692 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 174 138 keyboard-azerty 1;
+#X floatatom 209 175 5 0 0 0 - - -;
+#X obj 280 219 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 174 323 spigot;
+#X obj 261 323 spigot;
+#X obj 261 388 - 12;
+#X obj 306 267 == 0;
+#X obj 174 388 + 12;
+#X floatatom 290 436 5 0 0 0 - - -;
+#X text 370 129 An abunch object that changes your computer keyboard
+in a very simple piano keyboard. The left outlet sends the pitch values.
+;
+#X text 369 205 A switch that sends a value 1 if it is on and a zero
+if it is off.;
+#X text 368 259 If the numer arriving in the left inlet equals zero
+\, a value '1' is sent to the left outlet \, if not \, a zero is sent.
+(see also 'EXTRA' below);
+#X text 367 319 If the right inlet isn't a zero \, everything from
+the left inlet is passed to the outlet. If the left inlet is zero \,
+nothing is passed.;
+#X text 367 386 + or - 12 semitones to raise or lower an octave;
+#X text 363 435 This number box shows the altered pitch value.;
+#X text 242 639 on (1) or off (0);
+#X text 233 688 inversed;
+#X text 66 717 This is the method to produced an 'inversed' switch
+(0 becomes 1 and 1 becomes zero). This is a procedure that can often
+be used...;
+#X text 25 39 If a switch is on \, pitch values are transposed an octave
+upwards. If it is off \, the values are transposed an octave downwards.
+;
+#N canvas 164 59 450 300 sine 0;
+#X obj 67 24 inlet pitch;
+#X obj 67 49 t f b b b;
+#X obj 67 74 mtof;
+#X obj 67 99 osc~;
+#X obj 67 124 *~;
+#X obj 161 98 vline~;
+#X obj 67 149 outlet~;
+#X msg 161 73 0.2 10 \, 0 400 20;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 3 7 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 1;
+#X connect 7 0 5 0;
+#X restore 173 535 pd sine;
+#X text 355 528 This object produces a sine tone with a duration of
+400 milliseconds.;
+#X obj 218 473 tgl 30 0 ex1 exr1 empty 3 15 0 20 -258113 -99865 -1
+0 1;
+#X obj 173 508 spigot;
+#X obj 252 476 cnv 15 460 24 empty empty empty 20 12 0 14 -258828 -66577
+0;
+#X text 258 477 Switch this toggle on to produce sound in this example.
+;
+#X connect 6 0 8 0;
+#X connect 7 0 6 0;
+#X connect 9 0 10 0;
+#X connect 9 0 12 0;
+#X connect 9 0 13 0;
+#X connect 11 0 15 0;
+#X connect 11 0 12 1;
+#X connect 12 0 16 0;
+#X connect 13 0 14 0;
+#X connect 14 0 17 0;
+#X connect 14 0 31 0;
+#X connect 15 0 13 1;
+#X connect 16 0 17 0;
+#X connect 16 0 31 0;
+#X connect 28 0 4 0;
+#X connect 28 0 4 1;
+#X connect 30 0 31 1;
+#X connect 31 0 28 0;
+#X restore 27 172 pd map4;
+#N canvas 65 0 845 688 map5 0;
+#X obj 177 130 key;
+#X obj 14 122 cnv 15 140 60 empty empty user-interface 7 12 0 14 -4032
+-66577 0;
+#X obj 13 190 cnv 15 140 335 empty empty mapping 7 12 0 14 -257985
+-66577 0;
+#X obj 14 538 cnv 15 140 110 empty empty sound-production 7 12 0 14
+-4032 -66577 0;
+#X floatatom 244 168 5 0 0 0 - - -;
+#X obj 16 7 cnv 15 500 100 empty empty EXAMPLE_5 170 12 0 18 -128992
+-262144 0;
+#X obj 177 204 trigger bang float;
+#X obj 177 402 spigot;
+#X obj 177 465 float 60;
+#X obj 172 629 dac~;
+#X text 243 128 Every key on the computer keyboard has a different
+number that is sent to the outlet of the [key] object.;
+#X obj 16 664 cnv 15 500 25 empty empty EXTRA 170 12 0 18 -128992 -262144
+0;
+#X obj 53 780 cnv 15 240 130 empty empty empty 20 12 0 14 -4032 -66577
+0;
+#X obj 464 799 cnv 15 100 60 empty empty empty 20 12 0 14 -4032 -66577
+0;
+#X obj 67 788 trigger bang float;
+#X obj 163 878 spigot;
+#X obj 208 825 == 100;
+#X floatatom 64 753 5 0 0 0 - - -;
+#X obj 469 818 select 100;
+#X text 383 817 =;
+#X floatatom 469 756 5 0 0 0 - - -;
+#X obj 469 916 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 163 917 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 33 711 This combination of objects is exactly the same as the
+'select' object in Pd;
+#X text 27 43 If the key 'f' is pressed on a computer keyboard \, a
+sine with pitch 60 (MIDI) is played.;
+#X obj 256 280 == 102;
+#X text 352 279 Compare a number to 100 (the value of the key 'f')
+\, the result of the comparison is a 0 (not equal) or a 1 (equal) at
+the outlet of this object.;
+#X text 353 350 Spigot is relay switch \, if the right inlet receives
+a nonzero number \, all values from the left inlet are passed to the
+outlet. If the value is zero \, these values from the left inlet aren't
+passed. Result in this case: if the number from [key] object is equal
+to 102 \, 'spigot' will pass a 'bang' (from the trigger object).;
+#X text 347 199 Trigger enforces a (timing) order on the values in
+the inlet. We will first check if the key of the keyboard is 'f' (value
+'102') and then change this number 102 to 60 (by changing 100 to a
+bang and then to 60).;
+#X text 351 461 sending a 'bang' ('do something') to a number \, sends
+this number to the outlet. Thus the number 102 (key 'f') is changed
+to a bang \, passes through 'spigot' and is changed in '60' in this
+float object.;
+#N canvas 164 59 450 300 sine 0;
+#X obj 67 24 inlet pitch;
+#X obj 67 49 t f b b b;
+#X obj 67 74 mtof;
+#X obj 67 99 osc~;
+#X obj 67 124 *~;
+#X obj 161 98 vline~;
+#X obj 67 149 outlet~;
+#X msg 161 73 0.2 10 \, 0 400 20;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 3 7 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 1;
+#X connect 7 0 5 0;
+#X restore 177 604 pd sine;
+#X text 347 602 This object produces a sine tone with a duration of
+400 milliseconds.;
+#X obj 222 543 tgl 30 0 ex1 exr1 empty 3 15 0 20 -258113 -99865 -1
+0 1;
+#X obj 177 578 spigot;
+#X obj 254 545 cnv 15 460 24 empty empty empty 20 12 0 14 -258828 -66577
+0;
+#X text 260 546 Switch this toggle on to produce sound in this example.
+;
+#X connect 0 0 4 0;
+#X connect 0 0 6 0;
+#X connect 6 0 7 0;
+#X connect 6 1 25 0;
+#X connect 7 0 8 0;
+#X connect 8 0 33 0;
+#X connect 14 0 15 0;
+#X connect 14 1 16 0;
+#X connect 15 0 22 0;
+#X connect 16 0 15 1;
+#X connect 17 0 14 0;
+#X connect 18 0 21 0;
+#X connect 20 0 18 0;
+#X connect 25 0 7 1;
+#X connect 30 0 9 0;
+#X connect 30 0 9 1;
+#X connect 32 0 33 1;
+#X connect 33 0 30 0;
+#X restore 28 201 pd map5;
+#N canvas 31 18 723 592 map6 0;
+#X obj 14 122 cnv 15 140 60 empty empty user-interface 7 12 0 14 -4032
+-66577 0;
+#X obj 13 197 cnv 15 140 260 empty empty mapping 7 12 0 14 -257985
+-66577 0;
+#X obj 14 475 cnv 15 140 100 empty empty sound-production 7 12 0 14
+-4032 -66577 0;
+#X floatatom 188 169 5 0 0 0 - - -;
+#X obj 16 7 cnv 15 500 100 empty empty EXAMPLE_6 170 12 0 18 -128992
+-262144 0;
+#X obj 177 555 dac~;
+#X obj 53 903 cnv 15 240 130 empty empty empty 7 12 0 14 -4032 -66577
+0;
+#X obj 464 922 cnv 15 100 60 empty empty empty 7 12 0 14 -4032 -66577
+0;
+#X obj 177 241 > 0;
+#X obj 177 130 ctlin;
+#X obj 177 390 change;
+#X obj 177 530 play-file 5;
+#X text 239 126 This object receives values from midi controllers \,
+in this case of any controller. If you move a fader or knob \, the
+left outlet of this object will send out the values. (The second outlet
+sends the 'identity' number of the controller that you are using and
+the third outlet sends the MIDI channel that is used.);
+#X text 238 301 Problem: if you move the fader up or down \, a lot
+of values are activated (for example 1 3 5 6 7 9 12 15 20 15). We don't
+want to send 10 times a '1' though (after the comparison of every number
+with 0).;
+#X text 238 237 Compare the number from the MIDI controller to zero.
+The result of the comparison is a 0 (not higher than) or a 1 (higher
+than) at the outlet of this object.;
+#X text 241 386 Solution: 'change' only passes a number from the inlet
+to the outlet if it is different from the previous number in the inlet.
+Result: 10 times '1' will transform into once '1' at the outlet.;
+#X text 25 34 We change a fader on a MIDI keyboard or controller in
+an on/off switch (for example to play a sound file). If the fader is
+in position zero \, it sends a zero. If it is opened \, a '1' is sent
+once.;
+#X obj 222 473 tgl 30 0 ex1 exr1 empty 3 15 0 20 -258113 -99865 -1
+0 1;
+#X obj 177 508 spigot;
+#X obj 254 475 cnv 15 460 24 empty empty empty 20 12 0 14 -258828 -66577
+0;
+#X text 260 476 Switch this toggle on to produce sound in this example.
+;
+#X connect 8 0 10 0;
+#X connect 9 0 8 0;
+#X connect 9 1 3 0;
+#X connect 10 0 18 0;
+#X connect 11 0 5 0;
+#X connect 11 0 5 1;
+#X connect 17 0 18 1;
+#X connect 18 0 11 0;
+#X restore 26 232 pd map6;
+#N canvas 140 0 861 594 map7 0;
+#X obj 14 122 cnv 15 140 60 empty empty user-interface 7 12 0 14 -4032
+-66577 0;
+#X obj 13 197 cnv 15 140 250 empty empty mapping 7 12 0 14 -257985
+-66577 0;
+#X obj 16 466 cnv 15 140 110 empty empty sound-production 7 12 0 14
+-4032 -66577 0;
+#X obj 16 7 cnv 15 500 100 empty empty EXAMPLE_7 170 12 0 18 -128992
+-262144 0;
+#X obj 176 544 dac~;
+#X obj 177 251 / 127;
+#X floatatom 595 94 5 0 0 0 - - -;
+#X obj 577 60 ctlin;
+#X obj 284 251 / 127;
+#X obj 284 304 * 48;
+#X obj 13 594 cnv 15 500 25 empty empty EXTRA 170 12 0 18 -128992 -262144
+0;
+#X text 371 248 The range of the values from the midi-controller is
+zero to 127 If we divide by 127 the range is between 0 and 1;
+#X text 372 296 The range of the glissando is maximum 48 semitones
+\, that's why we multiply the previous range (between zero and 1) with
+48;
+#X text 371 415 Finally we add 60 with the previous range (from 0 to
+48) to obtain a range between 60 and 108;
+#N canvas 164 59 339 300 sine 0;
+#X obj 67 24 inlet pitch;
+#X obj 67 101 t f b b b;
+#X obj 67 126 mtof;
+#X obj 67 151 osc~;
+#X obj 67 176 *~;
+#X obj 161 150 vline~;
+#X obj 67 201 outlet~;
+#X msg 161 125 0.2 10 \, 0 400 20;
+#X obj 67 64 spigot;
+#X obj 164 25 inlet;
+#X connect 0 0 8 0;
+#X connect 1 0 2 0;
+#X connect 1 3 7 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 1;
+#X connect 7 0 5 0;
+#X connect 8 0 1 0;
+#X connect 9 0 8 1;
+#X restore 177 513 pd sine;
+#X text 364 513 This object produces a sine tone with a duration of
+400 milliseconds.;
+#X obj 230 475 tgl 30 0 ex1 exr1 empty 3 15 0 20 -258113 -99865 -1
+0 1;
+#X obj 262 476 cnv 15 500 24 empty empty empty 20 12 0 14 -258828 -66577
+0;
+#X text 266 479 Switch this toggle on to produce sound in this example.
+;
+#X obj 177 143 midi-ctlin 1;
+#X text 374 143 This Abunch object receives values different MIDI controllers.
+If you open this object \, you can notice that the first two controllers
+are set to 18 and 19 This means that the values from these controllers
+are sent to outlet 1 and 2 You can change 18 and 19 in 'midi-ctlin'
+if necessary.;
+#X obj 177 361 * 0;
+#X obj 177 421 + 60;
+#X text 371 352 Now we multiply the values of the first controller
+(between 0 and 1) with the values from the second controller. The range
+is thus between 0 and 48;
+#X text 25 39 Produce a rising glissando (glide) with a MIDI controller
+(knob or fader) starting from the pitch 60 (MIDI). A second MIDI controller
+(fader) adjusts the range of the glissando to maximum 48 semitones
+above pitch 60;
+#X connect 5 0 21 0;
+#X connect 7 1 6 0;
+#X connect 8 0 9 0;
+#X connect 9 0 21 1;
+#X connect 14 0 4 0;
+#X connect 14 0 4 1;
+#X connect 16 0 14 1;
+#X connect 19 0 5 0;
+#X connect 19 1 8 0;
+#X connect 21 0 22 0;
+#X connect 22 0 14 0;
+#X restore 26 262 pd map7;
+#X obj 90 422 declare -path ../../abunch048;
+#X text 95 78 Change the range (minimum en maximum) of input values.
+;
+#X text 96 138 Press a computer key to alternately play and stop a
+file.;
+#X text 103 171 1 becomes 0 and 0 becomes 1;
+#X text 100 202 If... then...;
+#X text 97 234 Use a fader as a switch.;
+#X text 97 265 One fader changes the range of a second fader.;
+#X text 97 110 Press a key on a MIDI keyboard to play a file.;
+#X obj 357 384 presets tut-map1;
+#X obj 359 337 loadbang;
+#X obj 359 362 1;
+#X connect 16 0 17 0;
+#X connect 17 0 15 0;

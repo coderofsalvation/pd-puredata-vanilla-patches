@@ -1,0 +1,68 @@
+#N canvas 408 -8 708 737 12;
+#X obj 41 971 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 37 719 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 110 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 42 830 Inlet 2 =;
+#X obj 81 164 tgl 30 0 qrt2 rqrt2 empty 0 -6 0 8 -262144 -1 -1 0 1
+;
+#X obj 113 164 tgl 30 0 st3 qrst3 empty 0 -6 0 8 -262144 -1 -1 0 1
+;
+#X obj 145 164 tgl 30 0 qsst4 rst4 empty 0 -6 0 8 -262144 -1 -1 0 1
+;
+#X obj 49 164 tgl 30 0 qrt1 rqrt1 empty 0 -6 0 8 -262144 -1 -1 0 1
+;
+#X obj 48 222 hradio 32 1 0 4 \$1-seqslamp \$1-seqrlamp empty 0 -8
+0 10 -86277 -257985 -1 0;
+#X obj 43 289 tgl 40 0 art rt start/reset 0 -8 0 10 -262144 -1 -1 0
+1;
+#X obj 42 366 nbx 5 20 1 16 0 0 ps eps steps 0 -8 0 10 -262144 -1 -1
+1 256;
+#X obj 44 449 hsl 256 15 30 1053 0 0 po rpo tempo 260 8 0 10 -262144
+-1 -1 0 1;
+#X obj 41 466 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -86277 -257985 -1 0 256;
+#X obj 40 527 tgl 15 0 xt qrxt external_clock 17 7 0 8 -262144 -1 -1
+0 1;
+#X text 47 790 Inlet 1 =;
+#X text 41 865 Inlet 3 =;
+#X text 35 910 Inlet 4 =;
+#X obj 41 598 hsl 128 15 0 1 0 0 gfdtreza cvbnhjkl randomize -2 -8
+0 10 -262144 -1 -1 0 1;
+#X text 209 165 = times goes from left to right in this row. If you
+click on a box and a cross appears \, value 127 (on) will be sent to
+the outlet.;
+#X text 214 225 = these boxes show the place of the clock at any moment
+(if the sequencer is turned on with 'start').;
+#X text 218 287 = clicking on this (making a cross appear) starts the
+sequencer (except if you use an external clock \, see 'external_clock'
+below);
+#X text 211 361 = with this number box you can change the number of
+steps that the sequencer has. If this is 8 \, the sequencer only reads
+the first 8 steps/values (maximum = 16).;
+#X text 361 449 = this fader changes the tempo;
+#X text 105 468 = this number box shows the tempo in 'beats per minute'
+(like a metronome);
+#X text 179 525 = if this is crossed \, you can control the tempo of
+the sequencer with an external clock. In this case you have to connect
+an external clock (like 'clock' or 'multi-clock') to the third inlet
+of this sequencer object;
+#X text 136 789 (event) inlet to control the fader tempo;
+#X text 130 829 (event) inlet to control the numberbox 'steps';
+#X text 128 906 (event) inlet to control the toggle 'start' (0 = off
+\, any number higher than 0 = on);
+#X text 50 21 With a sequencer you can send out values (127 or 0 -
+on or off in this object) in a certain tempo. You can send these values
+to 'play-sample' for example (view the example ex2c-sequencerdelay.pd
+in abunch folder).;
+#X text 82 754 (in- and outlets \, numbered from left to right);
+#X text 130 864 (event) inlet for the external clock (if the 'external_clock'
+toggle is turned on);
+#X text 186 599 = The higher the value of 'randomize' is \, the bigger
+the variation is in reading the steps. If randomize is rather low and
+the sequencer reads step 8 \, he could also read step 7 or 9 If the
+randomize is very high \, steps 3 to 7 or 9 to 13 could be read in
+stead of step 8;
+#X connect 11 0 12 0;

@@ -1,0 +1,26 @@
+1 sink 0 0 0 () norm 0 0 1-envrx1 0.1 () norm 0 0 1-envrx2 20.1575
+() norm 0 0 1-envrx3 0 () norm 0 0 1-envrx4 0 () norm 0 0 1-envrx5
+0 () norm 0 0 1-envrx6 94.4882 () norm 0 0 1-envrx7 7 () norm 0 0 1-fm1rx1
+45 () norm 0 0 1-fm1rx2 10.8 () norm 0 0 1-fm1rx3 0.33 () norm 0 0
+1-fm1rx4 0.0393701 () norm 0 0 1-fm1rx5 1 () norm 0 0 1-fm1rx6 0 ()
+norm 0 0 1-clorx1 579.612 () norm 0 0 1-azerx1 1 () norm 0 0 1-azerx2
+-24 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm 0 0 1-azerx5
+0 () norm 0 0 1-azerx6 0 () norm 0 0 1-rndrx1 1 () norm 0 0 1-rndrx2
+0.137795 () norm 0 0 1-rndrx3 0.1 () norm 0 0 1-rndrx4 119.97 () norm
+0 0 1-rndrx5 0 () norm 0 0 1-rndrx6 0.023622 () norm 0 0 1-rndrx7 0.346457
+() norm 0 0 1-rndrx8 0.417323 () norm 0 0 1-rndrx9 0.645669 () norm
+0 0 1-rndrx10 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1;
+2 wa-a-a-w 0 0 0 () norm 0 0 1-envrx1 0.1 () norm 0 0 1-envrx2 22.1732
+() norm 0 0 1-envrx3 0 () norm 0 0 1-envrx4 0 () norm 0 0 1-envrx5
+0 () norm 0 0 1-envrx6 100 () norm 0 0 1-envrx7 7 () norm 0 0 1-fm1rx1
+36 () norm 0 0 1-fm1rx2 5.78 () norm 0 0 1-fm1rx3 1 () norm 0 0 1-fm1rx4
+0.110236 () norm 0 0 1-fm1rx5 1 () norm 0 0 1-fm1rx6 0 () norm 0 0
+1-clorx1 639.788 () norm 0 0 1-azerx1 1 () norm 0 0 1-azerx2 -24 ()
+norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm 0 0 1-azerx5 0 ()
+norm 0 0 1-azerx6 0 () norm 0 0 1-rndrx1 1 () norm 0 0 1-rndrx2 0.019685
+() norm 0 0 1-rndrx3 0.1 () norm 0 0 1-rndrx4 119.97 () norm 0 0 1-rndrx5
+0 () norm 0 0 1-rndrx6 0.023622 () norm 0 0 1-rndrx7 0.346457 () norm
+0 0 1-rndrx8 0.417323 () norm 0 0 1-rndrx9 0.645669 () norm 0 0 1-rndrx10
+0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1;

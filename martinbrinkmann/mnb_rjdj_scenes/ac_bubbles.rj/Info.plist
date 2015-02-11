@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>info</key>
+	<dict>
+        <key>author</key>
+		<string>martin brinkmann</string>
+		<key>bundleIdentifier</key>
+		<string>http://www.13bit.at</string>
+		<key>description</key>
+        <string>
+            makes noise from accelerometer data.  ac_bubbles is copyrighted, but is free for you to use for any reasonable purpose.
+        </string>
+		<key>name</key>
+		<string>ac_bubbles</string>
+		<key>category</key>
+		<string>shake</string>
+	</dict>
+    <key>installLocation</key>
+	<string>ac_bubbles.rj</string>
+</dict>
+</plist>

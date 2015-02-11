@@ -1,0 +1,6 @@
+#N canvas 440 246 450 300 10;
+#X obj 146 85 content/maintemp;
+#X text 54 122 This is my first Pure Data/MobMuPlat project. Feel free
+to do anything you want with it! There are probably things that can
+be done better. Contact me here: otemrellik.com // otemrellik@otemrellik.com
+;

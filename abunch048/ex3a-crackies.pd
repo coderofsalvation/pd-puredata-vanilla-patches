@@ -1,0 +1,39 @@
+#N canvas 317 64 541 443 12;
+#X obj 156 188 crackle 1;
+#X obj 236 135 timeline 1;
+#X obj 157 220 simple-delay 1;
+#X obj 397 140 timeline 2;
+#X obj 387 184 crackle 2;
+#X obj 333 79 clock 1;
+#X obj 411 230 reverb 1;
+#X obj 21 67 presets ex3a;
+#X obj 288 268 panning 1;
+#X obj 158 267 panning 2;
+#X obj 410 270 panning 3;
+#X obj 288 333 sound-out 1;
+#X text 46 11 2 tabels in 'timeline' objects send control values to
+tiny digital sounds (in 'crackle'). Each 'crackle' object is treated
+with a different effect (delay or reverb).;
+#X text 24 384 <1> Open preset 1 (there is only 1 preset in this example).
+;
+#X text 26 411 <2> Open 'clock 1' and click on the 'start' toggle.
+;
+#X connect 0 0 2 0;
+#X connect 1 0 0 1;
+#X connect 1 0 8 1;
+#X connect 1 0 10 1;
+#X connect 2 0 9 0;
+#X connect 3 0 4 1;
+#X connect 3 0 9 1;
+#X connect 4 0 6 0;
+#X connect 4 0 8 0;
+#X connect 5 0 1 2;
+#X connect 5 0 2 5;
+#X connect 5 2 3 2;
+#X connect 6 0 10 0;
+#X connect 8 0 11 0;
+#X connect 8 1 11 1;
+#X connect 9 0 11 0;
+#X connect 9 1 11 1;
+#X connect 10 0 11 0;
+#X connect 10 1 11 1;

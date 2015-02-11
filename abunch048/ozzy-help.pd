@@ -1,0 +1,125 @@
+#N canvas 433 6 717 565 12;
+#X obj 36 1490 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 37 126 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 21 1759 outlet 1 =;
+#X obj 9 228 cnv 15 190 200 empty empty OSC1 85 194 0 14 -208065 -1
+0;
+#X obj 118 300 vradio 15 1 0 4 eowav1 qqwav1 wave -5 -8 0 10 -262144
+-1 -1 0;
+#X text 137 294 sin;
+#X text 136 309 tri;
+#X text 137 323 sq;
+#X text 138 339 pu;
+#X obj 11 445 cnv 15 190 120 empty empty OSC2 35 114 0 14 -208065 -1
+0;
+#X text 206 443 De faders 'add_pitch2' \, 'wave' en 'amp' hebben
+dezelfde functie als die van oscillator 1 (zie hierboven) \, ze veranderen
+nu wel de waarden van de tweede oscillator.;
+#X obj 10 594 cnv 15 190 100 empty empty LFO 45 94 0 14 -208065 -1
+0;
+#X obj 14 717 cnv 15 120 150 empty empty AMPLITUDE 25 14 0 14 -208065
+-1 0;
+#X obj 13 889 cnv 15 120 170 empty empty FILTER 25 14 0 14 -208065
+-1 0;
+#X obj 24 1166 nbx 4 14 -1e+037 1e+037 0 0 hghhnp ooozzrownp preset
+0 -8 0 10 -262144 -1 -1 0 256;
+#X obj 28 1245 bng 10 250 50 0 ofteroptions empty extra -3 -6 0 8 -262144
+-1 -1;
+#X obj 20 1306 bng 15 250 50 0 fuittreceives empty print_names_of_receives
+17 7 0 10 -262144 -1 -1;
+#X obj 15 1372 cnv 15 200 60 empty empty write_own_preset 35 5 0 14
+-208065 -1 0;
+#X obj 140 1398 bng 15 250 50 0 westerwnpb wezterrownpb write 17 7
+0 10 -258113 -1 -1;
+#X obj 23 1396 nbx 3 14 1 10 0 0 oomownpr \$1-ozzrownpr preset_nr 40
+7 0 10 -262144 -1 -1 1 256;
+#X text 42 25 The Abunch object 'ozzy' is a classic synthesizer with
+two oscillators \, a filter with an envelope and an amplitude envelope.
+As with other synthesizers in Abunch a pitch and velocity value have
+to be sent to inlet 1 en 2 to trigger the sound production of the synthesizer.
+;
+#X text 9 235 fader 'add_pitch1' =;
+#X text 208 234 This fader changes the pitch (in semitones) of the
+first oscillator. This value is added to the pitch value from inlet
+1;
+#X text 209 301 This row of knobs changes the waveform of the first
+oscillator (sin = sine \, tri = triangle \, sq = square \, pu = pulse)
+;
+#X text 57 387 fader 'amp' =;
+#X text 10 596 fader 'freq';
+#X text 10 646 fader 'dept';
+#X text 15 759 fader 'A' =;
+#X text 20 784 fader 'D' =;
+#X text 22 822 fader 'S' =;
+#X text 24 846 fader 'R' =;
+#X text 15 937 fader 'A' =;
+#X text 13 962 fader 'D' =;
+#X text 14 1005 fader 'S' =;
+#X text 14 1041 fader 'R' =;
+#X text 11 1110 fader 'LEVEL' =;
+#X text 205 497 The fader 'detune' changes the pitch (in cents or 1/100th
+of a semitone) of the second oscillator. This value is added to the
+value of the fader 'add_pitch2' and the pitch that enters in inlet
+1;
+#X text 207 586 This fader changes the frequency or speed of the LFO
+(low frequency oscillator) that modulates the pitch of oscillator 1
+;
+#X text 206 645 This fader changes the amount of modulation by the
+LFO for the pitch of oscillator 1;
+#X text 166 713 The following faders influence the amplitude envelope
+of oscillator 1 and 2:;
+#X text 161 758 changes the attack time of the envelope;
+#X text 155 783 changes the decay time (between the attack and the
+sustain part) of the envelope;
+#X text 165 820 changes the strength of the sustain part of the envelope
+;
+#X text 167 843 changes the release time of the envelope (after the
+note-off velocity has arrived in inlet 2);
+#X text 162 893 The following faders influence the cut-off frequency
+of the filter for oscillator 1 and 2:;
+#X text 157 938 changes the attack time of the envelope;
+#X text 155 963 changes the decay time (between the attack and the
+sustain part) of the envelope;
+#X text 154 1002 changes the cutoff frequentie of the sustained part
+of the envelope;
+#X text 152 1038 changes the time to decrease the cut-off frequency
+from the sustained part of the envelope back to 0 (after the note-off
+velocity has arrived in inlet 2).;
+#X text 160 1112 this fader changes the output level;
+#X text 134 1155 =this number box opens a local preset of the synthesizer
+'ozzy' (this is a preset that is stored within 'ozzy' \; it differs
+from the global presets that are stored by the Abunch object 'presets').
+;
+#X text 126 1237 Clicking on this button opens a window with extra
+options:;
+#X text 196 1303 Clicking on this button shows all the names of the
+'receives' (of faders and knobs) in the main Pd window.;
+#X text 235 1359 If you click on the button 'write' an internal preset
+is stored (the position of faders and knobs and number boxes) within
+'ozzy'. You can open these presets with the 'preset' number box in
+the main window of ozzy. By changing the values in the number box 'preset_nr'
+you can change the number of the preset that you are going to save.
+;
+#X text 33 1561 inlet 1 =;
+#X text 33 1581 inlet 2 =;
+#X text 33 1524 (in- and outlets \, numbered from left to right);
+#X text 121 1561 (event) inlet for the pitch values;
+#X text 121 1583 (event) inlet for the velocity values \, a note-on
+and a note-off value is required for this 'addy' synthesizer.;
+#X text 113 1757 (audio) output for the sound produced by the synthesizer
+;
+#X text 17 447 fader 'add_pitch2' =;
+#X text 15 497 fader 'detune' =;
+#X text 205 387 This fader changes the amplitude of oscillator 1;
+#X text 28 1622 inlet 3 =;
+#X text 27 1656 inlet 4 =;
+#X text 28 1693 inlet 5 =;
+#X text 24 1723 inlet 6 =;
+#X text 113 1622 (event) inlet to control the fader 'amp' (oscillator
+1);
+#X text 113 1656 (event) inlet to control the fader 'amp' (oscillator
+2);
+#X text 110 1692 (event) inlet to control the fader 'freq' (LFO);
+#X text 108 1721 (event) inlet to control the fader 'dept' (LFO);

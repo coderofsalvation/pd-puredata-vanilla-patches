@@ -1,0 +1,86 @@
+#N canvas 381 38 750 782 12;
+#X obj 37 1271 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 43 959 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 52 117 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array array1 12 float 3;
+#A 0 0.128569 0.0714275 0.44285 0.528563 0.542849 0.635704 0 0 0.721417
+0.699989 0.628561 0.507135;
+#X coords 0 1 12 0 200 140 1;
+#X restore 49 180 graph;
+#X obj 41 741 bng 15 250 50 0 empty empty save_as_txt 17 7 0 10 -262144
+-1 -1;
+#X obj 45 841 bng 15 250 50 0 empty empty open_txt_file 17 7 0 10 -262144
+-1 -1;
+#X obj 49 329 hsl 200 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X text 264 329 = this fader shows the exact place in the table of
+the value that is being read and send to the outlet;
+#X obj 43 498 tgl 15 0 empty empty glide 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 42 564 tgl 15 0 empty empty ext_clock 17 7 0 10 -262144 -1 -1
+0 1;
+#X floatatom 35 647 5 1 5000 1 size_X - -;
+#X obj 42 444 tgl 15 0 empty empty start/reset 17 7 0 10 -262144 -1
+-1 0 1;
+#X obj 135 650 bng 15 250 50 0 empty empty OK 17 7 0 10 -262144 -1
+-1;
+#X text 44 377 fader 'speed':;
+#X text 176 381 You can change the speed by which the values in the
+table are read and sent out with this fader. The tempo is in BPM (beats
+per minute);
+#X text 170 493 turn glide on or off. Glide creates a ramp between
+the previous and the next value that is read in the table (0 or 1)
+resulting in a glide.;
+#X text 175 560 = turns the external clock on or off. If this is turned
+on \, an external clock can be sent to inlet 3 In this case this external
+controls the tempo and the fader 'speed' logically doesn't work anymore.
+;
+#X text 186 648 = You can adjust the horizontal size (X-axis) of the
+table. First set the number box 'size_X' to the right size and then
+click on 'OK'. !!If you diminish the size \, (logically) the values
+at the end of the table will be lost.;
+#X text 88 994 (in- and outlets \, numbered from left to right);
+#X text 62 1030 Inlet 1 =;
+#X text 59 1067 Inlet 2 =;
+#X text 60 1115 Inlet 3 =;
+#X text 144 1028 (event) inlet to control the fader 'speed';
+#X text 147 1115 (event) inlet to connect with an external clock;
+#X text 142 1067 (event) inlet to control the toggle 'glide' (0 = off
+\, number higher than 0 = on);
+#X text 179 439 = this toggel starts (=cross) or stops the reading
+of the table. It always starts reading from the beginning of the table.
+;
+#X text 269 194 You can change the values in the table by moving the
+mouse on the table in 'play mode' (ctrl + e) or by opening a text file
+(with the 'open txt_file' button) with numbers. You can also change
+the values in the table by right-clicking (Mac: ctrl + click) on the
+table \, choosing 'properties' and clicking on 'view list' in the 'array'
+window.;
+#X text 192 738 = If you save a preset with the 'presets' object in
+abunch \, the values of this table in the 'timeline' object will also
+be saved. If you want to store the values of this table in a seperate
+file \, click on this button. The values are stored in a text (.txt)
+file.;
+#X text 222 838 = If you click this button \, a text file (with one
+number in every line) can be opened. You'll have to adjust the size
+of the table in this case (with the 'size_X' and 'OK' button) because
+this adjustement isn't done (yet) automatically.;
+#X text 58 1150 Inlet 4 =;
+#X text 58 1210 Outlet 1 =;
+#X text 144 1209 (event) outlet for the values (in the table) that
+are currently being read.;
+#X text 41 1316 The values that you change or write into the table
+should lie between 0 and 127 This is the standard range of all control
+(event) connections between objects in abunch.;
+#X text 51 9 With 'timeline' you can store values in a table \, change
+them and send them (in a tempo) to the outlet. You can use this object
+to control a fader (or something else) in an other abunch object (by
+connecting this timeline to the correct inlet of that other abunch
+object \, see the example ex2d-timelinesampler.pd in the abunch folder).
+;
+#X text 143 1150 (event) inlet to control the toggle 'start/reset'
+(0 = off \, number higher than 0 = on);

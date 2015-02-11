@@ -1,0 +1,40 @@
+1 try 0 0 0 () norm 0 0 1-clmrx1 126.122 () norm 0 0 1-clmrx2 0 ()
+norm 0 0 1-clmrx3 3 () norm 0 0 1-clmrx4 1 () norm 0 0 1-clmrx5 3 ()
+norm 0 0 1-clmrx6 0 () norm 0 0 1-clmrx7 2 () norm 0 0 1-clmrx8 0 ()
+norm 0 0 1-clmrx9 2 () norm 0 0 1-clmrx10 0 () norm 0 0 1-clmrx11 2
+() norm 0 0 1-clmrx12 0 () norm 0 0 1-clmrx13 1 () norm 0 0 1-clmrx14
+0 () norm 0 0 1-clmrx15 1 () norm 0 0 1-clmrx16 0 () norm 0 0 1-clmrx17
+1 () norm 0 0 1-clmrx18 0 () norm 0 0 1-clmrx19 1 () norm 0 0 1-clmrx20
+0 () norm 0 0 1-clmrx21 1 () norm 0 0 1-clmrx22 0 () norm 0 0 1-clmrx23
+1 () norm 0 0 1-clmrx24 0 () norm 0 0 1-clmrx25 1 () norm 0 0 1-clmrx26
+0 () norm 0 0 1-clmrx27 1 () norm 0 0 1-clmrx28 0 () norm 0 0 1-clmrx29
+1 () norm 0 0 1-clmrx30 0 () norm 0 0 1-clmrx31 1 () norm 0 0 1-clmrx32
+0 () norm 0 0 1-clmrx33 1 () norm 0 0 1-clmrx34 0 () norm 0 0 1-clmrx35
+1 () norm 0 0 1-clmrx36 0 () norm 0 0 1-clmrx37 1 () norm 0 0 1-clmrx38
+0 () norm 0 0 1-clmrx39 1 () norm 0 0 1-clmrx40 0 () norm 0 0 1-clmrx41
+1 () norm 0 0 1-clmrx42 0 () norm 0 0 1-clmrx43 0 () sym 0 0 3-grary1
+ () sym 0 0 3-grary2 kxpqwmk () norm 0 0 3-grarx1 0 () norm 0 0 3-grarx2
+90 () norm 0 0 3-grarx3 444.102 () norm 0 0 3-grarx4 0 () norm 0 0
+3-grarx5 369.579 () norm 0 0 3-grarx6 0 () norm 0 0 3-grarx7 40 ()
+norm 0 0 3-grarx8 0.262626 () norm 0 0 3-grarx9 69 () norm 0 0 3-grarx10
+0 () norm 0 0 3-grarx11 0.303951 () norm 0 0 3-grarx12 0.199981 ()
+norm 0 0 3-grarx13 1 () norm 0 0 3-grarx14 1 () norm 0 0 3-grarx15
+1 () norm 0 0 3-grarx16 69 () norm 0 0 3-grarx17 1 () sym 0 0 2-grary1
+ () sym 0 0 2-grary2 kxpqwmk () norm 0 0 2-grarx1 0 () norm 0 0 2-grarx2
+100 () norm 0 0 2-grarx3 360.005 () norm 0 0 2-grarx4 0 () norm 0 0
+2-grarx5 40.1931 () norm 0 0 2-grarx6 0 () norm 0 0 2-grarx7 40 ()
+norm 0 0 2-grarx8 0.388889 () norm 0 0 2-grarx9 69 () norm 0 0 2-grarx10
+0 () norm 0 0 2-grarx11 0.200011 () norm 0 0 2-grarx12 0.199981 ()
+norm 0 0 2-grarx13 1 () norm 0 0 2-grarx14 1 () norm 0 0 2-grarx15
+1 () norm 0 0 2-grarx16 69 () norm 0 0 2-grarx17 1 () sym 0 0 1-grary1
+ () sym 0 0 1-grary2 kxpqwmk () norm 0 0 1-grarx1 0 () norm 0 0 1-grarx2
+100 () norm 0 0 1-grarx3 90.0154 () norm 0 0 1-grarx4 0 () norm 0 0
+1-grarx5 87.2482 () norm 0 0 1-grarx6 0 () norm 0 0 1-grarx7 40 ()
+norm 0 0 1-grarx8 0.262626 () norm 0 0 1-grarx9 69 () norm 0 0 1-grarx10
+0 () norm 0 0 1-grarx11 0.200011 () norm 0 0 1-grarx12 0.199981 ()
+norm 0 0 1-grarx13 1 () norm 0 0 1-grarx14 1 () norm 0 0 1-grarx15
+1 () norm 0 0 1-grarx16 69 () norm 0 0 1-grarx17 1 () norm 0 0 3-resrx1
+10 () norm 0 0 3-resrx2 0 () norm 0 0 2-resrx1 10 () norm 0 0 2-resrx2
+0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0.740157 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0 0 1-resrx1
+10 () norm 0 0 1-resrx2 0;

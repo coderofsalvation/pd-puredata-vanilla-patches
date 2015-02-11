@@ -1,0 +1,21 @@
+#N canvas 621 108 652 561 12;
+#X obj 35 574 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 26 313 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 33 486 outlet 1 =;
+#X text 36 384 inlet 1 =;
+#X text 35 435 inlet 2 =;
+#X text 51 58 Gain and distortion effect (adapted from alindx1~ by
+Tristan Chambers).;
+#X text 33 211 fader 'gain' =;
+#X text 165 209 with this fader you can change the amount of gain applied
+to the audio \; if this is high the sound will also be distorted (depending
+on the kind and level of the input sound).;
+#X text 71 348 (in- and outlets \, numbered from left to right);
+#X text 124 384 (audio) inlet for the sound that will be amplified
+or distorted;
+#X text 123 434 (event) inlet to control the fader 'gain';
+#X text 125 487 (audio) outlet for the amplified/distorted sound;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>info</key>
+	<dict>
+        <key>author</key>
+		<string>martin brinkmann</string>
+		<key>description</key>
+        <string>r n d</string>
+		<key>name</key>
+		<string>record_n_destroy</string>
+		<key>category</key>
+		<string>test</string>
+	</dict>
+    <key>installLocation</key>
+	<string>record_n_destroy.rj</string>
+</dict>
+</plist>

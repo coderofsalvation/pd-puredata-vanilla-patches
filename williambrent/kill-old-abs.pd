@@ -1,0 +1,31 @@
+#N canvas 658 83 827 483 10;
+#X obj 45 31 inlet;
+#X obj 53 89 f;
+#X text 363 89 can't say the voice is free until the kill command is
+complete. that update needs to be triggered by the osc-bank-voice abstraction.
+;
+#X text 50 370 Need to say that this track has no assigned voice by
+writing a -1 to the slot associated with cur-peak-idx;
+#X msg 40 321 -1;
+#X obj 156 319 f;
+#X obj 53 133 t b b f;
+#X obj 162 164 moses 0;
+#X obj 187 292 r \$1-martha-cur-peak-idx;
+#X obj 40 349 tabwrite \$1-martha-trackVoices;
+#X obj 53 111 tabread \$1-martha-trackVoices;
+#X obj 84 62 r \$1-martha-cur-peak-idx;
+#X obj 363 63 tabwrite \$1-martha-voiceAssts;
+#X msg 224 232 \; \$2-martha-kill-\$1 bang \;;
+#X obj 223 201 pack f \$1;
+#X connect 0 0 1 0;
+#X connect 1 0 10 0;
+#X connect 4 0 9 0;
+#X connect 5 0 9 1;
+#X connect 6 0 4 0;
+#X connect 6 1 5 0;
+#X connect 6 2 7 0;
+#X connect 7 1 14 0;
+#X connect 8 0 5 1;
+#X connect 10 0 6 0;
+#X connect 11 0 1 1;
+#X connect 14 0 13 0;

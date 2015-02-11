@@ -1,0 +1,41 @@
+#N canvas 517 97 713 826 12;
+#X obj 61 526 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 57 372 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 67 443 Inlet 1 =;
+#X text 102 407 (in- en uitgangen \, genummerd van links naar rechts)
+;
+#X floatatom 56 206 4 1 10 1 number_preset - -;
+#X obj 60 244 bng 15 250 50 0 empty empty save_preset 17 7 0 10 -258699
+-1 -1;
+#X obj 60 323 bng 15 250 50 0 empty empty open_preset 17 7 0 10 -262144
+-1 -1;
+#X text 205 205 = hiermee stel je in welke presets je zal openen of
+opslaan;
+#X text 202 318 = hierop klikken open de preset met het nummer dat
+je in de number box 'number_preset ingegeven hebt;
+#X text 48 22 Het 'presets' object maakt het mogelijk om de standen
+van schuivers \, knoppen \, ... en de geopende geluidsfiles in abunch
+objecten op te slaan. Je moet wel altijd een naam geven aan het presets
+object \, dus na 'presets' (en een spatie) moet in 1 woord een naam
+komen (vb 'presets file1').;
+#X text 199 240 = hierop klikken slaat een preset op (met het nummer
+dat je hierboven ingegeven hebt). Let op: als er reeds presets onder
+diezelfde nummer opgeslagen zijn \, worden deze overschreven!;
+#X text 155 443 (event) een nummer dat hier binnenkomt opent automatisch
+de preset met diezelfde nummer (vb 2 opent preset 2);
+#X text 64 565 Een bug: als in een abunch file nergens een geluidsfile
+gebruikt wordt \, probeert het 'presets' systeem die toch op te slaan
+en verschijnt er een bericht in het Pd-hoofdvenster in de aard van
+'file1-1-usedfiles.txt : can't find'. Deze (onschadelijke) bug zal
+blijven bestaan tot het in PD mogelijk is om te naam van een geopende
+file te weten te komen...;
+#X text 64 695 Let op: presets slaan de plaats op je computer op waar
+een geopende geluidsfile zich bevindt. Als je deze geluidsfile verplaatst
+of je wil de presets op een andere computer openen (waar die geluidsfile
+hoogstwaarschijnlijk op een andere plaats staat) zal op het Pd-hoofdvenster
+een bericht verschijnen dat hij die geluidsfile niet vindt. Logisch...
+;

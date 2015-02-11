@@ -1,0 +1,49 @@
+#N canvas 489 23 741 828 12;
+#X obj 39 772 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 37 482 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 82 530 (in- en uitgangen \, genummerd van links naar rechts)
+;
+#X text 46 708 outlet 1 =;
+#X text 47 566 inlet 1 =;
+#X text 50 605 inlet 2 =;
+#X obj 37 207 tgl 30 0 zytebvhh wxjjhgr rec 0 -8 0 10 -258699 -1 -1
+0 1;
+#X obj 38 393 tgl 15 0 aioiuiosync uioiuioiync sync_with_ext_clock
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 38 243 hsl 200 15 0 1 0 0 empty zereatus empty -2 -8 0 10 -258699
+-1 -1 0 1;
+#X obj 32 301 cnv 15 125 40 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 39 318 nbx 5 14 1 60 0 0 azegthtssmax qjhgrrsrmax max_size 0
+-8 0 10 -262144 -1 -1 1 256;
+#X obj 104 317 bng 15 250 50 0 sjhfzzgdxb qvjklkteraxb go 17 7 0 10
+-262144 -1 -1;
+#X text 39 17 With 'record-sample' you can record a file in real-time
+(while playing) and use this sample in play-sample or grain-sample
+(to play \, transpose \, reverse \, granulize it...);
+#X text 39 77 An example (used as a loopstation together with play-sample):
+ex3i-loopstation.pd in abunch folder;
+#X text 50 645 inlet 2 =;
+#X text 100 210 = click this to start the recording (crossed = on)
+;
+#X text 247 238 = time bar that shows the remaining time for the recording
+;
+#X text 188 303 = in the numberbox 'max_size' you can enter the maximum
+duration (in seconds) of the recording. If you cross the maximum time
+during the recording \, the beginning of the recording will be erased
+to record the most recent sound.;
+#X text 254 393 = if this toggle is on (crossed) \, the recording will
+be synchronised to an external clock. In this case the recording only
+starts after you have click the toggle 'rec' and together with the
+next clock signal entering in inlet 2;
+#X text 135 566 (audio) inlet for the sound that will be recorded;
+#X text 135 606 (event) inlet for an external clock;
+#X text 135 646 (event) inlet to control the toggle 'rec'. Any number
+higher than 0 starts the recording \, a zero stops the recording;
+#X text 134 708 (event) outlet carrying information about the file
+name and size that was recorded. Connect this with the right inlet
+of abunch objects like play-sample or grain-sample;

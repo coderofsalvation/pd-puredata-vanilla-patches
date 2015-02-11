@@ -1,0 +1,320 @@
+#N canvas 638 194 765 395 10;
+#X obj 10 344 dac~;
+#X obj 16 303 *~ 0.5;
+#X obj 575 17 cnv 15 20 20 empty empty empty 20 12 0 14 -232576 -66577
+0;
+#X obj 577 244 cnv 15 20 20 empty empty empty 20 12 0 14 -260097 -66577
+0;
+#X obj 575 47 cnv 15 20 20 empty empty empty 20 12 0 14 -4034 -66577
+0;
+#X obj 575 77 cnv 15 20 20 empty empty empty 20 12 0 14 -204786 -66577
+0;
+#X obj 576 105 cnv 15 20 20 empty empty empty 20 12 0 14 -99865 -66577
+0;
+#X obj 576 135 cnv 15 20 20 empty empty empty 20 12 0 14 -162280 -66577
+0;
+#X obj 576 163 cnv 15 20 20 empty empty empty 20 12 0 14 -191407 -66577
+0;
+#X obj 577 218 cnv 15 20 20 empty empty empty 20 12 0 14 -262130 -66577
+0;
+#X obj 577 191 cnv 15 20 20 empty empty empty 20 12 0 14 -204800 -66577
+0;
+#X text 608 248 mod send level;
+#X text 610 276 output level;
+#X text 608 218 mod delay time;
+#X text 609 109 cutoff;
+#X text 613 138 resonance;
+#X text 614 164 filter mod;
+#X text 606 81 fm;
+#X text 608 50 pitch;
+#X text 608 20 osc shape;
+#N canvas 735 172 921 733 chaosmonster1s 0;
+#N canvas 0 0 619 500 limit 0;
+#X obj 88 47 inlet~;
+#X obj 89 374 outlet~;
+#X obj 94 332 hip~ 20;
+#X obj 121 119 env~;
+#X obj 123 146 dbtorms;
+#X obj 127 201 line~;
+#X obj 130 258 +~ 1;
+#X obj 94 303 /~;
+#X msg 125 175 \$1 10;
+#X obj 128 227 lop~ 40;
+#X connect 0 0 3 0;
+#X connect 0 0 7 0;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
+#X connect 4 0 8 0;
+#X connect 5 0 9 0;
+#X connect 6 0 7 1;
+#X connect 7 0 2 0;
+#X connect 8 0 5 0;
+#X connect 9 0 6 0;
+#X restore 234 447 pd limit;
+#N canvas 338 115 1061 870 fm_rm_ffm_osc1 0;
+#X obj 315 608 outlet~;
+#X obj 110 183 hsl 128 8 0 1 0 1 empty empty empty -2 -8 0 10 -204800
+-1 -1 0 1;
+#X obj 417 231 inlet~;
+#X obj 110 126 hsl 128 8 -128 128 0 1 empty empty empty -2 -8 0 10
+-4034 -1 -1 8300 1;
+#X obj 110 195 hsl 128 8 1 999 1 1 empty empty empty -2 -8 0 10 -262130
+-1 -1 0 1;
+#X obj 110 137 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-204786 -1 -1 0 1;
+#X obj 255 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 244 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -260097
+-1 -1 0 1;
+#X obj 110 114 hsl 128 8 1 1000 1 1 empty empty empty -2 -8 0 10 -232576
+-1 -1 0 1;
+#X obj 110 149 hsl 128 8 0 128 0 1 empty empty empty -2 -8 0 10 -162280
+-1 -1 12700 1;
+#X obj 110 171 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-228856 -1 -1 0 1;
+#X obj 110 160 hsl 128 8 0.01 1 1 1 empty empty empty -2 -8 0 10 -191407
+-1 -1 0 1;
+#X obj 553 356 inlet;
+#X obj 311 491 abs_osc_chaosmonster1;
+#X connect 1 0 13 6;
+#X connect 2 0 13 10;
+#X connect 3 0 13 1;
+#X connect 4 0 13 7;
+#X connect 5 0 13 2;
+#X connect 6 0 13 9;
+#X connect 7 0 13 8;
+#X connect 8 0 13 0;
+#X connect 9 0 13 3;
+#X connect 10 0 13 5;
+#X connect 11 0 13 4;
+#X connect 12 0 13 11;
+#X connect 13 0 0 0;
+#X coords 0 -1 1 1 170 110 1 100 100;
+#X restore 104 116 pd fm_rm_ffm_osc1;
+#X obj 227 483 outlet~;
+#X obj 77 27 abs_uniquecatch1;
+#N canvas 342 113 1061 870 fm_rm_ffm_osc1 0;
+#X obj 315 608 outlet~;
+#X obj 110 183 hsl 128 8 0 1 0 1 empty empty empty -2 -8 0 10 -204800
+-1 -1 0 1;
+#X obj 417 231 inlet~;
+#X obj 110 126 hsl 128 8 -128 128 0 1 empty empty empty -2 -8 0 10
+-4034 -1 -1 8300 1;
+#X obj 110 195 hsl 128 8 1 999 1 1 empty empty empty -2 -8 0 10 -262130
+-1 -1 0 1;
+#X obj 110 137 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-204786 -1 -1 0 1;
+#X obj 255 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 244 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -260097
+-1 -1 0 1;
+#X obj 110 114 hsl 128 8 1 1000 1 1 empty empty empty -2 -8 0 10 -232576
+-1 -1 0 1;
+#X obj 110 149 hsl 128 8 0 128 0 1 empty empty empty -2 -8 0 10 -162280
+-1 -1 12700 1;
+#X obj 110 171 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-228856 -1 -1 0 1;
+#X obj 110 160 hsl 128 8 0.01 1 1 1 empty empty empty -2 -8 0 10 -191407
+-1 -1 0 1;
+#X obj 553 356 inlet;
+#X obj 311 491 abs_osc_chaosmonster1;
+#X connect 1 0 13 6;
+#X connect 2 0 13 10;
+#X connect 3 0 13 1;
+#X connect 4 0 13 7;
+#X connect 5 0 13 2;
+#X connect 6 0 13 9;
+#X connect 7 0 13 8;
+#X connect 8 0 13 0;
+#X connect 9 0 13 3;
+#X connect 10 0 13 5;
+#X connect 11 0 13 4;
+#X connect 12 0 13 11;
+#X connect 13 0 0 0;
+#X coords 0 -1 1 1 170 110 1 100 100;
+#X restore 285 116 pd fm_rm_ffm_osc1;
+#N canvas 342 113 1061 870 fm_rm_ffm_osc1 0;
+#X obj 315 608 outlet~;
+#X obj 110 183 hsl 128 8 0 1 0 1 empty empty empty -2 -8 0 10 -204800
+-1 -1 0 1;
+#X obj 417 231 inlet~;
+#X obj 110 126 hsl 128 8 -128 128 0 1 empty empty empty -2 -8 0 10
+-4034 -1 -1 8400 1;
+#X obj 110 195 hsl 128 8 1 999 1 1 empty empty empty -2 -8 0 10 -262130
+-1 -1 0 1;
+#X obj 110 137 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-204786 -1 -1 0 1;
+#X obj 255 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 244 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -260097
+-1 -1 0 1;
+#X obj 110 114 hsl 128 8 1 1000 1 1 empty empty empty -2 -8 0 10 -232576
+-1 -1 0 1;
+#X obj 110 149 hsl 128 8 0 128 0 1 empty empty empty -2 -8 0 10 -162280
+-1 -1 12700 1;
+#X obj 110 171 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-228856 -1 -1 0 1;
+#X obj 110 160 hsl 128 8 0.01 1 1 1 empty empty empty -2 -8 0 10 -191407
+-1 -1 0 1;
+#X obj 553 356 inlet;
+#X obj 311 491 abs_osc_chaosmonster1;
+#X connect 1 0 13 6;
+#X connect 2 0 13 10;
+#X connect 3 0 13 1;
+#X connect 4 0 13 7;
+#X connect 5 0 13 2;
+#X connect 6 0 13 9;
+#X connect 7 0 13 8;
+#X connect 8 0 13 0;
+#X connect 9 0 13 3;
+#X connect 10 0 13 5;
+#X connect 11 0 13 4;
+#X connect 12 0 13 11;
+#X connect 13 0 0 0;
+#X coords 0 -1 1 1 170 110 1 100 100;
+#X restore 466 116 pd fm_rm_ffm_osc1;
+#N canvas 342 113 1061 870 fm_rm_ffm_osc1 0;
+#X obj 315 608 outlet~;
+#X obj 110 183 hsl 128 8 0 1 0 1 empty empty empty -2 -8 0 10 -204800
+-1 -1 0 1;
+#X obj 417 231 inlet~;
+#X obj 110 126 hsl 128 8 -128 128 0 1 empty empty empty -2 -8 0 10
+-4034 -1 -1 8500 1;
+#X obj 110 195 hsl 128 8 1 999 1 1 empty empty empty -2 -8 0 10 -262130
+-1 -1 0 1;
+#X obj 110 137 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-204786 -1 -1 0 1;
+#X obj 255 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 244 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -260097
+-1 -1 0 1;
+#X obj 110 114 hsl 128 8 1 1000 1 1 empty empty empty -2 -8 0 10 -232576
+-1 -1 0 1;
+#X obj 110 149 hsl 128 8 0 128 0 1 empty empty empty -2 -8 0 10 -162280
+-1 -1 0 1;
+#X obj 110 171 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-228856 -1 -1 0 1;
+#X obj 110 160 hsl 128 8 0.01 1 1 1 empty empty empty -2 -8 0 10 -191407
+-1 -1 0 1;
+#X obj 553 356 inlet;
+#X obj 311 491 abs_osc_chaosmonster1;
+#X connect 1 0 13 6;
+#X connect 2 0 13 10;
+#X connect 3 0 13 1;
+#X connect 4 0 13 7;
+#X connect 5 0 13 2;
+#X connect 6 0 13 9;
+#X connect 7 0 13 8;
+#X connect 8 0 13 0;
+#X connect 9 0 13 3;
+#X connect 10 0 13 5;
+#X connect 11 0 13 4;
+#X connect 12 0 13 11;
+#X connect 13 0 0 0;
+#X coords 0 -1 1 1 170 110 1 100 100;
+#X restore 105 233 pd fm_rm_ffm_osc1;
+#N canvas 342 113 1061 870 fm_rm_ffm_osc1 0;
+#X obj 315 608 outlet~;
+#X obj 110 183 hsl 128 8 0 1 0 1 empty empty empty -2 -8 0 10 -204800
+-1 -1 0 1;
+#X obj 417 231 inlet~;
+#X obj 110 126 hsl 128 8 -128 128 0 1 empty empty empty -2 -8 0 10
+-4034 -1 -1 8400 1;
+#X obj 110 195 hsl 128 8 1 999 1 1 empty empty empty -2 -8 0 10 -262130
+-1 -1 0 1;
+#X obj 110 137 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-204786 -1 -1 0 1;
+#X obj 255 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 244 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -260097
+-1 -1 0 1;
+#X obj 110 114 hsl 128 8 1 1000 1 1 empty empty empty -2 -8 0 10 -232576
+-1 -1 0 1;
+#X obj 110 149 hsl 128 8 0 128 0 1 empty empty empty -2 -8 0 10 -162280
+-1 -1 12700 1;
+#X obj 110 171 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-228856 -1 -1 0 1;
+#X obj 110 160 hsl 128 8 0.01 1 1 1 empty empty empty -2 -8 0 10 -191407
+-1 -1 0 1;
+#X obj 553 356 inlet;
+#X obj 311 491 abs_osc_chaosmonster1;
+#X connect 1 0 13 6;
+#X connect 2 0 13 10;
+#X connect 3 0 13 1;
+#X connect 4 0 13 7;
+#X connect 5 0 13 2;
+#X connect 6 0 13 9;
+#X connect 7 0 13 8;
+#X connect 8 0 13 0;
+#X connect 9 0 13 3;
+#X connect 10 0 13 5;
+#X connect 11 0 13 4;
+#X connect 12 0 13 11;
+#X connect 13 0 0 0;
+#X coords 0 -1 1 1 170 110 1 100 100;
+#X restore 286 233 pd fm_rm_ffm_osc1;
+#N canvas 342 113 1061 870 fm_rm_ffm_osc1 0;
+#X obj 315 608 outlet~;
+#X obj 110 183 hsl 128 8 0 1 0 1 empty empty empty -2 -8 0 10 -204800
+-1 -1 0 1;
+#X obj 417 231 inlet~;
+#X obj 110 126 hsl 128 8 -128 128 0 1 empty empty empty -2 -8 0 10
+-4034 -1 -1 8600 1;
+#X obj 110 195 hsl 128 8 1 999 1 1 empty empty empty -2 -8 0 10 -262130
+-1 -1 0 1;
+#X obj 110 137 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-204786 -1 -1 0 1;
+#X obj 255 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 244 105 vsl 8 100 0 1 0 1 empty empty empty 0 -9 0 10 -260097
+-1 -1 0 1;
+#X obj 110 114 hsl 128 8 1 1000 1 1 empty empty empty -2 -8 0 10 -232576
+-1 -1 0 1;
+#X obj 110 149 hsl 128 8 0 128 0 1 empty empty empty -2 -8 0 10 -162280
+-1 -1 12700 1;
+#X obj 110 171 hsl 128 8 0.01 3000 1 1 empty empty empty -2 -8 0 10
+-228856 -1 -1 0 1;
+#X obj 110 160 hsl 128 8 0.01 1 1 1 empty empty empty -2 -8 0 10 -191407
+-1 -1 0 1;
+#X obj 553 356 inlet;
+#X obj 311 491 abs_osc_chaosmonster1;
+#X connect 1 0 13 6;
+#X connect 2 0 13 10;
+#X connect 3 0 13 1;
+#X connect 4 0 13 7;
+#X connect 5 0 13 2;
+#X connect 6 0 13 9;
+#X connect 7 0 13 8;
+#X connect 8 0 13 0;
+#X connect 9 0 13 3;
+#X connect 10 0 13 5;
+#X connect 11 0 13 4;
+#X connect 12 0 13 11;
+#X connect 13 0 0 0;
+#X coords 0 -1 1 1 170 110 1 100 100;
+#X restore 467 233 pd fm_rm_ffm_osc1;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 3 0 1 0;
+#X connect 3 0 4 0;
+#X connect 3 0 5 0;
+#X connect 3 0 6 0;
+#X connect 3 0 7 0;
+#X connect 3 0 8 0;
+#X connect 3 1 1 1;
+#X connect 3 1 4 1;
+#X connect 3 1 5 1;
+#X connect 3 1 6 1;
+#X connect 3 1 7 1;
+#X connect 3 1 8 1;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 0;
+#X connect 7 0 0 0;
+#X connect 8 0 0 0;
+#X coords 0 -1 1 1 540 250 1 100 100;
+#X restore 17 12 pd chaosmonster1s;
+#X text 608 194 ringmod;
+#X connect 1 0 0 0;
+#X connect 1 0 0 1;
+#X connect 20 0 1 0;

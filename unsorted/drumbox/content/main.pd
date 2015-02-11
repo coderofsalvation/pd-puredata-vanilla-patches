@@ -1,0 +1,8 @@
+#N canvas 85 42 152 114 10;
+#X obj 11 23 notein 1;
+#X obj 11 45 stripnote;
+#X obj 9 68 notecheck \$1 \$2 \$3;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 1 0 2 0;
+#X connect 1 1 2 1;

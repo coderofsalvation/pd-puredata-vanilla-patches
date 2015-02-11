@@ -1,0 +1,95 @@
+#N canvas 403 56 736 535 12;
+#X obj 47 1217 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 48 171 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 53 696 bng 15 250 50 0 empty empty open_file 17 7 0 10 -262144
+-1 -1;
+#X text 44 1294 Inlet 1 =;
+#X text 45 1528 Outlet 1 =;
+#X text 47 1336 Inlet 2 =;
+#X text 45 1364 Inlet 3 =;
+#X obj 34 950 bng 10 250 50 0 zerraoptions empty extra_options 17 7
+0 8 -262144 -1 -1;
+#X obj 33 992 tgl 15 0 \$1-grasuse \$1-graruse use_live_recorded_file
+17 7 0 10 -262144 -1 -1 0 1;
+#X text 46 1394 Inlet 4 =;
+#X obj 42 883 cnv 15 404 25 empty empty empty 20 12 0 14 -86277 -66577
+0;
+#X symbolatom 44 889 50 0 0 0 - - -;
+#X text 44 1432 Inlet 5 =;
+#X text 43 1464 Inlet 6 =;
+#X obj 47 518 tgl 15 0 yyynv yopenv envelope 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 42 572 hsl 128 15 2 514 0 0 zatcrsatt watrratt A 52 -8 0 10
+-262144 -1 -1 0 1;
+#X obj 38 636 hsl 128 15 0 0.5 0 0 fodec focrrdec D 52 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 42 793 tgl 15 0 oiprsmoo eetrrmoo smooth 17 7 0 10 -262144 -1
+-1 0 1;
+#X obj 31 1095 bng 15 250 50 0 \$1-scrssasa \$1-scrrsasa save_sample_as_wav_file
+17 7 0 10 -262144 -1 -1;
+#X text 48 24 The 'scratch-sample' object imitates the scratching of
+a vinyl record. You can open a (short) sample and scratch it.;
+#X text 49 72 In fact 'scratch-sample' uses a kind of granular synthesis
+in which the length and pitch of a grain are linked with each other
+(as in the Abunch object 'graino-sample') and in which only one grain
+can sound simultaneously (thus only 1 voice compared to 20 in 'graino-sample'
+of 'grain-sample').;
+#X text 41 225 fader 'scratch';
+#X text 35 281 fader 'grainsize';
+#X text 42 344 fader 'zone';
+#X text 33 457 fader 'start_position';
+#X text 34 747 fader 'level';
+#X text 203 226 = If you move this fader the sample is scratched and
+a sound is produced (and if a sound file was opened with the 'open_file'
+button);
+#X text 205 279 = If you move this fader \, the length/duration (in
+milliseconds) of the grain is changed. This grain is produced every
+time you move the fader 'scratch'.;
+#X text 203 340 = This fader changes the zone or area (in samples)
+that is crossed or used by the grain \, the starting position of the
+grain is determined by the fader 'start_position'. This fader and 'grainsize'
+chages the pitch or transposition of the sample (just as the faders
+'zone' and 'length' do in graino-sample).;
+#X text 217 460 = This fader changes the start position of every produced
+grain (by the fader 'scratch'). Thus you change the exact location
+where you want to scratch.;
+#X text 200 514 = This switch switches the amplitude envelope for every
+grain on or off.;
+#X text 192 559 = This fader changes the attack of the amplitude envelope
+of the grain (if the envelope is switched on with the switch 'envelope').
+The maximum length is half the grainsize.;
+#X text 192 623 = This fader changes the decay of the amplitude envelope
+of the grain (if the envelope is switched on with the switch 'envelope').
+The maximum length is half the grainsize.;
+#X text 169 696 = Click on this button to open a sound file (wav of
+aif);
+#X text 169 742 = This fader changes the output level.;
+#X text 168 787 = If this switch is on (crossed) \, movements of the
+fader 'scratch' that are faster than the length of the grain (fader
+'grainsize') are omitted.;
+#X text 132 949 = This button opens a new window with these possibilities:
+;
+#X text 206 989 = If this toggle is crossed (turned on) you can use
+this scratch-sample object in combination with the 'record-sample'
+object. In this case you won't scratch the opened soundfile but the
+sound file that was recorded in 'record-sample' (see example ex3i-loopstation.pd)
+;
+#X text 206 1092 =If you are using a live recorded sound (see previous
+toggle) and you want to save the recorded sample as a wave file \,
+click on this button.;
+#X text 45 1249 (in- and outlets \, numbered from left to right);
+#X text 132 1293 (event) inlet to control the 'scratch' fader (and
+consequently trigger the sound production);
+#X text 129 1336 (event) inlet to control the fader 'grainsize';
+#X text 130 1365 (event) inlet to control the fader 'zone';
+#X text 132 1391 (event) inlet to control the fader 'start_position'
+;
+#X text 133 1431 (event) inlet to control the fader 'level';
+#X text 132 1463 (event) inlet to connect to the outlet of the abunch
+object 'record-sample' (take care that 'use_live_recorded_file' in
+the extra_options window is turned on);
+#X text 143 1529 (audio) sound produced by the scratching;
+#X text 130 907 = This window shows the folder and file name of the
+opened sound file;

@@ -1,0 +1,106 @@
+#N canvas 632 22 430 541 10;
+#X obj 39 164 hsl 128 15 0.8 8 0 0 empty factor compander-factor 20
+8 0 10 -262144 -260097 -1 0 0;
+#X obj 55 187 hsl 128 15 -96 -20 0 0 empty point compander-point 20
+8 0 10 -262144 -260097 -1 0 0;
+#X obj 71 211 hsl 128 15 7.39 1 0 0 empty response response-time 20
+8 0 10 -262144 -260097 -1 0 0;
+#X obj 87 237 hsl 128 15 20 400 0 0 empty recovery recovery-time 20
+8 0 10 -262144 -260097 -1 0 0;
+#X text 192 185 deciBel;
+#N canvas 66 349 241 304 testsignals 0;
+#X obj 44 18 inlet;
+#X obj 173 23 inlet;
+#X obj 29 265 outlet~;
+#X obj 44 138 line~;
+#X obj 29 227 *~;
+#X obj 44 89 t b b;
+#X msg 74 166 0.25;
+#X obj 44 61 metro 500;
+#X obj 152 62 pink~;
+#X obj 152 119 *~ 0;
+#X obj 29 191 osc~ 100;
+#X obj 173 92 * 0.01;
+#X msg 44 113 1.1 \, 0 200;
+#X connect 0 0 7 0;
+#X connect 1 0 11 0;
+#X connect 3 0 4 1;
+#X connect 4 0 2 0;
+#X connect 5 0 12 0;
+#X connect 5 1 6 0;
+#X connect 6 0 10 1;
+#X connect 7 0 5 0;
+#X connect 8 0 9 0;
+#X connect 9 0 2 0;
+#X connect 10 0 4 0;
+#X connect 11 0 9 1;
+#X connect 12 0 3 0;
+#X restore 21 132 pd testsignals;
+#X obj 21 84 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 102 108 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 45 326 hsl 128 15 0 1 0 0 empty empty audio-level 20 8 0 10
+-262144 -260097 -1 0 0;
+#X obj 21 348 *~ 0;
+#X floatatom 56 348 5 0 0 0 - - -;
+#X obj 21 375 dac~;
+#X msg 21 14 \; pd dsp 1;
+#X msg 89 14 \; pd dsp 0;
+#X text 38 82 sine resonator 100 Hz;
+#X text 122 107 pink noise -40 dB;
+#X text 286 17 some demo settings:;
+#X obj 21 290 clip~ -1 1;
+#X text 373 383 punch;
+#X text 379 466 suck;
+#X obj 21 432 cnv 15 250 80 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 30 476 Katja Vetter 2010;
+#X text 30 490 www.katjaas.nl/compander/compander.html;
+#X text 379 226 gate;
+#X obj 287 89 loadbang;
+#X text 377 139 limiter;
+#X text 378 156 only;
+#X text 18 59 test signals:;
+#X text 287 58 test signals);
+#X text 287 42 (turn on both;
+#N canvas 756 137 401 271 info 0;
+#X text 27 212 www.katjaas.nl/compander/compander.html;
+#X text 27 90 [vqompander~] works with maximum-phase filters. If the
+output is recombined with the original signal \, unintended filter
+effects will occur. Therefore \, route the original signal through
+another [vqompander~] with all settings low in such cases.;
+#X text 27 184 detailed description at:;
+#X text 28 23 [vqompander~] is for vanilla Pd. It is more CPU intensive
+than [qompander~] for Pd extended which uses [iemlib/peakenv~] instead
+of [fexpr~].;
+#X restore 179 17 pd info;
+#X text 90 289 needed for punch settings;
+#X text 375 306 gate;
+#X msg 286 360 \; factor 4 \; point -70 \; response 3 \; recovery 20
+\;;
+#X msg 286 280 \; factor 3 \; point -20 \; response 7.3 \; recovery
+20 \;;
+#X msg 287 121 \; factor 0.8 \; point -96 \; response 7.39 \; recovery
+20 \;;
+#X msg 286 202 \; factor 1 \; point -20 \; response 7.39 \; recovery
+20 \;;
+#X msg 286 442 \; factor 4 \; point -96 \; response 7.39 \; recovery
+200 \;;
+#X obj 21 262 vqompander~;
+#X text 30 451 vanilla Pd;
+#X text 28 436 [vqompander~] quadrature compander for;
+#X connect 0 0 38 1;
+#X connect 1 0 38 2;
+#X connect 2 0 38 3;
+#X connect 3 0 38 4;
+#X connect 5 0 38 0;
+#X connect 6 0 5 0;
+#X connect 7 0 5 1;
+#X connect 8 0 9 1;
+#X connect 8 0 10 0;
+#X connect 9 0 11 0;
+#X connect 9 0 11 1;
+#X connect 17 0 9 0;
+#X connect 24 0 35 0;
+#X connect 38 0 17 0;

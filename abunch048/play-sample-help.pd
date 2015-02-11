@@ -1,0 +1,96 @@
+#N canvas 373 -6 734 644 12;
+#X obj 47 1217 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 49 176 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 49 222 bng 15 250 50 0 empty empty open_file 17 7 0 10 -262144
+-1 -1;
+#X obj 48 286 bng 15 250 50 0 empty empty play_sample 17 7 0 10 -262144
+-1 -1;
+#X floatatom 48 375 5 0 0 1 transpose weo woeffoew;
+#X text 44 1294 Inlet 1 =;
+#X obj 49 472 tgl 15 0 tam mat reverse 17 7 0 10 -262144 -1 -1 0 1
+;
+#X text 39 1495 Outlet 1 =;
+#X text 42 1358 Inlet 2 =;
+#X text 44 1384 Inlet 3 =;
+#X obj 34 721 bng 10 250 50 0 zerraoptions empty extra_options 17 7
+0 8 -262144 -1 -1;
+#X obj 33 763 tgl 15 0 \$1-grasuse \$1-graruse use_live_recorded_file
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 31 865 tgl 15 0 \$1-grasautorec \$1-grarautorec start_playing_after_rec
+17 7 0 10 -262144 -1 -1 0 1;
+#X text 168 719 = this open a new window with these possibilities:
+;
+#X text 62 1254 (in- and outlets \, numbered from left to right);
+#X text 142 1291 (event) inlet to control the play_sample button. Every
+number greater than 0 triggers this button and plays the sample.;
+#X text 135 1357 (event) Inlet to control the fader 'level';
+#X text 129 1499 (audio) outlet for the sound of the sample that is
+being played;
+#X text 129 1385 (event) inlet to connect to the outlet of the abunch
+object 'record-sample' (take care that 'use_live_recorded_file' in
+the 'extra_options' window is turned on);
+#X text 175 219 = this button opens a sound file (wav or aif) that
+is stored somewhere on your hard disk and loads it in the memory of
+the computer.;
+#X text 178 375 = change the numbers in this number box to transpose
+the sample (1 = a semitone). This also effects the duration of sample
+that will be played (higher = shorter \, lower = longer). The transposition
+takes place the next time the sample starts playing.;
+#X text 180 284 = click on this button to play the opened sample;
+#X obj 48 316 bng 15 250 50 0 empty empty stop_sample 17 7 0 10 -262144
+-1 -1;
+#X text 180 314 = click on this button to stop the playing of the sample
+immediately;
+#X obj 49 515 tgl 15 0 foef oef loop 20 7 0 10 -262144 -1 -1 0 1;
+#X text 170 468 = if you turn on (= crossed) this toggle \, the sample
+will be played backwards.;
+#X text 174 512 = if this toggle is on \, the sample will be repeated
+again and again if you click on the 'play_sample' button). If you turn
+this switch off \, the sound will stop once the playing has reached
+the end of the sample.;
+#X text 39 592 fader 'level';
+#X text 164 593 = use this fader to change the amplitude of the output
+sound;
+#X text 163 656 = this box shows you the place and name of the opened
+folder.;
+#X obj 36 631 cnv 15 404 25 empty empty empty 20 12 0 14 -86277 -66577
+0;
+#X symbolatom 37 636 50 0 0 0 - - -;
+#X text 208 760 = if this toggle is crossed (turned on) you can use
+this play-sample object in combination with the 'record-sample' object.
+In this case play-sample won't play the file that was opened with the
+'open_file' button but the file that was recorded in 'record-sample'
+(see example ex3i-loopstation.pd);
+#X text 207 864 = if this toggle and the 'use_live_recorded_file' are
+turned on \, 'play-sample' will immediately play the recorded file
+(in the abunch object 'record-file') after the recording has stopped.
+;
+#X obj 11 966 nbx 5 14 0 1e+037 0 0 \$1-samsrnlp \$1-samrrnlp ms_ticks
+60 8 0 10 -262144 -1 -1 0 256;
+#X obj 126 967 tgl 15 0 \$1-samsext \$1-samrext ext_clock_on 17 7 0
+10 -262144 -1 -1 0 1;
+#X text 31 933 Random break in loop:;
+#X text 230 942 = these options only work if the 'loop' toggle (see
+higher) is switched on.;
+#X text 229 984 If the toggle 'ext_clock_on' is off and the number
+box 'ms_ticks' has a value of f.e. 500 \, after the end of the sample
+a rest will be inserted (before the sample is repeated again). The
+duration of this rest will have a random duration between 0 and 500
+milliseconds. If the 'ext_clock_on' toggle is on \, the values in the
+number box 'ms_ticks' aren't milliseconds but ticks or beats. For example
+if this is 4 \, a random rest of 0 \, 1 \, 2 \, 3 or 4 beats will be
+inserted (1 tick = the duration of 1 beat of the external clock).;
+#X text 226 1148 If 'ms_ticks' has a value of 0 \, the playing (in
+loop mode) is normal (without random rests).;
+#X text 44 95 In 'play-sample' transposition and duration influence
+each other. If you transpose up \, the duration of the sample will
+be shorter. Transposing down results in a longer duration.;
+#X text 42 1442 Inlet 4 =;
+#X text 128 1440 (event) inlet to connect to an external clock (the
+tempo of the clock is used in the 'random break in loop' function in
+the 'extra_options'.;
+#X text 46 18 The abunch object 'play-sample' plays a short sound sample
+from the memory of the computer (Use the abunch object 'play-file'
+if you want to play a longer sound file from your hard disk).;

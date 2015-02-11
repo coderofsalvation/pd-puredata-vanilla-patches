@@ -1,0 +1,158 @@
+#N canvas 340 11 723 737 12;
+#X text 49 1538 (in- and outlets \, numbered from left to right);
+#X obj 42 1949 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 37 1499 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 49 221 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 43 1598 Inlet 2 =;
+#X obj 45 284 tgl 40 0 art rt start 0 -8 0 10 -262144 -1 -1 0 1;
+#X obj 16 1214 hsl 256 15 30 1053 0 0 pot rpot tempo 260 8 0 10 -262144
+-1 -1 0 1;
+#X obj 13 1231 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -86277 -257985 -1 0 256;
+#X obj 17 1399 tgl 15 0 xto qrxto external_clock 17 7 0 8 -262144 -1
+-1 0 1;
+#X text 47 1570 Inlet 1 =;
+#X text 39 1627 Inlet 3 =;
+#X obj 7 838 cnv 15 350 30 empty empty voice6 0 18 0 10 -199686 -262144
+0;
+#X obj 68 767 hradio 32 1 0 4 \$1-sqlslamp \$1-sqlrlamp empty 0 -8
+0 10 -86277 -257985 -1 0;
+#X obj 43 375 nbx 3 20 1 16 0 0 ps eps steps 0 -8 0 10 -262144 -1 -1
+1 256;
+#X obj 46 432 hsl 64 15 0 1 0 0 gfdtreza cvbnhjkl randomize -2 -8 0
+10 -262144 -1 -1 0 1;
+#X obj 44 560 hsl 64 15 0 100 0 0 ssil dsil silence -3 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 38 634 tgl 15 0 tton tyon on -3 -8 0 10 -262144 -1 -1 0 1;
+#X obj 84 844 nbx 3 20 1 16 0 0 ps eps steps 0 -8 0 10 -262144 -1 -1
+1 256;
+#X obj 145 847 hsl 64 15 0 1 0 0 gfdtreza cvbnhjkl randomize -2 -8
+0 10 -262144 -1 -1 0 1;
+#X obj 326 846 tgl 15 0 tton tyon on -3 -8 0 10 -262144 -1 -1 0 1;
+#X obj 243 846 hsl 64 15 0 100 0 0 ssil dsil silence -3 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 9 965 hradio 32 1 0 4 yat opat read_pattern_nr 0 -8 0 10 -262144
+-1 -1 0;
+#X obj 5 1027 cnv 15 180 100 empty empty write_pattern 12 80 0 12 -199686
+-66577 0;
+#X obj 25 1069 tgl 15 0 \$1-sqlstempon \$1-sqlrtempon store_tempo 17
+7 0 10 -262144 -1 -1 0 1;
+#X obj 20 1045 nbx 3 14 1 16 0 0 opopatn éartpatn nr 40 8 0 10 -262144
+-1 -1 1 256;
+#X obj 97 1045 bng 15 250 50 0 zzpat tyzpat write 19 7 0 10 -262144
+-1 -1;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X coords 0 1 100 -1 180 100 1;
+#X restore 5 1026 graph;
+#X obj 16 1315 hsl 128 15 0 10 0 0 kstemr llrtemr randomize_tempo -2
+-8 0 10 -262144 -1 -1 0 1;
+#X obj 17 1473 bng 10 250 50 0 \$1-sqlsextraoptions empty extra_options
+17 4 0 10 -262144 -1 -1;
+#X text 40 1658 Inlet 4 =;
+#X text 37 1707 Inlet 5 =;
+#X text 36 1736 Inlet 6 =;
+#X text 34 1763 Inlet 7 =;
+#X text 38 1815 Outlet 1 =;
+#X text 38 1835 Outlet 2 =;
+#X text 38 1855 Outlet 3 =;
+#X text 38 1875 Outlet 4 =;
+#X text 38 1895 Outlet 5 =;
+#X text 38 1915 Outlet 6 =;
+#X text 127 1656 inlet to control the 'start/reset' toggle of the clock
+\; any number higher than zero in this inlet starts the clock \, a
+zero stops it.;
+#X text 145 274 = click this toggle (on = a cross) to start the sequencer
+(beginning from step 1). If you are using an external clock (see button
+'external_clock') this toggle won't do anything (as the external clock
+starts or stops the tempo of the sequencer in this case).;
+#X text 146 362 = click on this number box and move it up or down to
+change the number of steps of all the 6 voices of the sequencer (the
+maximum number of steps is 16).;
+#X text 146 431 = The higher the value of 'randomize' is \, the bigger
+the variation is in reading the steps. If randomize is rather low and
+the sequencer reads step 8 \, he could also read step 7 or 9 If the
+randomize is very high \, steps 3 to 7 or 9 to 13 could be read in
+stead of step 8 (this fader doesn't change the tempo \, the 'randomize_tempo'
+fader does).;
+#X text 148 556 = The more you move this fader to the right \, the
+higher the chance that the current step of all the 6 voices of the
+sequencer isn't being read. This step is skipped and no value is sent
+to the outlet of the sequencer.;
+#X text 136 638 = Use this toggle to turn all the voices/tracks;
+#X text 212 765 = This row of boxes shows the current step that is
+being read. It shows only the steps of voice 1!;
+#X text 371 845 = For every voice you can adjust the;
+#X text 211 876 number of steps \, the amount of randomness and of
+silence and the on/off button. Above you find more information about
+these functions in the explanation about the global functions with
+the same name.;
+#X text 173 954 = Click this to open a pattern. The values will appear
+in the rows of the voices. If the multi-seq sequencer is playing \,
+the next pattern will be opened after the last step of voice 1 has
+been reached.;
+#X text 192 1030 = Use this to store a pattern. Enter the number that
+will be given to saved pattern with the 'nr' number box. If you also
+want to store the current tempo (fader 'tempo') in the pattern \, turn
+on the toggle 'store_tempo'. At last click on the button 'write' and
+the pattern will be stored. If you want to be able to reload the pattern
+after you have closed the main abunch file that you are using \, you
+should also save a preset with the object 'presets' (see help file
+of the presets object).;
+#X text 333 1212 = Use this fader to change the tempo of the sequencer.
+;
+#X text 77 1232 = this number box shows the tempo in 'beats per minute'
+(you cannot change the tempo with this number box \, use the fader
+'tempo' for this).;
+#X text 165 1301 = The more you move this fader to the right \, the
+less exact the tempo will be. A small randomize value of this fader
+(and a tempo of for example 60 bpm) \, will produce a tempo of about
+60 (but one tick of the clock reading the sequencer could also be 58
+or 63 or 61).;
+#X text 175 1395 = if this is crossed \, you can control the tempo
+of the sequencer with an external clock. In this case you have to connect
+an external clock (like 'clock' or 'multi-clock') to inlet 7 of this
+multi-seq object;
+#X text 128 1570 (event) inlet to control the fader tempo;
+#X text 122 1762 (event) inlet for the external clock (if the 'external_clock'
+toggle is turned on);
+#X text 122 1626 (event) inlet to control the (global) numberbox 'steps'
+;
+#X text 132 1597 (event) inlet to control the number boxes 'read_pattern_nr'
+;
+#X text 125 1709 (event) inlet to control the global fader 'randomize'
+;
+#X text 126 1740 (event) inlet to control the global fader 'silence'
+;
+#X text 132 1813 (event) ooutlet for the sent values of voice/track
+1;
+#X text 128 1836 (event) ooutlet for the sent values of voice/track
+2;
+#X text 129 1858 (event) ooutlet for the sent values of voice/track
+3;
+#X text 127 1880 (event) ooutlet for the sent values of voice/track
+4;
+#X text 127 1899 (event) ooutlet for the sent values of voice/track
+5;
+#X text 126 1918 (event) ooutlet for the sent values of voice/track
+6;
+#X obj 6 679 cnv 15 210 30 empty empty voice6 0 18 0 10 -199686 -262144
+0;
+#X floatatom 71 687 4 0 0 0 - #1-sqnrq012 #1-sqnsq012;
+#X floatatom 108 687 4 0 0 0 - #1-sqnrq013 #1-sqnsq013;
+#X floatatom 145 687 4 0 0 0 - #1-sqnrq014 #1-sqnsq014;
+#X floatatom 182 687 4 0 0 0 - #1-sqnrq015 #1-sqnsq015;
+#X text 46 36 Multi-seqn is a sequencer with 6 voices/tracks. You can
+save maximum 16 patterns \, every pattern has maximum 16 steps. You
+can also save patterns with a different tempo and with a different
+number of steps.;
+#X text 46 119 You can give every step a value between 0 and 127 (as
+opposed to the other abunch object 'multi-seq' where you can only use
+on -127- and off -0- values).;
+#X text 232 674 = You can enter values for every step in these boxes
+\, the time goes from left to right in this row. If you click on a
+box and move your mouse up or down \, the values will change (minimum
+value = 0 \, maximum = 127).;
+#X connect 6 0 7 0;

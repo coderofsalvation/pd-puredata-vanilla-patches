@@ -1,0 +1,138 @@
+#N canvas 547 6 817 833 12;
+#X obj 33 1825 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 29 1368 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 48 162 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 25 1802 outlet 1 =;
+#X obj 38 357 hsl 128 15 1 513 0 0 \$1-grastempo \$1-grartempo tempo
+133 10 0 10 -262144 -1 -1 0 1;
+#X obj 37 264 tgl 15 1 \$1-grason \$1-graron on_off 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 38 209 bng 15 250 50 0 \$1-grasopen \$1-graropen open_file 17
+7 0 10 -262144 -1 -1;
+#X obj 37 554 hsl 128 15 2 500 0 0 \$1-graslen \$1-grarlen length -2
+-8 0 10 -262144 -1 -1 0 1;
+#X obj 40 322 hsl 100 15 0 100 0 0 \$1-graslev \$1-grarlev level -2
+-8 0 10 -262144 -1 -1 0 1;
+#X obj 38 608 hsl 100 15 0 0.5 0 0 \$1-grasrndlen \$1-grarrndlen random_length
+-2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 38 464 hsl 128 15 0 100 0 0 \$1-graspos \$1-grarpos position
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 36 661 hsl 128 15 0 100 0 0 \$1-graszon \$1-grarzon zone -2
+-8 0 10 -262144 -1 -1 0 1;
+#X obj 35 783 cnv 15 80 50 empty empty pitch_shift 0 12 0 6 -233017
+-66577 0;
+#X obj 37 411 hsl 100 15 0 99 0 0 \$1-grasrndtempo \$1-grarrndtempo
+random_tempo -2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 37 805 nbx 7 20 -1e+037 1e+037 0 0 empty \$1-grashowpitch empty
+0 -8 0 10 -262144 -1 -1 0 256;
+#X obj 34 1040 hsl 100 15 0.01 0.5 0 0 \$1-grasatt \$1-graratt attack
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 35 1080 hsl 128 15 0.01 0.5 0 0 \$1-grasdec \$1-grardec decay
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 36 727 hsl 100 15 0 0.5 0 0 \$1-grasrndzon \$1-grarrndzon random_zone
+-2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 37 505 hsl 100 15 0 0.5 0 0 \$1-grasrndpos \$1-grarrndpos random_pos
+-2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 34 848 cnv 15 80 50 empty empty max_voices 0 12 0 6 -233017
+-66577 0;
+#X obj 36 870 nbx 3 14 -1e+037 1e+037 0 0 empty \$1-crrnrvoices empty
+0 -8 0 10 -262144 -1 -1 0 256;
+#X text 52 766 show:;
+#X obj 34 1131 bng 10 250 50 0 zerraoptions empty extra_options 17
+7 0 8 -262144 -1 -1;
+#X obj 33 1173 tgl 15 0 \$1-grasuse \$1-graruse use_live_recorded_file
+17 7 0 10 -262144 -1 -1 0 1;
+#X obj 32 1265 tgl 15 0 \$1-grasautorec \$1-grarautorec start_playing_after_rec
+17 7 0 10 -262144 -1 -1 0 1;
+#X text 37 1427 inlet 1 =;
+#X text 34 1454 inlet 2 =;
+#X text 37 1485 inlet 3 =;
+#X text 34 1516 inlet 4 =;
+#X text 30 1550 inlet 5 =;
+#X text 33 1578 inlet 6 =;
+#X text 32 1617 inlet 7 =;
+#X text 29 1652 inlet 8 =;
+#X text 28 1684 inlet 9 =;
+#X text 24 1710 inlet 10 =;
+#X text 25 1747 inlet 11 =;
+#X obj 34 943 hsl 128 15 1 10 0 0 aytyten wwwwwen density -2 -8 0 10
+-262144 -1 -1 0 1;
+#X text 183 937 = hiermee verander je de densiteit. Hoe hoger de densiteit
+\, hoe meer grains samen klinken (Bij een hogere densiteit worden met
+een kleine random marge qua timing grains afgevuurd met dezelfde 'length'
+en 'zone' ).;
+#X text 74 868 / 20;
+#X text 36 16 Graino-sample is an object for granular synthesis of
+a sound file. It can have maximum 20 grains simultaneaously. Only the
+length and the zone (the traject in the original sample) can be adjusted
+resulting in a transposition of the grain. Transposition isn't an independent
+parameter in graino-sample (it is in the abunch object 'grain-sample').
+;
+#X text 37 119 Other granular synthesis objects in abunch: grain48-sample
+\, grain-sample \, grain-synth and grain-live.;
+#X text 175 206 = by clicking on this button you can open a sound file
+(.wav or .aiff) and apply granular synthesis to this file;
+#X text 178 264 = turns this object 'grain-sample' (and thus the sound
+production of this object) on or off;
+#X text 177 318 = use this fader to adjust the amplitude of the output
+sound;
+#X text 238 357 = this fader changes the speed (in milliseconds) at
+which grains are produced in the sound file;
+#X text 174 403 = with this fader you can randomize the tempo at which
+new grains are read;
+#X text 187 458 = this fader changes the position where the grains
+are produced in the sound file;
+#X text 176 501 = this fader randomizes the position where the grains
+are read in the sound file;
+#X text 177 605 = this fader changes the amount of randomization applied
+to the length of a grain;
+#X text 184 549 = use this fader to change the length (in milliseconds)
+of a grain \, this also affects the pitch-shift or transposition of
+the grain;
+#X text 181 655 = use this fader to change the zone (the number of
+samples in the sound file) that will be used to produce the grain.
+This fader also affects the pitch_shift or transposition of a grain.
+;
+#X text 185 719 = this fader changes the amount of randomization applied
+to the zone that is used by the grain.;
+#X text 160 767 = this number box shows the pitch_shift (in semitones)
+produced by the changes in length and zone of the grain. This is the
+transposition in comparison with pitch of the original sound file.
+;
+#X text 158 855 = this number box shows the number of simultaneous
+grains that are being produced (depending on the tempo \, length and
+density) \, don't surpass 20 or you will hear distortion.;
+#X text 187 1034 = this fader changes the attack time (in percentage
+of the length) of the amplitude envelope of a grain;
+#X text 187 1074 = this fader changes the release time (in percentage
+of the length) of the amplitude envelope of a grain;
+#X text 203 1126 = this open a new window with these possibilities:
+;
+#X text 305 1163 = if this crossed (turned on) you can use this object
+in combination with the 'record-sample' object. In this case grain-sample
+won't granulize the opened soundfile but the sound file that was recorded
+in record-sample (see example ex3i-loopstation.pd);
+#X text 315 1257 = if this toggle and the 'use_live_recorded_file'
+are turned on \, the granular synthesis starts immediately after the
+recording of a sound sample (in 'record-sample') stopped;
+#X text 120 1426 (event) inlet to control the toggle 'on_off';
+#X text 120 1452 (event) inlet to control the fader 'level';
+#X text 120 1482 (event) inlet to control the fader 'tempo';
+#X text 120 1512 (event) inlet to control the fader 'random_tempo'
+;
+#X text 120 1547 (event) inlet to control the fader 'position';
+#X text 120 1576 (event) inlet to control the fader 'random_position'
+;
+#X text 120 1612 (event) inlet to control the fader 'length';
+#X text 120 1649 (event) inlet to control the fader 'random_length'
+;
+#X text 38 1397 (in- and outlets \, numbered from left to right);
+#X text 114 1682 (event) inlet to control the fader 'zone';
+#X text 111 1710 (event) inlet to control the fader 'random_zone';
+#X text 118 1802 (audio) sound produced by the granular synthesis;
+#X text 112 1744 (event) inlet to connect to the outlet of 'record-sample'
+(take care 'use_live_recorded_file' in the extra_options window is
+turned on);

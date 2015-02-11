@@ -1,0 +1,100 @@
+#N canvas 318 9 717 669 12;
+#X obj 40 1284 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 37 962 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 34 101 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 82 997 (in- en uitgangen \, genummerd van links naar rechts)
+;
+#X text 44 1216 outlet 1 =;
+#X text 47 1033 inlet 1 =;
+#X text 43 1065 inlet 2 =;
+#X text 19 150 schuiver 'min';
+#X text 22 165 schuiver 'max';
+#X text 26 221 schuiver 'stepsize';
+#X text 22 429 schuiver 'tempo' =;
+#X obj 22 455 nbx 5 14 -1e+037 1e+037 0 0 ccc cccfc bpm 60 7 0 10 -86277
+-260097 -1 0 256;
+#X obj 104 456 nbx 6 14 -1e+037 1e+037 0 0 weet wrms ms 67 7 0 10 -86277
+-260097 -1 0 256;
+#X obj 29 299 tgl 25 0 \$1-rnwson \$1-rnwron on/off -7 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 26 375 nbx 5 14 0 127 0 0 \$1-rnwssd \$1-rnwrsd seed 0 -8 0
+10 -262144 -1 -1 0 256;
+#X text 37 16 Het 'random-walk' object in abunch produceert willekeurige
+getallen in een aaneengesloten beweging (een soort willekeurig golvend
+patroon) volgens een 'random walk' algoritme.;
+#X text 196 150 = met deze schuivers bepaal je de bovengrens (schuiver
+'max') en ondergrens (schuiver 'min') van de willekeurige getallen.
+;
+#X text 199 218 = met deze schuiver bepaal je de grootte van de afstand
+tussen het huidige en het vorige willekeurige getal. Grote afstanden
+geeft bijna totaal willekeurige patronen \, kleine afstanden produceren
+heel aaneengesloten patronen.;
+#X text 199 368 = dit is de startwaarde om de willekeurige getallen
+te produceren;
+#X text 206 427 = met deze schuiver bepaal je het tempo waarmee getallen
+geproduceerd worden. Het tempo is te zien als 'bpm' (beats per minute)
+en als milliseconden in de twee bruine (number boxen'.;
+#X obj 25 513 tgl 15 0 \$1-rnwsext \$1-rnwrext external_clock 17 7
+0 8 -262144 -1 -1 0 1;
+#X text 196 504 = met deze schakelaar zet je de externe klok aan- of
+uit \, als je deze aanzet kan een externe klok (zoals 'clock') naar
+ingang 3 gestuurd worden. Als dit aanstaat \, geldt de 'speed' schuiver
+logischerwijs niet meer.;
+#X text 43 1095 inlet 3 =;
+#X text 45 1124 inlet 4 =;
+#X text 44 1176 inlet 5 =;
+#X text 135 1033 (event) ingang om de schuiver 'min' te controleren
+;
+#X text 133 1062 (event) ingang om de schuiver 'max' te controleren
+;
+#X text 135 1095 (event) ingang om de schuiver 'stepsize' te controleren
+;
+#X text 137 1123 (event) ingang om de schakelaar 'on/off' te controleren
+(een 0 zet deze schakelaar uit \, een positief getal zet hem aan);
+#X text 129 1177 (event) ingang voor de externe klok;
+#X text 129 1215 (event) uitgang voor de willekeurige getallen;
+#X text 44 1246 outlet 2 =;
+#X text 129 1245 (event) uitgang voor de velocity waarden (zie 'extra_options')
+;
+#X obj 12 676 hsl 128 15 0 2 0 0 slenv wrlenvz length -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 11 605 tgl 15 0 wsmode ode note_on_and_note_off 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 9 693 nbx 5 14 -1e+037 1e+037 0 0 om koman empty 0 -8 0 10 -86277
+-260097 -1 0 256;
+#X obj 15 751 tgl 15 0 wsnewu eww new_range_for_note_on 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 17 778 hsl 128 15 0 127 0 0 min wrnminr minimum 134 5 0 10 -262144
+-1 -1 0 1;
+#X obj 17 816 hsl 128 15 0 127 0 0 maxm axo maximum 134 5 0 10 -262144
+-1 -1 0 1;
+#X obj 14 833 nbx 5 14 -1e+037 1e+037 0 0 omy komany empty 0 -8 0 10
+-86277 -260097 -1 0 256;
+#X obj 14 795 nbx 5 14 -1e+037 1e+037 0 0 omr komans empty 0 -8 0 10
+-86277 -260097 -1 0 256;
+#X text 72 573 OUTLET 2;
+#X text 188 602 = als deze schakelaar aan staat (= aangekruist) dan
+wordt voor elke waarde die naar de tweede uitgang verstuurd wordt ook
+een note-off (velocity = 0) verstuurd. Met de schuiver 'length' bepaal
+je hoelang de note-on duurt (en na die duur komt dan de note-off).
+Als de length schuiver vb op 1.5 staat betekent dat na 1.5 keer de
+duur van 1 tijd (ingesteld met de schuiver tempo) altijd de note-off
+verstuurd wordt.;
+#X text 198 750 = normaal gezien worden de dezelfde willekeurige waarden
+van het 'random-walk' algoritme naar de tweede ingang verstuurd (al
+dan niet gevolgd door een note-off. Je kan ook het bereik aanpassen
+voor de waarden van uitgang 2 met de schuiver 'minimum' (de ondergrens)
+en de schuiver 'maximum' (de bovengrens). De waarden van 'random-walk'
+bepaald door de schuivers 'min' en 'max' in het hoofdvenster worden
+dan aangepast zodat ze passen in het bereik tussen deze 'minimum' en
+'maximum' schuivers.;
+#X text 199 292 = met deze schakelaar zet je de klok die de willeurige
+getallen genereert in dit 'random-walk' object aan of uit. Als je de
+externe klok gebruikt (schakelaar 'external clock') hoef deze on/off
+schakelaar niet aan te staan.;
+#X connect 33 0 35 0;
+#X connect 37 0 40 0;
+#X connect 38 0 39 0;

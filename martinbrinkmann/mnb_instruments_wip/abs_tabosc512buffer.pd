@@ -1,0 +1,18 @@
+#N canvas 714 565 460 382 10;
+#X obj 20 43 inlet~;
+#X obj 79 111 inlet;
+#X obj 267 133 \$0;
+#X msg 254 59 bang;
+#X obj 174 59 loadbang;
+#X obj 284 245 outlet;
+#X obj 65 219 tabwrite~ \$0tabosc512wavbuffer;
+#X text 100 12 taboscwavebuffer for taboscs \, size 512;
+#X text 285 267 unique id;
+#X text 5 20 audio in;
+#X text 64 90 start sampling;
+#X obj 65 242 table \$0tabosc512wavbuffer 515;
+#X connect 0 0 6 0;
+#X connect 1 0 6 0;
+#X connect 2 0 5 0;
+#X connect 3 0 2 0;
+#X connect 4 0 2 0;

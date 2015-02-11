@@ -1,0 +1,41 @@
+1 allsynths 0 0 0 () norm 0 0 1-wasrx1 2.38583 () norm 0 0 1-wasrx2
+146.575 () norm 0 0 1-wasrx3 32.252 () norm 0 0 1-wasrx4 460 () norm
+0 0 1-wasrx5 0.0275591 () norm 0 0 1-fm2rx1 61 () norm 0 0 1-fm2rx2
+10.5 () norm 0 0 1-fm2rx3 1 () norm 0 0 1-fm2rx4 10.281 () norm 0 0
+1-fm2rx5 7.05556 () norm 0 0 1-fm2rx6 304.762 () norm 0 0 1-fm2rx7
+63.4921 () norm 0 0 1-fm2rx8 20.1587 () norm 0 0 1-fm2rx9 322.54 ()
+norm 0 0 1-fm2rx10 1930.16 () norm 0 0 1-addrx1 0.48 () norm 0 0 1-addrx2
+0.415094 () norm 0 0 1-addrx3 0 () norm 0 0 1-addrx4 650 () norm 0
+0 1-addrx5 0.43 () norm 0 0 1-addrx6 2000 () norm 0 0 1-addrx7 773
+() norm 0 0 1-addrx8 0.5 () norm 0 0 1-addrx9 0.509434 () norm 0 0
+1-addrx10 1 () norm 0 0 1-addrx11 132 () norm 0 0 1-addrx12 0.24 ()
+norm 0 0 1-addrx13 264 () norm 0 0 1-addrx14 938 () norm 0 0 1-addrx15
+1 () norm 0 0 1-addrx16 0.226415 () norm 0 0 1-addrx17 0 () norm 0
+0 1-addrx18 119 () norm 0 0 1-addrx19 0.688679 () norm 0 0 1-addrx20
+544 () norm 0 0 1-addrx21 427 () norm 0 0 1-addrx22 2 () norm 0 0 1-addrx23
+0.716981 () norm 0 0 1-addrx24 0.83 () norm 0 0 1-addrx25 96 () norm
+0 0 1-addrx26 0 () norm 0 0 1-addrx27 297 () norm 0 0 1-addrx28 0 ()
+norm 0 0 1-addrx29 5.02 () norm 0 0 1-addrx30 0.0188679 () norm 0 0
+1-addrx31 0 () norm 0 0 1-addrx32 165 () norm 0 0 1-addrx33 0.35 ()
+norm 0 0 1-addrx34 3000 () norm 0 0 1-addrx35 767 () norm 0 0 1-addrx36
+4 () norm 0 0 1-addrx37 0.45283 () norm 0 0 1-addrx38 0.74 () norm
+0 0 1-addrx39 187 () norm 0 0 1-addrx40 0 () norm 0 0 1-addrx41 995
+() norm 0 0 1-addrx42 0 () norm 0 0 1-addrx43 5 () norm 0 0 1-addrx44
+0.943396 () norm 0 0 1-addrx45 0 () norm 0 0 1-addrx46 1000 () norm
+0 0 1-addrx47 0.29 () norm 0 0 1-addrx48 3000 () norm 0 0 1-addrx49
+1222 () norm 0 0 1-addrx50 6 () norm 0 0 1-addrx51 0.54717 () norm
+0 0 1-addrx52 0.24 () norm 0 0 1-addrx53 1400 () norm 0 0 1-addrx54
+0.27 () norm 0 0 1-addrx55 800 () norm 0 0 1-addrx56 857 () norm 0
+0 1-addrx57 4 () norm 0 0 1-addrx58 0 () norm 0 0 1-addrx59 4 () norm
+0 0 1-addrx60 0.763889 () norm 0 0 1-addrx61 0 () norm 0 0 1-addrx62
+0 () norm 0 0 1-addrx63 0.44 () norm 0 0 1-addrx64 0.28 () norm 0 0
+1-addrx65 0 () norm 0 0 1-qwerx1 1 () norm 0 0 1-qwerx2 0 () norm 0
+0 1-qwerx3 0 () norm 0 0 1-qwerx4 0 () norm 0 0 1-qwerx5 1 () norm
+0 0 1-qwerx6 0 () norm 0 0 1-rndrx1 0 () norm 0 0 1-rndrx2 0.397638
+() norm 0 0 1-rndrx3 0.1 () norm 0 0 1-rndrx4 54.6555 () norm 0 0 1-rndrx5
+0 () norm 0 0 1-rndrx6 0.1 () norm 0 0 1-rndrx7 0 () norm 0 0 1-rndrx8
+0.374803 () norm 0 0 1-rndrx9 0.8 () norm 0 0 1-rndrx10 1 () norm 0
+0 1-azerx1 1 () norm 0 0 1-azerx2 0 () norm 0 0 1-azerx3 0 () norm
+0 0 1-azerx4 0 () norm 0 0 1-azerx5 1 () norm 0 0 1-azerx6 500 () norm
+0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 () norm 0 0 1-soutrx3 100
+() norm 0 0 1-soutrx4 1;

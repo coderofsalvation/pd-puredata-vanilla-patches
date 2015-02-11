@@ -1,0 +1,33 @@
+#N canvas 622 76 620 677 12;
+#X obj 49 760 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 37 592 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 47 663 inlet 1 =;
+#X text 45 703 inlet 2 =;
+#X obj 46 384 tgl 30 0 yyyyyyyyyyyyyyy rtrtrtrrrrrr ON/OFF -10 -15
+0 10 -262144 -1 -1 0 1;
+#X obj 37 469 nbx 5 14 1 1000 0 0 kikbbb cggggggggw refresh_rate -15
+-8 0 10 -262144 -1 -1 1 256;
+#X obj 46 532 bng 15 250 50 0 xxxxxxxxxbvbx empty snap 17 7 0 10 -262144
+-1 -1;
+#X obj 51 195 vsl 15 140 500 5000 0 0 qvnloom mpmpmpmpoom zoom -10
+-9 0 10 -262144 -1 -1 0 1;
+#X text 51 25 With 'spectrum' you can view a spectrum analysis of an
+incoming sound.;
+#X text 47 73 (based on 'E01.spectrum.pd' in audio/doc files by M.
+Puckette);
+#X text 93 233 = You can zoom in or out on the Y-axis (amplitude).
+;
+#X text 99 385 = This toggle turns the spectrum analyser on or off.
+;
+#X text 147 461 = With this number box you can change the rate in which
+a new view/window is shown (speed in milliseconds).;
+#X text 127 529 = When the spectrum analyser is turned off \, you can
+create one snapshot by clicking this 'bang' button.;
+#X text 135 663 (audio) the sound that will be analysed;
+#X text 130 704 (event) inlet to control the 'snap' button \, any number
+in this inlet creates a bang in the 'snap' button.;
+#X text 56 627 (in- and outlets \, numbered from left to right);

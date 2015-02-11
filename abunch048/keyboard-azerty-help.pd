@@ -1,0 +1,92 @@
+#N canvas 399 -7 619 737 12;
+#X obj 59 824 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 50 333 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 367 161 vsl 18 50 0 127 0 0 xxxhh hhhxx u 5 60 0 10 -262144
+-262144 -1 0 1;
+#X obj 329 161 vsl 18 50 0 127 0 0 jbj bjb t 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 348 161 vsl 18 50 0 127 0 0 bbb jjj y 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 289 161 vsl 18 50 0 127 0 0 zuu uuz e 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 309 161 vsl 18 50 0 127 0 0 sms msm r 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 251 161 vsl 18 50 0 127 0 0 mtm tmt a 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 270 161 vsl 18 50 0 127 0 0 aua uau z 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 282 160 tgl 15 0 empty empty 3 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 262 160 tgl 15 0 empty empty 2 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 339 160 tgl 15 0 empty empty 6 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 359 160 tgl 15 0 empty empty 7 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 320 159 tgl 15 0 empty empty 5 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 232 161 vsl 18 50 0 127 0 0 hihi ih ? 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 194 161 vsl 18 50 0 127 0 0 xbx bxb b 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 213 161 vsl 18 50 0 127 0 0 qq hqh n 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 155 161 vsl 18 50 0 127 0 0 teref feft c 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 174 161 vsl 18 50 0 127 0 0 yuk kly v 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 115 161 vsl 18 50 0 127 0 0 yuyu yuu w 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 135 161 vsl 18 50 0 127 0 0 zza zaza x 5 60 0 10 -262144 -262144
+-1 0 1;
+#X obj 148 159 tgl 15 0 empty empty d 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 126 159 tgl 15 0 empty empty s 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 206 160 tgl 15 0 empty empty h 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 226 159 tgl 15 0 empty empty j 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 186 160 tgl 15 0 empty empty g 2 -8 0 10 -1 -1 -1 0 1;
+#X obj 386 161 vsl 18 50 0 127 0 0 qqqqtt ttttqq i 5 60 0 10 -262144
+-262144 -1 0 1;
+#X text 65 240 w = midi note 60 \, s = 61 \, ...;
+#X text 28 907 outlet 1;
+#X text 25 964 outlet 2;
+#X obj 24 659 tgl 15 0 emmmelon wcuaaelon send_pitch_and_velocity 17
+7 0 8 -262144 -1 -1 0 1;
+#X text 19 275 A computer keyboard isn't polyphonic \, so don't try
+to press 2 or more keys at once and of course it also isn't velocity
+sensitive.;
+#X text 117 390 = this toggle turns the 'kayboard-azerty' object on
+or off (when off no values are sent to the outlet if you press a key)
+;
+#X text 118 459 = Use this number box to shift the values that are
+being sent to the outlet (1 = one semitone higher \, -12 twelf semitones
+lower);
+#X text 237 657 = If this toggle is turned on (=crossed);
+#X text 118 678 pitch (outlet 1) and velocity (outlet 2) values are
+sent. Because a computer keyboard isn't velocity sensitive and it behaves
+strange if you want to sustain a key for a while \, the standard velocity
+(for the note-on) is 90 and the duration 500 milliseconds. You can
+change this if you click on the 'extra_options' buttons and enter a
+new value in the 'duration of note-on' numberbox.;
+#X text 60 866 (in- and outlets \, numbered from left to right);
+#X text 110 908 = outlet for the values that are sent by the 'keyboard-azerty'
+object (values between 0 and 127);
+#X text 114 966 = outlet for the velocity values (a note-on velocity
+value is sent when you press a key \, a note-off is sent from the moment
+you release a key. Because a computer keyboard isn't velocity sensitive
+a standard value of 90 is used as the note-on velocity value (and a
+zero for the note-off of course).;
+#X text 21 16 The abunch 'keyboard-azerty' object turns your computer
+keyboard into a very simple midi piano keyboard. The top row (with
+numbers) on the computer keyboard are the black keys of a piano \,
+the row with the letters 'a' \, 'z' \, ... are the white keys. The
+row with the letters 'q' \, 's' \, 'd' \, ... are the black keys but
+an octave lower. The lowest row are the white keys (an octave lower).
+;
+#X text 123 527 = Use this number box to shift the values of the lower
+half of the keyboard (1 = one semitone higher);
+#X text 138 576 = Use this number box to shift the values of the upper
+half of the keyboard (1 = one semitone higher);
+#X obj 32 460 nbx 5 14 -60 60 0 0 der ter shift_all 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 28 577 nbx 5 14 -60 60 0 0 tey yet shift_upper 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 27 532 nbx 5 14 -60 60 0 0 saz rez shift_lower 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 28 394 tgl 15 0 kop kol on/off 17 7 0 10 -262144 -1 -1 0 1;

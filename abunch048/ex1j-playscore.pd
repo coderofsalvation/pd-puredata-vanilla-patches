@@ -1,0 +1,32 @@
+#N canvas 718 59 536 400 12;
+#X obj 241 151 8band-filter 1;
+#X obj 318 200 sound-out 1;
+#X obj 25 51 presets ex1j;
+#X obj 238 118 waves 1;
+#X obj 280 60 play-score 1;
+#X text 27 400 You can find more information about 'play-score' in
+the help file of this object (right click and choose 'help').;
+#X text 55 15 A simple and short example of the 'play-score' object.
+;
+#X obj 371 89 receive pitch1;
+#X obj 394 114 receive velo1;
+#X obj 371 150 syna-fm 1;
+#X text 27 373 There are 2 presets in this example.;
+#X text 27 283 Open preset 1 and click on 'start_pauze' in 'play-score'.
+The values in the text file of 'play-score' are sent to the f1 \, f2
+\, ... faders in '8band-filter'. In preset 2 the values of the score
+in 'play-score' are sent to de receive 'pitch1' and 'velo1'.;
+#X obj 192 253 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj 358 93 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 381 119 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X text 213 247 = native Pd objects (not Abunch);
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 3 0 0 0;
+#X connect 7 0 9 0;
+#X connect 8 0 9 1;
+#X connect 9 0 1 0;
+#X connect 9 0 1 1;

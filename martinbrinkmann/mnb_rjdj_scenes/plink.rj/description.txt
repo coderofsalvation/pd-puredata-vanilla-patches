@@ -1,0 +1,5 @@
+shake, move, twist and tilt your ipod to make lots of sinusodial soundparticles, ranging from sleighbells to boiling kettles.
+the different axis control pitch, duration and stereo-position of the sine-grains. microphone input and the delayed output itself are used for frequency-modulation.
+plink is copyrighted, but is free for you to use for any reasonable purpose.
+1/2009 by martin brinkmann
+

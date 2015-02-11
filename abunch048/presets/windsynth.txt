@@ -1,0 +1,24 @@
+1 ok1 0 0 0 () sym 0 0 1-plfry1 C:/Program Files/pd/patch/own/doctoraat/study1/study-eerste4min-zonderwindsynth-a.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 0 () norm 0 0 1-plfrx2 0.946457 () norm 0 0 1-plfrx3 65 ()
+norm 0 0 1-adxrx1 0.23622 () norm 0 0 1-mnirx1 24 () norm 0 0 1-mnirx2
+0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-wsrx1 1.19994 () norm 0 0
+1-wsrx2 100.001 () norm 0 0 1-wsrx3 49.9906 () norm 0 0 1-wsrx4 49.9906
+() norm 0 0 1-wsrx5 100 () norm 0 0 1-wsrx6 100 () norm 0 0 1-wsrx7
+3 () norm 0 0 1-wsrx8 0 () norm 0 0 1-wsrx9 0 () norm 0 0 1-wsrx10
+269.94 () norm 0 0 1-wsrx11 19.9981 () norm 0 0 1-wsrx12 3 () norm
+0 0 1-wsrx13 0.8 () norm 0 0 1-scdrx1 96 () norm 0 0 1-scdrx2 24 ()
+norm 0 0 1-scdrx3 0;
+2 ok1 0 0 0 () sym 0 0 1-plfry1 C:/Program Files/pd/patch/own/doctoraat/study1/study1-eerste4min-enkel-low-en-perc-4-lowrec.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 0 () norm 0 0 1-plfrx2 0.623622 () norm 0 0 1-plfrx3 65 ()
+norm 0 0 1-adxrx1 0.137008 () norm 0 0 1-mnirx1 24 () norm 0 0 1-mnirx2
+0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-wsrx1 1.19994 () norm 0 0
+1-wsrx2 100.001 () norm 0 0 1-wsrx3 49.9906 () norm 0 0 1-wsrx4 49.9906
+() norm 0 0 1-wsrx5 100 () norm 0 0 1-wsrx6 100 () norm 0 0 1-wsrx7
+3 () norm 0 0 1-wsrx8 0 () norm 0 0 1-wsrx9 0 () norm 0 0 1-wsrx10
+269.94 () norm 0 0 1-wsrx11 19.9981 () norm 0 0 1-wsrx12 3 () norm
+0 0 1-wsrx13 0.8 () norm 0 0 1-scdrx1 96 () norm 0 0 1-scdrx2 24 ()
+norm 0 0 1-scdrx3 0;

@@ -1,0 +1,21 @@
+#N canvas 0 0 515 463 10;
+#X obj 128 115 metro 200;
+#X obj 128 224 t b b;
+#X obj 128 258 timer;
+#X floatatom 128 285 5 0 0 0 - - -;
+#X obj 128 90 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X floatatom 188 93 5 0 0 0 - - -;
+#X obj 128 314 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 128 152 speedlimit 150;
+#X floatatom 223 127 5 0 0 1 limit(ms) - -;
+#X connect 0 0 7 0;
+#X connect 1 0 2 0;
+#X connect 1 1 2 1;
+#X connect 2 0 3 0;
+#X connect 3 0 6 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 1;
+#X connect 7 0 1 0;
+#X connect 8 0 7 1;

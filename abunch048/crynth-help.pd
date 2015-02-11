@@ -1,0 +1,75 @@
+#N canvas 648 10 786 869 12;
+#X obj 42 1230 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 40 922 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 43 1172 outlet 1 =;
+#X text 50 993 inlet 1 =;
+#X text 47 1039 inlet 2 =;
+#X obj 51 391 hsl 200 15 0 500 0 0 qrytwid ahgfrrrwid width -2 -8 0
+10 -262144 -1 -1 0 1;
+#X obj 51 461 hsl 200 15 2000 7000 0 0 zjhgrstempo tghbvrtempo tempo
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 50 203 tgl 15 0 rson iuiuion on 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 50 267 tgl 15 0 jkjsdom ioirdom scan_random 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 51 326 hsl 128 15 0 127 0 0 iopoipit ioilrpit pitch -2 -8 0
+10 -262144 -1 -1 0 1;
+#X obj 50 520 tgl 15 0 zersrssine fjtrrrsine sine/triangle 17 7 0 10
+-262144 -1 -1 0 1;
+#X obj 185 326 nbx 5 14 0 128 0 0 empty \$1-crrspit empty 0 -8 0 10
+-262144 -1 -1 0 256;
+#X text 43 1101 inlet 3 =;
+#X text 82 855 'sustain' 'release';
+#N canvas 0 0 450 300 (subpatch) 0;
+#X array cryble 44103 float 0;
+#X coords 0 1.02 44100 -1.02 200 130 1;
+#X restore 31 587 graph;
+#X obj 35 721 hsl 195 15 0 44100 0 0 empty \$1-crrshow empty -2 -8
+0 10 -262144 -1 -1 0 1;
+#X text 43 1133 inlet 4 =;
+#X obj 41 750 bng 15 250 50 0 sdfdkave sdfjve save_table_as_txt 17
+7 0 10 -262144 -1 -1;
+#X obj 39 774 bng 15 250 50 0 azekopen mlksopen open_txt_file 17 7
+0 10 -262144 -1 -1;
+#X text 193 200 = click on this toggle to make the synthesizer produce
+sound (you can also control this toggle by sending a (velocity) value
+to inlet 2).;
+#X text 194 264 = if this toggle is on (=crossed) \, the oscillator
+table is read randomnly in an up-and-down motional.;
+#X text 257 324 = use this fader to change the pitch of the synthesizer
+\, the number box only shows the pitch that you have entered with the
+fader;
+#X text 269 387 = this fader changes the width or range of the table
+that is being read (together with the 'tempo' fader this influences
+how smooth or 'grainy' the sound is);
+#X text 268 459 = this fader changes the speed at which the table is
+being read;
+#X text 234 518 = this toggle defines the way the table is being read
+\, with a sine-like figure or a traingle figure.;
+#X text 243 589 = this is the table that is used as an oscillator \,
+drawing with the mouse on the table changes the values in the table.
+The fader under the table only shows the current read position (in
+the table).;
+#X text 253 747 = By clicking on these knobs you can either save the
+values in a seperate text file or open a text file (with one value
+in every line) that will be read by the table.;
+#X text 47 833 fader 'attack''decay';
+#X text 246 834 = These faders control the attack time \, the decay
+time \, the sustain strength and the release time of the amplitude
+envelope.;
+#X text 131 993 (event) inlet for the pitch (this inlet controls the
+fader pitch);
+#X text 132 1040 (event) inet to control the 'on' button. Just like
+midi velocities send a positive number to produce a tone and 0 to stop
+it.;
+#X text 130 1098 (event) inlet to control the fader 'width';
+#X text 128 1130 (event) inlet to control the fader 'tempo';
+#X text 131 1172 (audio) outlet for the produced sound;
+#X text 56 44 Crynth is a synthesizer based on a table that is being
+read as an oscillator. At the moment it is still monophonic (one voice).
+;
+#X text 43 957 (in- and outlets \, numbered from left to right);

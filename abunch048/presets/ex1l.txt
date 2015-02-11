@@ -1,0 +1,85 @@
+1 stringy 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-azerx1
+1 () norm 0 0 1-azerx2 0 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4
+0 () norm 0 0 1-azerx5 1 () norm 0 0 1-azerx6 738 () sym 0 0 1-grsry1
+12 String D3..wav () sym 0 0 1-grsry2 kxpqwmk () sym 0 0 1-grsry3 kxpqwmk
+() norm 0 0 1-grsrx1 27 () norm 0 0 1-grsrx2 462 () norm 0 0 1-grsrx3
+49.5909 () norm 0 0 1-grsrx4 0 () norm 0 0 1-grsrx5 260 () norm 0 0
+1-grsrx6 0.0707071 () norm 0 0 1-grsrx7 40 () norm 0 0 1-grsrx8 0.111111
+() norm 0 0 1-grsrx9 69 () norm 0 0 1-grsrx10 0 () norm 0 0 1-grsrx11
+0.3089 () norm 0 0 1-grsrx12 0.199981 () norm 0 0 1-grsrx13 66 () norm
+0 0 1-grsrx14 186.495 () norm 0 0 1-grsrx15 18.0909 () norm 0 0 1-grsrx16
+100 () norm 0 0 1-grsrx17 1070.17 () norm 0 0 1-grsrx18 -0.010101 ()
+norm 0 0 1-grsrx19 0.010101 () norm 0 0 1-grsrx20 -1 () norm 0 0 1-grsrx21
+0 () norm 0 0 1-grsrx22 0 () norm 0 0 1-grsrx23 1 () norm 0 0 1-grsrx24
+0 () norm 0 0 1-grsrx25 0 () norm 0 0 1-grsrx26 0 () norm 0 0 1-grsrx27
+0 () norm 0 0 1-grsrx28 0 () norm 0 0 1-grsrx29 0 () norm 0 0 1-grsrx30
+0;
+2 very_high 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-azerx1
+1 () norm 0 0 1-azerx2 0 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4
+0 () norm 0 0 1-azerx5 1 () norm 0 0 1-azerx6 780 () sym 0 0 1-grsry1
+pianob7.wav () sym 0 0 1-grsry2 kxpqwmk () sym 0 0 1-grsry3 kxpqwmk
+() norm 0 0 1-grsrx1 135 () norm 0 0 1-grsrx2 278 () norm 0 0 1-grsrx3
+49.5909 () norm 0 0 1-grsrx4 0 () norm 0 0 1-grsrx5 260 () norm 0 0
+1-grsrx6 0.0707071 () norm 0 0 1-grsrx7 30.5512 () norm 0 0 1-grsrx8
+0.111111 () norm 0 0 1-grsrx9 69 () norm 0 0 1-grsrx10 0 () norm 0
+0 1-grsrx11 0.3089 () norm 0 0 1-grsrx12 0.199981 () norm 0 0 1-grsrx13
+71 () norm 0 0 1-grsrx14 206.657 () norm 0 0 1-grsrx15 20.101 () norm
+0 0 1-grsrx16 100 () norm 0 0 1-grsrx17 1090.36 () norm 0 0 1-grsrx18
+-0.010101 () norm 0 0 1-grsrx19 0.010101 () norm 0 0 1-grsrx20 -1 ()
+norm 0 0 1-grsrx21 0 () norm 0 0 1-grsrx22 0 () norm 0 0 1-grsrx23
+1 () norm 0 0 1-grsrx24 0 () norm 0 0 1-grsrx25 0 () norm 0 0 1-grsrx26
+0 () norm 0 0 1-grsrx27 0 () norm 0 0 1-grsrx28 0 () norm 0 0 1-grsrx29
+0 () norm 0 0 1-grsrx30 0;
+3 kwik 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-azerx1 1 ()
+norm 0 0 1-azerx2 0 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 ()
+norm 0 0 1-azerx5 1 () norm 0 0 1-azerx6 760 () sym 0 0 1-grsry1 12 String D3..wav
+() sym 0 0 1-grsry2 kxpqwmk () sym 0 0 1-grsry3 kxpqwmk () norm 0 0
+1-grsrx1 880 () norm 0 0 1-grsrx2 462 () norm 0 0 1-grsrx3 94.024 ()
+norm 0 0 1-grsrx4 25.002 () norm 0 0 1-grsrx5 174.677 () norm 0 0 1-grsrx6
+0.0707071 () norm 0 0 1-grsrx7 26.6142 () norm 0 0 1-grsrx8 0.111111
+() norm 0 0 1-grsrx9 69 () norm 0 0 1-grsrx10 0 () norm 0 0 1-grsrx11
+0.259405 () norm 0 0 1-grsrx12 0.199981 () norm 0 0 1-grsrx13 66 ()
+norm 0 0 1-grsrx14 0 () norm 0 0 1-grsrx15 18.0909 () norm 0 0 1-grsrx16
+100 () norm 0 0 1-grsrx17 1009.6 () norm 0 0 1-grsrx18 -0.818182 ()
+norm 0 0 1-grsrx19 0.010101 () norm 0 0 1-grsrx20 0.959596 () norm
+0 0 1-grsrx21 0 () norm 0 0 1-grsrx22 1 () norm 0 0 1-grsrx23 1 ()
+norm 0 0 1-grsrx24 0 () norm 0 0 1-grsrx25 0 () norm 0 0 1-grsrx26
+0 () norm 0 0 1-grsrx27 0 () norm 0 0 1-grsrx28 1 () norm 0 0 1-grsrx29
+0 () norm 0 0 1-grsrx30 0;
+4 lung 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-azerx1 1 ()
+norm 0 0 1-azerx2 0 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 ()
+norm 0 0 1-azerx5 1 () norm 0 0 1-azerx6 780 () sym 0 0 1-grsry1 12 String D3..wav
+() sym 0 0 1-grsry2 kxpqwmk () sym 0 0 1-grsry3 kxpqwmk () norm 0 0
+1-grsrx1 160 () norm 0 0 1-grsrx2 288 () norm 0 0 1-grsrx3 49.5909
+() norm 0 0 1-grsrx4 0 () norm 0 0 1-grsrx5 260 () norm 0 0 1-grsrx6
+0.0707071 () norm 0 0 1-grsrx7 65.1969 () norm 0 0 1-grsrx8 0.111111
+() norm 0 0 1-grsrx9 69 () norm 0 0 1-grsrx10 0 () norm 0 0 1-grsrx11
+0.0416273 () norm 0 0 1-grsrx12 0.199981 () norm 0 0 1-grsrx13 66 ()
+norm 0 0 1-grsrx14 5.0404 () norm 0 0 1-grsrx15 18.0909 () norm 0 0
+1-grsrx16 100 () norm 0 0 1-grsrx17 1978.81 () norm 0 0 1-grsrx18 -0.010101
+() norm 0 0 1-grsrx19 0.010101 () norm 0 0 1-grsrx20 -1 () norm 0 0
+1-grsrx21 0 () norm 0 0 1-grsrx22 0 () norm 0 0 1-grsrx23 1 () norm
+0 0 1-grsrx24 0 () norm 0 0 1-grsrx25 0 () norm 0 0 1-grsrx26 0 ()
+norm 0 0 1-grsrx27 1 () norm 0 0 1-grsrx28 0 () norm 0 0 1-grsrx29
+0 () norm 0 0 1-grsrx30 0;
+5 rainy 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-azerx1 1 ()
+norm 0 0 1-azerx2 0 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 ()
+norm 0 0 1-azerx5 1 () norm 0 0 1-azerx6 780 () sym 0 0 1-grsry1 slap.wav
+() sym 0 0 1-grsry2 kxpqwmk () sym 0 0 1-grsry3 kxpqwmk () norm 0 0
+1-grsrx1 160 () norm 0 0 1-grsrx2 288 () norm 0 0 1-grsrx3 49.5909
+() norm 0 0 1-grsrx4 10.6061 () norm 0 0 1-grsrx5 20.2835 () norm 0
+0 1-grsrx6 0.0707071 () norm 0 0 1-grsrx7 25.9843 () norm 0 0 1-grsrx8
+0 () norm 0 0 1-grsrx9 69 () norm 0 0 1-grsrx10 0 () norm 0 0 1-grsrx11
+0.143636 () norm 0 0 1-grsrx12 0.5 () norm 0 0 1-grsrx13 55 () norm
+0 0 1-grsrx14 438.515 () norm 0 0 1-grsrx15 14.0707 () norm 0 0 1-grsrx16
+100 () norm 0 0 1-grsrx17 1534.59 () norm 0 0 1-grsrx18 -0.151515 ()
+norm 0 0 1-grsrx19 0.010101 () norm 0 0 1-grsrx20 0.79798 () norm 0
+0 1-grsrx21 0 () norm 0 0 1-grsrx22 0 () norm 0 0 1-grsrx23 1 () norm
+0 0 1-grsrx24 0 () norm 0 0 1-grsrx25 1 () norm 0 0 1-grsrx26 0 ()
+norm 0 0 1-grsrx27 1 () norm 0 0 1-grsrx28 0 () norm 0 0 1-grsrx29
+0 () norm 0 0 1-grsrx30 0;

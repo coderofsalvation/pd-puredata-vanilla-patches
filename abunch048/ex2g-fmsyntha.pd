@@ -1,0 +1,22 @@
+#N canvas 369 157 663 332 12;
+#X obj 212 196 sound-out 1;
+#X obj 213 150 envelopes 1;
+#X obj 182 57 notein;
+#X obj 13 16 presets ex2g;
+#X obj 243 56 keyboard-azerty 1;
+#X obj 212 121 simple-fm 1;
+#X text 185 11 A simple (monophonic) FM-synthesizer;
+#X text 381 57 -> pitch and velocity from;
+#X text 405 75 midi or computer keyboard;
+#X text 309 119 -> basic FM sound;
+#X text 317 148 -> amplitude envelope for the FM sound;
+#X text 15 247 Open a preset and play on your midi keyboard or your
+computer keyboard.;
+#X text 15 299 There are 3 presets in this example file.;
+#X connect 1 0 0 1;
+#X connect 1 0 0 0;
+#X connect 2 0 5 0;
+#X connect 2 1 1 1;
+#X connect 4 0 5 0;
+#X connect 4 1 1 1;
+#X connect 5 0 1 0;

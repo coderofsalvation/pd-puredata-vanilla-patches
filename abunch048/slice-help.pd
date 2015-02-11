@@ -1,0 +1,55 @@
+#N canvas 402 127 849 669 12;
+#X obj 40 891 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 37 592 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 57 100 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 54 43 slice: kapt een geluidsstroom in stukken (met een attack-decay-envelope)
+;
+#X obj 48 170 bng 15 250 50 0 empty empty go 17 7 0 10 -262144 -1 -1
+;
+#X obj 55 471 tgl 15 0 empty empty *2 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 54 432 tgl 15 0 empty empty /2 17 7 0 10 -262144 -1 -1 0 1;
+#X text 119 167 = hierop klikken kapt een klein stuk uit het geluid
+dat binnenkomt;
+#X obj 52 519 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X obj 56 303 tgl 15 0 empty empty *2 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 55 264 tgl 15 0 empty empty /2 17 7 0 10 -262144 -1 -1 0 1;
+#X text 190 220 = tijd (in milliseconden) voor de aanslag van het fragment
+dat uitgesneden wordt;
+#X text 111 263 = deelt alle waarden van 'schuiver attack' door 2 (om
+kleinere waarden te bekomen);
+#X text 110 301 = vermenigvuldigt alle waarden van 'schuiver attack'
+met 2 (om grotere waarden voor schuiver 'attack' te bekomen);
+#X obj 53 351 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 0 256;
+#X text 120 351 = hierin zie je de uiteindelijke tijd van schuiver
+'attack';
+#X text 46 218 schuiver 'attack';
+#X text 45 387 schuiver 'decay';
+#X text 189 388 = tijd (in milliseconden) voor het uitsterven (decay
+of release) van het fragment dat uitgesneden wordt;
+#X text 110 431 = deelt alle waarden van 'schuiver decay' door 2 (om
+kleinere waarden te bekomen);
+#X text 109 469 = vermenigvuldigt alle waarden van 'schuiver decay'
+met 2 (om grotere waarden voor schuiver 'attack' te bekomen);
+#X text 119 519 = hierin zie je de uiteindelijke tijd van schuiver
+'decay';
+#X text 143 705 (event) een positief getal zet 'go' aan (dus knipt
+een fragment uit geluid);
+#X text 47 663 Inlet 1 =;
+#X text 147 664 (audio) geluidsstroom waaruit een fragent gesneden
+wordt;
+#X text 47 706 Inlet 2 =;
+#X text 48 762 Inlet 3 =;
+#X text 46 816 Inlet 4 =;
+#X text 82 627 (in- en uitgangen \, genummerd van links naar rechts)
+;
+#X text 48 858 Outlet 1 =;
+#X text 136 857 (audio) uitgang voor het in 'versneden' geluid;
+#X text 139 760 (event) ingang om de waarden van schuiver 'attack'
+te controleren;
+#X text 137 814 (event) ingang om de waarden van schuiver 'decay' te
+controleren;

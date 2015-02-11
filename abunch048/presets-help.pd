@@ -1,0 +1,55 @@
+#N canvas 180 -13 717 737 12;
+#X obj 61 686 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 64 571 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 67 643 Inlet 1 =;
+#X floatatom 56 206 4 1 10 1 number_preset - -;
+#X obj 60 244 bng 15 250 50 0 empty empty save_preset 17 7 0 10 -258699
+-1 -1;
+#X obj 60 323 bng 15 250 50 0 empty empty open_preset 17 7 0 10 -262144
+-1 -1;
+#X text 48 22 With the 'presets' object you can store the position
+of faders \, knobs \, ... and the opened sound files in abunch objects
+(like play-sample or play-file). You have to give a name to the presets
+object. When you create a new object \, type 'presets' ( \, a tab)
+and a name. This name should be no longer than one word \, for example
+"presets file1".;
+#X text 205 205 = with this number box you fix the number of the preset
+that you want to open or store.;
+#X text 199 240 = click on this button to store a preset (with the
+number of the number box "number_preset". Take care: if there is already
+a preset with the same number \, this (older) preset will be overwritten!
+;
+#X text 203 318 = click on this button to open a preset (with the number
+of the number box "number_preset".;
+#X text 70 608 (in- and outlets \, numbered from left to right);
+#X text 155 643 (event) a number in this inlet opens the preset with
+the same number (so number 2 opens preset 2);
+#X text 61 906 Take care: presets stores the path on your computer
+where the sound files are. If you move the used sound files or if you
+want to open the presets on an other computer (where the sound files
+are somewhere else or simply missing) a message will appear in the
+Pd main window saying that the sound files can't be found.;
+#X obj 58 454 bng 15 250 50 0 printallnames empty print -5 -7 0 10
+-4034 -1 -1;
+#X symbolatom 54 376 12 0 0 1 name - -;
+#X text 200 373 = use this box to give a name to your preset. Click
+\, type a name (one word) and press the 'enter' key. The preset with
+the new name will only be saved after you have clicked on the butoon
+'save_preset'.;
+#X text 198 446 = if you click this button \, all (abunch) files that
+are necessary to make the (opened) main patch work \, will be printed
+in the Pd main window. Unfortunately it isn't possible to know the
+name of an opened file in Pd so '(this opened file)' in the printout
+refers to the name of the main file.;
+#X text 64 797 A (harmless) bug: if you enter a presets object with
+a new name (like 'presets set2') in a file and no presets have been
+saved yet with this name \, a message like 'error: file set2.txt doesn't
+exist' will appear in the Pd main window. Just ignore this bug and
+save your first preset with the new name...;
+#X text 65 730 All presets are stored in the folder abunch/presets.
+They are saved as a txt-file (called 'set1.txt' if you created the
+object 'presets set1').;

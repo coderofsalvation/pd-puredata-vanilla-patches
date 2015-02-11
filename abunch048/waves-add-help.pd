@@ -1,0 +1,48 @@
+#N canvas 81 28 660 677 12;
+#X obj 43 869 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 43 569 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 43 338 tgl 15 0 dui hui glide 17 7 0 10 -262144 -1 -1 0 1;
+#X obj 40 388 nbx 5 14 -1e+037 1e+037 0 0 qrtopaz kklkmlk gl_time 58
+7 0 10 -262144 -1 -1 0 256;
+#X obj 40 260 bng 15 250 50 0 ztzuo wnoams go 17 7 0 10 -262144 -1
+-1;
+#X text 38 646 Inlet 1 =;
+#X text 39 670 Inlet 2 =;
+#X text 38 701 Inlet 3 =;
+#X text 39 772 Inlet 4 =;
+#X text 39 802 Outlet 1 =;
+#X text 47 23 In the abunch object 'waves-add' you can adjust the strength
+of 16 harmonics and then a new tone (based on a created waveform) is
+produced. 'Waves-add' is a kind of additive synthesis: the seperate
+sine waves (harmonics) are added and the result is stored in a table
+that is read as an oscillator.;
+#X text 35 192 faders 'p1' 'p2' ... 'p16' : with these faders you can
+adjust the strength of the seperate harmonics (p1 = ground pitch \,
+p2 = first harmonic \, p3 = second harmonic \, ...);
+#X text 101 258 = After adjusting the harmonics (with the faders 'p1'
+'p2' ...) click on this button to produce the new wave form (and sound).
+;
+#X text 131 336 = use this toggle to turn the glide (glissando) between
+the seperate pitches (of the fader 'pitch') on or off;
+#X text 34 440 fader 'pitch':;
+#X text 186 382 = with this number box you can change the time (in
+milliseconds) that it takes to glide from one pitch to an other (so
+the 'glide' toggle should be switched on).;
+#X text 162 506 this fader changes the amplitude of the sound output
+of the waves object.;
+#X text 163 442 this fader changes the pitch of the chosen wave form
+\, the pitches are midi values (60 = middle C of the piano \, 69 =
+440 Hertz).;
+#X text 33 503 fader 'level':;
+#X text 130 643 (event) inlet to control the fader 'pitch';
+#X text 129 670 (event) inlet to control the fader 'level';
+#X text 43 598 (in- and outlets \, numbered from left to right);
+#X text 133 700 (event) inlet to control the toggle 'glide' \; any
+number higher than zero in this inlet turns the toggle on \, a zero
+turns it off.;
+#X text 119 772 (event) inlet to control the number box 'gl_time';
+#X text 134 801 (audio) outlet for the synthesized tone;

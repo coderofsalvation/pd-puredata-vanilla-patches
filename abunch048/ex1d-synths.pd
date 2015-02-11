@@ -1,0 +1,43 @@
+#N canvas 522 2 549 698 12;
+#X obj 114 392 sound-out 1;
+#X obj 76 203 keyboard-azerty 1;
+#X obj 40 167 notein;
+#X obj 220 255 random-out 1;
+#X obj 368 356 presets ex1d;
+#X obj 211 432 keyboard-qwerty 1;
+#X obj 39 317 addy 1;
+#X obj 116 316 syna-fm 1;
+#X obj 219 318 wa-synth 1;
+#X text 42 11 Abunch also contains a few synthesizers. All these synths
+need pitch and velocity (note on and note off) values (to inlet 1 and
+2) to produce a tone.;
+#X text 39 73 You can play these synths in different ways: by playing
+on your midi keyboard or your computer keyboard or by sending random
+values to the synthesizer.;
+#X text 101 167 -> pitches from the midi keyboard;
+#X text 221 201 -> pitches from the computer keyboard;
+#X text 324 254 -> random values;
+#X text 313 317 -> 3 synthesizers;
+#X text 36 492 <2> Play on your midi keyboard \, on het computer keyboard
+or open 'random-out' and click on the 'start' toggle.;
+#X text 33 536 <3> You can also open every synthesizer (by right clicking
+and choosing 'open'). You can change the position of the faders in
+these synthesizers or open a synthesizer preset with the 'own_preset'
+number box.;
+#X text 26 621 You can replace the 'keyboard-azerty' object with the
+'keyboard-qwerty' object if you have a qwerty keyboard. Connect it
+in the same way as the 'keyboard-azerty' object to 'syna-fm' (and disconnect
+'keyboard-azerty').;
+#X text 33 470 <1> Open preset 1 (there is only 1 preset);
+#X connect 1 0 7 0;
+#X connect 1 1 7 1;
+#X connect 2 0 6 0;
+#X connect 2 1 6 1;
+#X connect 3 0 8 0;
+#X connect 3 1 8 1;
+#X connect 6 0 0 0;
+#X connect 6 0 0 1;
+#X connect 7 0 0 0;
+#X connect 7 0 0 1;
+#X connect 8 0 0 0;
+#X connect 8 0 0 1;

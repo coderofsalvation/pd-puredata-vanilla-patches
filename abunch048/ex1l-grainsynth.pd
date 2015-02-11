@@ -1,0 +1,21 @@
+#N canvas 400 261 588 374 12;
+#X obj 35 121 notein;
+#X obj 35 212 grain-synth 1;
+#X obj 350 213 presets ex1l;
+#X obj 76 164 keyboard-azerty 1;
+#X obj 34 253 sound-out 1;
+#X text 20 5 An example of the 'grain-synth' synthesizer in abunch
+with the usual sample from the abunch folder.;
+#X text 16 50 In this example you can send pitches to the 'grain-synth'
+synthesizer from your computer keyboard or from your midi keyboard.
+;
+#X text 90 118 -> pitch and velocity from your midi keyboard;
+#X text 223 163 -> pitch (and a fixed velocity) from your;
+#X text 244 182 computer keyboard;
+#X text 35 340 Open 1 of the 5 presets.;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 1 0 4 0;
+#X connect 1 0 4 1;
+#X connect 3 0 1 0;
+#X connect 3 1 1 1;

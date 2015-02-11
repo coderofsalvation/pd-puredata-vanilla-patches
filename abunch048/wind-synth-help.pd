@@ -1,0 +1,120 @@
+#N canvas 207 0 730 737 12;
+#X obj 49 1774 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 40 1396 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 47 57 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 57 1725 outlet 1 =;
+#X text 60 1479 inlet 1 =;
+#X text 53 1508 inlet 2 =;
+#X obj 114 372 hradio 15 1 0 6 hjkjhkj uoioiuzzuie envelope: -60 7
+0 10 -262144 -1 -1 0;
+#X text 57 1581 inlet 4 =;
+#X text 57 1554 inlet 3 =;
+#X text 60 1609 inlet 5 =;
+#X text 56 1631 inlet 6 =;
+#X text 58 1661 inlet 7 =;
+#X text 57 1686 inlet 8 =;
+#X obj 48 102 hsl 128 15 0.1 50 0 0 q1uu mmrq1 Q -14 8 0 12 -262127
+-258113 -258113 0 1;
+#X obj 47 137 hsl 128 15 0 4 0 0 sso1zaz gfwsro1 O -14 8 0 12 -262127
+-258113 -258113 0 1;
+#X obj 48 216 hsl 128 15 0 30000 0 0 kkkkme imeg TIME -34 8 0 12 -262127
+-258113 -258113 0 1;
+#X text 115 347 1;
+#X text 131 346 2;
+#X text 146 346 3;
+#X text 162 346 4;
+#X text 176 346 5;
+#X text 191 347 6;
+#X obj 58 319 hsl 128 15 0 30000 0 0 kkkkme imeg LEVEL -40 8 0 12 -262127
+-258113 -258113 0 1;
+#X text 239 367 Chose the envelope that you want to use. The name of
+the chosen envelope is shown in the box under this row of buttons.
+The faders that aren't needed for the chosen envelope are white.;
+#X text 192 494 1;
+#X text 194 546 2;
+#X text 195 593 3;
+#X text 196 662 4;
+#X text 197 728 5;
+#X text 195 807 6;
+#X text 198 892 7;
+#X text 197 951 8;
+#X text 196 996 9;
+#X text 235 450 A short explanation about all the envelopes that you
+can chose from:;
+#X text 235 494 vad-envelope = attack \, decay envelope (only note-on
+needed \, not sensitive to velocity);
+#X text 235 539 vad-hold-envelope = attack \, hold \, decay envelope
+(the sustained part has a duration fixed by the hold duration (only
+note-on needed \, not velocity sensitive);
+#X text 229 589 adsr-envelope = attack \, decay \, sustain release
+envelope \, not sensitive to the velocity. 'Sustain' is the percentage
+of the peak value \, used as velocity of the sustained part (note-on
+and note-off needed);
+#X text 229 657 adsr-velocity-sensitive-envelope = like envelope 3
+but the velocity determines the value of the peak and sustain is the
+percentage of the incoming velocity used as velocity for the sustained
+part. (note-on and note-off needed);
+#X text 224 726 adr-velocity-as-sustain-envelope = attack \, decay
+\, release envelope. The value of attack is the incoming velocity multiplied
+by 'peak' \, the incoming velocity is the sustain value (note-on and
+note-off needed);
+#X text 226 805 adr-hold-retrigger-envelope = like envelope 5 but with
+a hold time (ms). This envelope is better suited for fast retriggers
+\, the attack is the time between the amplitude of the ended note and
+the peak of the next note. (only note-on neeeded);
+#X text 221 894 ad-envelope-quartic = attack \, decay envelope with
+an exponential curve between the attack and decay (only note-on needed)
+;
+#X text 221 949 ad-envelope-linear = attack \, decay envelope with
+a linear curve between the attack and decay (only note-on needed);
+#X text 221 995 adsr-velocity-quartic-envelope = like envelope 5 but
+with exponential curves between the attack \, sustain and release;
+#X text 26 1062 fader 'peak' =;
+#X text 30 1116 fader 'attack' =;
+#X text 28 1163 fader 'decay' =;
+#X text 31 1206 fader 'hold' =;
+#X text 29 1260 fader 'sustain' =;
+#X text 36 1325 fader 'release' =;
+#X text 186 1117 This fader changes the time (in milliseconds) to reach
+the peak value.;
+#X text 192 1159 Use this to change the time (in milliseconds) to go
+from the peak value to the sustain value.;
+#X text 189 1207 This fader changes the duration (in milliseconds)
+of the sustain;
+#X text 185 1062 You can change the peak value with this fader. Value
+1.2 means that the peak value is 1.2 times the incoming velocity.;
+#X text 191 1259 Depending on the envelope that you choose \, this
+fader changes the sustained value (0 to 127 \, like the velocity) or
+the percentage (0 to 100) of the incoming velocity.;
+#X text 196 1323 Use this to change the release time \, this is the
+time between the note-off or the end of the hold time and the end of
+the sound.;
+#X text 148 1479 (event) inlet for the pitch;
+#X text 36 1427 (in- and outlets \, numbered from left to right);
+#X text 141 1507 (event) inlet for the velocity values (positive values
+trigger the synthesizer;
+#X text 220 102 With this fader you can change the resonancy of the
+filter;
+#X text 216 124 This fader changes the amount of damping in the filter.
+If this fader is in the far right position \, the sound is passed through
+5 identical band pass filters \; if it is in the left position \, the
+sound passes through only one band pass filter.;
+#X text 213 213 This fader changes the transition time (in milliseconds)
+of the Q and O faders. If it has a high value (say 25000) \, it takes
+25 seconds before the change in any fader (that you have adjusted)
+has been completed. The effect of this fader is only audible if you
+move another fader afterwards.;
+#X text 222 320 This fader changes the level of the output sound;
+#X text 44 9 The wind-synth object in Abunch is a synthesizer made
+with filtered noise.;
+#X text 146 1559 (event) inlet to control the fader 'Q';
+#X text 143 1583 (event) inlet to control the fader 'O';
+#X text 146 1608 (event) inlet to control the fader 'time';
+#X text 145 1633 (event) inlet to control the fader 'level';
+#X text 142 1662 (event) inlet to control the fader 'attack';
+#X text 142 1685 (event) inlet to control the fader 'release';
+#X text 145 1724 (audio) outlet for the sound produced by the synthesizer
+;

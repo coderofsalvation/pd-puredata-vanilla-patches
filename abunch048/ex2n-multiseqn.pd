@@ -1,0 +1,23 @@
+#N canvas 644 26 547 398 12;
+#X obj 135 132 multi-seqn 1;
+#X obj 14 185 simple-sampler 1;
+#X obj 147 183 simple-sampler 2;
+#X obj 282 185 simple-sampler 3;
+#X obj 150 265 dac~;
+#X obj 144 216 panning 1;
+#X obj 385 59 presets ex2n;
+#X text 9 12 An example of the use of the 'multi-seqn' object in abunch.
+Every track or voice in 'multi-seqn' controls the pitch of 1 of the
+samplers ('simple-sampler' objects).;
+#X text 19 304 Open preset 1 \, click on the 'start/reset' switch in
+'multi-seqn' and try out the first 4 patterns (with the row of boxes
+labelled 'read_pattern_nr'). There is only 1 preset with 4 patterns
+in this example file.;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 0 2 3 0;
+#X connect 1 0 4 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 1;
+#X connect 5 0 4 0;
+#X connect 5 1 4 1;

@@ -1,0 +1,26 @@
+#N canvas 531 64 569 517 12;
+#X obj 76 175 play-file 1;
+#X obj 63 207 reverb 1;
+#X obj 62 243 reverb 2;
+#X obj 63 277 phaser 1;
+#X obj 27 121 adc~;
+#X obj 316 195 presets ex2b;
+#X obj 50 329 sound-out 1;
+#X text 32 18 You can use an several times in the same (main) file.
+Don't forget to give them an unique number (like 'reverb 1' and 'reverb
+2' in this example).;
+#X text 77 116 <- input from your microphone (if you to hear these
+effects change your voice or instrument);
+#X text 24 414 <2> Click on 'play' in 'play-file 1' to play the sound
+file;
+#X text 23 438 <3> You can also open another sound file in 'play-file'
+\, you can change the faders and hear the result in 'reverb' and 'phaser'.
+;
+#X text 24 376 <1> Set 'number_presets' in 'presets' to 1 and click
+on 'open_preset'. There is only 1 preset in this example.;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 6 0;
+#X connect 3 0 6 1;
+#X connect 4 0 1 0;

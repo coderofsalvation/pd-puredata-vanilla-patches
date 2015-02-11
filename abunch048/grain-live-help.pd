@@ -1,0 +1,118 @@
+#N canvas 641 32 710 864 12;
+#X obj 26 1632 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 29 1219 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 47 171 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 25 1591 outlet 1 =;
+#X obj 30 403 hsl 128 15 1 513 0 0 \$1-grastempo \$1-grartempo tempo
+133 10 0 10 -262144 -1 -1 0 1;
+#X obj 40 214 tgl 15 1 \$1-grason \$1-graron on_off 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 28 631 hsl 128 15 2 500 0 0 zzlen wxccccn pitch -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 30 357 hsl 100 15 0 100 0 0 \$1-graslev \$1-grarlev level -2
+-8 0 10 -262144 -1 -1 0 1;
+#X obj 32 771 hsl 100 15 0 0.5 0 0 \$1-grasrndlen \$1-grarrndlen random_pitch
+-2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 34 502 hsl 128 15 0 100 0 0 zazas popopos delay_in_ms -2 -8
+0 10 -262144 -1 -1 0 1;
+#X obj 32 454 hsl 100 15 0 99 0 0 \$1-grasrndtempo \$1-grarrndtempo
+random_tempo -2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 29 1006 hsl 100 15 0.01 0.5 0 0 \$1-grasatt \$1-graratt attack
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 30 1046 hsl 128 15 0.01 0.5 0 0 \$1-grasdec \$1-grardec decay
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 31 574 hsl 100 15 0 0.5 0 0 \$1-grasrndpos \$1-grarrndpos random_delay
+-2 -8 0 8 -262144 -1 -1 0 1;
+#X obj 26 920 cnv 15 80 50 empty empty max_voices 0 12 0 6 -233017
+-66577 0;
+#X obj 28 942 nbx 3 14 -1e+037 1e+037 0 0 empty \$1-crrnrvoices empty
+0 -8 0 10 -262144 -1 -1 0 256;
+#X obj 29 1104 bng 10 250 50 0 zerraoptions empty extra_options 17
+7 0 8 -262144 -1 -1;
+#X text 37 1278 inlet 1 =;
+#X text 34 1305 inlet 2 =;
+#X text 37 1336 inlet 3 =;
+#X text 34 1367 inlet 4 =;
+#X text 30 1401 inlet 5 =;
+#X text 33 1429 inlet 6 =;
+#X text 32 1468 inlet 7 =;
+#X text 29 1503 inlet 8 =;
+#X text 28 1535 inlet 9 =;
+#X text 24 1561 inlet 10 =;
+#X text 114 1591 (audio) geluid geproduceerd door de granulaire synthese
+;
+#X obj 23 835 hsl 128 15 1 10 0 0 aytyten wwwwwen density -2 -8 0 10
+-262144 -1 -1 0 1;
+#X text 66 940 / 20;
+#X obj 38 258 tgl 15 1 \$1-grason \$1-graron freeze 17 7 0 10 -262144
+-1 -1 0 1;
+#X obj 13 684 nbx 5 14 -1e+037 1e+037 0 0 \$1-grlsorip \$1-grlrorip
+original_pitch 50 7 0 8 -262144 -1 -1 0 256;
+#X text 43 7 'grain-live' is an object for granular synthesis of a
+live input sound. The input sound is written in a delay buffer and
+grains are produced from this buffer. 'grain-live' can produce maximum
+20 grains simultaneously. The length and transposition of the grains
+are independent parameters.;
+#X text 46 98 !!!This is still an early version with some strange (unwanted)
+effects (especially if you want a transposition of more than an octave
+upwards combined with a big length of the grains.;
+#X text 153 214 = turns this object 'grain-sample' (and thus the sound
+production of this object) on or off;
+#X text 145 256 = this button freezes the current delay buffer \, no
+new input sounds are allowed. The delay buffer has a duration of 5
+seconds \, so the 5 seconds of sound just before you push this button
+are frozen in the delay buffer and can be used to produce sound grains.
+;
+#X text 154 357 = use this fader to adjust the amplitude of the output
+sound;
+#X text 225 399 = this fader changes the speed (in milliseconds) at
+which grains are produced in the sound file;
+#X text 160 450 = with this fader you can randomize the tempo at which
+new grains are read;
+#X text 176 497 = use this fader to change the size of the delay (in
+milliseconds). If the delay buffer is frozen (with the 'freeze' toggle)
+this fader changes the position in the buffer where grains are produced.
+;
+#X text 175 624 = use this fader and the number box 'original_pitch'
+to change the transposition of the grains (relative to the pitch of
+the opened sound file). First fix the pitch of the sound file in the
+number box 'original_pitch' (numbers are midi values \, 60 = middle
+C). If this number box has a value of 60 and the fader 'pitch' is set
+to 65 \, the grains will be transposed 5 semitones compared to the
+original sound file.;
+#X text 163 570 = this fader randomizes the delay size (and also the
+position in the delay buffer at which grains are produced)(this fader
+isn't working yet).;
+#X text 166 771 = use this fader to adjust the amount of randomization
+(jitter) applied to the pitch of the grain.;
+#X text 169 826 = use this fader to change the density. With a high
+density \, more grains will sound simultaneaously (with a higher density
+grains with the same length and pitch are produced but with an amount
+of randomization regarding timing/tempo).;
+#X text 128 914 = this number box shows the number of simultaneous
+grains that are being produced (depending on the tempo \, length and
+density) \, don't surpass 20 or you will hear distortion.;
+#X text 166 998 = this fader changes the attack time (in percentage
+of the length) of the amplitude envelope of a grain;
+#X text 166 1038 = this fader changes the release time (in percentage
+of the length) of the amplitude envelope of a grain;
+#X text 175 1104 = this open a new window with these possibilities:
+;
+#X text 117 1278 (event) inlet to control the toggle 'on_off';
+#X text 117 1304 (event) inlet to control the fader 'level';
+#X text 117 1334 (event) inlet to control the fader 'tempo';
+#X text 117 1364 (event) inlet to control the fader 'random_tempo'
+;
+#X text 117 1399 (event) inlet to control the fader 'position';
+#X text 117 1428 (event) inlet to control the fader 'random_position'
+;
+#X text 117 1464 (event) inlet to control the fader 'length';
+#X text 117 1501 (event) inlet to control the fader 'random_length'
+;
+#X text 117 1533 (event) inlet to control the fader 'pitch';
+#X text 117 1561 (event) inlet to control the fader 'random_pitch'
+;
+#X text 35 1251 (in- and outlets \, numbered from left to right);

@@ -1,0 +1,12 @@
+1 shaking 0 0 0 () norm 0 0 1-soutrx1 2.3622 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-plfry1
+rhapso.wav () sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk
+() norm 0 0 1-plfrx1 1 () norm 0 0 1-plfrx2 0.710236 () norm 0 0 1-plfrx3
+0 () norm 0 0 1-pharx1 11.8 () norm 0 0 1-pharx2 0.149606 () norm 0
+0 1-pharx3 2.11024 () norm 0 0 1-pharx4 0.661417;
+2 wavering 0 0 0 () norm 0 0 1-soutrx1 77.9528 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () sym 0 0 1-plfry1
+rhapso.wav () sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk
+() norm 0 0 1-plfrx1 1 () norm 0 0 1-plfrx2 0.710236 () norm 0 0 1-plfrx3
+0 () norm 0 0 1-pharx1 1 () norm 0 0 1-pharx2 0.015748 () norm 0 0
+1-pharx3 3.33858 () norm 0 0 1-pharx4 0.661417;

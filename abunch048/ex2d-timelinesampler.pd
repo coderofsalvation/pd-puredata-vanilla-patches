@@ -1,0 +1,24 @@
+#N canvas 352 124 536 442 12;
+#X obj 274 103 clock 1;
+#X obj 170 189 simple-sampler 1;
+#X obj 316 189 simple-sampler 2;
+#X obj 12 106 presets ex2d;
+#X obj 192 147 timeline 1;
+#X obj 327 145 timeline 2;
+#X obj 259 245 sound-out 1;
+#X text 47 9 In this example 2 sample players ('simple-sampler') are
+triggered by 2 'timeline' objects which store the pitches/values in
+a table. The 2 'timeline' objects are synchronised by a common clock.
+;
+#X text 25 332 <2> Open 'clock 1' and click on the 'start' toggle;
+#X text 24 291 <1> Set 'number_presets' in 'presets' to 1 and click
+on 'open_preset'. There is 2 presets in this example.;
+#X text 26 365 <3> You can open another sample in 'simple-sampler'
+\, draw new values in the table of 'timeline' with your mouse or change
+the tempo of the clock (in 'clock').;
+#X connect 0 0 4 2;
+#X connect 0 0 5 2;
+#X connect 1 0 6 0;
+#X connect 2 0 6 1;
+#X connect 4 0 1 0;
+#X connect 5 0 2 0;

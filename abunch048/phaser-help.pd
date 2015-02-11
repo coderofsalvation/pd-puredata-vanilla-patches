@@ -1,0 +1,37 @@
+#N canvas 459 105 640 681 12;
+#X obj 38 573 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 39 317 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 42 108 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 45 436 Inlet 2 =;
+#X text 45 458 Inlet 3 =;
+#X text 42 483 Inlet 4 =;
+#X text 37 503 Inlet 5 =;
+#X text 49 388 Inlet 1 =;
+#X text 39 527 Outlet 1 =;
+#X text 47 36 The abunch object 'phaser' is an audio effect that shifts
+the phase of the sound. It is based on the phaser from Miller Puckette
+in the Pd doc files (H15.phaser.pd).;
+#X text 45 159 fader 'speed':;
+#X text 44 277 fader 'level':;
+#X text 41 231 fader 'range':;
+#X text 48 192 fader 'base':;
+#X text 170 160 use this fader to change the speed of the phaser;
+#X text 165 192 use this fader to change the lower limit above which
+the phase shifting is produced;
+#X text 168 231 use this fader to change the range for the phasing
+(above the 'base');
+#X text 168 277 this fader adjusts the amplitude of the output;
+#X text 51 348 (in- and outlets \, numbered from left to right);
+#X text 134 389 (audio) inlet for the sound that will be processed
+by the phaser;
+#X text 130 435 (event) inlet to control the fader 'speed';
+#X text 128 459 (event) inlet to control the fader 'base';
+#X text 132 481 (event) inlet to control the fader 'range';
+#X text 127 504 (event) inlet to control the fader 'level';
+#X text 127 526 (audio) outlet for the sound processed by the phaser
+;
+#X text 44 609 A phaser effect works best with a sound with a rich
+spectrum (a lot of harmonics).;

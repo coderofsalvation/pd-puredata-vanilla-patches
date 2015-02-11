@@ -1,0 +1,39 @@
+#N canvas 297 31 693 493 12;
+#X obj 42 314 sound-out 1;
+#X obj 97 190 random-out 1;
+#X obj 147 65 keyboard-azerty 1;
+#X obj 49 27 clock 1;
+#X obj 477 292 presets ex5c;
+#X obj 49 235 simple-fm 1;
+#X obj 49 278 envelopes 1;
+#X obj 49 106 trigger bang float;
+#X obj 49 145 float;
+#X text 201 104 -> first send the clock signal to trigger the envelope
+;
+#X text 193 146 -> and then trigger the pitch values from 'keyboard-azerty'
+and send these to 'simple-fm';
+#X text 207 189 -> random values to control the index fader in 'simple-fm'
+;
+#X text 154 234 -> produces an FM tone;
+#X text 148 279 -> amplitude envelope;
+#X text 23 361 <1> Open preset 1 (there are 2 presets);
+#X text 23 384 <2> Click on 'start' in 'clock 1';
+#X text 24 409 <3> Play some pitches on the computer keyboard...;
+#X obj 81 466 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 15 112 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X obj 15 154 bng 10 250 50 0 empty empty empty 17 7 0 10 -258113 -1
+-1;
+#X text 102 460 = native Pd object (not Abunch);
+#X text 294 69 -> pitches (from the computer keyboard);
+#X connect 1 0 5 1;
+#X connect 2 0 8 1;
+#X connect 3 0 7 0;
+#X connect 3 1 1 2;
+#X connect 5 0 6 0;
+#X connect 6 0 0 0;
+#X connect 6 0 0 1;
+#X connect 7 0 8 0;
+#X connect 7 1 6 1;
+#X connect 8 0 5 0;

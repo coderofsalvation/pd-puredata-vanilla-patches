@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>info</key>
+	<dict>
+        <key>author</key>
+		<string>martin brinkmann</string>
+		<key>description</key>
+        <string>acoustic short-term memory fragmentation. random granular sampler. asmf is copyrighted, but is free for you to use for any reasonable purpose.</string>
+		<key>name</key>
+		<string>a s m f</string>
+		<key>category</key>
+		<string>test</string>
+	</dict>
+    <key>installLocation</key>
+	<string>asmf.rj</string>
+</dict>
+</plist>

@@ -1,0 +1,84 @@
+#N canvas 402 227 451 300 10;
+#N canvas 332 97 693 806 flangephaser1 0;
+#X obj -135 565 +~;
+#X obj 11 383 expr~ 1 - 0.03 - 0.6*abs($v1-0.5)*abs($v1-0.5);
+#X obj -145 -36 inlet~;
+#X obj -143 608 outlet~;
+#X obj 125 117 hsl 128 8 0.05 20 0 1 empty empty spd -22 5 0 8 -262144
+-1 -1 1300 1;
+#X obj -34 191 phasor~;
+#X obj 125 129 hsl 128 8 0 0.99 0 1 empty empty fb -16 5 0 8 -262144
+-1 -1 2100 1;
+#X obj 125 139 hsl 128 8 0 24 0 1 empty empty dl -16 5 0 8 -262144
+-1 -1 0 1;
+#X obj -66 217 cos~;
+#X obj -67 240 +~ 0.5;
+#X obj -44 322 +~;
+#X obj -70 296 *~;
+#X obj 125 149 hsl 128 8 0 16 0 1 empty empty fd -16 5 0 8 -262144
+-1 -1 0 1;
+#X obj -67 480 abs_flngphs_stages_dly1;
+#X connect 0 0 3 0;
+#X connect 1 0 13 1;
+#X connect 2 0 0 0;
+#X connect 2 0 13 0;
+#X connect 4 0 5 0;
+#X connect 5 0 1 0;
+#X connect 5 0 8 0;
+#X connect 6 0 13 3;
+#X connect 7 0 10 1;
+#X connect 8 0 9 0;
+#X connect 9 0 11 0;
+#X connect 10 0 13 2;
+#X connect 11 0 10 0;
+#X connect 12 0 11 1;
+#X connect 13 0 0 1;
+#X coords 0 -1 1 1 160 60 1 100 100;
+#X restore 30 54 pd flangephaser1;
+#N canvas 332 97 693 806 flangephaser1s 0;
+#X obj -135 565 +~;
+#X obj 11 383 expr~ 1 - 0.03 - 0.6*abs($v1-0.5)*abs($v1-0.5);
+#X obj -145 -34 inlet~;
+#X obj -143 608 outlet~;
+#X obj 125 117 hsl 128 8 0.05 20 0 1 empty empty spd -22 5 0 8 -262144
+-1 -1 1300 1;
+#X obj -34 191 phasor~;
+#X obj 125 129 hsl 128 8 0 0.99 0 1 empty empty fb -16 5 0 8 -262144
+-1 -1 2100 1;
+#X obj 125 139 hsl 128 8 0 24 0 1 empty empty dl -16 5 0 8 -262144
+-1 -1 0 1;
+#X obj -66 217 cos~;
+#X obj -67 240 +~ 0.5;
+#X obj -44 322 +~;
+#X obj -70 296 *~;
+#X obj 125 149 hsl 128 8 0 16 0 1 empty empty fd -16 5 0 8 -262144
+-1 -1 0 1;
+#X obj -67 480 abs_flngphs_stages_dly1;
+#X obj -319 570 +~;
+#X obj -329 -31 inlet~;
+#X obj -327 613 outlet~;
+#X obj -251 485 abs_flngphs_stages_dly1;
+#X connect 0 0 3 0;
+#X connect 1 0 13 1;
+#X connect 1 0 17 1;
+#X connect 2 0 0 0;
+#X connect 2 0 13 0;
+#X connect 4 0 5 0;
+#X connect 5 0 1 0;
+#X connect 5 0 8 0;
+#X connect 6 0 13 3;
+#X connect 6 0 17 3;
+#X connect 7 0 10 1;
+#X connect 8 0 9 0;
+#X connect 9 0 11 0;
+#X connect 10 0 13 2;
+#X connect 10 0 17 2;
+#X connect 11 0 10 0;
+#X connect 12 0 11 1;
+#X connect 13 0 0 1;
+#X connect 14 0 16 0;
+#X connect 15 0 14 0;
+#X connect 15 0 17 0;
+#X connect 17 0 14 1;
+#X coords 0 -1 1 1 160 60 1 100 100;
+#X restore 209 54 pd flangephaser1s;

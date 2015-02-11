@@ -1,0 +1,17 @@
+#N canvas 0 0 600 492 12;
+#X obj 66 95 inlet~;
+#X obj 130 96 inlet~;
+#X obj 69 216 outlet~;
+#X obj 134 217 outlet~;
+#X obj 67 143 +~;
+#X obj 133 143 -~;
+#X obj 134 167 delwrite~ \$1 \$2;
+#X obj 133 193 delread~ \$1 \$2;
+#X text 67 24 This appears as an abstraction in patch 44;
+#X connect 0 0 4 0;
+#X connect 0 0 5 0;
+#X connect 1 0 4 1;
+#X connect 1 0 5 1;
+#X connect 4 0 2 0;
+#X connect 5 0 6 0;
+#X connect 7 0 3 0;

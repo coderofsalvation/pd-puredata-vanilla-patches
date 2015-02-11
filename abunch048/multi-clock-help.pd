@@ -1,0 +1,69 @@
+#N canvas 454 33 638 737 12;
+#X obj 45 555 cnv 15 400 30 empty empty inlet_outlet 160 14 0 14 -233017
+-66577 0;
+#X obj 49 115 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 50 183 tgl 30 0 zzzstart zzzrstart start -5 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 39 285 bng 15 250 50 0 \$1-clmssync \$1-clmrsync sync 17 7 0
+10 -262144 -1 -1;
+#X text 46 744 Outlet 1;
+#X text 46 765 Outlet 2;
+#X text 46 785 Outlet 3;
+#X text 46 805 Outlet 4;
+#X text 46 825 Outlet 5;
+#X text 46 845 Outlet 6;
+#X text 50 22 The abunch object 'multi-clock' is a clock that sends
+out several -related- tempi. Outlet 1 outputs the signal from the main
+clock while the other 5 outlets send out the signal from the 'side
+clocks'.;
+#X text 106 187 = use this toggle to turn on the clocks;
+#X text 15 232 fader 'tempo':;
+#X text 107 282 = use this button to synchronise the 'side clocks'
+to the main clock \, this means that when the next signal of the main
+clock is produced \, the side clocks will start their signal at exactly
+this moment.;
+#X text 83 597 (in- and outlets \, numbered from left to right);
+#X text 46 640 Inlet 1 =;
+#X text 133 640 inlet to control the 'start' toggle of the clock \;
+any number higher than zero in this inlet starts the clock \, a zero
+stops it.;
+#X text 113 745 = outlet for the signal of clock 1 (main clock);
+#X text 112 766 = outlet for the signal of clock 2 (side clock);
+#X text 114 785 = outlet for the signal of clock 3 (side clock);
+#X text 116 806 = outlet for the signal of clock 4 (side clock);
+#X text 116 826 = outlet for the signal of clock 5 (side clock);
+#X text 117 846 = outlet for the signal of clock 6 (side clock);
+#X obj 16 373 cnv 15 40 100 empty empty out2 0 6 0 10 -261149 -66577
+0;
+#X obj 58 373 cnv 15 40 100 empty empty out3 0 6 0 10 -148737 -66577
+0;
+#X obj 20 391 tgl 15 0 kkkiio ggggio / 20 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 18 407 nbx 3 14 0 1e+037 0 0 rrrpio wwpio empty 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 62 391 tgl 15 0 aaaio fffio / 20 7 0 10 -262144 -1 -1 0 1;
+#X obj 60 407 nbx 3 14 0 1e+037 0 0 qqqio wwwpio empty 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 99 373 vradio 50 1 0 2 zapat zaat pattern 4 -8 0 10 -262144
+-1 -1 0;
+#X obj 20 434 tgl 15 0 kkkiio ggggio / 20 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 18 450 nbx 3 14 0 1e+037 0 0 rrrpio wwpio empty 0 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 62 434 tgl 15 0 aaaio fffio / 20 7 0 10 -262144 -1 -1 0 1;
+#X obj 60 450 nbx 3 14 0 1e+037 0 0 qqqio wwwpio empty 0 -8 0 10 -262144
+-1 -1 0 256;
+#X text 164 378 = in the column 'out2' you can use the toggle and number
+box to adjust the tempo of the second clock. This tempo is the relation
+of the second clock to the main clock. 'Multiplied by two' (* in the
+toggle \, 2 in the number box) means that the tempo of this (second)
+clock will be twice as slow as the main clock. The same system can
+be used in the colomn 'out3' to adjust the tempo of the third clock.
+By clicking on a box in the column 'pattern' you can select the pattern
+that will be used.;
+#X text 137 232 this fader changes the tempo (of the main clock and
+consequently of the 5 side clocks);
+#X text 46 700 Inlet 2 =;
+#X text 133 700 inlet to control the pattern selector \; value 1 (sent
+to this inlet) selects pattern 1 \, value 2 pattern 2 \, etc.;

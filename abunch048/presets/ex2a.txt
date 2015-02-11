@@ -1,0 +1,10 @@
+1 fragments 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 2-envrx1
+0.1 () norm 0 0 2-envrx2 256 () norm 0 0 2-envrx3 0 () norm 0 0 2-envrx4
+0 () norm 0 0 2-envrx5 0 () norm 0 0 2-envrx6 39.685 () norm 0 0 2-envrx7
+0 () norm 0 0 1-envrx1 0.1 () norm 0 0 1-envrx2 8.06299 () norm 0 0
+1-envrx3 0 () norm 0 0 1-envrx4 0 () norm 0 0 1-envrx5 0 () norm 0
+0 1-envrx6 40.315 () norm 0 0 1-envrx7 0 () norm 0 0 1-clorx1 539.494
+() sym 0 0 1-plfry1 rhapso.wav () sym 0 0 1-plfry2 kxpqwmk () sym 0
+0 1-plfry3 kxpqwmk () norm 0 0 1-plfrx1 1 () norm 0 0 1-plfrx2 1 ()
+norm 0 0 1-plfrx3 0;

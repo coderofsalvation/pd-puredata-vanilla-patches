@@ -1,0 +1,432 @@
+1 symbol 0 0 0 () norm 0 0 1-soutrx1 2.3622 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-bflrx1
+0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 36.74 () norm 0
+0 1-bflrx4 0.220472 () norm 0 0 1-bflrx5 0.88189 () norm 0 0 1-bflrx6
+1.27874 () norm 0 0 1-bflrx7 36 () norm 0 0 1-bflrx8 0.228346 () norm
+0 0 1-bflrx9 0.15748 () norm 0 0 1-bflrx10 3.24331 () norm 0 0 1-bflrx11
+40.58 () norm 0 0 1-bflrx12 0.283465 () norm 0 0 1-bflrx13 0.787402
+() norm 0 0 1-bflrx14 1.42805 () norm 0 0 1-bflrx15 37.06 () norm 0
+0 1-bflrx16 0.251969 () norm 0 0 1-bflrx17 0.251969 () norm 0 0 1-bflrx18
+0.28074 () norm 0 0 1-bflrx19 39.56 () norm 0 0 1-bflrx20 0.267717
+() norm 0 0 1-bflrx21 0.440945 () norm 0 0 1-bflrx22 1.03513 () norm
+0 0 1-bflrx23 41.56 () norm 0 0 1-bflrx24 0.19685 () norm 0 0 1-bflrx25
+0.472441 () norm 0 0 1-bflrx26 3.39261 () norm 0 0 1-bflrx27 30.7 ()
+norm 0 0 1-bflrx28 0.231339 () norm 0 0 1-bflrx29 0.220472 () norm
+0 0 1-bflrx30 0.64222 () norm 0 0 1-bflrx31 38 () norm 0 0 1-bflrx32
+0.296693 () norm 0 0 1-bflrx33 0.0944882 () norm 0 0 1-bflrx34 0.885827
+() norm 0 0 1-bflrx35 0.417323 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 0.456693 () norm 0 0
+1-wavrx5 0;
+2 symbol 0 0 0 () norm 0 0 1-soutrx1 99.2126 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-bflrx1
+0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 36.74 () norm 0
+0 1-bflrx4 0.220472 () norm 0 0 1-bflrx5 0.88189 () norm 0 0 1-bflrx6
+1.27874 () norm 0 0 1-bflrx7 36 () norm 0 0 1-bflrx8 0.362205 () norm
+0 0 1-bflrx9 0.15748 () norm 0 0 1-bflrx10 3.24331 () norm 0 0 1-bflrx11
+44.58 () norm 0 0 1-bflrx12 0.393701 () norm 0 0 1-bflrx13 0.787402
+() norm 0 0 1-bflrx14 5.75009 () norm 0 0 1-bflrx15 48.06 () norm 0
+0 1-bflrx16 0.377953 () norm 0 0 1-bflrx17 0.377953 () norm 0 0 1-bflrx18
+20.1386 () norm 0 0 1-bflrx19 52.56 () norm 0 0 1-bflrx20 0.267717
+() norm 0 0 1-bflrx21 0.440945 () norm 0 0 1-bflrx22 7.71466 () norm
+0 0 1-bflrx23 48.56 () norm 0 0 1-bflrx24 0.0787402 () norm 0 0 1-bflrx25
+0.472441 () norm 0 0 1-bflrx26 15.5729 () norm 0 0 1-bflrx27 30.7 ()
+norm 0 0 1-bflrx28 0.365197 () norm 0 0 1-bflrx29 0.724409 () norm
+0 0 1-bflrx30 17.5375 () norm 0 0 1-bflrx31 38 () norm 0 0 1-bflrx32
+0.296693 () norm 0 0 1-bflrx33 1.76378 () norm 0 0 1-bflrx34 0.885827
+() norm 0 0 1-bflrx35 0.417323 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0.818898 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0
+1-wavrx5 0;
+3 symbol 0 0 0 () norm 0 0 1-soutrx1 92.126 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-bflrx1
+0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 36.74 () norm 0
+0 1-bflrx4 0.377953 () norm 0 0 1-bflrx5 1.44882 () norm 0 0 1-bflrx6
+5.20787 () norm 0 0 1-bflrx7 48 () norm 0 0 1-bflrx8 0.535433 () norm
+0 0 1-bflrx9 3.05512 () norm 0 0 1-bflrx10 3.78553 () norm 0 0 1-bflrx11
+44.58 () norm 0 0 1-bflrx12 0.393701 () norm 0 0 1-bflrx13 0.0944882
+() norm 0 0 1-bflrx14 2.9997 () norm 0 0 1-bflrx15 51.06 () norm 0
+0 1-bflrx16 0.700787 () norm 0 0 1-bflrx17 0.377953 () norm 0 0 1-bflrx18
+20.1386 () norm 0 0 1-bflrx19 59.56 () norm 0 0 1-bflrx20 0.228346
+() norm 0 0 1-bflrx21 0.440945 () norm 0 0 1-bflrx22 18.7162 () norm
+0 0 1-bflrx23 48.56 () norm 0 0 1-bflrx24 0.0787402 () norm 0 0 1-bflrx25
+0.472441 () norm 0 0 1-bflrx26 15.5729 () norm 0 0 1-bflrx27 30.7 ()
+norm 0 0 1-bflrx28 0.365197 () norm 0 0 1-bflrx29 0.724409 () norm
+0 0 1-bflrx30 17.5375 () norm 0 0 1-bflrx31 38 () norm 0 0 1-bflrx32
+0.808504 () norm 0 0 1-bflrx33 1.76378 () norm 0 0 1-bflrx34 1.27874
+() norm 0 0 1-bflrx35 0.283465 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+1.54331 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+4 symbol 0 0 0 () norm 0 0 1-soutrx1 18.1102 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-bflrx1
+0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 36.74 () norm 0
+0 1-bflrx4 0.377953 () norm 0 0 1-bflrx5 1.44882 () norm 0 0 1-bflrx6
+1.67165 () norm 0 0 1-bflrx7 52 () norm 0 0 1-bflrx8 0.535433 () norm
+0 0 1-bflrx9 3.05512 () norm 0 0 1-bflrx10 2.9997 () norm 0 0 1-bflrx11
+72.58 () norm 0 0 1-bflrx12 0.338583 () norm 0 0 1-bflrx13 3.27559
+() norm 0 0 1-bflrx14 3.39261 () norm 0 0 1-bflrx15 65 () norm 0 0
+1-bflrx16 0.700787 () norm 0 0 1-bflrx17 0.125984 () norm 0 0 1-bflrx18
+7.95827 () norm 0 0 1-bflrx19 80.56 () norm 0 0 1-bflrx20 0.228346
+() norm 0 0 1-bflrx21 3.90551 () norm 0 0 1-bflrx22 6.92883 () norm
+0 0 1-bflrx23 101.56 () norm 0 0 1-bflrx24 0.0787402 () norm 0 0 1-bflrx25
+0.409449 () norm 0 0 1-bflrx26 49.3635 () norm 0 0 1-bflrx27 119.7
+() norm 0 0 1-bflrx28 0.0187402 () norm 0 0 1-bflrx29 1.54331 () norm
+0 0 1-bflrx30 14.3942 () norm 0 0 1-bflrx31 116 () norm 0 0 1-bflrx32
+0.0132283 () norm 0 0 1-bflrx33 0.15748 () norm 0 0 1-bflrx34 11.8874
+() norm 0 0 1-bflrx35 0.165354 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+5 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 98.9213 () norm 0 0 1-soutrx4 0.740157 () norm
+0 0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 39.74
+() norm 0 0 1-bflrx4 0.275591 () norm 0 0 1-bflrx5 0.850394 () norm
+0 0 1-bflrx6 0.885827 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8
+0.212598 () norm 0 0 1-bflrx9 0.503937 () norm 0 0 1-bflrx10 6.53592
+() norm 0 0 1-bflrx11 72.58 () norm 0 0 1-bflrx12 0.0472441 () norm
+0 0 1-bflrx13 0.283465 () norm 0 0 1-bflrx14 4.96427 () norm 0 0 1-bflrx15
+80 () norm 0 0 1-bflrx16 0.519685 () norm 0 0 1-bflrx17 3.55906 ()
+norm 0 0 1-bflrx18 38.2126 () norm 0 0 1-bflrx19 80.56 () norm 0 0
+1-bflrx20 0.448819 () norm 0 0 1-bflrx21 3.90551 () norm 0 0 1-bflrx22
+6.92883 () norm 0 0 1-bflrx23 91.56 () norm 0 0 1-bflrx24 0.0665354
+() norm 0 0 1-bflrx25 1.73228 () norm 0 0 1-bflrx26 6.14301 () norm
+0 0 1-bflrx27 112.7 () norm 0 0 1-bflrx28 0.110236 () norm 0 0 1-bflrx29
+1.54331 () norm 0 0 1-bflrx30 2.9997 () norm 0 0 1-bflrx31 110 () norm
+0 0 1-bflrx32 0.015748 () norm 0 0 1-bflrx33 0.787402 () norm 0 0 1-bflrx34
+13.6084 () norm 0 0 1-bflrx35 0.165354 () norm 0 0 1-wavrx1 4 () norm
+0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm
+0 0 1-wavrx5 0;
+6 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 47.74
+() norm 0 0 1-bflrx4 0.275591 () norm 0 0 1-bflrx5 0.850394 () norm
+0 0 1-bflrx6 0.885827 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8
+0.212598 () norm 0 0 1-bflrx9 0.503937 () norm 0 0 1-bflrx10 6.53592
+() norm 0 0 1-bflrx11 68.58 () norm 0 0 1-bflrx12 0.0472441 () norm
+0 0 1-bflrx13 0.283465 () norm 0 0 1-bflrx14 4.96427 () norm 0 0 1-bflrx15
+61 () norm 0 0 1-bflrx16 0.834646 () norm 0 0 1-bflrx17 4 () norm 0
+0 1-bflrx18 38.2126 () norm 0 0 1-bflrx19 74 () norm 0 0 1-bflrx20
+0.88189 () norm 0 0 1-bflrx21 3.90551 () norm 0 0 1-bflrx22 30.8966
+() norm 0 0 1-bflrx23 91.56 () norm 0 0 1-bflrx24 0.0665354 () norm
+0 0 1-bflrx25 1.73228 () norm 0 0 1-bflrx26 6.14301 () norm 0 0 1-bflrx27
+74.7 () norm 0 0 1-bflrx28 0.133858 () norm 0 0 1-bflrx29 1.54331 ()
+norm 0 0 1-bflrx30 2.9997 () norm 0 0 1-bflrx31 112 () norm 0 0 1-bflrx32
+0.015748 () norm 0 0 1-bflrx33 0.787402 () norm 0 0 1-bflrx34 13.6084
+() norm 0 0 1-bflrx35 0.370079 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 0.976378 () norm 0 0
+1-wavrx5 0;
+7 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 56.74
+() norm 0 0 1-bflrx4 0.19685 () norm 0 0 1-bflrx5 0.850394 () norm
+0 0 1-bflrx6 6.38661 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8 0.212598
+() norm 0 0 1-bflrx9 0.503937 () norm 0 0 1-bflrx10 6.53592 () norm
+0 0 1-bflrx11 68.58 () norm 0 0 1-bflrx12 0.0472441 () norm 0 0 1-bflrx13
+0.283465 () norm 0 0 1-bflrx14 4.96427 () norm 0 0 1-bflrx15 60 ()
+norm 0 0 1-bflrx16 0.259843 () norm 0 0 1-bflrx17 0.346457 () norm
+0 0 1-bflrx18 4.57135 () norm 0 0 1-bflrx19 74 () norm 0 0 1-bflrx20
+0.125984 () norm 0 0 1-bflrx21 1.10236 () norm 0 0 1-bflrx22 6.53592
+() norm 0 0 1-bflrx23 75.56 () norm 0 0 1-bflrx24 0.137402 () norm
+0 0 1-bflrx25 1.73228 () norm 0 0 1-bflrx26 6.14301 () norm 0 0 1-bflrx27
+74.7 () norm 0 0 1-bflrx28 0.133858 () norm 0 0 1-bflrx29 1.54331 ()
+norm 0 0 1-bflrx30 2.9997 () norm 0 0 1-bflrx31 74 () norm 0 0 1-bflrx32
+0.133858 () norm 0 0 1-bflrx33 0.220472 () norm 0 0 1-bflrx34 7.32175
+() norm 0 0 1-bflrx35 0.409449 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+8 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 62.74
+() norm 0 0 1-bflrx4 0.141732 () norm 0 0 1-bflrx5 1.07087 () norm
+0 0 1-bflrx6 2.06457 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8 0.212598
+() norm 0 0 1-bflrx9 0.503937 () norm 0 0 1-bflrx10 6.53592 () norm
+0 0 1-bflrx11 68.58 () norm 0 0 1-bflrx12 0.19685 () norm 0 0 1-bflrx13
+0.283465 () norm 0 0 1-bflrx14 4.96427 () norm 0 0 1-bflrx15 60 ()
+norm 0 0 1-bflrx16 0.0866142 () norm 0 0 1-bflrx17 0.188976 () norm
+0 0 1-bflrx18 4.57135 () norm 0 0 1-bflrx19 62 () norm 0 0 1-bflrx20
+0.377953 () norm 0 0 1-bflrx21 1.10236 () norm 0 0 1-bflrx22 6.53592
+() norm 0 0 1-bflrx23 69.56 () norm 0 0 1-bflrx24 0.294882 () norm
+0 0 1-bflrx25 1.16535 () norm 0 0 1-bflrx26 10.4651 () norm 0 0 1-bflrx27
+66.7 () norm 0 0 1-bflrx28 0.220472 () norm 0 0 1-bflrx29 1.54331 ()
+norm 0 0 1-bflrx30 2.9997 () norm 0 0 1-bflrx31 58 () norm 0 0 1-bflrx32
+0.275591 () norm 0 0 1-bflrx33 0.220472 () norm 0 0 1-bflrx34 7.32175
+() norm 0 0 1-bflrx35 0.409449 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+9 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 62.74
+() norm 0 0 1-bflrx4 0.173228 () norm 0 0 1-bflrx5 1.07087 () norm
+0 0 1-bflrx6 7.17244 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8 0.212598
+() norm 0 0 1-bflrx9 0.503937 () norm 0 0 1-bflrx10 6.53592 () norm
+0 0 1-bflrx11 68.58 () norm 0 0 1-bflrx12 0.19685 () norm 0 0 1-bflrx13
+0.283465 () norm 0 0 1-bflrx14 21.0737 () norm 0 0 1-bflrx15 64 ()
+norm 0 0 1-bflrx16 0.0551181 () norm 0 0 1-bflrx17 0.188976 () norm
+0 0 1-bflrx18 3.39261 () norm 0 0 1-bflrx19 62 () norm 0 0 1-bflrx20
+0.165354 () norm 0 0 1-bflrx21 0.976378 () norm 0 0 1-bflrx22 25.3958
+() norm 0 0 1-bflrx23 64.56 () norm 0 0 1-bflrx24 0.294882 () norm
+0 0 1-bflrx25 1.16535 () norm 0 0 1-bflrx26 19.5021 () norm 0 0 1-bflrx27
+66.7 () norm 0 0 1-bflrx28 0.220472 () norm 0 0 1-bflrx29 1.54331 ()
+norm 0 0 1-bflrx30 17.1446 () norm 0 0 1-bflrx31 58 () norm 0 0 1-bflrx32
+0.748031 () norm 0 0 1-bflrx33 4 () norm 0 0 1-bflrx34 14.7871 () norm
+0 0 1-bflrx35 0.409449 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+10 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 62.74
+() norm 0 0 1-bflrx4 0.173228 () norm 0 0 1-bflrx5 1.48031 () norm
+0 0 1-bflrx6 7.17244 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8 0.212598
+() norm 0 0 1-bflrx9 0.503937 () norm 0 0 1-bflrx10 6.53592 () norm
+0 0 1-bflrx11 68.58 () norm 0 0 1-bflrx12 0.19685 () norm 0 0 1-bflrx13
+1.29134 () norm 0 0 1-bflrx14 28.932 () norm 0 0 1-bflrx15 66 () norm
+0 0 1-bflrx16 0.0551181 () norm 0 0 1-bflrx17 0.944882 () norm 0 0
+1-bflrx18 22.2525 () norm 0 0 1-bflrx19 62 () norm 0 0 1-bflrx20 0.110236
+() norm 0 0 1-bflrx21 1.25984 () norm 0 0 1-bflrx22 42.291 () norm
+0 0 1-bflrx23 74.56 () norm 0 0 1-bflrx24 0.0350394 () norm 0 0 1-bflrx25
+1.6378 () norm 0 0 1-bflrx26 39.1477 () norm 0 0 1-bflrx27 71.7 ()
+norm 0 0 1-bflrx28 0 () norm 0 0 1-bflrx29 2.11024 () norm 0 0 1-bflrx30
+17.1446 () norm 0 0 1-bflrx31 57 () norm 0 0 1-bflrx32 0.629921 ()
+norm 0 0 1-bflrx33 4 () norm 0 0 1-bflrx34 42.684 () norm 0 0 1-bflrx35
+0.409449 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0 () norm 0 0
+1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+11 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 77.74
+() norm 0 0 1-bflrx4 0.173228 () norm 0 0 1-bflrx5 1.48031 () norm
+0 0 1-bflrx6 7.17244 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8 0
+() norm 0 0 1-bflrx9 0.503937 () norm 0 0 1-bflrx10 6.53592 () norm
+0 0 1-bflrx11 82.58 () norm 0 0 1-bflrx12 0.19685 () norm 0 0 1-bflrx13
+1.29134 () norm 0 0 1-bflrx14 28.932 () norm 0 0 1-bflrx15 92 () norm
+0 0 1-bflrx16 0.0551181 () norm 0 0 1-bflrx17 0.944882 () norm 0 0
+1-bflrx18 22.2525 () norm 0 0 1-bflrx19 62 () norm 0 0 1-bflrx20 0.110236
+() norm 0 0 1-bflrx21 1.25984 () norm 0 0 1-bflrx22 42.291 () norm
+0 0 1-bflrx23 94.56 () norm 0 0 1-bflrx24 0.0192913 () norm 0 0 1-bflrx25
+1.6378 () norm 0 0 1-bflrx26 39.1477 () norm 0 0 1-bflrx27 71.7 ()
+norm 0 0 1-bflrx28 0 () norm 0 0 1-bflrx29 2.11024 () norm 0 0 1-bflrx30
+17.1446 () norm 0 0 1-bflrx31 49 () norm 0 0 1-bflrx32 0.629921 ()
+norm 0 0 1-bflrx33 4 () norm 0 0 1-bflrx34 42.684 () norm 0 0 1-bflrx35
+0.299213 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0 () norm 0 0
+1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+12 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 77.74
+() norm 0 0 1-bflrx4 0.0787402 () norm 0 0 1-bflrx5 2.86614 () norm
+0 0 1-bflrx6 4.42205 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8 0.385827
+() norm 0 0 1-bflrx9 0.503937 () norm 0 0 1-bflrx10 6.53592 () norm
+0 0 1-bflrx11 82.58 () norm 0 0 1-bflrx12 0.125984 () norm 0 0 1-bflrx13
+0.346457 () norm 0 0 1-bflrx14 7.71466 () norm 0 0 1-bflrx15 102 ()
+norm 0 0 1-bflrx16 0.0393701 () norm 0 0 1-bflrx17 0.944882 () norm
+0 0 1-bflrx18 17.1446 () norm 0 0 1-bflrx19 58 () norm 0 0 1-bflrx20
+0.0944882 () norm 0 0 1-bflrx21 0.314961 () norm 0 0 1-bflrx22 12.0367
+() norm 0 0 1-bflrx23 120.56 () norm 0 0 1-bflrx24 0.0192913 () norm
+0 0 1-bflrx25 0.0314961 () norm 0 0 1-bflrx26 39.1477 () norm 0 0 1-bflrx27
+71.7 () norm 0 0 1-bflrx28 0.0787402 () norm 0 0 1-bflrx29 2.11024
+() norm 0 0 1-bflrx30 17.1446 () norm 0 0 1-bflrx31 75 () norm 0 0
+1-bflrx32 0.0629921 () norm 0 0 1-bflrx33 1.35433 () norm 0 0 1-bflrx34
+9.67923 () norm 0 0 1-bflrx35 0.141732 () norm 0 0 1-wavrx1 4 () norm
+0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm
+0 0 1-wavrx5 0;
+13 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 77.74
+() norm 0 0 1-bflrx4 0.0787402 () norm 0 0 1-bflrx5 0.125984 () norm
+0 0 1-bflrx6 9.92283 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8 0.141732
+() norm 0 0 1-bflrx9 1.66929 () norm 0 0 1-bflrx10 3.78553 () norm
+0 0 1-bflrx11 82.58 () norm 0 0 1-bflrx12 0.125984 () norm 0 0 1-bflrx13
+0.346457 () norm 0 0 1-bflrx14 7.71466 () norm 0 0 1-bflrx15 82 ()
+norm 0 0 1-bflrx16 0.0708661 () norm 0 0 1-bflrx17 0.944882 () norm
+0 0 1-bflrx18 17.1446 () norm 0 0 1-bflrx19 78 () norm 0 0 1-bflrx20
+0.0944882 () norm 0 0 1-bflrx21 0.314961 () norm 0 0 1-bflrx22 11.2509
+() norm 0 0 1-bflrx23 90.56 () norm 0 0 1-bflrx24 0.0551181 () norm
+0 0 1-bflrx25 0.503937 () norm 0 0 1-bflrx26 19.5021 () norm 0 0 1-bflrx27
+91.7 () norm 0 0 1-bflrx28 0.0551181 () norm 0 0 1-bflrx29 2.11024
+() norm 0 0 1-bflrx30 17.1446 () norm 0 0 1-bflrx31 94 () norm 0 0
+1-bflrx32 0.0629921 () norm 0 0 1-bflrx33 1.6063 () norm 0 0 1-bflrx34
+9.67923 () norm 0 0 1-bflrx35 0.141732 () norm 0 0 1-wavrx1 4 () norm
+0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 127 () norm 0 0 1-wavrx4 1 () norm
+0 0 1-wavrx5 0;
+14 symbol 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 70.74
+() norm 0 0 1-bflrx4 0.0787402 () norm 0 0 1-bflrx5 0.220472 () norm
+0 0 1-bflrx6 14.6378 () norm 0 0 1-bflrx7 77 () norm 0 0 1-bflrx8 0.141732
+() norm 0 0 1-bflrx9 0.251969 () norm 0 0 1-bflrx10 11.6438 () norm
+0 0 1-bflrx11 78.86 () norm 0 0 1-bflrx12 0.125984 () norm 0 0 1-bflrx13
+0.566929 () norm 0 0 1-bflrx14 10.0721 () norm 0 0 1-bflrx15 82 ()
+norm 0 0 1-bflrx16 0.0708661 () norm 0 0 1-bflrx17 0.944882 () norm
+0 0 1-bflrx18 4.96427 () norm 0 0 1-bflrx19 80.91 () norm 0 0 1-bflrx20
+0.0944882 () norm 0 0 1-bflrx21 0.314961 () norm 0 0 1-bflrx22 8.50049
+() norm 0 0 1-bflrx23 84.16 () norm 0 0 1-bflrx24 0.204724 () norm
+0 0 1-bflrx25 3.43307 () norm 0 0 1-bflrx26 10.0721 () norm 0 0 1-bflrx27
+85.11 () norm 0 0 1-bflrx28 0.023622 () norm 0 0 1-bflrx29 0.409449
+() norm 0 0 1-bflrx30 11.2509 () norm 0 0 1-bflrx31 96 () norm 0 0
+1-bflrx32 0.023622 () norm 0 0 1-bflrx33 1.6063 () norm 0 0 1-bflrx34
+10.0721 () norm 0 0 1-bflrx35 0.181102 () norm 0 0 1-wavrx1 4 () norm
+0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm
+0 0 1-wavrx5 0;
+15 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 50.7087 () norm 0 0 1-bflrx3 73.74
+() norm 0 0 1-bflrx4 0.0787402 () norm 0 0 1-bflrx5 1.16535 () norm
+0 0 1-bflrx6 14.6378 () norm 0 0 1-bflrx7 77 () norm 0 0 1-bflrx8 0.141732
+() norm 0 0 1-bflrx9 1.66929 () norm 0 0 1-bflrx10 11.6438 () norm
+0 0 1-bflrx11 79.58 () norm 0 0 1-bflrx12 0.125984 () norm 0 0 1-bflrx13
+0.566929 () norm 0 0 1-bflrx14 10.0721 () norm 0 0 1-bflrx15 82 ()
+norm 0 0 1-bflrx16 0.0708661 () norm 0 0 1-bflrx17 0.944882 () norm
+0 0 1-bflrx18 9.67923 () norm 0 0 1-bflrx19 80.91 () norm 0 0 1-bflrx20
+0.0944882 () norm 0 0 1-bflrx21 0.314961 () norm 0 0 1-bflrx22 8.50049
+() norm 0 0 1-bflrx23 85.56 () norm 0 0 1-bflrx24 0.0551181 () norm
+0 0 1-bflrx25 0.346457 () norm 0 0 1-bflrx26 10.0721 () norm 0 0 1-bflrx27
+85.7 () norm 0 0 1-bflrx28 0.023622 () norm 0 0 1-bflrx29 0.409449
+() norm 0 0 1-bflrx30 11.2509 () norm 0 0 1-bflrx31 87 () norm 0 0
+1-bflrx32 0.023622 () norm 0 0 1-bflrx33 1.6063 () norm 0 0 1-bflrx34
+9.67923 () norm 0 0 1-bflrx35 0.267717 () norm 0 0 1-wavrx1 4 () norm
+0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm
+0 0 1-wavrx5 0;
+16 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 20 () norm 0 0 1-bflrx3 77.74 ()
+norm 0 0 1-bflrx4 0.0787402 () norm 0 0 1-bflrx5 3.05512 () norm 0
+0 1-bflrx6 9.92283 () norm 0 0 1-bflrx7 81 () norm 0 0 1-bflrx8 0.173228
+() norm 0 0 1-bflrx9 1.66929 () norm 0 0 1-bflrx10 39.9336 () norm
+0 0 1-bflrx11 82.58 () norm 0 0 1-bflrx12 0.125984 () norm 0 0 1-bflrx13
+3.65354 () norm 0 0 1-bflrx14 27.3603 () norm 0 0 1-bflrx15 87 () norm
+0 0 1-bflrx16 0.0708661 () norm 0 0 1-bflrx17 0.944882 () norm 0 0
+1-bflrx18 20.6808 () norm 0 0 1-bflrx19 90 () norm 0 0 1-bflrx20 0.0944882
+() norm 0 0 1-bflrx21 4 () norm 0 0 1-bflrx22 31.6824 () norm 0 0 1-bflrx23
+90.56 () norm 0 0 1-bflrx24 0.0551181 () norm 0 0 1-bflrx25 1.07087
+() norm 0 0 1-bflrx26 25.3958 () norm 0 0 1-bflrx27 93.7 () norm 0
+0 1-bflrx28 0.023622 () norm 0 0 1-bflrx29 3.74803 () norm 0 0 1-bflrx30
+36.7903 () norm 0 0 1-bflrx31 94 () norm 0 0 1-bflrx32 0.023622 ()
+norm 0 0 1-bflrx33 3.68504 () norm 0 0 1-bflrx34 13.6084 () norm 0
+0 1-bflrx35 0.291339 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0
+() norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+17 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 20 () norm 0 0 1-bflrx3 71.74 ()
+norm 0 0 1-bflrx4 0.0787402 () norm 0 0 1-bflrx5 3.05512 () norm 0
+0 1-bflrx6 5.20787 () norm 0 0 1-bflrx7 81 () norm 0 0 1-bflrx8 0.19685
+() norm 0 0 1-bflrx9 1.66929 () norm 0 0 1-bflrx10 39.9336 () norm
+0 0 1-bflrx11 77.58 () norm 0 0 1-bflrx12 0.125984 () norm 0 0 1-bflrx13
+3.65354 () norm 0 0 1-bflrx14 27.3603 () norm 0 0 1-bflrx15 87 () norm
+0 0 1-bflrx16 0.0708661 () norm 0 0 1-bflrx17 0.944882 () norm 0 0
+1-bflrx18 20.6808 () norm 0 0 1-bflrx19 90 () norm 0 0 1-bflrx20 0.0708661
+() norm 0 0 1-bflrx21 1.10236 () norm 0 0 1-bflrx22 10.4651 () norm
+0 0 1-bflrx23 106.56 () norm 0 0 1-bflrx24 0.0551181 () norm 0 0 1-bflrx25
+1.07087 () norm 0 0 1-bflrx26 25.3958 () norm 0 0 1-bflrx27 110.7 ()
+norm 0 0 1-bflrx28 0.023622 () norm 0 0 1-bflrx29 3.74803 () norm 0
+0 1-bflrx30 49.3635 () norm 0 0 1-bflrx31 106 () norm 0 0 1-bflrx32
+0.023622 () norm 0 0 1-bflrx33 3.68504 () norm 0 0 1-bflrx34 48.5777
+() norm 0 0 1-bflrx35 0.259843 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+18 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 20 () norm 0 0 1-bflrx3 31.74 ()
+norm 0 0 1-bflrx4 0.614173 () norm 0 0 1-bflrx5 4 () norm 0 0 1-bflrx6
+1.27874 () norm 0 0 1-bflrx7 65 () norm 0 0 1-bflrx8 0.622047 () norm
+0 0 1-bflrx9 1.66929 () norm 0 0 1-bflrx10 39.9336 () norm 0 0 1-bflrx11
+77.58 () norm 0 0 1-bflrx12 0.125984 () norm 0 0 1-bflrx13 3.65354
+() norm 0 0 1-bflrx14 27.3603 () norm 0 0 1-bflrx15 87 () norm 0 0
+1-bflrx16 0.0708661 () norm 0 0 1-bflrx17 0.251969 () norm 0 0 1-bflrx18
+10.0721 () norm 0 0 1-bflrx19 94 () norm 0 0 1-bflrx20 0.0866142 ()
+norm 0 0 1-bflrx21 0.220472 () norm 0 0 1-bflrx22 11.6438 () norm 0
+0 1-bflrx23 106.56 () norm 0 0 1-bflrx24 0.0787402 () norm 0 0 1-bflrx25
+0.251969 () norm 0 0 1-bflrx26 25.3958 () norm 0 0 1-bflrx27 119.7
+() norm 0 0 1-bflrx28 0.023622 () norm 0 0 1-bflrx29 3.74803 () norm
+0 0 1-bflrx30 49.3635 () norm 0 0 1-bflrx31 122 () norm 0 0 1-bflrx32
+0.023622 () norm 0 0 1-bflrx33 3.68504 () norm 0 0 1-bflrx34 48.5777
+() norm 0 0 1-bflrx35 0.228346 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+19 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 20 () norm 0 0 1-bflrx3 57.74 ()
+norm 0 0 1-bflrx4 0.614173 () norm 0 0 1-bflrx5 4 () norm 0 0 1-bflrx6
+48.4283 () norm 0 0 1-bflrx7 62 () norm 0 0 1-bflrx8 0.173228 () norm
+0 0 1-bflrx9 1.66929 () norm 0 0 1-bflrx10 39.9336 () norm 0 0 1-bflrx11
+78 () norm 0 0 1-bflrx12 0.125984 () norm 0 0 1-bflrx13 3.65354 ()
+norm 0 0 1-bflrx14 27.3603 () norm 0 0 1-bflrx15 87 () norm 0 0 1-bflrx16
+0.0708661 () norm 0 0 1-bflrx17 0.251969 () norm 0 0 1-bflrx18 36.3973
+() norm 0 0 1-bflrx19 100 () norm 0 0 1-bflrx20 0.110236 () norm 0
+0 1-bflrx21 1.48031 () norm 0 0 1-bflrx22 30.1107 () norm 0 0 1-bflrx23
+106.56 () norm 0 0 1-bflrx24 0.0944882 () norm 0 0 1-bflrx25 0.251969
+() norm 0 0 1-bflrx26 25.3958 () norm 0 0 1-bflrx27 112 () norm 0 0
+1-bflrx28 0.0787402 () norm 0 0 1-bflrx29 0.598425 () norm 0 0 1-bflrx30
+17.5375 () norm 0 0 1-bflrx31 101 () norm 0 0 1-bflrx32 0.0708661 ()
+norm 0 0 1-bflrx33 3.68504 () norm 0 0 1-bflrx34 10.858 () norm 0 0
+1-bflrx35 0.204724 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0 ()
+norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+20 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 20 () norm 0 0 1-bflrx3 58 () norm
+0 0 1-bflrx4 0.614173 () norm 0 0 1-bflrx5 4 () norm 0 0 1-bflrx6 48.4283
+() norm 0 0 1-bflrx7 61 () norm 0 0 1-bflrx8 0.173228 () norm 0 0 1-bflrx9
+1.66929 () norm 0 0 1-bflrx10 39.9336 () norm 0 0 1-bflrx11 110 ()
+norm 0 0 1-bflrx12 0.149606 () norm 0 0 1-bflrx13 3.49606 () norm 0
+0 1-bflrx14 44.2556 () norm 0 0 1-bflrx15 111 () norm 0 0 1-bflrx16
+0.141732 () norm 0 0 1-bflrx17 0.251969 () norm 0 0 1-bflrx18 36.3973
+() norm 0 0 1-bflrx19 111 () norm 0 0 1-bflrx20 0.110236 () norm 0
+0 1-bflrx21 3.30709 () norm 0 0 1-bflrx22 44.6485 () norm 0 0 1-bflrx23
+113.56 () norm 0 0 1-bflrx24 0.0708661 () norm 0 0 1-bflrx25 3.65354
+() norm 0 0 1-bflrx26 44.2556 () norm 0 0 1-bflrx27 114 () norm 0 0
+1-bflrx28 0.0787402 () norm 0 0 1-bflrx29 3.90551 () norm 0 0 1-bflrx30
+36.7903 () norm 0 0 1-bflrx31 101 () norm 0 0 1-bflrx32 0.0708661 ()
+norm 0 0 1-bflrx33 3.68504 () norm 0 0 1-bflrx34 11.2509 () norm 0
+0 1-bflrx35 0.212598 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0
+() norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;
+21 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.740157
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 20 () norm 0 0 1-bflrx3 113 () norm
+0 0 1-bflrx4 0.0708661 () norm 0 0 1-bflrx5 0.472441 () norm 0 0 1-bflrx6
+48.1847 () norm 0 0 1-bflrx7 118 () norm 0 0 1-bflrx8 0.125984 () norm
+0 0 1-bflrx9 0.188976 () norm 0 0 1-bflrx10 50 () norm 0 0 1-bflrx11
+115 () norm 0 0 1-bflrx12 0.0472441 () norm 0 0 1-bflrx13 0.346457
+() norm 0 0 1-bflrx14 50 () norm 0 0 1-bflrx15 121 () norm 0 0 1-bflrx16
+0.0787402 () norm 0 0 1-bflrx17 0.251969 () norm 0 0 1-bflrx18 48.9706
+() norm 0 0 1-bflrx19 118 () norm 0 0 1-bflrx20 0.110236 () norm 0
+0 1-bflrx21 0.0629921 () norm 0 0 1-bflrx22 50 () norm 0 0 1-bflrx23
+114 () norm 0 0 1-bflrx24 0.11811 () norm 0 0 1-bflrx25 0.15748 ()
+norm 0 0 1-bflrx26 49.7564 () norm 0 0 1-bflrx27 123 () norm 0 0 1-bflrx28
+0.023622 () norm 0 0 1-bflrx29 0.0314961 () norm 0 0 1-bflrx30 50 ()
+norm 0 0 1-bflrx31 113 () norm 0 0 1-bflrx32 0.0629921 () norm 0 0
+1-bflrx33 0.0629921 () norm 0 0 1-bflrx34 50 () norm 0 0 1-bflrx35
+0.259843 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0 () norm 0 0
+1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+22 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.740157
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 20 () norm 0 0 1-bflrx3 104 () norm
+0 0 1-bflrx4 0.0708661 () norm 0 0 1-bflrx5 4 () norm 0 0 1-bflrx6
+41.5052 () norm 0 0 1-bflrx7 103 () norm 0 0 1-bflrx8 0.125984 () norm
+0 0 1-bflrx9 3.81102 () norm 0 0 1-bflrx10 39.9336 () norm 0 0 1-bflrx11
+110 () norm 0 0 1-bflrx12 0.149606 () norm 0 0 1-bflrx13 3.49606 ()
+norm 0 0 1-bflrx14 44.2556 () norm 0 0 1-bflrx15 111 () norm 0 0 1-bflrx16
+0.15748 () norm 0 0 1-bflrx17 3.49606 () norm 0 0 1-bflrx18 36.3973
+() norm 0 0 1-bflrx19 111 () norm 0 0 1-bflrx20 0.110236 () norm 0
+0 1-bflrx21 3.30709 () norm 0 0 1-bflrx22 44.6485 () norm 0 0 1-bflrx23
+114 () norm 0 0 1-bflrx24 0.0708661 () norm 0 0 1-bflrx25 3.65354 ()
+norm 0 0 1-bflrx26 44.2556 () norm 0 0 1-bflrx27 115 () norm 0 0 1-bflrx28
+0.023622 () norm 0 0 1-bflrx29 3.90551 () norm 0 0 1-bflrx30 36.7903
+() norm 0 0 1-bflrx31 113 () norm 0 0 1-bflrx32 0.0314961 () norm 0
+0 1-bflrx33 3.68504 () norm 0 0 1-bflrx34 43.0769 () norm 0 0 1-bflrx35
+0.15748 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3
+0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+23 symbol 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 0.740157
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-bflrx1 0 () norm 0 0 1-bflrx2 20 () norm 0 0 1-bflrx3 104 () norm
+0 0 1-bflrx4 0.165354 () norm 0 0 1-bflrx5 4 () norm 0 0 1-bflrx6 11.6438
+() norm 0 0 1-bflrx7 103 () norm 0 0 1-bflrx8 0.110236 () norm 0 0
+1-bflrx9 1.32283 () norm 0 0 1-bflrx10 20.6808 () norm 0 0 1-bflrx11
+109 () norm 0 0 1-bflrx12 0.149606 () norm 0 0 1-bflrx13 0.787402 ()
+norm 0 0 1-bflrx14 23.0383 () norm 0 0 1-bflrx15 111 () norm 0 0 1-bflrx16
+0.15748 () norm 0 0 1-bflrx17 2.77165 () norm 0 0 1-bflrx18 17.5375
+() norm 0 0 1-bflrx19 111 () norm 0 0 1-bflrx20 0.125984 () norm 0
+0 1-bflrx21 1.76378 () norm 0 0 1-bflrx22 13.6084 () norm 0 0 1-bflrx23
+115 () norm 0 0 1-bflrx24 0.0708661 () norm 0 0 1-bflrx25 0.724409
+() norm 0 0 1-bflrx26 24.217 () norm 0 0 1-bflrx27 120 () norm 0 0
+1-bflrx28 0.023622 () norm 0 0 1-bflrx29 3.90551 () norm 0 0 1-bflrx30
+40.7194 () norm 0 0 1-bflrx31 124 () norm 0 0 1-bflrx32 0.0787402 ()
+norm 0 0 1-bflrx33 3.68504 () norm 0 0 1-bflrx34 21.8595 () norm 0
+0 1-bflrx35 0.141732 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0
+() norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5
+0;

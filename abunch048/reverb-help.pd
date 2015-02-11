@@ -1,0 +1,44 @@
+#N canvas 431 0 692 707 12;
+#X obj 37 362 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 48 102 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 47 433 Inlet 1 =;
+#X text 44 478 Inlet 2 =;
+#X text 47 530 Inlet 3 =;
+#X text 46 559 Inlet 4 =;
+#X text 47 589 Inlet 5 =;
+#X text 47 619 Inlet 6 =;
+#X text 48 657 Outlet 1 =;
+#X text 52 695 Outlet 2 =;
+#X text 31 158 fader 'feedback':;
+#X text 31 307 fader 'level':;
+#X text 182 156 with this you can adjust the feedback (and thus the
+length) of the reverb;
+#X text 45 397 (in- and outlets \, numbered from left to right);
+#X text 134 433 (audio) first inlet (left channel of stereo) for the
+sound to which reverb will be added;
+#X text 134 483 (audio) second inlet (right channel of stereo) for
+the sound to which reverb will be added;
+#X text 136 655 (audio) first outlet of the sound (from inlet 1 \,
+left channel of stereo) to which reverb was added;
+#X text 142 695 (audio) second outlet of the sound (from inlet 2 \,
+right channel of stereo) to which reverb was added;
+#X text 29 190 fader 'freq':;
+#X text 176 191 use this fader to adjust the frequency (in Hertz) of
+the lowpass filter (through which the reverb is sent). If this is very
+low (and the 'amp' fader is high) \, high frequencies in the reverb
+are damped.;
+#X text 180 261 use this to change the level or amplitude of the sound
+through the lowpass filter.;
+#X text 189 308 this fader changes the level or amplitude of the output
+sound;
+#X text 52 13 The abunch object 'reverb' is a stereo reverb effect.
+;
+#X text 49 41 (This reverb is based on the rev3~ abstraction by Miller
+Puckette in pd/extra);
+#X text 28 260 fader 'amp':;
+#X text 137 529 (event) inlet to control the fader 'feedback';
+#X text 140 558 (event) inlet to control the fader 'freq';
+#X text 137 588 (event) inlet to control the fader 'amp';
+#X text 137 619 (event) inlet to control the fader 'output level';

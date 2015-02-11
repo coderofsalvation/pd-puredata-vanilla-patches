@@ -1,0 +1,347 @@
+#N canvas 153 313 450 300 10;
+#N canvas 225 100 1409 952 bigplayer1 0;
+#X obj 240 255 soundfiler;
+#X obj 378 160 int;
+#X msg 403 138 0;
+#X obj 406 164 + 1;
+#X obj 240 279 t b;
+#X obj -115 -23 inlet;
+#X obj -56 -23 inlet;
+#X obj 184 29 t b f;
+#X obj -228 854 outlet~;
+#X obj -116 150 pack 0 0 0;
+#X obj -115 10 pack f f;
+#X obj 106 117 hsl 100 8 1 1000 1 1 empty empty attack 2 4 0 10 -262144
+-258113 -1 0 1;
+#X obj 106 129 hsl 100 8 30 3000 1 1 empty empty release 2 4 0 10 -262144
+-258113 -1 2700 1;
+#X obj 240 190 pack s s f f;
+#X obj 338 65 t b b b;
+#X msg 573 -98 symbol /home/mnb/samplelib/mis_neatonk_piano/;
+#X obj -94 113 clip 0 87;
+#X msg 456 65 148587__neatonk__piano-med-b0.wav \, 148554__neatonk__piano-med-c1.wav
+\, 148277__neatonk__piano-med-db1.wav \, 148606__neatonk__piano-med-d1.wav
+\, 148570__neatonk__piano-med-eb1.wav \, 148573__neatonk__piano-med-e1.wav
+\, 148568__neatonk__piano-med-f1.wav \, 148596__neatonk__piano-med-gb1.wav
+\, 148567__neatonk__piano-med-g1.wav \, 148535__neatonk__piano-med-ab1.wav
+\, 148534__neatonk__piano-med-a1.wav \, 148559__neatonk__piano-med-bb1.wav
+\, 148586__neatonk__piano-med-b1.wav \, 148601__neatonk__piano-med-c2.wav
+\, 148276__neatonk__piano-med-db2.wav \, 148594__neatonk__piano-med-d2.wav
+\, 148597__neatonk__piano-med-eb2.wav \, 148555__neatonk__piano-med-e2.wav
+\, 148599__neatonk__piano-med-f2.wav \, 148578__neatonk__piano-med-gb2.wav
+\, 148549__neatonk__piano-med-g2.wav \, 148540__neatonk__piano-med-ab2.wav
+\, 148533__neatonk__piano-med-a2.wav \, 148560__neatonk__piano-med-bb2.wav
+\, 148585__neatonk__piano-med-b2.wav \, 148600__neatonk__piano-med-c3.wav
+\, 148271__neatonk__piano-med-db3.wav \, 148593__neatonk__piano-med-d3.wav
+\, 148592__neatonk__piano-med-eb3.wav \, 148556__neatonk__piano-med-e3.wav
+\, 148598__neatonk__piano-med-f3.wav \, 148544__neatonk__piano-med-gb3.wav
+\, 148547__neatonk__piano-med-g3.wav \, 148539__neatonk__piano-med-ab3.wav
+\, 148532__neatonk__piano-med-a3.wav \, 148565__neatonk__piano-med-bb3.wav
+\, 148584__neatonk__piano-med-b3.wav \, 148603__neatonk__piano-med-c4.wav
+\, 148270__neatonk__piano-med-db4.wav \, 148551__neatonk__piano-med-d4.wav
+\, 148588__neatonk__piano-med-eb4.wav \, 148557__neatonk__piano-med-e4.wav
+\, 148569__neatonk__piano-med-f4.wav \, 148576__neatonk__piano-med-gb4.wav
+\, 148548__neatonk__piano-med-g4.wav \, 148583__neatonk__piano-med-ab4.wav
+\, 148531__neatonk__piano-med-a4.wav \, 148566__neatonk__piano-med-bb4.wav
+\, 148590__neatonk__piano-med-b4.wav \, 148602__neatonk__piano-med-c5.wav
+\, 148273__neatonk__piano-med-db5.wav \, 148552__neatonk__piano-med-d5.wav
+\, 148574__neatonk__piano-med-eb5.wav \, 148558__neatonk__piano-med-e5.wav
+\, 148571__neatonk__piano-med-f5.wav \, 148545__neatonk__piano-med-gb5.wav
+\, 148595__neatonk__piano-med-g5.wav \, 148582__neatonk__piano-med-ab5.wav
+\, 148538__neatonk__piano-med-a5.wav \, 148563__neatonk__piano-med-bb5.wav
+\, 148589__neatonk__piano-med-b5.wav \, 148605__neatonk__piano-med-c6.wav
+\, 148272__neatonk__piano-med-db6.wav \, 148275__neatonk__piano-med-d6.wav
+\, 148579__neatonk__piano-med-eb6.wav \, 148575__neatonk__piano-med-e6.wav
+\, 148591__neatonk__piano-med-f6.wav \, 148541__neatonk__piano-med-gb6.wav
+\, 148542__neatonk__piano-med-g6.wav \, 148581__neatonk__piano-med-ab6.wav
+\, 148537__neatonk__piano-med-a6.wav \, 148564__neatonk__piano-med-bb6.wav
+\, 148561__neatonk__piano-med-b6.wav \, 148604__neatonk__piano-med-c7.wav
+\, 148550__neatonk__piano-med-db7.wav \, 148274__neatonk__piano-med-d7.wav
+\, 148543__neatonk__piano-med-eb7.wav \, 148577__neatonk__piano-med-e7.wav
+\, 148572__neatonk__piano-med-f7.wav \, 148546__neatonk__piano-med-g7.wav
+\, 148580__neatonk__piano-med-ab7.wav \, 148536__neatonk__piano-med-a7.wav
+\, 148553__neatonk__piano-med-bb7.wav \, 148562__neatonk__piano-med-b7.wav
+\, 148607__neatonk__piano-med-c8.wav;
+#X obj -96 70 - 24;
+#X text -58 68 shift low c to 0 \, transpose;
+#X text 587 8 about 88 samples;
+#X obj -116 35 poly 24 1;
+#X text -173 352 24 note polyphony should be enough...;
+#X obj -270 175 route 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+19 20 21 22 23 24;
+#X msg 240 218 read -resize \$2\$1 \$3sp\$4 \$3spr\$4;
+#X obj -219 478 abs_bigplayer1voice;
+#X obj -64 849 outlet~;
+#X obj -283 387 abs_bigplayer1voice;
+#X obj -140 387 abs_bigplayer1voice;
+#X obj -259 418 abs_bigplayer1voice;
+#X obj -243 447 abs_bigplayer1voice;
+#X obj -119 419 abs_bigplayer1voice;
+#X obj -100 447 abs_bigplayer1voice;
+#X obj -76 478 abs_bigplayer1voice;
+#X obj -10 386 abs_bigplayer1voice;
+#X obj 133 386 abs_bigplayer1voice;
+#X obj 14 417 abs_bigplayer1voice;
+#X obj 30 446 abs_bigplayer1voice;
+#X obj 54 477 abs_bigplayer1voice;
+#X obj 154 418 abs_bigplayer1voice;
+#X obj 173 446 abs_bigplayer1voice;
+#X obj 197 477 abs_bigplayer1voice;
+#X obj -36 542 abs_bigplayer1voice;
+#X obj 102 544 abs_bigplayer1voice;
+#X obj -16 575 abs_bigplayer1voice;
+#X obj 5 604 abs_bigplayer1voice;
+#X obj 23 635 abs_bigplayer1voice;
+#X obj 123 576 abs_bigplayer1voice;
+#X obj 145 606 abs_bigplayer1voice;
+#X obj 166 635 abs_bigplayer1voice;
+#X obj 184 3 abs_bigplayer1tables;
+#X obj -227 817 *~ 0.5;
+#X obj -63 803 *~ 0.5;
+#X text -116 -45 pitch \, velocity;
+#X text 50 -35 stereo tabplay sampleplayer for up to 88 samples asigned
+to 88 keys (a complete piano). 2013 martin brinkmann;
+#X text 457 34 samplelist for neatonk piano available from freesounds.
+e1 needs trimming and some names are mixed up from f7 on(?);
+#X obj 557 -48 spigot 1;
+#X obj 718 -39 spigot 0;
+#X obj 472 -118 hradio 15 1 1 2 empty empty empty 0 -8 0 10 -262144
+-1 -1 0;
+#X obj 466 -79 == 0;
+#X obj 500 -79 == 1;
+#X msg 762 67 148477__neatonk__piano-loud-b0.wav \, 148427__neatonk__piano-loud-c1.wav
+\, 148517__neatonk__piano-loud-db1.wav \, 148425__neatonk__piano-loud-d1.wav
+\, 148497__neatonk__piano-loud-eb1.wav \, 148527__neatonk__piano-loud-e1.wav
+\, 148492__neatonk__piano-loud-f1.wav \, 148440__neatonk__piano-loud-gb1.wav
+\, 148502__neatonk__piano-loud-g1.wav \, 148490__neatonk__piano-loud-ab1.wav
+\, 148483__neatonk__piano-loud-a1.wav \, 148423__neatonk__piano-loud-bb1.wav
+\, 148476__neatonk__piano-loud-b1.wav \, 148430__neatonk__piano-loud-c2.wav
+\, 148518__neatonk__piano-loud-db2.wav \, 148511__neatonk__piano-loud-d2.wav
+\, 148498__neatonk__piano-loud-eb2.wav \, 148526__neatonk__piano-loud-e2.wav
+\, 148499__neatonk__piano-loud-f2.wav \, 148441__neatonk__piano-loud-gb2.wav
+\, 148501__neatonk__piano-loud-g2.wav \, 148489__neatonk__piano-loud-ab2.wav
+\, 148482__neatonk__piano-loud-a2.wav \, 148424__neatonk__piano-loud-bb2.wav
+\, 148475__neatonk__piano-loud-b2.wav \, 148429__neatonk__piano-loud-c3.wav
+\, 148519__neatonk__piano-loud-db3.wav \, 148512__neatonk__piano-loud-d3.wav
+\, 148495__neatonk__piano-loud-eb3.wav \, 148525__neatonk__piano-loud-e3.wav
+\, 148500__neatonk__piano-loud-f3.wav \, 148442__neatonk__piano-loud-gb3.wav
+\, 148504__neatonk__piano-loud-g3.wav \, 148474__neatonk__piano-loud-ab3.wav
+\, 148481__neatonk__piano-loud-a3.wav \, 148407__neatonk__piano-loud-bb3.wav
+\, 148480__neatonk__piano-loud-b3.wav \, 148432__neatonk__piano-loud-c4.wav
+\, 148520__neatonk__piano-loud-db4.wav \, 148513__neatonk__piano-loud-d4.wav
+\, 148496__neatonk__piano-loud-eb4.wav \, 148524__neatonk__piano-loud-e4.wav
+\, 148506__neatonk__piano-loud-f4.wav \, 148435__neatonk__piano-loud-gb4.wav
+\, 148503__neatonk__piano-loud-g4.wav \, 148473__neatonk__piano-loud-ab4.wav
+\, 148488__neatonk__piano-loud-a4.wav \, 148408__neatonk__piano-loud-bb4.wav
+\, 148479__neatonk__piano-loud-b4.wav \, 148431__neatonk__piano-loud-c5.wav
+\, 148530__neatonk__piano-loud-db5.wav \, 148514__neatonk__piano-loud-d5.wav
+\, 148493__neatonk__piano-loud-eb5.wav \, 148523__neatonk__piano-loud-e5.wav
+\, 148505__neatonk__piano-loud-f5.wav \, 148436__neatonk__piano-loud-gb5.wav
+\, 148510__neatonk__piano-loud-g5.wav \, 148472__neatonk__piano-loud-ab5.wav
+\, 148487__neatonk__piano-loud-a5.wav \, 148401__neatonk__piano-loud-bb5.wav
+\, 148405__neatonk__piano-loud-b5.wav \, 148434__neatonk__piano-loud-c6.wav
+\, 148529__neatonk__piano-loud-db6.wav \, 148515__neatonk__piano-loud-d6.wav
+\, 148494__neatonk__piano-loud-eb6.wav \, 148522__neatonk__piano-loud-e6.wav
+\, 148508__neatonk__piano-loud-f6.wav \, 148437__neatonk__piano-loud-gb6.wav
+\, 148509__neatonk__piano-loud-g6.wav \, 148471__neatonk__piano-loud-ab6.wav
+\, 148486__neatonk__piano-loud-a6.wav \, 148402__neatonk__piano-loud-bb6.wav
+\, 148406__neatonk__piano-loud-b6.wav \, 148433__neatonk__piano-loud-c7.wav
+\, 148528__neatonk__piano-loud-db7.wav \, 148516__neatonk__piano-loud-d7.wav
+\, 148491__neatonk__piano-loud-eb7.wav \, 148521__neatonk__piano-loud-e7.wav
+\, 148507__neatonk__piano-loud-f7.wav \, 148438__neatonk__piano-loud-gb7.wav
+\, 148439__neatonk__piano-loud-g7.wav \, 148478__neatonk__piano-loud-ab7.wav
+\, 148485__neatonk__piano-loud-a7.wav \, 148428__neatonk__piano-loud-bb7.wav
+\, 148403__neatonk__piano-loud-b7.wav \, 148426__neatonk__piano-loud-c8.wav
+;
+#X obj 444 -119 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 822 46 bright (loud) version;
+#X text 569 -116 sample path \, adjust to your needs;
+#X connect 0 0 4 0;
+#X connect 1 0 3 0;
+#X connect 1 0 13 3;
+#X connect 2 0 1 1;
+#X connect 3 0 1 1;
+#X connect 4 0 1 0;
+#X connect 5 0 10 0;
+#X connect 6 0 10 1;
+#X connect 7 0 14 0;
+#X connect 7 1 13 2;
+#X connect 7 1 25 0;
+#X connect 7 1 27 0;
+#X connect 7 1 28 0;
+#X connect 7 1 29 0;
+#X connect 7 1 30 0;
+#X connect 7 1 31 0;
+#X connect 7 1 32 0;
+#X connect 7 1 33 0;
+#X connect 7 1 34 0;
+#X connect 7 1 35 0;
+#X connect 7 1 36 0;
+#X connect 7 1 37 0;
+#X connect 7 1 38 0;
+#X connect 7 1 39 0;
+#X connect 7 1 40 0;
+#X connect 7 1 41 0;
+#X connect 7 1 42 0;
+#X connect 7 1 43 0;
+#X connect 7 1 44 0;
+#X connect 7 1 45 0;
+#X connect 7 1 46 0;
+#X connect 7 1 47 0;
+#X connect 7 1 48 0;
+#X connect 7 1 49 0;
+#X connect 9 0 23 0;
+#X connect 10 0 21 0;
+#X connect 11 0 25 2;
+#X connect 11 0 27 2;
+#X connect 11 0 28 2;
+#X connect 11 0 29 2;
+#X connect 11 0 30 2;
+#X connect 11 0 31 2;
+#X connect 11 0 32 2;
+#X connect 11 0 33 2;
+#X connect 11 0 34 2;
+#X connect 11 0 35 2;
+#X connect 11 0 36 2;
+#X connect 11 0 37 2;
+#X connect 11 0 38 2;
+#X connect 11 0 39 2;
+#X connect 11 0 40 2;
+#X connect 11 0 41 2;
+#X connect 11 0 42 2;
+#X connect 11 0 43 2;
+#X connect 11 0 44 2;
+#X connect 11 0 45 2;
+#X connect 11 0 46 2;
+#X connect 11 0 47 2;
+#X connect 11 0 48 2;
+#X connect 11 0 49 2;
+#X connect 12 0 25 3;
+#X connect 12 0 27 3;
+#X connect 12 0 28 3;
+#X connect 12 0 29 3;
+#X connect 12 0 30 3;
+#X connect 12 0 31 3;
+#X connect 12 0 32 3;
+#X connect 12 0 33 3;
+#X connect 12 0 34 3;
+#X connect 12 0 35 3;
+#X connect 12 0 36 3;
+#X connect 12 0 37 3;
+#X connect 12 0 38 3;
+#X connect 12 0 39 3;
+#X connect 12 0 40 3;
+#X connect 12 0 41 3;
+#X connect 12 0 42 3;
+#X connect 12 0 43 3;
+#X connect 12 0 44 3;
+#X connect 12 0 45 3;
+#X connect 12 0 46 3;
+#X connect 12 0 47 3;
+#X connect 12 0 48 3;
+#X connect 12 0 49 3;
+#X connect 13 0 24 0;
+#X connect 14 0 56 0;
+#X connect 14 0 57 0;
+#X connect 14 1 2 0;
+#X connect 14 2 15 0;
+#X connect 15 0 13 1;
+#X connect 16 0 9 1;
+#X connect 17 0 13 0;
+#X connect 18 0 16 0;
+#X connect 21 0 9 0;
+#X connect 21 1 18 0;
+#X connect 21 2 9 2;
+#X connect 23 0 27 1;
+#X connect 23 1 29 1;
+#X connect 23 2 30 1;
+#X connect 23 3 25 1;
+#X connect 23 4 28 1;
+#X connect 23 5 31 1;
+#X connect 23 6 32 1;
+#X connect 23 7 33 1;
+#X connect 23 8 34 1;
+#X connect 23 9 36 1;
+#X connect 23 10 37 1;
+#X connect 23 11 38 1;
+#X connect 23 12 35 1;
+#X connect 23 13 39 1;
+#X connect 23 14 40 1;
+#X connect 23 15 41 1;
+#X connect 23 16 42 1;
+#X connect 23 17 44 1;
+#X connect 23 18 45 1;
+#X connect 23 19 46 1;
+#X connect 23 20 43 1;
+#X connect 23 21 47 1;
+#X connect 23 22 48 1;
+#X connect 23 23 49 1;
+#X connect 24 0 0 0;
+#X connect 25 0 51 0;
+#X connect 25 1 52 0;
+#X connect 27 0 51 0;
+#X connect 27 1 52 0;
+#X connect 28 0 51 0;
+#X connect 28 1 52 0;
+#X connect 29 0 51 0;
+#X connect 29 1 52 0;
+#X connect 30 0 51 0;
+#X connect 30 1 52 0;
+#X connect 31 0 51 0;
+#X connect 31 1 52 0;
+#X connect 32 0 51 0;
+#X connect 32 1 52 0;
+#X connect 33 0 51 0;
+#X connect 33 1 52 0;
+#X connect 34 0 51 0;
+#X connect 34 1 52 0;
+#X connect 35 0 51 0;
+#X connect 35 1 52 0;
+#X connect 36 0 51 0;
+#X connect 36 1 52 0;
+#X connect 37 0 51 0;
+#X connect 37 1 52 0;
+#X connect 38 0 51 0;
+#X connect 38 1 52 0;
+#X connect 39 0 51 0;
+#X connect 39 1 52 0;
+#X connect 40 0 51 0;
+#X connect 40 1 52 0;
+#X connect 41 0 51 0;
+#X connect 41 1 52 0;
+#X connect 42 0 51 0;
+#X connect 42 1 52 0;
+#X connect 43 0 51 0;
+#X connect 43 1 52 0;
+#X connect 44 0 51 0;
+#X connect 44 1 52 0;
+#X connect 45 0 51 0;
+#X connect 45 1 52 0;
+#X connect 46 0 51 0;
+#X connect 46 1 52 0;
+#X connect 47 0 51 0;
+#X connect 47 1 52 0;
+#X connect 48 0 51 0;
+#X connect 48 1 52 0;
+#X connect 49 0 51 0;
+#X connect 49 1 52 0;
+#X connect 50 0 7 0;
+#X connect 51 0 8 0;
+#X connect 52 0 26 0;
+#X connect 56 0 17 0;
+#X connect 57 0 61 0;
+#X connect 58 0 59 0;
+#X connect 58 0 60 0;
+#X connect 59 0 56 1;
+#X connect 60 0 57 1;
+#X connect 61 0 13 0;
+#X connect 62 0 14 0;
+#X coords 0 -1 1 1 110 40 1 100 100;
+#X restore 60 102 pd bigplayer1;
+#X obj 84 220 dac~;
+#X obj 60 55 notein;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 2 0 0 0;
+#X connect 2 1 0 1;

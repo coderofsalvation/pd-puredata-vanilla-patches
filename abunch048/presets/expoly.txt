@@ -1,0 +1,138 @@
+1 symbol 0 0 0 () norm 0 0 5-scarx1 4 () norm 0 0 5-scarx2 8 () norm
+0 0 5-scarx3 1 () norm 0 0 2-scarx1 4 () norm 0 0 2-scarx2 8 () norm
+0 0 2-scarx3 0 () norm 0 0 1-scarx1 4 () norm 0 0 1-scarx2 8 () norm
+0 0 1-scarx3 0 () norm 0 0 4-scarx1 4 () norm 0 0 4-scarx2 8 () norm
+0 0 4-scarx3 2 () norm 0 0 3-scarx1 4 () norm 0 0 3-scarx2 8 () norm
+0 0 3-scarx3 0 () norm 0 0 2-abcrx1 0 () norm 0 0 2-abcrx2 12 () norm
+0 0 2-abcrx3 12 () norm 0 0 2-abcrx4 0 () norm 0 0 2-abcrx5 1 () norm
+0 0 2-abcrx6 60.008 () norm 0 0 2-abcrx7 0 () norm 0 0 2-abcrx8 0 ()
+norm 0 0 2-abcrx9 0.6 () norm 0 0 2-abcrx10 0 () norm 0 0 2-abcrx11
+0 () norm 0 0 2-abcrx12 127 () norm 0 0 1-abcrx1 74 () norm 0 0 1-abcrx2
+100 () norm 0 0 1-abcrx3 13.5748 () norm 0 0 1-abcrx4 0 () norm 0 0
+1-abcrx5 1 () norm 0 0 1-abcrx6 60.008 () norm 0 0 1-abcrx7 0 () norm
+0 0 1-abcrx8 1 () norm 0 0 1-abcrx9 0.174803 () norm 0 0 1-abcrx10
+1 () norm 0 0 1-abcrx11 55 () norm 0 0 1-abcrx12 69 () norm 0 0 5-fm2rx1
+95 () norm 0 0 5-fm2rx2 1.345 () norm 0 0 5-fm2rx3 0.915 () norm 0
+0 5-fm2rx4 0 () norm 0 0 5-fm2rx5 806.349 () norm 0 0 5-fm2rx6 1828.57
+() norm 0 0 5-fm2rx7 82.5397 () norm 0 0 5-fm2rx8 1.00794 () norm 0
+0 5-fm2rx9 1270 () norm 0 0 5-fm2rx10 409.397 () norm 0 0 4-fm2rx1
+83 () norm 0 0 4-fm2rx2 10.5 () norm 0 0 4-fm2rx3 1 () norm 0 0 4-fm2rx4
+10.281 () norm 0 0 4-fm2rx5 7.05556 () norm 0 0 4-fm2rx6 304.762 ()
+norm 0 0 4-fm2rx7 63.4921 () norm 0 0 4-fm2rx8 20.1587 () norm 0 0
+4-fm2rx9 322.54 () norm 0 0 4-fm2rx10 1930.16 () norm 0 0 4-rndrx1
+0 () norm 0 0 4-rndrx2 0.649606 () norm 0 0 4-rndrx3 0.1 () norm 0
+0 4-rndrx4 119.97 () norm 0 0 4-rndrx5 0 () norm 0 0 4-rndrx6 0.1 ()
+norm 0 0 4-rndrx7 0.346457 () norm 0 0 4-rndrx8 0.8 () norm 0 0 4-rndrx9
+0.8 () norm 0 0 4-rndrx10 1 () norm 0 0 3-fm2rx1 42 () norm 0 0 3-fm2rx2
+10.5 () norm 0 0 3-fm2rx3 1 () norm 0 0 3-fm2rx4 10.281 () norm 0 0
+3-fm2rx5 80.6349 () norm 0 0 3-fm2rx6 304.762 () norm 0 0 3-fm2rx7
+11.1111 () norm 0 0 3-fm2rx8 20.1587 () norm 0 0 3-fm2rx9 322.54 ()
+norm 0 0 3-fm2rx10 1930.16 () norm 0 0 3-rndrx1 0 () norm 0 0 3-rndrx2
+0.334646 () norm 0 0 3-rndrx3 0.1 () norm 0 0 3-rndrx4 119.97 () norm
+0 0 3-rndrx5 0 () norm 0 0 3-rndrx6 0.1 () norm 0 0 3-rndrx7 0.346457
+() norm 0 0 3-rndrx8 0.87874 () norm 0 0 3-rndrx9 0.674016 () norm
+0 0 3-rndrx10 1 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 2-fm2rx1
+83 () norm 0 0 2-fm2rx2 10.5 () norm 0 0 2-fm2rx3 1 () norm 0 0 2-fm2rx4
+10.281 () norm 0 0 2-fm2rx5 80.6349 () norm 0 0 2-fm2rx6 304.762 ()
+norm 0 0 2-fm2rx7 11.1111 () norm 0 0 2-fm2rx8 20.1587 () norm 0 0
+2-fm2rx9 322.54 () norm 0 0 2-fm2rx10 1930.16 () norm 0 0 2-rndrx1
+1 () norm 0 0 2-rndrx2 0.602362 () norm 0 0 2-rndrx3 0.15748 () norm
+0 0 2-rndrx4 119.97 () norm 0 0 2-rndrx5 0 () norm 0 0 2-rndrx6 0.1
+() norm 0 0 2-rndrx7 0.346457 () norm 0 0 2-rndrx8 0.8 () norm 0 0
+2-rndrx9 0.8 () norm 0 0 2-rndrx10 1 () norm 0 0 1-rndrx1 0 () norm
+0 0 1-rndrx2 0.42126 () norm 0 0 1-rndrx3 0.1 () norm 0 0 1-rndrx4
+119.97 () norm 0 0 1-rndrx5 0 () norm 0 0 1-rndrx6 0.1 () norm 0 0
+1-rndrx7 0.346457 () norm 0 0 1-rndrx8 0.8 () norm 0 0 1-rndrx9 0.8
+() norm 0 0 1-rndrx10 1 () norm 0 0 1-fm2rx1 51 () norm 0 0 1-fm2rx2
+10.5 () norm 0 0 1-fm2rx3 1 () norm 0 0 1-fm2rx4 10.281 () norm 0 0
+1-fm2rx5 80.6349 () norm 0 0 1-fm2rx6 304.762 () norm 0 0 1-fm2rx7
+11.1111 () norm 0 0 1-fm2rx8 20.1587 () norm 0 0 1-fm2rx9 322.54 ()
+norm 0 0 1-fm2rx10 1930.16 () norm 0 0 1-clmrx1 30 () norm 0 0 1-clmrx2
+0 () norm 0 0 1-clmrx3 3 () norm 0 0 1-clmrx4 0 () norm 0 0 1-clmrx5
+4 () norm 0 0 1-clmrx6 0 () norm 0 0 1-clmrx7 7 () norm 0 0 1-clmrx8
+0 () norm 0 0 1-clmrx9 5 () norm 0 0 1-clmrx10 1 () norm 0 0 1-clmrx11
+8 () norm 0 0 1-clmrx12 0 () norm 0 0 1-clmrx13 2 () norm 0 0 1-clmrx14
+0 () norm 0 0 1-clmrx15 2.5 () norm 0 0 1-clmrx16 0 () norm 0 0 1-clmrx17
+3 () norm 0 0 1-clmrx18 0 () norm 0 0 1-clmrx19 3.5 () norm 0 0 1-clmrx20
+1 () norm 0 0 1-clmrx21 8 () norm 0 0 1-clmrx22 0 () norm 0 0 1-clmrx23
+2 () norm 0 0 1-clmrx24 0 () norm 0 0 1-clmrx25 2 () norm 0 0 1-clmrx26
+0 () norm 0 0 1-clmrx27 2 () norm 0 0 1-clmrx28 0 () norm 0 0 1-clmrx29
+2 () norm 0 0 1-clmrx30 1 () norm 0 0 1-clmrx31 8 () norm 0 0 1-clmrx32
+0 () norm 0 0 1-clmrx33 2 () norm 0 0 1-clmrx34 0 () norm 0 0 1-clmrx35
+2 () norm 0 0 1-clmrx36 0 () norm 0 0 1-clmrx37 2 () norm 0 0 1-clmrx38
+0 () norm 0 0 1-clmrx39 2 () norm 0 0 1-clmrx40 1 () norm 0 0 1-clmrx41
+8 () norm 0 0 1-clmrx42 1 () norm 0 0 1-clmrx43 0;
+2 empty;
+3 empty;
+4 empty;
+5 symbol 0 0 0 () norm 0 0 3-abcrx1 75 () norm 0 0 3-abcrx2 91 () norm
+0 0 3-abcrx3 11.2126 () norm 0 0 3-abcrx4 0 () norm 0 0 3-abcrx5 1
+() norm 0 0 3-abcrx6 60.008 () norm 0 0 3-abcrx7 0 () norm 0 0 3-abcrx8
+1 () norm 0 0 3-abcrx9 0.820472 () norm 0 0 3-abcrx10 1 () norm 0 0
+3-abcrx11 23 () norm 0 0 3-abcrx12 80 () norm 0 0 2-panrx1 0.480315
+() norm 0 0 1-panrx1 0.110236 () norm 0 0 5-scarx1 7 () norm 0 0 5-scarx2
+8 () norm 0 0 5-scarx3 1 () norm 0 0 2-scarx1 7 () norm 0 0 2-scarx2
+8 () norm 0 0 2-scarx3 0 () norm 0 0 1-scarx1 7 () norm 0 0 1-scarx2
+8 () norm 0 0 1-scarx3 0 () norm 0 0 4-scarx1 7 () norm 0 0 4-scarx2
+8 () norm 0 0 4-scarx3 2 () norm 0 0 3-scarx1 7 () norm 0 0 3-scarx2
+8 () norm 0 0 3-scarx3 0 () norm 0 0 2-abcrx1 53 () norm 0 0 2-abcrx2
+67 () norm 0 0 2-abcrx3 12 () norm 0 0 2-abcrx4 0 () norm 0 0 2-abcrx5
+1 () norm 0 0 2-abcrx6 60.008 () norm 0 0 2-abcrx7 0 () norm 0 0 2-abcrx8
+0 () norm 0 0 2-abcrx9 0.6 () norm 0 0 2-abcrx10 0 () norm 0 0 2-abcrx11
+0 () norm 0 0 2-abcrx12 127 () norm 0 0 1-abcrx1 74 () norm 0 0 1-abcrx2
+100 () norm 0 0 1-abcrx3 13.5748 () norm 0 0 1-abcrx4 0 () norm 0 0
+1-abcrx5 1 () norm 0 0 1-abcrx6 60.008 () norm 0 0 1-abcrx7 0 () norm
+0 0 1-abcrx8 1 () norm 0 0 1-abcrx9 0.174803 () norm 0 0 1-abcrx10
+1 () norm 0 0 1-abcrx11 58 () norm 0 0 1-abcrx12 102 () norm 0 0 5-fm2rx1
+80 () norm 0 0 5-fm2rx2 1.345 () norm 0 0 5-fm2rx3 0.915 () norm 0
+0 5-fm2rx4 0 () norm 0 0 5-fm2rx5 806.349 () norm 0 0 5-fm2rx6 1828.57
+() norm 0 0 5-fm2rx7 82.5397 () norm 0 0 5-fm2rx8 1.00794 () norm 0
+0 5-fm2rx9 1270 () norm 0 0 5-fm2rx10 409.397 () norm 0 0 4-fm2rx1
+80 () norm 0 0 4-fm2rx2 10.5 () norm 0 0 4-fm2rx3 1 () norm 0 0 4-fm2rx4
+10.281 () norm 0 0 4-fm2rx5 7.05556 () norm 0 0 4-fm2rx6 304.762 ()
+norm 0 0 4-fm2rx7 63.4921 () norm 0 0 4-fm2rx8 20.1587 () norm 0 0
+4-fm2rx9 322.54 () norm 0 0 4-fm2rx10 1930.16 () norm 0 0 4-rndrx1
+0 () norm 0 0 4-rndrx2 0.649606 () norm 0 0 4-rndrx3 0.1 () norm 0
+0 4-rndrx4 119.97 () norm 0 0 4-rndrx5 0 () norm 0 0 4-rndrx6 0.1 ()
+norm 0 0 4-rndrx7 0.346457 () norm 0 0 4-rndrx8 0.8 () norm 0 0 4-rndrx9
+0.8 () norm 0 0 4-rndrx10 1 () norm 0 0 3-fm2rx1 48 () norm 0 0 3-fm2rx2
+10.5 () norm 0 0 3-fm2rx3 1 () norm 0 0 3-fm2rx4 10.281 () norm 0 0
+3-fm2rx5 80.6349 () norm 0 0 3-fm2rx6 304.762 () norm 0 0 3-fm2rx7
+11.1111 () norm 0 0 3-fm2rx8 17.7397 () norm 0 0 3-fm2rx9 322.54 ()
+norm 0 0 3-fm2rx10 1930.16 () norm 0 0 3-rndrx1 0 () norm 0 0 3-rndrx2
+0.334646 () norm 0 0 3-rndrx3 0.1 () norm 0 0 3-rndrx4 119.97 () norm
+0 0 3-rndrx5 0 () norm 0 0 3-rndrx6 0.1 () norm 0 0 3-rndrx7 0.346457
+() norm 0 0 3-rndrx8 1 () norm 0 0 3-rndrx9 0.674016 () norm 0 0 3-rndrx10
+1 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () norm 0 0 2-fm2rx1 77 () norm 0 0 2-fm2rx2
+3.5 () norm 0 0 2-fm2rx3 1 () norm 0 0 2-fm2rx4 125.387 () norm 0 0
+2-fm2rx5 80.6349 () norm 0 0 2-fm2rx6 914.286 () norm 0 0 2-fm2rx7
+23.8095 () norm 0 0 2-fm2rx8 161.27 () norm 0 0 2-fm2rx9 322.54 ()
+norm 0 0 2-fm2rx10 609.524 () norm 0 0 2-rndrx1 0 () norm 0 0 2-rndrx2
+0.602362 () norm 0 0 2-rndrx3 0.15748 () norm 0 0 2-rndrx4 119.97 ()
+norm 0 0 2-rndrx5 0 () norm 0 0 2-rndrx6 0.1 () norm 0 0 2-rndrx7 0.346457
+() norm 0 0 2-rndrx8 0.8 () norm 0 0 2-rndrx9 0.8 () norm 0 0 2-rndrx10
+1 () norm 0 0 1-rndrx1 0 () norm 0 0 1-rndrx2 0.42126 () norm 0 0 1-rndrx3
+0.1 () norm 0 0 1-rndrx4 119.97 () norm 0 0 1-rndrx5 0 () norm 0 0
+1-rndrx6 0.1 () norm 0 0 1-rndrx7 0.346457 () norm 0 0 1-rndrx8 1 ()
+norm 0 0 1-rndrx9 1.94961 () norm 0 0 1-rndrx10 1 () norm 0 0 1-fm2rx1
+56 () norm 0 0 1-fm2rx2 10.5 () norm 0 0 1-fm2rx3 1 () norm 0 0 1-fm2rx4
+10.281 () norm 0 0 1-fm2rx5 80.6349 () norm 0 0 1-fm2rx6 304.762 ()
+norm 0 0 1-fm2rx7 11.1111 () norm 0 0 1-fm2rx8 20.1587 () norm 0 0
+1-fm2rx9 322.54 () norm 0 0 1-fm2rx10 1930.16 () norm 0 0 1-clmrx1
+30 () norm 0 0 1-clmrx2 0 () norm 0 0 1-clmrx3 3 () norm 0 0 1-clmrx4
+0 () norm 0 0 1-clmrx5 4 () norm 0 0 1-clmrx6 0 () norm 0 0 1-clmrx7
+7 () norm 0 0 1-clmrx8 0 () norm 0 0 1-clmrx9 5 () norm 0 0 1-clmrx10
+1 () norm 0 0 1-clmrx11 8 () norm 0 0 1-clmrx12 0 () norm 0 0 1-clmrx13
+2 () norm 0 0 1-clmrx14 0 () norm 0 0 1-clmrx15 2.5 () norm 0 0 1-clmrx16
+0 () norm 0 0 1-clmrx17 3 () norm 0 0 1-clmrx18 0 () norm 0 0 1-clmrx19
+3.5 () norm 0 0 1-clmrx20 1 () norm 0 0 1-clmrx21 8 () norm 0 0 1-clmrx22
+0 () norm 0 0 1-clmrx23 2 () norm 0 0 1-clmrx24 0 () norm 0 0 1-clmrx25
+2 () norm 0 0 1-clmrx26 0 () norm 0 0 1-clmrx27 2 () norm 0 0 1-clmrx28
+0 () norm 0 0 1-clmrx29 2 () norm 0 0 1-clmrx30 1 () norm 0 0 1-clmrx31
+8 () norm 0 0 1-clmrx32 0 () norm 0 0 1-clmrx33 2 () norm 0 0 1-clmrx34
+0 () norm 0 0 1-clmrx35 2 () norm 0 0 1-clmrx36 0 () norm 0 0 1-clmrx37
+2 () norm 0 0 1-clmrx38 0 () norm 0 0 1-clmrx39 2 () norm 0 0 1-clmrx40
+1 () norm 0 0 1-clmrx41 8 () norm 0 0 1-clmrx42 1 () norm 0 0 1-clmrx43
+0;

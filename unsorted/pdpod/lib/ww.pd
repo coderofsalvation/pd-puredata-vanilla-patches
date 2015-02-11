@@ -1,0 +1,15 @@
+#N canvas 105 4 228 288 10;
+#X obj 42 55 sel \$1;
+#X obj 129 61 == \$1;
+#X obj 92 85 spigot;
+#X obj 43 135 s which;
+#X obj 42 113 float \$1;
+#X obj 92 23 r newn;
+#X obj 42 23 r trig;
+#X connect 0 0 4 0;
+#X connect 1 0 2 1;
+#X connect 2 0 4 1;
+#X connect 4 0 3 0;
+#X connect 5 0 2 0;
+#X connect 6 0 0 0;
+#X connect 6 0 1 0;

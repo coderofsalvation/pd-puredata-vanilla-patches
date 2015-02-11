@@ -1,0 +1,40 @@
+1 river 0 0 0 () norm 0 0 1-soutrx1 2.3622 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-filrx1
+1 () norm 0 0 1-filrx2 0.23622 () norm 0 0 1-filrx3 0.354331 () norm
+0 0 1-filrx4 0.0944882 () norm 0 0 1-filrx5 0 () norm 0 0 1-filrx6
+0.0314961 () norm 0 0 1-filrx7 0.00787402 () norm 0 0 1-filrx8 0.00787402
+() norm 0 0 1-filrx9 0.492913 () norm 0 0 1-filrx10 0.76378 () norm
+0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm
+0 0 1-wavrx4 0.0472441 () norm 0 0 1-wavrx5 0;
+2 old_radio 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-filrx1
+0 () norm 0 0 1-filrx2 0 () norm 0 0 1-filrx3 0 () norm 0 0 1-filrx4
+0.393701 () norm 0 0 1-filrx5 0.0944882 () norm 0 0 1-filrx6 0.748031
+() norm 0 0 1-filrx7 0.330709 () norm 0 0 1-filrx8 0.0551181 () norm
+0 0 1-filrx9 7.56535 () norm 0 0 1-filrx10 0.76378 () norm 0 0 1-wavrx1
+4 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4
+0.0472441 () norm 0 0 1-wavrx5 0;
+3 radiator 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-filrx1
+0 () norm 0 0 1-filrx2 1 () norm 0 0 1-filrx3 0.80315 () norm 0 0 1-filrx4
+0 () norm 0 0 1-filrx5 0 () norm 0 0 1-filrx6 0.0944882 () norm 0 0
+1-filrx7 0.244094 () norm 0 0 1-filrx8 0.0787402 () norm 0 0 1-filrx9
+29.5685 () norm 0 0 1-filrx10 0.944882 () norm 0 0 1-wavrx1 4 () norm
+0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm 0 0 1-wavrx4 0.0472441
+() norm 0 0 1-wavrx5 0;
+4 radia2 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-filrx1
+0.338583 () norm 0 0 1-filrx2 0.322835 () norm 0 0 1-filrx3 0.307087
+() norm 0 0 1-filrx4 0.291339 () norm 0 0 1-filrx5 0.275591 () norm
+0 0 1-filrx6 0.283465 () norm 0 0 1-filrx7 0.283465 () norm 0 0 1-filrx8
+0.275591 () norm 0 0 1-filrx9 32.7118 () norm 0 0 1-filrx10 0.84252
+() norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3
+0 () norm 0 0 1-wavrx4 0.0472441 () norm 0 0 1-wavrx5 0;
+5 trees 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0.259843
+() norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 0.740157 () norm 0
+0 1-filrx1 0 () norm 0 0 1-filrx2 0.795276 () norm 0 0 1-filrx3 1 ()
+norm 0 0 1-filrx4 0 () norm 0 0 1-filrx5 0.181102 () norm 0 0 1-filrx6
+0.299213 () norm 0 0 1-filrx7 0.00787402 () norm 0 0 1-filrx8 0 ()
+norm 0 0 1-filrx9 0.492913 () norm 0 0 1-filrx10 0.0629921 () norm
+0 0 1-wavrx1 4 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 0 () norm
+0 0 1-wavrx4 0.0472441 () norm 0 0 1-wavrx5 0;

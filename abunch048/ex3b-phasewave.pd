@@ -1,0 +1,31 @@
+#N canvas 340 58 706 534 12;
+#X obj 308 310 phaser 1;
+#X obj 309 347 simple-delay 1;
+#X obj 307 242 waves 1;
+#X obj 379 243 sequencer 1;
+#X obj 342 201 keyboard-azerty 1;
+#X obj 33 29 presets ex3b;
+#X obj 308 278 envelopes 1;
+#X obj 514 200 multi-clock 1;
+#X obj 308 384 sound-out 1;
+#X text 50 424 <1> Open preset 1 or 2;
+#X text 51 450 <2> Open 'multi-clock' and click on the 'start' toggle
+;
+#X text 49 474 <3> Use the computer keyboard to play pitches (the 'keyboard-azerty'
+object makes this possible).;
+#X text 207 27 A synthesizer (with an oscillator in 'waves' and a phaser
+and delay effect) is triggered by a sequencer. 'Envelopes' provides
+the amplitude envelope for the oscillator sound. The pitch for the
+synthesizer is controlled by the computer keyboard. You can replace
+the 'keyboard-azerty' abunch object by the native Pd object 'notein'
+if you want to play pitches on your midi keyboard. The 'multi-clock'
+synchronizes the 'sequencer' and the 'simple-delay'.;
+#X connect 0 0 1 0;
+#X connect 1 0 8 1;
+#X connect 1 0 8 0;
+#X connect 2 0 6 0;
+#X connect 3 0 6 1;
+#X connect 4 0 2 2;
+#X connect 6 0 0 0;
+#X connect 7 0 3 2;
+#X connect 7 1 1 5;

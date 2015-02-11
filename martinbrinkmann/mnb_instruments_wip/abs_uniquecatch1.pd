@@ -1,0 +1,17 @@
+#N canvas 1097 443 450 300 10;
+#X obj 34 112 outlet~;
+#X obj 242 105 \$0;
+#X obj 241 50 inlet;
+#X obj 241 71 t b;
+#X obj 39 51 catch~ \$0uniquecatch;
+#X text 54 13 abstraction with catch and unique \$0 value;
+#X text 32 131 audio;
+#X text 241 35 bang for \$0;
+#X text 243 152 \$0nuber;
+#X obj 242 132 outlet;
+#X obj 306 65 loadbang;
+#X connect 1 0 9 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 4 0 0 0;
+#X connect 10 0 1 0;

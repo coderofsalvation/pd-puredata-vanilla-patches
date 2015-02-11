@@ -1,0 +1,45 @@
+#N canvas 373 22 669 762 12;
+#X obj 27 498 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 30 96 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 31 230 bng 15 250 50 0 empty empty rec 0 -6 0 8 -262144 -1 -1
+;
+#X obj 33 295 bng 15 250 50 0 empty empty stop -5 -6 0 8 -262144 -1
+-1;
+#X symbolatom 29 434 35 0 0 0 - #1-refrsym -;
+#X obj 34 159 bng 15 250 50 0 empty empty open -5 -6 0 8 -262144 -1
+-1;
+#X text 29 559 Inlet 1 =;
+#X text 30 684 Inlet 3 =;
+#X text 27 613 Inlet 2 =;
+#X obj 33 331 tgl 15 0 tereo reo stereo_rec_on 17 7 0 9 -262144 -1
+-1 0 1;
+#X text 32 30 The abunch object 'record-file' records the sound from
+the inlet and writes it to a wave file on the hard disk of your computer.
+;
+#X text 69 159 = Use this button to enter a place or folder on your
+hard disk where the recorded file will be stored and to give a name
+for this file (don't enter the .wav extension \, this is added automatically).
+;
+#X text 66 227 = this button starts the recording (take care that you
+have opened a new file with the 'open' button \, otherwise the recording
+won't happen).;
+#X text 61 294 = this button stops the recording;
+#X text 178 329 = If this toggle is turned on (=crossed) \, you can
+make a stereo recording. There should be a sound connection (thick
+cable) going to inlet 1 and 2 in this case. If this toggle is off \,
+you can maken a mono recording (sound from inlet 1).;
+#X text 341 437 = this boxs shows you;
+#X text 78 455 the location and name of the file that you have opened
+(with the button 'open');
+#X text 32 529 (in- and outlets \, numbered from left to right);
+#X text 115 558 (audio) inlet for the sound that will be recorded (this
+is the inlet for a mono recording and the left channel for a stereo
+recording);
+#X text 111 614 (audio) inlet for the right audio channel of a stereo
+recording (don't forget to turn on the toggle 'stereo_rec_on');
+#X text 115 681 inlet to control the 'rec' and 'stop' button \; any
+number higher than zero in this inlet starts the recording of the sound
+file \, a zero stops it. The recording will only work if you have given
+a name to the new sound file with the button 'open'.;

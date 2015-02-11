@@ -1,0 +1,34 @@
+1 pianodrops 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 2-parrrx1
+150.021 () norm 0 0 2-parrrx2 0 () norm 0 0 2-parrrx3 1 () norm 0 0
+2-parrrx4 24 () norm 0 0 2-parrrx5 1 () norm 0 0 2-parrrx6 0 () norm
+0 0 2-parrrx7 127 () arr 0 0 2-parrray1 98.7512 95.1953 99.7672 103.323
+100.275 105.863 105.355 98.7512 102.307 104.847 99.2592 99.2592 102.815
+99.7672 96.7192 100.275 95.7033 91.1313 85.5433 85.5433 81.4794 87.0673
+86.0513 93.6713 () norm 0 0 1-parrrx1 375.565 () norm 0 0 1-parrrx2
+0 () norm 0 0 1-parrrx3 1 () norm 0 0 1-parrrx4 12 () norm 0 0 1-parrrx5
+1 () norm 0 0 1-parrrx6 0 () norm 0 0 1-parrrx7 127 () arr 0 0 1-parrray1
+67.7635 70.3035 71.8275 73.3515 75.8915 79.4474 81.9874 84.0194 84.5274
+83.5114 79.4474 74.3675 () sym 0 0 2-sapry1 waterdrop.wav () norm 0
+0 2-saprx1 60 () norm 0 0 2-saprx2 0 () norm 0 0 2-saprx3 127 () norm
+0 0 2-saprx4 0 () norm 0 0 2-saprx5 0.828283 () sym 0 0 1-sapry1 pianob7.wav
+() norm 0 0 1-saprx1 59 () norm 0 0 1-saprx2 0 () norm 0 0 1-saprx3
+127 () norm 0 0 1-saprx4 0 () norm 0 0 1-saprx5 0.575758 () norm 0
+0 1-clorx1 408.911;
+2 slapim 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 2-parrrx1 30
+() norm 0 0 2-parrrx2 0 () norm 0 0 2-parrrx3 1 () norm 0 0 2-parrrx4
+24 () norm 0 0 2-parrrx5 1 () norm 0 0 2-parrrx6 0 () norm 0 0 2-parrrx7
+127 () arr 0 0 2-parrray1 98.7512 95.1953 99.7672 103.323 100.275 105.863
+105.355 98.7512 102.307 104.847 0.200185 0.200185 102.815 99.7672 96.7192
+89.6073 83.5114 76.9074 66.2395 0.200149 1.21614 -1.32384 -0.307846
+0.200149 () norm 0 0 1-parrrx1 30 () norm 0 0 1-parrrx2 0 () norm 0
+0 1-parrrx3 1 () norm 0 0 1-parrrx4 16 () norm 0 0 1-parrrx5 1 () norm
+0 0 1-parrrx6 0 () norm 0 0 1-parrrx7 127 () arr 0 0 1-parrray1 67.7635
+70.3035 0.200228 73.3515 77.4154 0.708153 81.9874 84.0194 84.5274 83.5114
+0.200163 77.4155 80.4634 88.0834 97.7353 105.355 () sym 0 0 2-sapry1
+whip.wav () norm 0 0 2-saprx1 60 () norm 0 0 2-saprx2 9 () norm 0 0
+2-saprx3 127 () norm 0 0 2-saprx4 0 () norm 0 0 2-saprx5 1 () sym 0
+0 1-sapry1 slap.wav () norm 0 0 1-saprx1 60 () norm 0 0 1-saprx2 4
+() norm 0 0 1-saprx3 127 () norm 0 0 1-saprx4 0 () norm 0 0 1-saprx5
+1 () norm 0 0 1-clorx1 458.577;

@@ -1,0 +1,52 @@
+#N canvas 593 19 717 838 12;
+#X obj 55 588 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 51 117 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 51 163 bng 15 250 50 0 empty empty open_file 17 7 0 10 -262144
+-1 -1;
+#X symbolatom 52 520 50 0 0 0 - - -;
+#X floatatom 44 305 5 0 0 1 original_pitch - -;
+#X text 39 361 range:;
+#X floatatom 94 392 5 0 127 1 low - -;
+#X floatatom 97 451 5 0 127 1 high - -;
+#X text 55 652 Inlet 1 =;
+#X text 50 805 Outlet 1 =;
+#X text 52 726 Inlet 2 =;
+#X text 54 775 Inlet 3 =;
+#X text 179 157 : this button opens a sound file (wav or aif) that
+is stored somewhere on your hard disk and loads it in the memory of
+the computer.;
+#X obj 52 215 tgl 15 0 tam mat reverse 17 7 0 10 -262144 -1 -1 0 1
+;
+#X text 156 212 : if you turn on (= crossed) this toggle \, the sample
+will be played backwards.;
+#X text 47 258 fader 'level':;
+#X text 171 257 use this fader to change the amplitude of the output
+sound;
+#X text 208 306 : Enter the original pitch of the sample in this number
+box. For example if this is set to 60 and the pitch from inlet 1 is
+57 \, the sample will be played 3 semitones lower.;
+#X text 211 389 : Use this number box to change the lower limit of
+the sample range. Pitches arriving at inlet 1 that are lower that this
+limit won't play the sample.;
+#X text 211 449 : Use this number box to change the upper limit of
+the sample range. Pitches arriving at inlet 1 that are higher that
+this limit won't play the sample.;
+#X text 131 538 : this box shows you the place and name of the opened
+folder.;
+#X text 64 622 (in- and outlets \, numbered from left to right);
+#X text 141 809 (audio) outlet for the sound of the sample that is
+being played;
+#X text 141 775 (event) inlet to control the fader 'level';
+#X text 146 725 (event) inlet to control the toggle 'reverse' \; any
+number higher than zero in this inlet turns it on \, a zero turns it
+off.;
+#X text 52 12 The abunch object 'simple-sampler' plays a short sound
+file in the computer memory. The difference with the 'play-sample'
+object is that you have to send pitch values to 'simple-sampler' (inlet
+1) and then the openend sample will be played at this pitch.;
+#X text 151 650 (event) inlet for the pitch (if this value is within
+the range set by the number boxes 'low' and 'high' and if you have
+opened a sound file with the button 'open_file' this pitch value will
+trigger the playing of the sample);

@@ -1,0 +1,29 @@
+#N canvas 428 86 752 563 12;
+#X obj 198 112 phaser 1;
+#X obj 198 71 play-file 1;
+#X obj 35 64 presets ex1c;
+#X obj 197 149 sound-out 1;
+#X text 41 23 Using a phaser effect on a sound file that is being played.
+;
+#X text 298 69 -> playing a soundfile;
+#X text 270 110 -> producing the phaser effect;
+#X text 290 149 -> sending the sound to the sound output of the computer
+;
+#X text 46 203 <1> Set 'number_preset' in 'presets' to 1 and click
+on 'open_preset'. There are 2 presets.;
+#X text 43 252 <2> open 'play-file' openen (by right clicking and choosing
+'open' - Mac: ctrl + click) and click on 'play';
+#X text 44 293 <3> You can also open an other sound file (.wav or .aiff)
+in 'play-file' and listen to the phaser effect on this file.;
+#X text 46 336 <4> You can also open 'phaser' and change the position
+of the faders.;
+#X text 38 387 As long as this main file 'ex1c-phaser' is opened \,
+you can open and close 'play-file' \, 'phaser' and 'sound-out' without
+problems. If you close this main file \, these subwindows will also
+disappear.;
+#X text 34 466 Don't open two main files with abunch objects at the
+same time. Close the previous file before you open the next one (or
+else some strange things might happen...).;
+#X connect 0 0 3 0;
+#X connect 0 0 3 1;
+#X connect 1 0 0 0;

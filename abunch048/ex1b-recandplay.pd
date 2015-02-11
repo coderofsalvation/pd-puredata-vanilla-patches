@@ -1,0 +1,28 @@
+#N canvas 363 66 548 496 12;
+#X obj 43 165 adc~;
+#X obj 43 204 record-file 1;
+#X obj 341 161 play-file 1;
+#X obj 341 218 sound-out 1;
+#X text 28 16 A very simple example that shows how to record and play
+a sound.;
+#X text 28 62 adc~ is the Pd object to receive the sound from the sound
+input of your computer (for example if you use a microphone).;
+#X text 91 163 -> sound from the microphone;
+#X text 25 255 To make a recording:;
+#X text 52 272 -open 'record-file 1' (right click and choose 'open')
+;
+#X text 55 294 -click on 'open' in 'record-file 1' and give a name
+to the recording that you are planning to make. Automatically the file
+name will get the extension .wav.;
+#X text 25 389 To listen to the recording:;
+#X text 52 406 -open 'play-file 1' (right click and choose 'open')
+;
+#X text 54 427 -click on 'open' in 'play-file 1' to search the sound
+file that your sound file (the recording in this case...).;
+#X text 56 465 -click on 'play' to hear the recording;
+#X text 59 347 -click on 'rec' to start the recording \, say something
+in your microphone and on 'stop' to stop it;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 2 0 3 0;
+#X connect 2 1 3 1;

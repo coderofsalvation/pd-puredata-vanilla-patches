@@ -1,0 +1,48 @@
+#N canvas 204 85 654 709 12;
+#X obj 30 704 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 30 488 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 35 76 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 29 560 inlet 1 =;
+#X text 30 585 inlet 2 =;
+#X obj 30 200 nbx 6 20 1 5 0 0 thththth agfdfgdf time_signature 0 -8
+0 10 -262144 -1 -1 1 256;
+#X obj 42 128 tgl 30 0 orsvvgfj hgdftrd START 33 15 0 10 -262144 -1
+-1 0 1;
+#X obj 31 353 hsl 256 15 20 275 0 1 ejhgdympo qnbkgosffsmpo tempo 260
+8 0 10 -262144 -1 -1 6700 1;
+#X obj 28 370 nbx 5 14 -1e+037 1e+037 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 87 256;
+#X obj 27 399 tgl 15 0 ohjhjh pjlyuty external_clock 17 7 0 8 -262144
+-1 -1 0 1;
+#X text 40 18 The abunch object 'metronome' is a simple metronome with
+a flashing light and/or sound. You can also connect it to an external
+clock object ('clock' or 'multi-clock').;
+#X text 137 134 = this toggle starts or stops the metronome;
+#X text 131 202 = use this number box to change the number of times
+in a bar that have to be shown;
+#X text 26 296 This is the fader to change the tempo (in beats per
+minute) of the metronome (the number box only shows the tempo value):
+;
+#X text 166 396 = if this toggle is turned on (=crossed) and a clock
+signal (from the abunch objects 'clock' or 'multi-clock') is connected
+to inlet 1 \, this metronome will show/sound the tempo of this external
+clock (in this case the fader 'tempo' won't change anything).;
+#X text 75 523 (in- and outlets \, numbered from left to right);
+#X text 117 560 (event) inlet for the external clock;
+#X obj 29 259 tgl 15 0 poun moun sound 17 7 0 10 -262144 -1 -1 0 1
+;
+#X text 127 254 = if this toggle is switched on (=crossed) \, the sound
+of the metronome is sent to outlet 1;
+#X text 115 586 (event) inlet to control the toggle 'start' \, every
+positive value turns on the start toggle \, a zero value turns it off
+;
+#X text 30 625 inlet 3 =;
+#X text 115 626 (event) inlet to control the toggle 'sound' \, every
+positive value turns on the sound toggle \, a zero value turns it off
+;
+#X text 31 678 outlet 1 =;
+#X text 118 678 (audio) outlet for the sound of the metronome;
+#X connect 7 0 8 0;

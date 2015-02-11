@@ -1,0 +1,35 @@
+#N canvas 345 137 450 300 10;
+#N canvas 556 347 473 398 tanhdist1s 0;
+#X obj 20 96 inlet~;
+#X obj 23 133 *~;
+#X obj 26 278 outlet~;
+#X obj 106 114 hsl 128 8 1 5 0 1 empty empty empty -2 -6 0 8 -262144
+-1 -1 3473 1;
+#X obj -63 93 inlet~;
+#X obj -60 130 *~;
+#X obj -65 277 outlet~;
+#X obj -60 200 abs_tanhdist1;
+#X obj 34 201 abs_tanhdist1;
+#X connect 0 0 1 0;
+#X connect 1 0 8 0;
+#X connect 3 0 1 1;
+#X connect 3 0 5 1;
+#X connect 4 0 5 0;
+#X connect 5 0 7 0;
+#X connect 7 0 6 0;
+#X connect 8 0 2 0;
+#X coords 0 -1 1 1 140 25 1 100 100;
+#X restore 73 112 pd tanhdist1s;
+#N canvas 554 348 473 398 tanhdist1m 0;
+#X obj 106 114 hsl 128 8 1 5 0 1 empty empty empty -2 -6 0 8 -262144
+-1 -1 3473 1;
+#X obj -63 93 inlet~;
+#X obj -60 130 *~;
+#X obj -65 277 outlet~;
+#X obj -60 200 abs_tanhdist1;
+#X connect 0 0 2 1;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 4 0 3 0;
+#X coords 0 -1 1 1 140 25 1 100 100;
+#X restore 224 111 pd tanhdist1m;

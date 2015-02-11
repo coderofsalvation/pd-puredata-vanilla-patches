@@ -1,0 +1,16 @@
+1 sometime 0 0 0 () norm 0 0 1-soutrx1 0 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-delrx1
+500 () norm 0 0 1-delrx2 0.669291 () norm 0 0 1-delrx3 0.503937 ()
+norm 0 0 1-delrx4 0.76378 () norm 0 0 1-delrx5 0 () sym 0 0 2-samry1
+pianob7.wav () sym 0 0 2-samry2 kxpqwmk () sym 0 0 2-samry3 kxpqwmk
+() norm 0 0 2-samrx1 0 () norm 0 0 2-samrx2 1 () norm 0 0 2-samrx3
+0.714286 () norm 0 0 2-samrx4 0 () norm 0 0 2-samrx5 0 () norm 0 0
+2-samrx6 0 () norm 0 0 2-samrx7 0 () norm 0 0 2-samrx8 0 () norm 0
+0 2-seqrx1 0 () norm 0 0 2-seqrx2 0 () norm 0 0 2-seqrx3 127 () norm
+0 0 2-seqrx4 0 () norm 0 0 2-seqrx5 127 () norm 0 0 2-seqrx6 0 () norm
+0 0 2-seqrx7 0 () norm 0 0 2-seqrx8 0 () norm 0 0 2-seqrx9 127 () norm
+0 0 2-seqrx10 0 () norm 0 0 2-seqrx11 0 () norm 0 0 2-seqrx12 0 ()
+norm 0 0 2-seqrx13 127 () norm 0 0 2-seqrx14 0 () norm 0 0 2-seqrx15
+0 () norm 0 0 2-seqrx16 127 () norm 0 0 2-seqrx17 60.008 () norm 0 0
+2-seqrx18 0 () norm 0 0 2-seqrx19 0 () norm 0 0 2-seqrx20 16 () norm
+0 0 2-seqrx21 0;

@@ -1,0 +1,107 @@
+#N canvas 309 0 680 669 12;
+#X obj 36 1354 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 40 980 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 48 183 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 38 1047 outlet 1 =;
+#X obj 40 234 nbx 3 14 0 1e+037 0 0 tis1 ir1 out1 5 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 82 235 nbx 3 14 0 1e+037 0 0 tis2 ctir2 out2 5 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 59 269 nbx 3 14 0 1e+037 0 0 sch tirch channel -2 -8 0 10 -262144
+-1 -1 0 256;
+#X obj 26 776 bng 10 250 50 0 \$1-ctisextraoptions empty extra_options
+17 5 0 8 -262144 -1 -1;
+#X obj 42 572 tgl 15 0 ispreset tirpreset global_presets_off 17 7 0
+8 -162280 -1 -1 0 57;
+#X obj 39 642 nbx 3 14 1 9 0 0 tisownp tirownp open_own_preset 39 7
+0 10 -162280 -1 -1 1 256;
+#X obj 92 696 nbx 3 14 -1e+037 1e+037 0 0 1-ctisshc 1-ctirshc ch 5
+-8 0 10 -86853 -257985 -1 0 256;
+#X obj 71 696 tgl 15 0 \$1-ctisshon \$1-ctirshon on 2 -6 0 10 -262144
+-1 -257985 0 1;
+#X text 28 694 SHOW;
+#X obj 132 696 nbx 3 14 -1e+037 1e+037 0 0 1-ctisshn 1-ctirshn nr 5
+-8 0 10 -86853 -257985 -1 0 256;
+#X obj 86 863 bng 15 250 50 0 \$1-ctisopb \$1-ctiropb write 17 7 0
+10 -262144 -1 -1;
+#X obj 28 863 nbx 3 14 1 20 0 0 isopn tiropn preset_nr -4 -8 0 10 -262144
+-1 -1 1 256;
+#X text 13 828 Write to internal preset of this 'midi-ctlin' object:
+;
+#X text 40 1076 outlet 2 =;
+#X text 36 1109 outlet 3 =;
+#X text 36 1142 outlet 4 =;
+#X text 35 1173 outlet 5 =;
+#X text 35 1202 outlet 6 =;
+#X text 36 1234 outlet 7 =;
+#X text 35 1267 outlet 8 =;
+#X text 47 13 The 'midi-ctlin' object in abunch receives the controller
+values from a hardware midi controller and sends them to one of its
+8 outlets. Apart from saving presets with the usual global preset system
+in Abunch \, this 'midi-ctlin' object also has an internal preset system.
+;
+#X text 49 1009 (in- and outlets \, numbered from left to right);
+#X text 129 1046 (event) outlet for the values of the first controller
+(with the number entered in de number box 'out1');
+#X text 130 1076 (event) outlet for the values of the second controller
+(with the number entered in de number box 'out2');
+#X text 129 1109 (event) outlet for the values of the third controller
+(with the number entered in de number box 'out3');
+#X text 130 1141 (event) outlet for the values of the fourth controller
+(with the number entered in de number box 'out4');
+#X text 129 1172 (event) outlet for the values of the fifth controller
+(with the number entered in de number box 'out5');
+#X text 129 1202 (event) outlet for the values of the sixth controller
+(with the number entered in de number box 'out6');
+#X text 127 1233 (event) outlet for the values of the seventh controller
+(with the number entered in de number box 'out7');
+#X text 127 1266 (event) outlet for the values of the eighth controller
+(with the number entered in de number box 'out8');
+#X text 185 230 Change the number of the midi controller that you want
+to receive with these 'number boxes' (click and drag on the number
+box). The values of the midi controller with the number of number box
+'out1' will be sent to the first outlet \, those of 'out2' to the second
+outlet \, etc. With the number box 'channel' you can change the channel
+from which these controller values (maximum 8).;
+#X text 187 571 You can switch off the global presets with this toggle.
+If this toggle is on and the global presets are off \, no preset values
+from the 'presets' object in Abunch will be received by 'midi-ctlin'.
+;
+#X text 187 642 Changing these numbers opens an internal preset with
+the same number. This internal preset is saved within the 'midi-ctlin'
+object in the 'extra_options' window.;
+#X text 187 697 If you turn this switch 'on' on and move a slider or
+knob on your midi hardware controller \, you will see the midi channel
+(in the number box 'ch') and the controller number (in 'nr') of the
+moving slider or knob.;
+#X text 187 768 If you click on this button \, an window with extra
+options pops up.;
+#X text 186 855 If you click on the button 'write' a new internal preset
+will be saved/written with the number that you entered in the number
+box 'preset_nr'. Caution: this is the internal preset system of 'midi
+ctlin' and not standard and global preset system of Abunch (with the
+'presets' system).;
+#X obj 63 476 nbx 3 14 0 1e+037 0 0 pr ctirpr out9 5 -8 0 10 -262144
+-1 -1 0 256;
+#X text 45 491 PITCHBEND;
+#X text 60 505 RANGE;
+#X text 182 470 You can change the range (in semitones) of midi bench
+values with this 'number box'. These values are sent to outlet 9 of
+this 'midi-ctlin' object. For example a value of 4 means that the range
+of the pitch wheel is 4 semitones above and under the midi pitch values.
+;
+#X text 35 1307 outlet 9 =;
+#X text 127 1306 (event) outlet for the values of the pitch bend controller
+;
+#X obj 57 382 tgl 8 0 \$1-ctisml4 \$1-ctirml4 empty 17 7 0 10 -262144
+-1 -1 0 1;
+#X text 180 369 Midi learn on/off switchaan/uit. If this switch is
+turned on and a midi controller is moved this controller is set as
+the controller for this outlet. Take care though that the midi channel
+is set right with the number box 'channel'.;
+#X text 46 105 Take care that your 'midi settings' in the main menu
+of Pd are correct! (in 'Media' in Windows \, in 'Pd' 'Preferences'
+in Mac).;

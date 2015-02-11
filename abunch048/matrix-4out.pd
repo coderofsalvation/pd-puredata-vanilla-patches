@@ -1,0 +1,9 @@
+#N canvas 501 545 350 137 12;
+#X obj 23 272 outlet~;
+#X obj 119 272 outlet~;
+#X obj 217 272 outlet~;
+#X obj 316 273 outlet~;
+#X text 16 33 This abunch object is replaced by;
+#X text 17 60 'matrix4' since abunch030. Use this;
+#X text 17 91 in stead of the older 'matrix-4out'.;
+#X obj 165 186 inlet~;

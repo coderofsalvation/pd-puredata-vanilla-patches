@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>info</key>
+	<dict>
+        <key>author</key>
+		<string>martin brinkmann</string>
+		<key>description</key>
+        <string>
+            random noise synthesis. tap the symbols to randomize, twist and tilt to change sound,scream or whisper into the microphone. rns is copyrighted, but is free for you to use for any reasonable purpose.
+        </string>
+		<key>name</key>
+		<string>r n s</string>
+		<key>category</key>
+		<string>sound and noise</string>
+	</dict>
+    <key>installLocation</key>
+	<string>rns.rj</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+#N canvas 410 96 595 741 12;
+#X obj 41 758 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 38 441 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 41 354 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 43 545 inlet 1 =;
+#X text 41 583 inlet 2 =;
+#X text 45 17 This is the first version of the 'analyse' object. If
+you click on the 'snapshot' button an analysis is sent to the third
+outlet. The spectrum is analysed and for every harmonic the frequency
+and amplitude are given (beginning with the loudest and ending with
+the softest harmonic). This analysis from outlet 3 can be sent to the
+additive synthesizer in abunch 'addy' and the frequencies and amplitudes
+of this synthesizer will be set to the analysis results. The ground
+frequency (the main pitch) is printed in the main Pd window.;
+#X text 45 193 At the moment 'analyse' is based on the 'sigmund' object
+of Miller Puckette (if you want more information about this object
+\, click right on this object in the subpatch 'spectanalysis' of 'analyse').
+;
+#X text 43 273 In future versions of 'analyse' there will be more functions
+like: detecting notes (pitch and velocity) \, rhythm \, ...;
+#X text 55 481 (in- and outlets \, numbered from left to right);
+#X text 124 585 (event) inlet to control the 'snapshot' button \; any
+number higher than zero produces a snapshot;
+#X text 131 545 (audio) inlet for the audio that will be analysed;
+#X text 36 638 outlet 1 =;
+#X text 36 665 outlet 2 =;
+#X text 36 695 outlet 3 =;
+#X text 124 693 (event) outlet for the analysis (by the 'snapshot'
+button of the spectrum of the audio (from inlet 1);

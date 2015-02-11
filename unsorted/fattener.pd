@@ -1,0 +1,36 @@
+#N canvas 47 336 727 705 10;
+#X obj 185 91 hsl 128 15 0.8 8 0 0 empty factor compander-factor 20
+8 0 10 -262144 -260097 -1 0 0;
+#X obj 207 127 hsl 128 15 -96 -20 0 0 empty point compander-point 20
+8 0 10 -262144 -260097 -1 0 0;
+#X obj 223 151 hsl 128 15 7.39 1 0 0 empty response response-time 20
+8 0 10 -262144 -260097 -1 0 0;
+#X obj 239 177 hsl 128 15 20 400 0 0 empty recovery recovery-time 20
+8 0 10 -262144 -260097 -1 0 0;
+#X text 344 125 deciBel;
+#X obj 208 256 hsl 128 15 0 1 0 0 empty empty audio-level 20 8 0 10
+-262144 -260097 -1 0 0;
+#X obj 173 288 *~ 0;
+#X floatatom 208 288 5 0 0 0 - - -, f 5;
+#X obj 173 230 clip~ -1 1;
+#X text 242 229 needed for punch settings;
+#X obj 173 202 vqompander~;
+#X obj 94 316 bp~ 50 15;
+#X floatatom 51 328 5 0 0 0 - - -, f 5;
+#X obj 106 361 *~;
+#X obj 69 50 inlet~;
+#X obj 132 407 outlet~;
+#X connect 0 0 10 1;
+#X connect 1 0 10 2;
+#X connect 2 0 10 3;
+#X connect 3 0 10 4;
+#X connect 5 0 6 1;
+#X connect 5 0 7 0;
+#X connect 6 0 11 0;
+#X connect 6 0 15 0;
+#X connect 8 0 6 0;
+#X connect 10 0 8 0;
+#X connect 11 0 13 0;
+#X connect 12 0 13 1;
+#X connect 13 0 15 0;
+#X connect 14 0 10 0;

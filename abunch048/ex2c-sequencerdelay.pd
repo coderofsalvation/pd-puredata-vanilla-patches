@@ -1,0 +1,24 @@
+#N canvas 536 20 569 525 12;
+#X obj 239 136 sequencer 2;
+#X obj 239 170 play-sample 2;
+#X obj 240 214 simple-delay 1;
+#X obj 36 145 presets ex2c;
+#X obj 232 253 sound-out 1;
+#X text 38 13 In this example a sequencer plays samples in a certain
+rhythm. The samples also get a delay effect.;
+#X text 31 53 (The length of the delay (fader 'delay time') is exactly
+half the tempo in 'sequencer' in this example.);
+#X text 64 332 <2> Open 'sequencer 2' and click on 'start';
+#X text 63 356 <3> Try changing the pitch in 'play-sample' (number
+box 'transpose').;
+#X text 66 398 <4> You can also use another sample in 'play-sample
+2' \, click on the 'open_file' button and choose a sound file (wav
+of aif).;
+#X text 64 296 <1> Set 'number_presets' in 'presets' to 1 and click
+on 'open_preset'. There is only 1 preset in this example.;
+#X text 61 453 <5> You can also change the rhythm in 'sequencer' by
+clicking on the upper row of toggles.;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 1;
+#X connect 2 0 4 0;

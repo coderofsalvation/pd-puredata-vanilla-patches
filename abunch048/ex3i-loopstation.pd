@@ -1,0 +1,40 @@
+#N canvas 196 38 699 611 12;
+#X obj 197 254 adc~;
+#X obj 285 219 clock 1;
+#X obj 198 287 record-sample 1;
+#X obj 420 262 metronome 1;
+#X obj 24 208 presets ex3i;
+#X obj 248 395 sound-out 1;
+#X obj 66 323 play-sample 1;
+#X text 30 103 Attention: if you want to use 'play-sample' together
+with 'record-sample' to record and play a fragment \, you have to switch
+on the 'use_live_recorded_file' toggle in the 'extra_options' of 'play-sample'
+(have a look at the help file of 'play-sample').;
+#X text 348 218 -> clock to start the recording at a beat;
+#X text 372 233 of the clock;
+#X text 516 260 -> shows the tempo;
+#X text 328 286 -> record a fragment;
+#X text 182 321 -> play a fragment;
+#X text 23 428 preset 1 : loopstation in sync with a clock;
+#X text 89 446 <1> open 'clock 1' and click on the 'start' toggle;
+#X text 89 512 <3> observe the tempo in 'metronome' to stay in sync
+;
+#X text 19 534 preset 2 : loopstation without a clock;
+#X text 101 555 <1> click on the 'rec' toggle in 'record-sample' to
+start or stop a recording;
+#X text 242 252 -> microphone;
+#X text 32 1 This example demonstrates how to record a fragment and
+play it immediately. Preset 1 is a kind of loopstation: you can record
+a fragment in the tempo of the clock and the metronome. Preset 2 is
+an example without synchronisation (see also example ex3j-moreloops.pd
+if you want to record and play several loops).;
+#X text 87 463 <2> click on the 'rec' toggle in 'record-sample' to
+start and stop the recording (maximum duration of fragment = 10 seconds)
+;
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;
+#X connect 1 0 3 0;
+#X connect 2 0 6 2;
+#X connect 3 0 5 1;
+#X connect 6 0 5 0;
+#X connect 6 0 5 1;

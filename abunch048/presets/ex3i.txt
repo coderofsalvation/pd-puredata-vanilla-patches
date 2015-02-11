@@ -1,0 +1,16 @@
+1 with_clock 0 0 0 () sym 0 0 1-samry1  () sym 0 0 1-samry2 kxpqwmk
+() sym 0 0 1-samry3 kxpqwmk () norm 0 0 1-samrx1 0 () norm 0 0 1-samrx2
+0 () norm 0 0 1-samrx3 1 () norm 0 0 1-samrx4 1 () norm 0 0 1-samrx5
+1 () norm 0 0 1-samrx6 1 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8
+0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-metrx1 67 () norm 0 0 1-metrx2
+4 () norm 0 0 1-metrx3 1 () norm 0 0 1-metrx4 0 () norm 0 0 1-resrx1
+10 () norm 0 0 1-resrx2 1 () norm 0 0 1-clorx1 66.1059;
+2 no_clock 0 0 0 () sym 0 0 1-samry1  () sym 0 0 1-samry2 kxpqwmk ()
+sym 0 0 1-samry3 kxpqwmk () norm 0 0 1-samrx1 0 () norm 0 0 1-samrx2
+0 () norm 0 0 1-samrx3 1 () norm 0 0 1-samrx4 1 () norm 0 0 1-samrx5
+1 () norm 0 0 1-samrx6 1 () norm 0 0 1-samrx7 0 () norm 0 0 1-samrx8
+0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-metrx1 20 () norm 0 0 1-metrx2
+1 () norm 0 0 1-metrx3 0 () norm 0 0 1-metrx4 0 () norm 0 0 1-resrx1
+10 () norm 0 0 1-resrx2 0 () norm 0 0 1-clorx1 66.1059;

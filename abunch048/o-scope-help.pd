@@ -1,0 +1,42 @@
+#N canvas 611 34 629 821 12;
+#X obj 44 771 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 32 603 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 43 85 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 42 674 inlet 1 =;
+#X text 40 714 inlet 2 =;
+#X obj 40 328 tgl 30 0 yyyyyyyyyyyyyyy rtrtrtrrrrrr ON/OFF -10 -15
+0 10 -262144 -1 -1 0 1;
+#X obj 31 413 nbx 5 14 1 1000 0 0 kikbbb cggggggggw refresh_rate -15
+-8 0 10 -262144 -1 -1 1 256;
+#X obj 34 526 bng 15 250 50 0 xxxxxxxxxbvbx empty snap 17 7 0 10 -262144
+-1 -1;
+#X text 141 405 = With this number box you can change the rate in which
+a new view/window is shown (speed in milliseconds).;
+#X text 130 674 (audio) the sound that will be analysed;
+#X text 125 715 (event) inlet to control the 'snap' button \, any number
+in this inlet creates a bang in the 'snap' button.;
+#X text 51 25 With 'o-scope' (oscilloscope) you can view the wave form
+of an incoming sound.;
+#X obj 24 158 hsl 256 15 0 63 0 0 zzzzzzzzzzartz zzzzzzrfez zoom -2
+-8 0 10 -262144 -1 -1 0 1;
+#X text 67 182 = You can zoom in or out on the X-axis (time). The new
+length of one window is shown here:;
+#X obj 111 234 nbx 3 14 -1e+037 1e+037 0 0 empty \$1-osorms empty 0
+-8 0 10 -262144 -1 -1 0 256;
+#X text 150 233 ms or;
+#X obj 197 235 nbx 5 14 -1e+037 1e+037 0 0 empty \$1-osorsam empty
+0 -8 0 10 -262144 -1 -1 0 256;
+#X text 73 231 <---;
+#X text 254 233 samples -->;
+#X text 118 525 = When the oscilloscope is turned off \, you can create
+one snapshot by clicking this 'bang' button.;
+#X text 49 634 (in- and outlets \, numbered from left to right);
+#X text 138 440 The refresh rate should be equal or slower than the
+length of one window \, therefor this rate is reset if you change the
+length (with the 'soom' fader) and the length becomes higher than the
+refresh rate);
+#X text 94 326 = This toggle turns the clock on that shows an new window
+on every tick.;

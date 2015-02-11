@@ -1,0 +1,25 @@
+#N canvas 567 95 725 542 12;
+#X obj 51 251 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 45 91 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 58 329 inlet 1 =;
+#X text 54 383 inlet 2 =;
+#X text 48 413 outlet 1 =;
+#X text 47 445 outlet 2 =;
+#X text 42 148 fader 'left Mid Right';
+#X text 51 292 (in- and outlets \, numbered from left to right);
+#X text 144 330 (audio) inlet for the audio stream that will be sent
+to first (left) and/or second (right) outlet;
+#X text 142 383 (event) inlet to control the fader 'Left Mid Right'
+;
+#X text 142 413 (audio) first (left) outlet for the sound after the
+panning;
+#X text 141 445 (audio) second (right) outlet for the sound after the
+panning;
+#X text 48 36 This abunch 'panning' object distributes a mono sound
+source to two outlets (stereo).;
+#X text 229 148 = If this fader is the left position \, the sound from
+the inlet is sent to the first (left) outlet. If this fader is in the
+right \, the sound is going to the second (right) outlet. The positions
+in between fade from the left to the right outlet.;

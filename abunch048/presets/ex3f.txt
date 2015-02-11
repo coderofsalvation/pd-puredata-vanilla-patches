@@ -1,0 +1,28 @@
+1 don't-hurry 0 0 0 () norm 0 0 1-rndrx1 0 () norm 0 0 1-rndrx2 0.775591
+() norm 0 0 1-rndrx3 0.202362 () norm 0 0 1-rndrx4 15 () norm 0 0 1-rndrx5
+12.5984 () norm 0 0 1-rndrx6 0.1 () norm 0 0 1-rndrx7 0 () norm 0 0
+1-rndrx8 0.8 () norm 0 0 1-rndrx9 0.8 () norm 0 0 1-rndrx10 0 () norm
+0 0 1-envrx1 0.1 () norm 0 0 1-envrx2 24.189 () norm 0 0 1-envrx3 0
+() norm 0 0 1-envrx4 0 () norm 0 0 1-envrx5 0 () norm 0 0 1-envrx6
+913.386 () norm 0 0 1-envrx7 7 () norm 0 0 1-soutrx1 100 () norm 0
+0 1-soutrx2 1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 ()
+norm 0 0 1-parrrx1 53.3598 () norm 0 0 1-parrrx2 0 () norm 0 0 1-parrrx3
+0 () norm 0 0 1-parrrx4 48 () norm 0 0 1-parrrx5 1 () norm 0 0 1-parrrx6
+0 () norm 0 0 1-parrrx7 127 () arr 0 0 1-parrray1 95.1961 97.7361 99.2601
+98.2441 98.7521 99.7681 97.2281 94.6881 93.6721 91.64 89.1 86.56 96.2121
+94.18 92.148 94.18 97.7361 99.2601 96.7201 95.7041 96.2121 98.7521
+100.784 102.308 102.816 104.34 106.372 108.404 107.388 106.88 105.864
+104.34 101.292 101.292 102.308 102.816 98.7521 95.7041 97.2281 96.7201
+93.6721 93.6721 92.148 84.528 86.052 93.6721 96.7201 94.1801 () norm
+0 0 1-seqrx1 127 () norm 0 0 1-seqrx2 0 () norm 0 0 1-seqrx3 0 () norm
+0 0 1-seqrx4 127 () norm 0 0 1-seqrx5 0 () norm 0 0 1-seqrx6 0 () norm
+0 0 1-seqrx7 0 () norm 0 0 1-seqrx8 127 () norm 0 0 1-seqrx9 127 () norm
+0 0 1-seqrx10 0 () norm 0 0 1-seqrx11 0 () norm 0 0 1-seqrx12 127 ()
+norm 0 0 1-seqrx13 127 () norm 0 0 1-seqrx14 127 () norm 0 0 1-seqrx15
+0 () norm 0 0 1-seqrx16 127 () norm 0 0 1-seqrx17 31.9256 () norm 0
+0 1-seqrx18 0 () norm 0 0 1-seqrx19 0 () norm 0 0 1-seqrx20 16 () norm
+0 0 1-seqrx21 0.19685 () norm 0 0 1-wavrx1 0 () norm 0 0 1-wavrx2 1
+() norm 0 0 1-wavrx3 97.74 () norm 0 0 1-wavrx4 0.275591 () norm 0
+0 1-wavrx5 500 () norm 0 0 1-delrx1 244.094 () norm 0 0 1-delrx2 0.592677
+() norm 0 0 1-delrx3 0.188976 () norm 0 0 1-delrx4 0.874016 () norm
+0 0 1-delrx5 0;

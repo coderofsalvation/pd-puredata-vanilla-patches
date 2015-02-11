@@ -1,0 +1,96 @@
+1 whah 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-ma4rx1 1 ()
+norm 0 0 1-ma4rx2 0 () norm 0 0 1-ma4rx3 0 () norm 0 0 1-ma4rx4 0 ()
+norm 0 0 1-ma4rx5 0 () norm 0 0 1-ma4rx6 0 () norm 0 0 1-ma4rx7 0 ()
+norm 0 0 1-ma4rx8 0 () norm 0 0 1-ma4rx9 0 () norm 0 0 1-ma4rx10 0
+() norm 0 0 1-ma4rx11 0 () norm 0 0 1-ma4rx12 0 () norm 0 0 1-ma4rx13
+0 () norm 0 0 1-ma4rx14 0 () norm 0 0 1-ma4rx15 0 () norm 0 0 1-ma4rx16
+0 () norm 0 0 1-envrx1 0.1 () norm 0 0 1-envrx2 207.622 () norm 0 0
+1-envrx3 0 () norm 0 0 1-envrx4 0 () norm 0 0 1-envrx5 0 () norm 0
+0 1-envrx6 117.008 () norm 0 0 1-envrx7 7 () sym 0 0 1-lhfry1 kxpqwmk
+() sym 0 0 1-lhfry2 kxpqwmk () sym 0 0 1-lhfry3 kxpqwmk () sym 0 0
+1-lhfry4 kxpqwmk () sym 0 0 1-lhfry5 kxpqwmk () sym 0 0 1-lhfry6 kxpqwmk
+() sym 0 0 1-lhfry7 kxpqwmk () sym 0 0 1-lhfry8 kxpqwmk () sym 0 0
+1-lhfry9 kxpqwmk () sym 0 0 1-lhfry10 kxpqwmk () sym 0 0 1-lhfry11
+kxpqwmk () sym 0 0 1-lhfry12 kxpqwmk () sym 0 0 1-lhfry13 kxpqwmk ()
+sym 0 0 1-lhfry14 kxpqwmk () sym 0 0 1-lhfry15 kxpqwmk () sym 0 0 1-lhfry16
+kxpqwmk () sym 0 0 1-lhfry17 kxpqwmk () sym 0 0 1-lhfry18 kxpqwmk ()
+sym 0 0 1-lhfry19 kxpqwmk () sym 0 0 1-lhfry20 kxpqwmk () sym 0 0 1-lhfry21
+kxpqwmk () sym 0 0 1-lhfry22 kxpqwmk () sym 0 0 1-lhfry23 kxpqwmk ()
+sym 0 0 1-lhfry24 kxpqwmk () sym 0 0 1-lhfry25 kxpqwmk () sym 0 0 1-lhfry26
+kxpqwmk () sym 0 0 1-lhfry27 kxpqwmk () sym 0 0 1-lhfry28 kxpqwmk ()
+sym 0 0 1-lhfry29 kxpqwmk () sym 0 0 1-lhfry30 kxpqwmk () sym 0 0 1-lhfry31
+kxpqwmk () sym 0 0 1-lhfry32 kxpqwmk () norm 0 0 1-lhfrx1 1 () norm
+0 0 1-lhfrx2 103.999 () norm 0 0 1-lhfrx3 92.0635 () norm 0 0 1-lhfrx4
+2 () norm 0 0 1-lhfrx5 0 () norm 0 0 1-lhfrx6 0 () norm 0 0 1-lhfrx7
+0 () norm 0 0 1-lhfrx8 0 () arr 0 0 1-lhfray1 () norm 0 0 1-pharx1
+4.6 () norm 0 0 1-pharx2 0.00787402 () norm 0 0 1-pharx3 3.65354 ()
+norm 0 0 1-pharx4 0.748031 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 3 () norm 0 0 1-wavrx4 0.716535 () norm 0 0
+1-wavrx5 0 () norm 0 0 1-azerx1 57 () norm 0 0 1-azerx2 36 () norm
+0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm 0 0 1-azerx5 1 () norm
+0 0 1-azerx6 0;
+2 mixa 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 () norm
+0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-ma4rx1 0 ()
+norm 0 0 1-ma4rx2 0 () norm 0 0 1-ma4rx3 0 () norm 0 0 1-ma4rx4 0 ()
+norm 0 0 1-ma4rx5 1 () norm 0 0 1-ma4rx6 0 () norm 0 0 1-ma4rx7 0 ()
+norm 0 0 1-ma4rx8 0 () norm 0 0 1-ma4rx9 0 () norm 0 0 1-ma4rx10 0
+() norm 0 0 1-ma4rx11 0 () norm 0 0 1-ma4rx12 0 () norm 0 0 1-ma4rx13
+0 () norm 0 0 1-ma4rx14 0 () norm 0 0 1-ma4rx15 0 () norm 0 0 1-ma4rx16
+0 () norm 0 0 1-envrx1 0.374016 () norm 0 0 1-envrx2 2.05606 () norm
+0 0 1-envrx3 26.2047 () norm 0 0 1-envrx4 34.2677 () norm 0 0 1-envrx5
+0 () norm 0 0 1-envrx6 116.063 () norm 0 0 1-envrx7 4 () sym 0 0 1-lhfry1
+kxpqwmk () sym 0 0 1-lhfry2 kxpqwmk () sym 0 0 1-lhfry3 kxpqwmk ()
+sym 0 0 1-lhfry4 kxpqwmk () sym 0 0 1-lhfry5 kxpqwmk () sym 0 0 1-lhfry6
+kxpqwmk () sym 0 0 1-lhfry7 kxpqwmk () sym 0 0 1-lhfry8 kxpqwmk ()
+sym 0 0 1-lhfry9 kxpqwmk () sym 0 0 1-lhfry10 kxpqwmk () sym 0 0 1-lhfry11
+kxpqwmk () sym 0 0 1-lhfry12 kxpqwmk () sym 0 0 1-lhfry13 kxpqwmk ()
+sym 0 0 1-lhfry14 kxpqwmk () sym 0 0 1-lhfry15 kxpqwmk () sym 0 0 1-lhfry16
+kxpqwmk () sym 0 0 1-lhfry17 kxpqwmk () sym 0 0 1-lhfry18 kxpqwmk ()
+sym 0 0 1-lhfry19 kxpqwmk () sym 0 0 1-lhfry20 kxpqwmk () sym 0 0 1-lhfry21
+kxpqwmk () sym 0 0 1-lhfry22 kxpqwmk () sym 0 0 1-lhfry23 kxpqwmk ()
+sym 0 0 1-lhfry24 kxpqwmk () sym 0 0 1-lhfry25 kxpqwmk () sym 0 0 1-lhfry26
+kxpqwmk () sym 0 0 1-lhfry27 kxpqwmk () sym 0 0 1-lhfry28 kxpqwmk ()
+sym 0 0 1-lhfry29 kxpqwmk () sym 0 0 1-lhfry30 kxpqwmk () sym 0 0 1-lhfry31
+kxpqwmk () sym 0 0 1-lhfry32 kxpqwmk () norm 0 0 1-lhfrx1 1 () norm
+0 0 1-lhfrx2 120.005 () norm 0 0 1-lhfrx3 92.0635 () norm 0 0 1-lhfrx4
+2 () norm 0 0 1-lhfrx5 0 () norm 0 0 1-lhfrx6 0 () norm 0 0 1-lhfrx7
+0 () norm 0 0 1-lhfrx8 0 () arr 0 0 1-lhfray1 () norm 0 0 1-pharx1
+3.4 () norm 0 0 1-pharx2 0.00787402 () norm 0 0 1-pharx3 3.65354 ()
+norm 0 0 1-pharx4 0.748031 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 3 () norm 0 0 1-wavrx4 0.716535 () norm 0 0
+1-wavrx5 0 () norm 0 0 1-azerx1 57 () norm 0 0 1-azerx2 48 () norm
+0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm 0 0 1-azerx5 1 () norm
+0 0 1-azerx6 210;
+3 splash 0 0 0 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 1 ()
+norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1 () norm 0 0 1-ma4rx1
+1 () norm 0 0 1-ma4rx2 0 () norm 0 0 1-ma4rx3 0 () norm 0 0 1-ma4rx4
+0 () norm 0 0 1-ma4rx5 0 () norm 0 0 1-ma4rx6 0 () norm 0 0 1-ma4rx7
+0 () norm 0 0 1-ma4rx8 0 () norm 0 0 1-ma4rx9 0 () norm 0 0 1-ma4rx10
+0 () norm 0 0 1-ma4rx11 0 () norm 0 0 1-ma4rx12 0 () norm 0 0 1-ma4rx13
+0 () norm 0 0 1-ma4rx14 0 () norm 0 0 1-ma4rx15 0 () norm 0 0 1-ma4rx16
+0 () norm 0 0 1-envrx1 0.1 () norm 0 0 1-envrx2 2.01575 () norm 0 0
+1-envrx3 96.7559 () norm 0 0 1-envrx4 0 () norm 0 0 1-envrx5 106 ()
+norm 0 0 1-envrx6 920.157 () norm 0 0 1-envrx7 3 () sym 0 0 1-lhfry1
+kxpqwmk () sym 0 0 1-lhfry2 kxpqwmk () sym 0 0 1-lhfry3 kxpqwmk ()
+sym 0 0 1-lhfry4 kxpqwmk () sym 0 0 1-lhfry5 kxpqwmk () sym 0 0 1-lhfry6
+kxpqwmk () sym 0 0 1-lhfry7 kxpqwmk () sym 0 0 1-lhfry8 kxpqwmk ()
+sym 0 0 1-lhfry9 kxpqwmk () sym 0 0 1-lhfry10 kxpqwmk () sym 0 0 1-lhfry11
+kxpqwmk () sym 0 0 1-lhfry12 kxpqwmk () sym 0 0 1-lhfry13 kxpqwmk ()
+sym 0 0 1-lhfry14 kxpqwmk () sym 0 0 1-lhfry15 kxpqwmk () sym 0 0 1-lhfry16
+kxpqwmk () sym 0 0 1-lhfry17 kxpqwmk () sym 0 0 1-lhfry18 kxpqwmk ()
+sym 0 0 1-lhfry19 kxpqwmk () sym 0 0 1-lhfry20 kxpqwmk () sym 0 0 1-lhfry21
+kxpqwmk () sym 0 0 1-lhfry22 kxpqwmk () sym 0 0 1-lhfry23 kxpqwmk ()
+sym 0 0 1-lhfry24 kxpqwmk () sym 0 0 1-lhfry25 kxpqwmk () sym 0 0 1-lhfry26
+kxpqwmk () sym 0 0 1-lhfry27 kxpqwmk () sym 0 0 1-lhfry28 kxpqwmk ()
+sym 0 0 1-lhfry29 kxpqwmk () sym 0 0 1-lhfry30 kxpqwmk () sym 0 0 1-lhfry31
+kxpqwmk () sym 0 0 1-lhfry32 kxpqwmk () norm 0 0 1-lhfrx1 1 () norm
+0 0 1-lhfrx2 103.999 () norm 0 0 1-lhfrx3 92.0635 () norm 0 0 1-lhfrx4
+2 () norm 0 0 1-lhfrx5 0 () norm 0 0 1-lhfrx6 0 () norm 0 0 1-lhfrx7
+0 () norm 0 0 1-lhfrx8 0 () arr 0 0 1-lhfray1 () norm 0 0 1-pharx1
+4.6 () norm 0 0 1-pharx2 0.00787402 () norm 0 0 1-pharx3 3.65354 ()
+norm 0 0 1-pharx4 0.748031 () norm 0 0 1-wavrx1 4 () norm 0 0 1-wavrx2
+0 () norm 0 0 1-wavrx3 3 () norm 0 0 1-wavrx4 0.716535 () norm 0 0
+1-wavrx5 0 () norm 0 0 1-azerx1 57 () norm 0 0 1-azerx2 36 () norm
+0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm 0 0 1-azerx5 1 () norm
+0 0 1-azerx6 130;

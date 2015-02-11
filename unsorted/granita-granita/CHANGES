@@ -1,0 +1,59 @@
+2012-02-12
+---------------
+- Granita is now pure Pd Vanilla.
+- Removed motex/pan~ dependency. Replaced with self-made equal pan.
+- Removed cyclone/prepend dependency. Replaced with list append
+
+2012-02-11
+---------------
+- Added smooth edges to live loop recorder
+
+1.0
+---------------
+- Made explicit call to motex/pan~ and cyclone/prepend. This makes Granita more
+  vanilla-friendly (those libs from Extended are the only needed ones)
+- Fixed some errors in looper for 32 and 64 versions.
+
+0.9
+---------------
+- Fixed loop recorder external
+  Small gui changes
+
+0.8
+---------------
+- Removed interpolation for grains: i.e. tabread~ instead of tabread4~
+  for lower CPU usage.
+  I decided the (CPU) performance gain was worth it. Interpolation is really
+  useful for extreme pitch shift.   Interpolation is still done on the envelope
+  table.
+  The version with [tabread4~] can still be used by renaming 'grain~_4point.pd'
+  to 'grain~.pd'
+  
+0.7
+--------------
+- Gui redesign: looks nicer and hopefully easier to use
+- Addedd hanning envelope
+
+0.6
+--------------
+- Changed loop recorder
+
+0.5
+--------------
+- Small gui changes
+
+0.3
+--------------
+- 64 and 32 voice versions for lower CPU use
+
+0.2
+--------------
+- Small gui changes
+
+0.1
+--------------
+- Initial release with gui
+
+unversioned - unreleased
+--------------
+No gui messy patch :)

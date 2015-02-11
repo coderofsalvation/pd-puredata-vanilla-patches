@@ -1,0 +1,93 @@
+#N canvas 514 -8 739 731 12;
+#X obj 39 914 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 115 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X obj 36 372 hsl 128 15 30 1200 0 1 empty empty tempo -2 -8 0 10 -262144
+-1 -1 3400 1;
+#X obj 37 453 hsl 128 15 0 100 0 0 empty empty randomize_tempo -2 -8
+0 10 -262144 -1 -1 0 1;
+#X obj 39 235 hsl 128 15 0 1 0 1 \$1-rndscent \$1-rndrcent center -2
+-8 0 10 -262144 -1 -1 5600 1;
+#X obj 40 264 hsl 128 15 0 1 0 1 empty empty range -2 -8 0 10 -262144
+-1 -1 600 1;
+#X obj 37 284 cnv 15 135 50 empty empty show: 40 8 0 8 -233017 -66577
+0;
+#X obj 37 315 nbx 5 14 -1e+037 1e+037 0 0 empty empty minimum 0 -8
+0 10 -262144 -1 -1 0 256;
+#X obj 107 317 nbx 5 14 -1e+037 1e+037 0 0 empty empty maximum 0 -8
+0 10 -262144 -1 -1 0 256;
+#X obj 43 536 tgl 15 1 ppp pppj ext_clock 17 7 0 10 -262144 -1 -1 0
+1;
+#X floatatom 34 393 5 0 0 1 bpm - -;
+#X floatatom 108 394 5 0 0 1 ms - -;
+#X obj 40 177 tgl 15 0 uip piu ON/OFF 20 8 0 12 -262144 -1 -1 0 1;
+#X text 49 985 Inlet 1 =;
+#X text 47 1012 Inlet 2 =;
+#X text 46 1043 Inlet 3 =;
+#X text 49 1085 Inlet 4 =;
+#X text 46 1139 Outlet 1 =;
+#X text 46 1172 Outlet 2 =;
+#X text 26 20 The abunch object random-out produces random numbers
+within a given range \, with a adjustable tempo. Random midi (pitch
+velocity) values can also be sent.;
+#X text 199 176 Use this toggle to turn this random-out object on (=crossed)
+or off;
+#X text 200 228 The fader 'center' fixes the main value around which
+random values are produced. With the fader 'range' you can change the
+range (of the random values) around this center. The number boxes 'minimum'
+and 'maximum' show the lower and upper limit of the random numbers
+(these limits are the result of the position of the 'center' and 'range'
+fader).;
+#X text 199 366 Use the fader 'tempo' to change the tempo of the random
+number generation. The number boxes 'bpm' and 'ms' show the tempo in
+beats per minute and in milliseconds.;
+#X text 203 437 Use this fader to randomize the tempo. In the left
+position the tempo is regular \, the more you move the fader to the
+right \, the more the tempo becomes irregular (the average of tempo
+remains the tempo entered with the 'tempo fader).;
+#X text 191 537 = if this toggle is turned on (crossed) \, you can
+use an external clock to control the tempo of the random number production.
+Use inlet 3 in this case to connect this object to the clock. The fader
+'tempo' logically doesn't work in this case as the external clock provides
+the tempo.;
+#X text 148 985 (event) inlet to control the fader 'center';
+#X text 146 1014 (event) inlet to control the fader 'range';
+#X text 142 1044 (event) inlet for the external clock (only works if
+the toggle 'ext_clock' is switched on);
+#X text 141 1082 (event) inlet to control the 'ON/OFF' toggle \; any
+number higher than zero in this inlet turns on the toggle \, a zero
+switches it off.;
+#X text 142 1139 (event) outlet for the random numbers;
+#X text 147 1170 (event) outlet for the velocity values (note-on and
+note-off) \, together with outlet 1 these form a MIDI pitch-velocity
+pair;
+#X text 41 949 (in- and outlets \, numbered from left to right);
+#X obj 33 647 bng 15 250 50 0 xtravelo empty velocity_outlet2 17 7
+0 8 -262144 -1 -1;
+#X obj 34 688 hsl 128 15 0 1 0 1 \$1-rndscent \$1-rndrcent center -2
+-8 0 10 -262144 -1 -1 5600 1;
+#X obj 35 717 hsl 128 15 0 1 0 1 empty empty range -2 -8 0 10 -262144
+-1 -1 600 1;
+#X obj 32 737 cnv 15 135 50 empty empty show: 40 8 0 8 -233017 -66577
+0;
+#X obj 32 768 nbx 5 14 -1e+037 1e+037 0 0 empty empty minimum 0 -8
+0 10 -262144 -1 -1 0 256;
+#X obj 102 770 nbx 5 14 -1e+037 1e+037 0 0 empty empty maximum 0 -8
+0 10 -262144 -1 -1 0 256;
+#X obj 35 805 hsl 128 15 0 2 0 0 lenv rlenv length -2 -8 0 10 -262144
+-1 -1 0 1;
+#X floatatom 32 823 5 0 0 0 - - -;
+#N canvas 0 0 450 300 (subpatch) 0;
+#X coords 0 1 100 -1 160 180 1;
+#X restore 26 667 graph;
+#X text 194 645 = If you click on the button 'velocity_outlet2' a new
+window is opened with possibilities to adjust the random generated
+velocity values for outlet 2 Except for the fader 'length' the other
+faders have the same function as de faders with the same name in the
+main window of this 'random-out' object (see above for information
+about these faders). The fader length changes the duration of the note-on
+velocity \, 1 = the same duration as the tempo (in milliseconds) \,
+0.5 = the duration is the half of the tempo \, ...;
+#X connect 2 0 10 0;
+#X connect 38 0 39 0;

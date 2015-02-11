@@ -1,0 +1,160 @@
+1 lfo-sine 0 0 0 () sym 0 0 1-lhfry1 kxpqwmk () sym 0 0 1-lhfry2 kxpqwmk
+() sym 0 0 1-lhfry3 kxpqwmk () sym 0 0 1-lhfry4 kxpqwmk () sym 0 0
+1-lhfry5 kxpqwmk () sym 0 0 1-lhfry6 kxpqwmk () sym 0 0 1-lhfry7 kxpqwmk
+() sym 0 0 1-lhfry8 kxpqwmk () sym 0 0 1-lhfry9 kxpqwmk () sym 0 0
+1-lhfry10 kxpqwmk () sym 0 0 1-lhfry11 kxpqwmk () sym 0 0 1-lhfry12
+kxpqwmk () sym 0 0 1-lhfry13 kxpqwmk () sym 0 0 1-lhfry14 kxpqwmk ()
+sym 0 0 1-lhfry15 kxpqwmk () sym 0 0 1-lhfry16 kxpqwmk () sym 0 0 1-lhfry17
+kxpqwmk () sym 0 0 1-lhfry18 kxpqwmk () sym 0 0 1-lhfry19 kxpqwmk ()
+sym 0 0 1-lhfry20 kxpqwmk () sym 0 0 1-lhfry21 kxpqwmk () sym 0 0 1-lhfry22
+kxpqwmk () sym 0 0 1-lhfry23 kxpqwmk () sym 0 0 1-lhfry24 kxpqwmk ()
+sym 0 0 1-lhfry25 kxpqwmk () sym 0 0 1-lhfry26 kxpqwmk () sym 0 0 1-lhfry27
+kxpqwmk () sym 0 0 1-lhfry28 kxpqwmk () sym 0 0 1-lhfry29 kxpqwmk ()
+sym 0 0 1-lhfry30 kxpqwmk () sym 0 0 1-lhfry31 kxpqwmk () sym 0 0 1-lhfry32
+kxpqwmk () norm 0 0 1-lhfrx1 1 () norm 0 0 1-lhfrx2 84.6667 () norm
+0 0 1-lhfrx3 77.7778 () norm 0 0 1-lhfrx4 3 () norm 0 0 1-lhfrx5 1
+() norm 0 0 1-lhfrx6 104.825 () norm 0 0 1-lhfrx7 12.6984 () norm 0
+0 1-lhfrx8 0 () arr 0 0 1-lhfray1 () norm 0 0 7-wavrx1 4 () norm 0
+0 7-wavrx2 0 () norm 0 0 7-wavrx3 0 () norm 0 0 7-wavrx4 0.299213 ()
+norm 0 0 7-wavrx5 0 () norm 0 0 6-wavrx1 0 () norm 0 0 6-wavrx2 0 ()
+norm 0 0 6-wavrx3 8 () norm 0 0 6-wavrx4 0.992126 () norm 0 0 6-wavrx5
+0 () norm 0 0 5-wavrx1 0 () norm 0 0 5-wavrx2 0 () norm 0 0 5-wavrx3
+2 () norm 0 0 5-wavrx4 0.976378 () norm 0 0 5-wavrx5 0 () norm 0 0
+4-wavrx1 0 () norm 0 0 4-wavrx2 0 () norm 0 0 4-wavrx3 3 () norm 0
+0 4-wavrx4 0.968504 () norm 0 0 4-wavrx5 0 () norm 0 0 3-wavrx1 0 ()
+norm 0 0 3-wavrx2 0 () norm 0 0 3-wavrx3 4 () norm 0 0 3-wavrx4 0.984252
+() norm 0 0 3-wavrx5 0 () norm 0 0 2-wavrx1 0 () norm 0 0 2-wavrx2
+0 () norm 0 0 2-wavrx3 6 () norm 0 0 2-wavrx4 0.976378 () norm 0 0
+2-wavrx5 0 () sym 0 0 1-plfry1 C:/Documents and Settings/hansroels/My Documents/kompositie/kids/samples/Logos - buurtgeluiden/neyrinck/sas2.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 1 () norm 0 0 1-plfrx2 0.229921 () norm 0 0 1-plfrx3 0 ()
+norm 0 0 1-wavrx1 0 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 1 ()
+norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+2 lfo-sine2 0 0 0 () sym 0 0 1-lhfry1 kxpqwmk () sym 0 0 1-lhfry2 kxpqwmk
+() sym 0 0 1-lhfry3 kxpqwmk () sym 0 0 1-lhfry4 kxpqwmk () sym 0 0
+1-lhfry5 kxpqwmk () sym 0 0 1-lhfry6 kxpqwmk () sym 0 0 1-lhfry7 kxpqwmk
+() sym 0 0 1-lhfry8 kxpqwmk () sym 0 0 1-lhfry9 kxpqwmk () sym 0 0
+1-lhfry10 kxpqwmk () sym 0 0 1-lhfry11 kxpqwmk () sym 0 0 1-lhfry12
+kxpqwmk () sym 0 0 1-lhfry13 kxpqwmk () sym 0 0 1-lhfry14 kxpqwmk ()
+sym 0 0 1-lhfry15 kxpqwmk () sym 0 0 1-lhfry16 kxpqwmk () sym 0 0 1-lhfry17
+kxpqwmk () sym 0 0 1-lhfry18 kxpqwmk () sym 0 0 1-lhfry19 kxpqwmk ()
+sym 0 0 1-lhfry20 kxpqwmk () sym 0 0 1-lhfry21 kxpqwmk () sym 0 0 1-lhfry22
+kxpqwmk () sym 0 0 1-lhfry23 kxpqwmk () sym 0 0 1-lhfry24 kxpqwmk ()
+sym 0 0 1-lhfry25 kxpqwmk () sym 0 0 1-lhfry26 kxpqwmk () sym 0 0 1-lhfry27
+kxpqwmk () sym 0 0 1-lhfry28 kxpqwmk () sym 0 0 1-lhfry29 kxpqwmk ()
+sym 0 0 1-lhfry30 kxpqwmk () sym 0 0 1-lhfry31 kxpqwmk () sym 0 0 1-lhfry32
+kxpqwmk () norm 0 0 1-lhfrx1 1 () norm 0 0 1-lhfrx2 60.4762 () norm
+0 0 1-lhfrx3 92.0635 () norm 0 0 1-lhfrx4 3 () norm 0 0 1-lhfrx5 1
+() norm 0 0 1-lhfrx6 104.825 () norm 0 0 1-lhfrx7 66.6667 () norm 0
+0 1-lhfrx8 0 () arr 0 0 1-lhfray1 () norm 0 0 7-wavrx1 4 () norm 0
+0 7-wavrx2 0 () norm 0 0 7-wavrx3 0 () norm 0 0 7-wavrx4 0.299213 ()
+norm 0 0 7-wavrx5 0 () norm 0 0 6-wavrx1 0 () norm 0 0 6-wavrx2 0 ()
+norm 0 0 6-wavrx3 8 () norm 0 0 6-wavrx4 0.992126 () norm 0 0 6-wavrx5
+0 () norm 0 0 5-wavrx1 0 () norm 0 0 5-wavrx2 0 () norm 0 0 5-wavrx3
+2 () norm 0 0 5-wavrx4 0.976378 () norm 0 0 5-wavrx5 0 () norm 0 0
+4-wavrx1 0 () norm 0 0 4-wavrx2 0 () norm 0 0 4-wavrx3 3 () norm 0
+0 4-wavrx4 0.968504 () norm 0 0 4-wavrx5 0 () norm 0 0 3-wavrx1 0 ()
+norm 0 0 3-wavrx2 0 () norm 0 0 3-wavrx3 4 () norm 0 0 3-wavrx4 0.984252
+() norm 0 0 3-wavrx5 0 () norm 0 0 2-wavrx1 0 () norm 0 0 2-wavrx2
+0 () norm 0 0 2-wavrx3 6 () norm 0 0 2-wavrx4 0.976378 () norm 0 0
+2-wavrx5 0 () sym 0 0 1-plfry1 C:/Documents and Settings/hansroels/My Documents/kompositie/kids/samples/Logos - buurtgeluiden/neyrinck/sas2.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 1 () norm 0 0 1-plfrx2 0.229921 () norm 0 0 1-plfrx3 0 ()
+norm 0 0 1-wavrx1 0 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 1 ()
+norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+3 again 0 0 0 () sym 0 0 1-lhfry1 kxpqwmk () sym 0 0 1-lhfry2 kxpqwmk
+() sym 0 0 1-lhfry3 kxpqwmk () sym 0 0 1-lhfry4 kxpqwmk () sym 0 0
+1-lhfry5 kxpqwmk () sym 0 0 1-lhfry6 kxpqwmk () sym 0 0 1-lhfry7 kxpqwmk
+() sym 0 0 1-lhfry8 kxpqwmk () sym 0 0 1-lhfry9 kxpqwmk () sym 0 0
+1-lhfry10 kxpqwmk () sym 0 0 1-lhfry11 kxpqwmk () sym 0 0 1-lhfry12
+kxpqwmk () sym 0 0 1-lhfry13 kxpqwmk () sym 0 0 1-lhfry14 kxpqwmk ()
+sym 0 0 1-lhfry15 kxpqwmk () sym 0 0 1-lhfry16 kxpqwmk () sym 0 0 1-lhfry17
+kxpqwmk () sym 0 0 1-lhfry18 kxpqwmk () sym 0 0 1-lhfry19 kxpqwmk ()
+sym 0 0 1-lhfry20 kxpqwmk () sym 0 0 1-lhfry21 kxpqwmk () sym 0 0 1-lhfry22
+kxpqwmk () sym 0 0 1-lhfry23 kxpqwmk () sym 0 0 1-lhfry24 kxpqwmk ()
+sym 0 0 1-lhfry25 kxpqwmk () sym 0 0 1-lhfry26 kxpqwmk () sym 0 0 1-lhfry27
+kxpqwmk () sym 0 0 1-lhfry28 kxpqwmk () sym 0 0 1-lhfry29 kxpqwmk ()
+sym 0 0 1-lhfry30 kxpqwmk () sym 0 0 1-lhfry31 kxpqwmk () sym 0 0 1-lhfry32
+kxpqwmk () norm 0 0 1-lhfrx1 1 () norm 0 0 1-lhfrx2 44.3492 () norm
+0 0 1-lhfrx3 92.0635 () norm 0 0 1-lhfrx4 3 () norm 0 0 1-lhfrx5 1
+() norm 0 0 1-lhfrx6 110.873 () norm 0 0 1-lhfrx7 66.6667 () norm 0
+0 1-lhfrx8 4 () arr 0 0 1-lhfray1 () norm 0 0 7-wavrx1 4 () norm 0
+0 7-wavrx2 0 () norm 0 0 7-wavrx3 0 () norm 0 0 7-wavrx4 0.299213 ()
+norm 0 0 7-wavrx5 0 () norm 0 0 6-wavrx1 0 () norm 0 0 6-wavrx2 0 ()
+norm 0 0 6-wavrx3 7 () norm 0 0 6-wavrx4 0.992126 () norm 0 0 6-wavrx5
+0 () norm 0 0 5-wavrx1 0 () norm 0 0 5-wavrx2 0 () norm 0 0 5-wavrx3
+2 () norm 0 0 5-wavrx4 0.976378 () norm 0 0 5-wavrx5 0 () norm 0 0
+4-wavrx1 0 () norm 0 0 4-wavrx2 0 () norm 0 0 4-wavrx3 3 () norm 0
+0 4-wavrx4 0.968504 () norm 0 0 4-wavrx5 0 () norm 0 0 3-wavrx1 0 ()
+norm 0 0 3-wavrx2 0 () norm 0 0 3-wavrx3 4 () norm 0 0 3-wavrx4 0.984252
+() norm 0 0 3-wavrx5 0 () norm 0 0 2-wavrx1 0 () norm 0 0 2-wavrx2
+0 () norm 0 0 2-wavrx3 6 () norm 0 0 2-wavrx4 0.976378 () norm 0 0
+2-wavrx5 0 () sym 0 0 1-plfry1 C:/Documents and Settings/hansroels/My Documents/kompositie/kids/samples/Logos - buurtgeluiden/neyrinck/sas2.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 1 () norm 0 0 1-plfrx2 0.229921 () norm 0 0 1-plfrx3 0 ()
+norm 0 0 1-wavrx1 0 () norm 0 0 1-wavrx2 0 () norm 0 0 1-wavrx3 1 ()
+norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+4 again 0 0 0 () sym 0 0 1-lhfry1 kxpqwmk () sym 0 0 1-lhfry2 kxpqwmk
+() sym 0 0 1-lhfry3 kxpqwmk () sym 0 0 1-lhfry4 kxpqwmk () sym 0 0
+1-lhfry5 kxpqwmk () sym 0 0 1-lhfry6 kxpqwmk () sym 0 0 1-lhfry7 kxpqwmk
+() sym 0 0 1-lhfry8 kxpqwmk () sym 0 0 1-lhfry9 kxpqwmk () sym 0 0
+1-lhfry10 kxpqwmk () sym 0 0 1-lhfry11 kxpqwmk () sym 0 0 1-lhfry12
+kxpqwmk () sym 0 0 1-lhfry13 kxpqwmk () sym 0 0 1-lhfry14 kxpqwmk ()
+sym 0 0 1-lhfry15 kxpqwmk () sym 0 0 1-lhfry16 kxpqwmk () sym 0 0 1-lhfry17
+kxpqwmk () sym 0 0 1-lhfry18 kxpqwmk () sym 0 0 1-lhfry19 kxpqwmk ()
+sym 0 0 1-lhfry20 kxpqwmk () sym 0 0 1-lhfry21 kxpqwmk () sym 0 0 1-lhfry22
+kxpqwmk () sym 0 0 1-lhfry23 kxpqwmk () sym 0 0 1-lhfry24 kxpqwmk ()
+sym 0 0 1-lhfry25 kxpqwmk () sym 0 0 1-lhfry26 kxpqwmk () sym 0 0 1-lhfry27
+kxpqwmk () sym 0 0 1-lhfry28 kxpqwmk () sym 0 0 1-lhfry29 kxpqwmk ()
+sym 0 0 1-lhfry30 kxpqwmk () sym 0 0 1-lhfry31 kxpqwmk () sym 0 0 1-lhfry32
+kxpqwmk () norm 0 0 1-lhfrx1 1 () norm 0 0 1-lhfrx2 50.3968 () norm
+0 0 1-lhfrx3 100 () norm 0 0 1-lhfrx4 1 () norm 0 0 1-lhfrx5 1 () norm
+0 0 1-lhfrx6 118.937 () norm 0 0 1-lhfrx7 60.3175 () norm 0 0 1-lhfrx8
+0 () arr 0 0 1-lhfray1 () norm 0 0 7-wavrx1 4 () norm 0 0 7-wavrx2
+0 () norm 0 0 7-wavrx3 0 () norm 0 0 7-wavrx4 0.299213 () norm 0 0
+7-wavrx5 0 () norm 0 0 6-wavrx1 0 () norm 0 0 6-wavrx2 0 () norm 0
+0 6-wavrx3 7 () norm 0 0 6-wavrx4 0.992126 () norm 0 0 6-wavrx5 0 ()
+norm 0 0 5-wavrx1 0 () norm 0 0 5-wavrx2 0 () norm 0 0 5-wavrx3 2 ()
+norm 0 0 5-wavrx4 0.976378 () norm 0 0 5-wavrx5 0 () norm 0 0 4-wavrx1
+0 () norm 0 0 4-wavrx2 0 () norm 0 0 4-wavrx3 3 () norm 0 0 4-wavrx4
+0.968504 () norm 0 0 4-wavrx5 0 () norm 0 0 3-wavrx1 0 () norm 0 0
+3-wavrx2 1 () norm 0 0 3-wavrx3 4 () norm 0 0 3-wavrx4 0.984252 ()
+norm 0 0 3-wavrx5 0 () norm 0 0 2-wavrx1 0 () norm 0 0 2-wavrx2 1 ()
+norm 0 0 2-wavrx3 8 () norm 0 0 2-wavrx4 0.976378 () norm 0 0 2-wavrx5
+0 () sym 0 0 1-plfry1 C:/Documents and Settings/hansroels/My Documents/kompositie/kids/samples/Logos - buurtgeluiden/neyrinck/sas2.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 1 () norm 0 0 1-plfrx2 0.229921 () norm 0 0 1-plfrx3 0 ()
+norm 0 0 1-wavrx1 0 () norm 0 0 1-wavrx2 1 () norm 0 0 1-wavrx3 1 ()
+norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;
+5 again 0 0 0 () sym 0 0 1-lhfry1 kxpqwmk () sym 0 0 1-lhfry2 kxpqwmk
+() sym 0 0 1-lhfry3 kxpqwmk () sym 0 0 1-lhfry4 kxpqwmk () sym 0 0
+1-lhfry5 kxpqwmk () sym 0 0 1-lhfry6 kxpqwmk () sym 0 0 1-lhfry7 kxpqwmk
+() sym 0 0 1-lhfry8 kxpqwmk () sym 0 0 1-lhfry9 kxpqwmk () sym 0 0
+1-lhfry10 kxpqwmk () sym 0 0 1-lhfry11 kxpqwmk () sym 0 0 1-lhfry12
+kxpqwmk () sym 0 0 1-lhfry13 kxpqwmk () sym 0 0 1-lhfry14 kxpqwmk ()
+sym 0 0 1-lhfry15 kxpqwmk () sym 0 0 1-lhfry16 kxpqwmk () sym 0 0 1-lhfry17
+kxpqwmk () sym 0 0 1-lhfry18 kxpqwmk () sym 0 0 1-lhfry19 kxpqwmk ()
+sym 0 0 1-lhfry20 kxpqwmk () sym 0 0 1-lhfry21 kxpqwmk () sym 0 0 1-lhfry22
+kxpqwmk () sym 0 0 1-lhfry23 kxpqwmk () sym 0 0 1-lhfry24 kxpqwmk ()
+sym 0 0 1-lhfry25 kxpqwmk () sym 0 0 1-lhfry26 kxpqwmk () sym 0 0 1-lhfry27
+kxpqwmk () sym 0 0 1-lhfry28 kxpqwmk () sym 0 0 1-lhfry29 kxpqwmk ()
+sym 0 0 1-lhfry30 kxpqwmk () sym 0 0 1-lhfry31 kxpqwmk () sym 0 0 1-lhfry32
+kxpqwmk () norm 0 0 1-lhfrx1 1 () norm 0 0 1-lhfrx2 34.2698 () norm
+0 0 1-lhfrx3 100 () norm 0 0 1-lhfrx4 0 () norm 0 0 1-lhfrx5 1 () norm
+0 0 1-lhfrx6 84.6667 () norm 0 0 1-lhfrx7 84.127 () norm 0 0 1-lhfrx8
+1 () arr 0 0 1-lhfray1 () norm 0 0 7-wavrx1 4 () norm 0 0 7-wavrx2
+0 () norm 0 0 7-wavrx3 0 () norm 0 0 7-wavrx4 0.362205 () norm 0 0
+7-wavrx5 0 () norm 0 0 6-wavrx1 0 () norm 0 0 6-wavrx2 0 () norm 0
+0 6-wavrx3 10 () norm 0 0 6-wavrx4 0.992126 () norm 0 0 6-wavrx5 0
+() norm 0 0 5-wavrx1 0 () norm 0 0 5-wavrx2 0 () norm 0 0 5-wavrx3
+2 () norm 0 0 5-wavrx4 0.976378 () norm 0 0 5-wavrx5 0 () norm 0 0
+4-wavrx1 0 () norm 0 0 4-wavrx2 0 () norm 0 0 4-wavrx3 3 () norm 0
+0 4-wavrx4 0.968504 () norm 0 0 4-wavrx5 0 () norm 0 0 3-wavrx1 0 ()
+norm 0 0 3-wavrx2 1 () norm 0 0 3-wavrx3 4 () norm 0 0 3-wavrx4 0.984252
+() norm 0 0 3-wavrx5 0 () norm 0 0 2-wavrx1 0 () norm 0 0 2-wavrx2
+1 () norm 0 0 2-wavrx3 8 () norm 0 0 2-wavrx4 0.976378 () norm 0 0
+2-wavrx5 0 () sym 0 0 1-plfry1 C:/Documents and Settings/hansroels/My Documents/kompositie/kids/samples/Logos - buurtgeluiden/neyrinck/sas2.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 1 () norm 0 0 1-plfrx2 0.229921 () norm 0 0 1-plfrx3 0 ()
+norm 0 0 1-wavrx1 0 () norm 0 0 1-wavrx2 1 () norm 0 0 1-wavrx3 1 ()
+norm 0 0 1-wavrx4 1 () norm 0 0 1-wavrx5 0;

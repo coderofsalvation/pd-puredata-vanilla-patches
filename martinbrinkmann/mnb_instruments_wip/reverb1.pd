@@ -1,0 +1,18 @@
+#N canvas 421 316 450 300 10;
+#X obj 40 192 dac~;
+#N canvas 500 162 968 862 mrev 0;
+#X obj -15 90 inlet~;
+#X obj 35 271 outlet~;
+#X obj 147 271 outlet~;
+#X text 106 62 reverb from the pd doc (see comments there);
+#X obj 128 114 hsl 64 8 0 100 0 1 empty empty fb -25 5 0 10 -262144
+-1 -1 5400 1;
+#X obj 61 196 abs_reverb1;
+#X connect 0 0 5 0;
+#X connect 4 0 5 1;
+#X connect 5 0 1 0;
+#X connect 5 1 2 0;
+#X coords 0 -1 1 1 100 25 1 100 100;
+#X restore 45 74 pd mrev;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;

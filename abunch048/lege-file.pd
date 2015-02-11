@@ -1,0 +1,4 @@
+#N canvas 377 222 458 308 12;
+#X obj 165 276 dac~;
+#X obj 163 8 adc~;
+#X text 17 40 adc weg - audio UA-1G - latency - asio;

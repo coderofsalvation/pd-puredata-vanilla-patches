@@ -1,0 +1,54 @@
+#N canvas 297 97 1069 838 10;
+#X obj 181 78 dac~;
+#X obj 144 -597 loadbang;
+#X msg 149 -567 location /home/mnb/samplelib;
+#X msg 183 -517 location /home/mnb/wave_wrk;
+#X msg 193 -495 location ..;
+#X msg 169 -541 location /home/mnb/archiv/sounds;
+#X obj 187 -86 readsf~;
+#X msg 199 -117 open \$1;
+#X obj 176 -143 t b a;
+#X msg 162 -119 1;
+#X obj 182 -457 playlist all 400 300 {Helvetica 10 bold} #457782 yellow
+black red;
+#X obj 186 27 hip~ 10;
+#N canvas 436 168 938 841 monoblur4096 0;
+#X obj -33 116 inlet~;
+#X obj 24 318 outlet~;
+#X obj 281 113 loadbang;
+#X obj 107 122 hsl 128 15 0 1 0 1 empty empty empty -2 -8 0 10 -262144
+-1 -1 3300 1;
+#X obj 219 104 bng 15 250 50 0 empty empty empty 17 7 0 10 -258113
+-1 -1;
+#X obj -3 185 *~;
+#X obj -19 154 hip~ 10;
+#X text -84 64 2012 martin brinkmann;
+#X text -83 21 adds the spectrum of consecutive frames and replaces
+phase information with random values to create a padsynth-like drone
+from incoming audio. 4096 point fft mono version;
+#X text 16 124 old vs new ->;
+#X text 221 79 clear;
+#X obj 27 276 abs_monoblur4096;
+#X connect 0 0 6 0;
+#X connect 2 0 11 1;
+#X connect 3 0 5 1;
+#X connect 4 0 11 1;
+#X connect 5 0 11 0;
+#X connect 6 0 5 0;
+#X connect 11 0 1 0;
+#X coords 0 -1 1 1 140 40 1 100 100;
+#X restore 186 -54 pd monoblur4096;
+#X connect 1 0 2 0;
+#X connect 2 0 10 0;
+#X connect 3 0 10 0;
+#X connect 4 0 10 0;
+#X connect 5 0 10 0;
+#X connect 6 0 12 0;
+#X connect 7 0 6 0;
+#X connect 8 0 9 0;
+#X connect 8 1 7 0;
+#X connect 9 0 6 0;
+#X connect 10 0 8 0;
+#X connect 11 0 0 0;
+#X connect 11 0 0 1;
+#X connect 12 0 11 0;

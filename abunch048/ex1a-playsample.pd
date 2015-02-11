@@ -1,0 +1,18 @@
+#N canvas 356 78 544 447 12;
+#X obj 265 83 play-sample 1;
+#X obj 35 64 presets ex1a;
+#X obj 267 145 sound-out 1;
+#X text 45 214 <1> Set the number in 'presets' to 1 and click 'open_preset'.
+There are 6 presets (with 4 different samples).;
+#X text 43 272 <2> Open 'play-sample' (right click and choose 'open'
+- Mac: ctrl + click) and click on 'play_sample'.;
+#X text 41 374 You can find a help file with more information about
+'play-sample' and 'sound-out' by right clicking on one of these objects
+and choosing 'help'.;
+#X text 43 14 Playing a sample (with 'play-sample') and sending the
+sound to the sound output of the computer (using 'sound-out');
+#X text 44 313 <3> You can also open another (short) sound file in
+'play-sample' \, change the pitch ('transpose') or play the sample
+backwards ('reverse').;
+#X connect 0 0 2 0;
+#X connect 0 0 2 1;

@@ -1,0 +1,62 @@
+1 symbol 0 0 0 () sym 0 0 2-plfry1 C:/Program Files/pd/patch/own/doctoraat/solos/sol2.wav
+() sym 0 0 2-plfry2 kxpqwmk () sym 0 0 2-plfry3 kxpqwmk () norm 0 0
+2-plfrx1 1 () norm 0 0 2-plfrx2 0.6 () norm 0 0 2-plfrx3 0 () sym 0
+0 1-plfry1 C:/Program Files/pd/patch/own/doctoraat/solos/sol1-bis.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 1 () norm 0 0 1-plfrx2 0.6 () norm 0 0 1-plfrx3 0 () norm
+0 0 1-scdrx1 60 () norm 0 0 1-scdrx2 24 () norm 0 0 1-soutrx1 100 ()
+norm 0 0 1-soutrx2 1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4
+1 () norm 0 0 1-fm4rx1 0 () norm 0 0 1-fm4rx2 1.275 () norm 0 0 1-fm4rx3
+2 () norm 0 0 1-fm4rx4 80.6349 () norm 0 0 1-fm4rx5 1128.89 () norm
+0 0 1-fm4rx6 1422.22 () norm 0 0 1-fm4rx7 100 () norm 0 0 1-fm4rx8
+423.333 () norm 0 0 1-fm4rx9 1270 () norm 0 0 1-fm4rx10 612.571 ()
+norm 0 0 1-fm4rx11 93.9388 () norm 0 0 1-fm4rx12 2.42449 () norm 0
+0 1-fm4rx13 2 () norm 0 0 1-fm4rx14 0.906122 () norm 0 0 1-fm4rx15
+0.142857 () norm 0 0 1-fm4rx16 0.14 () norm 0 0 1-fm4rx17 0 () norm
+0 0 1-fm4rx18 0.0337522 () norm 0 0 1-fm4rx19 1 () norm 0 0 1-fm4rx20
+0 () norm 0 0 1-fm4rx21 0.01 () norm 0 0 1-fm4rx22 0 () norm 0 0 1-fm4rx23
+0 () norm 0 0 1-fm4rx24 0.544313 () norm 0 0 1-fm4rx25 1 () norm 0
+0 1-fm4rx26 0.01 () norm 0 0 1-fm4rx27 0 () norm 0 0 1-fm4rx28 92.8286
+;
+2 symbol 0 0 0 () norm 0 0 1-fm4rx1 0 () norm 0 0 1-fm4rx2 0.5 () norm
+0 0 1-fm4rx3 1 () norm 0 0 1-fm4rx4 60.4762 () norm 0 0 1-fm4rx5 100.794
+() norm 0 0 1-fm4rx6 609.524 () norm 0 0 1-fm4rx7 0 () norm 0 0 1-fm4rx8
+161.27 () norm 0 0 1-fm4rx9 322.54 () norm 0 0 1-fm4rx10 609.524 ()
+norm 0 0 1-fm4rx11 89.999 () norm 0 0 1-fm4rx12 1.2 () norm 0 0 1-fm4rx13
+0 () norm 0 0 1-fm4rx14 0.6 () norm 0 0 1-fm4rx15 0.8 () norm 0 0 1-fm4rx16
+0 () norm 0 0 1-fm4rx17 0 () norm 0 0 1-fm4rx18 0.1 () norm 0 0 1-fm4rx19
+0 () norm 0 0 1-fm4rx20 0 () norm 0 0 1-fm4rx21 0.1 () norm 0 0 1-fm4rx22
+0 () norm 0 0 1-fm4rx23 0 () norm 0 0 1-fm4rx24 0.1 () norm 0 0 1-fm4rx25
+0 () norm 0 0 1-fm4rx26 0 () norm 0 0 1-fm4rx27 0 () norm 0 0 1-fm4rx28
+0 () sym 0 0 1-tscry1 kxpqwmk () sym 0 0 1-tscry2 niets () sym 0 0
+1-tscry3 piep () sym 0 0 1-tscry4 kxpqwmk () sym 0 0 1-tscry5 kxpqwmk
+() sym 0 0 1-tscry6 kxpqwmk () sym 0 0 1-tscry7 kxpqwmk () sym 0 0
+1-tscry8 kxpqwmk () sym 0 0 1-tscry9 kxpqwmk () sym 0 0 1-tscry10 kxpqwmk
+() sym 0 0 1-tscry11 kxpqwmk () sym 0 0 1-tscry12 kxpqwmk () sym 0
+0 1-tscry13 kxpqwmk () sym 0 0 1-tscry14 kxpqwmk () sym 0 0 1-tscry15
+kxpqwmk () sym 0 0 1-tscry16 kxpqwmk () sym 0 0 1-tscry17 kxpqwmk ()
+sym 0 0 1-tscry18 kxpqwmk () sym 0 0 1-tscry19 kxpqwmk () sym 0 0 1-tscry20
+kxpqwmk () sym 0 0 1-tscry21 kxpqwmk () sym 0 0 1-tscry22 kxpqwmk ()
+sym 0 0 1-tscry23 kxpqwmk () sym 0 0 1-tscry24 kxpqwmk () sym 0 0 1-tscry25
+kxpqwmk () sym 0 0 1-tscry26 kxpqwmk () sym 0 0 1-tscry27 kxpqwmk ()
+sym 0 0 1-tscry28 kxpqwmk () sym 0 0 1-tscry29 kxpqwmk () sym 0 0 1-tscry30
+kxpqwmk () sym 0 0 1-tscry31 C:/Program Files/pd/patch/own/doctoraat/chords1.txt
+() sym 0 0 1-tscry32 kxpqwmk () norm 0 0 1-tscrx1 43 () norm 0 0 1-tscrx2
+0 () norm 0 0 1-tscrx3 0 () norm 0 0 1-tscrx4 0 () norm 0 0 1-tscrx5
+0 () norm 0 0 1-tscrx6 0 () norm 0 0 1-tscrx7 0 () norm 0 0 1-tscrx8
+0 () norm 0 0 1-tscrx9 0 () norm 0 0 1-tscrx10 0 () norm 0 0 1-tscrx11
+0 () norm 0 0 1-tscrx12 0 () norm 0 0 1-tscrx13 0 () norm 0 0 1-tscrx14
+0 () norm 0 0 1-tscrx15 0 () norm 0 0 1-tscrx16 0 () norm 0 0 1-tscrx17
+0 () norm 0 0 1-tscrx18 0 () norm 0 0 1-tscrx19 0 () norm 0 0 1-tscrx20
+0 () norm 0 0 1-tscrx21 0 () norm 0 0 1-tscrx22 0 () norm 0 0 1-tscrx23
+0 () norm 0 0 1-tscrx24 0 () norm 0 0 1-tscrx25 0 () norm 0 0 1-tscrx26
+0 () norm 0 0 1-tscrx27 0 () norm 0 0 1-tscrx28 0 () norm 0 0 1-tscrx29
+0 () norm 0 0 1-tscrx30 0 () norm 0 0 1-tscrx31 0 () sym 0 0 2-plfry1
+C:/Program Files/pd/patch/own/doctoraat/solos/sol2.wav () sym 0 0 2-plfry2
+kxpqwmk () sym 0 0 2-plfry3 kxpqwmk () norm 0 0 2-plfrx1 1 () norm
+0 0 2-plfrx2 0.6 () norm 0 0 2-plfrx3 0 () sym 0 0 1-plfry1 C:/Program Files/pd/patch/own/doctoraat/solos/sol1-bis.wav
+() sym 0 0 1-plfry2 kxpqwmk () sym 0 0 1-plfry3 kxpqwmk () norm 0 0
+1-plfrx1 1 () norm 0 0 1-plfrx2 0.6 () norm 0 0 1-plfrx3 0 () norm
+0 0 1-scdrx1 60 () norm 0 0 1-scdrx2 24 () norm 0 0 1-soutrx1 100 ()
+norm 0 0 1-soutrx2 1 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4
+1;

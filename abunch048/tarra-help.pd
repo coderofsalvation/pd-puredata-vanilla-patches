@@ -1,0 +1,44 @@
+#N canvas 322 18 750 669 12;
+#X obj 37 923 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017 -66577
+0;
+#X obj 37 719 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 47 193 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 20 249 fader 'brightness' =;
+#X text 19 305 fader 'decay_time' =;
+#X text 20 361 fader 'sensor_position' =;
+#X text 18 423 fader 'excitation_position' =;
+#X text 19 528 fader 'A' =;
+#X text 17 587 fader 'H' =;
+#X text 20 633 fader 'R' =;
+#X text 20 18 Tarra is a synthesizer based on a fysical model of a
+string.;
+#X text 21 61 Tarra is built upon the file 'Waveguide-plucked-string.pd'
+made for the RealSimPLE project of the Department of Speech Music and
+Hearing (TMH) at Kungliga Tekniska Högskolan (KTH) in Stockholm \,
+Sweden and CCRMA (Center for Computer Research in Music and Acoustics)
+at Stanford University.;
+#X text 22 483 Three faders that affect the amplitude envelope:;
+#X text 28 875 outlet 1 =;
+#X text 41 789 inlet 1 =;
+#X text 41 819 inlet 2 =;
+#X text 128 820 (event) inlet for the velocity (this triggers the sound
+production);
+#X text 32 753 (in- and outlets \, numbered from left to right);
+#X text 127 788 (event) inlet for the pitch;
+#X text 123 876 (audio) outlet for the produced sound;
+#X text 158 631 This fader changes the release time of the amplitude
+envelope (the time to reach velocity 0);
+#X text 155 582 This fader changes the hold time (in milliseconds)
+of the sustained tone (reached after the attack).;
+#X text 158 530 This fader changes the time it takes (in milliseconds)
+to reach the peak value of the attack.;
+#X text 208 248 This fader changes the brightness of the sound (by
+filtering the sound).;
+#X text 236 361 This fader changes the sensor position during the attack
+of the string.;
+#X text 268 423 This fader changes the position where the string is
+struck.;
+#X text 211 304 This fader changes the time after the excitation of
+the string in which the string stops vibrating.;

@@ -1,0 +1,27 @@
+1 tic 0 0 0 () norm 0 0 1-fm1rx1 76 () norm 0 0 1-fm1rx2 4.5 () norm
+0 0 1-fm1rx3 0.21 () norm 0 0 1-fm1rx4 0.748031 () norm 0 0 1-fm1rx5
+0 () norm 0 0 1-fm1rx6 0 () norm 0 0 1-azerx1 1 () norm 0 0 1-azerx2
+12 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm 0 0 1-azerx5
+0 () norm 0 0 1-azerx6 0 () norm 0 0 1-envrx1 0.1 () norm 0 0 1-envrx2
+1.53197 () norm 0 0 1-envrx3 0 () norm 0 0 1-envrx4 0 () norm 0 0 1-envrx5
+0 () norm 0 0 1-envrx6 78.7402 () norm 0 0 1-envrx7 0 () norm 0 0 1-soutrx1
+100 () norm 0 0 1-soutrx2 0 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4
+1;
+2 simplistic 0 0 0 () norm 0 0 1-fm1rx1 64 () norm 0 0 1-fm1rx2 7 ()
+norm 0 0 1-fm1rx3 0.66 () norm 0 0 1-fm1rx4 0.748031 () norm 0 0 1-fm1rx5
+0 () norm 0 0 1-fm1rx6 0 () norm 0 0 1-azerx1 61.4173 () norm 0 0 1-azerx2
+0 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm 0 0 1-azerx5
+0 () norm 0 0 1-azerx6 0 () norm 0 0 1-envrx1 0.1 () norm 0 0 1-envrx2
+1.00787 () norm 0 0 1-envrx3 0 () norm 0 0 1-envrx4 18.1417 () norm
+0 0 1-envrx5 0 () norm 0 0 1-envrx6 1244.09 () norm 0 0 1-envrx7 1
+() norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2 0 () norm 0 0 1-soutrx3
+100 () norm 0 0 1-soutrx4 1;
+3 hello? 0 0 0 () norm 0 0 1-fm1rx1 52 () norm 0 0 1-fm1rx2 1.5 ()
+norm 0 0 1-fm1rx3 0.4425 () norm 0 0 1-fm1rx4 0.748031 () norm 0 0
+1-fm1rx5 0 () norm 0 0 1-fm1rx6 0 () norm 0 0 1-azerx1 118.11 () norm
+0 0 1-azerx2 -24 () norm 0 0 1-azerx3 0 () norm 0 0 1-azerx4 0 () norm
+0 0 1-azerx5 1 () norm 0 0 1-azerx6 500 () norm 0 0 1-envrx1 1.69843
+() norm 0 0 1-envrx2 7.05512 () norm 0 0 1-envrx3 8.06299 () norm 0
+0 1-envrx4 18.1417 () norm 0 0 1-envrx5 0 () norm 0 0 1-envrx6 251.969
+() norm 0 0 1-envrx7 4 () norm 0 0 1-soutrx1 100 () norm 0 0 1-soutrx2
+0 () norm 0 0 1-soutrx3 100 () norm 0 0 1-soutrx4 1;

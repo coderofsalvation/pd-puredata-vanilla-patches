@@ -1,0 +1,117 @@
+#N canvas 546 -5 694 737 12;
+#X obj 21 1802 cnv 15 400 30 empty empty !!!!! 160 14 0 14 -233017
+-66577 0;
+#X obj 21 1538 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017
+-66577 0;
+#X obj 24 152 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 28 1760 outlet 1 =;
+#X text 31 1609 inlet 1 =;
+#X text 31 1639 inlet 2 =;
+#X text 29 1692 inlet 3 =;
+#X text 26 1722 inlet 4 =;
+#X text 21 201 fader 'index' =;
+#X text 20 245 fader 'ratio' =;
+#X obj -5 337 cnv 15 180 300 empty empty index_envelope 12 12 0 20
+-258699 -1 0;
+#X text 13 398 fader 'A' =;
+#X text 14 462 fader 'D' =;
+#X text 14 510 fader 'S' =;
+#X text 15 567 fader 'R' =;
+#X text 13 433 fader 'peak' =;
+#X obj -4 638 cnv 15 180 286 empty empty amp_envelope 20 12 0 20 -83269
+-1 0;
+#X text 8 703 fader 'attack' =;
+#X text 10 813 fader 'decay' =;
+#X text 8 884 fader 'release' =;
+#X text 13 746 fader 'peak' =;
+#X obj -4 928 cnv 15 180 430 empty empty punch 45 12 0 20 -83269 -1
+0;
+#X text 4 967 fader 'FB' =;
+#X text 4 991 fader 'ln' =;
+#X text 1 1069 fader 'lvl' =;
+#X text 2 1116 fader 'shift' =;
+#X obj 8 1266 vradio 15 1 0 5 \$1-fm4seon \$1-fm4reon empty 0 -8 0
+10 -262144 -1 -1 0;
+#X text 27 1278 sine;
+#X text 28 1292 mod;
+#X text 26 1309 trigsine;
+#X text 26 1323 trigmod;
+#X text 26 1262 off;
+#X text 2 1223 SOURCE;
+#X obj -5 1363 cnv 15 180 150 empty empty randomize 12 12 0 20 -258699
+-1 0;
+#X text 27 24 'cross-fm' is a six-voice FM-synthesizer with one oscillator
+controlling the frequency of an other oscillator and an extra feedback
+generator (in 'punch'). Both the index and amplitude have an envelope.
+Send pitch (inlet 1) and velocity (inlet 2) note-on and note-off values
+to this synthesizer to make it produce sound.;
+#X text 178 202 Use this fader to change the amount of modulation (of
+the pitch of the main oscilllator).;
+#X text 179 244 Use this fader to change the ratio (or relation) between
+the pitch of the main oscillator and the pitch of the modulating oscillator.
+Index value 4 means that the pitch of the modulating oscillator (in
+Hertz) is 4 times the pitch of the main oscillator (in Hertz).;
+#X text 183 337 You can find the faders of the index envelope in this
+box. This is an exponential envelope.;
+#X text 185 397 The time it takes (in milliseconds) to reach the peak
+value (fader 'peak') of the attack.;
+#X text 187 437 The peak value of the attack.;
+#X text 183 465 This fader changes the time between the attack and
+the sustain portion of the envelope.;
+#X text 188 504 This fader changes the sustain value (0 to 100) of
+the index envelope \, this value is the percentage of the fader 'index'.
+;
+#X text 190 565 This fader changes the release time of the index envelope
+;
+#X text 188 653 You can find the faders of the amplitude envelope in
+this box. This is an linear envelope.;
+#X text 185 703 The time it takes (in milliseconds) to reach the peak
+value (fader 'peak') of the attack.;
+#X text 189 745 The peak value of the attack (maximum 4 times the incoming
+velocity value - inlet 2).;
+#X text 187 782 (The sustain value is the velocity note-on value inlet
+2);
+#X text 191 811 This fader changes the time between the attack and
+the sustain portion of the envelope. The sustain is the velocity value
+from inlet 2;
+#X text 188 871 This fader changes the release time of the amplitude
+envelope (the time to reach velocity 0);
+#X text 117 1608 (event) inlet for the pitch of the synthesized tone
+;
+#X text 118 1689 (event) inlet to control the fader 'index';
+#X text 118 1719 (event) inlet to control the fader 'ratio';
+#X text 123 1761 (audio) outlet for the produced FM sound;
+#X text 118 1640 (event) inlet for the velocity (this triggers the
+sound production);
+#X text 22 1573 (in- and outlets \, numbered from left to right);
+#X text 180 930 You can change the parameters of a feedback module
+(called 'punch') in this box.;
+#X text 184 968 This fader changes the amount of feedback.;
+#X text 183 992 This fader changes the length or duration of the input
+sound that is sent to the feedback. Only if 'trigsine' or 'trigmod'
+is selected in the option 'source' \, does this fader produce a noticeable
+difference.;
+#X text 185 1070 This fader changes the level/amplitude of the sound
+at the end of the 'punch' part of this 'cross-fm' synthesizer.;
+#X text 185 1117 This fader changes the amount of transposition (in
+semitones) of the sound produced in the punch or feedback part compared
+to the pitch arriving in inlet 1 The brown number box shows the amount
+of transposition \, the switch '*2' multiplies the values of the fader
+'shift' with 2;
+#X text 178 1218 With this fader you can choose the input or source
+sound for the feedback.;
+#X text 173 1262 No input sound (thus the feedback module is switched
+off);
+#X text 175 1278 A continuous sine as input sound.;
+#X text 177 1293 The sound from the FM modulation as input.;
+#X text 175 1308 A sine with a fixed duration (fader 'ln') as input.
+;
+#X text 177 1323 The sound from the FM modulation with a fixed duration
+(fader 'ln') as input.;
+#X text 180 1370 This part randomizes other faders and knobs of the
+cross-fm synthesizer. The columns 'index' and 'amp' indicate which
+envelope (index or amplitude) you want to randomize. The rows show
+the specific parameters of every envelope (like 'attack' \, 'release'
+\, 'peak' and 'index'). The faders change the amount of randomization
+while the toggles only have an on/off function like in a matrix.;

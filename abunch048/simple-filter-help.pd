@@ -1,0 +1,26 @@
+#N canvas 377 63 679 535 12;
+#X obj 21 292 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 19 76 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 18 364 Inlet 1 =;
+#X text 22 439 Inlet 10 =;
+#X text 22 472 Inlet 11 =;
+#X text 21 500 Outlet 1 =;
+#X text 11 127 'f1' \, 'f2' \, ... faders:;
+#X text 17 196 'Q' fader:;
+#X text 15 240 'Level' fader:;
+#X text 199 128 amplitude for the band pass filters with frequencies
+80 (f1) \, 160 (f2) \, 320 (f3) \, 640 (f4) \, 1280 (f5) \, 2560 (f6)
+\, 3840 (f7) and 5180 (f8) Hertz;
+#X text 201 194 fader to change the resonancy of the filter;
+#X text 202 238 with this you can change the level of the output;
+#X text 19 331 (in- and outlets \, numbered from left to right);
+#X text 175 363 (audio) sound stream that has to be filtered;
+#X text 179 398 inlet to control 'f1' \, 'f2' \, ...;
+#X text 16 398 Inlet 2 to 9 =;
+#X text 175 437 inlet to control the fader 'Q' (resonancy);
+#X text 173 470 inlet to control the fader 'level';
+#X text 174 496 outlet for the filtered sound stream;
+#X text 27 25 A filter bank with 8 bandpass filters fixed to certain
+frequencies.;

@@ -1,0 +1,37 @@
+#N canvas 372 22 691 538 12;
+#X obj 147 303 phaser 1;
+#X obj 145 385 dac~;
+#X obj 145 339 simple-delay 1;
+#X obj 116 241 waves 1;
+#X obj 139 272 slice 1;
+#X obj 197 241 sequencer 1;
+#X obj 163 210 keyboard-azerty 1;
+#X obj 357 287 simple-sampler 1;
+#X obj 357 198 clock 1;
+#X obj 33 29 presets ex3d;
+#X text 208 17 Zoals in ex3b: een synthesizer (met oscillator in 'waves'
+en phaser en delay effect) die getriggerd wordt door een sequencer.
+Slice dient hier als envelope voor die synthesizer. De toonhoogte van
+de synthesizer (de oscillator) wordt door je computer toetsenbord bepaald.
+;
+#X obj 354 254 timeline 1;
+#X text 207 105 Toegevoegd in ex3d: simple-sampler 1 speelt automatisch
+een sample af (toonhoogte gecontroleerd via timeline-pitch 1) \, clock
+1 zorgt er voor dat sequencer 1 en die timeline-pitchin hetzelfde tempo
+spelen.;
+#X text 51 430 <1> In 'presets' number op 1 zetten en 'open_preset'
+klikken (er is 1 preset);
+#X text 53 468 <2> 'clock 1' openen en op 'start' klikken;
+#X text 53 492 <3> computer toetsenbord gebruiken om toonhoogtes te
+spelen \, dit is mogelijk dankzij het keyboardsazerty object;
+#X connect 0 0 2 0;
+#X connect 2 0 1 1;
+#X connect 2 0 1 0;
+#X connect 3 0 4 0;
+#X connect 4 0 0 0;
+#X connect 5 0 4 1;
+#X connect 6 0 3 2;
+#X connect 7 0 2 0;
+#X connect 8 0 5 2;
+#X connect 8 0 11 2;
+#X connect 11 0 7 0;

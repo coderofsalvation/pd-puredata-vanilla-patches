@@ -1,0 +1,5 @@
+#N canvas 312 75 585 521 12;
+#X text 49 3 (Use this file to put abunch objects in it. This is just
+a empty file located in the abunch folder \, it has to be in this folder
+to recognize the other abunch objects.);
+#X obj 229 427 sound-out 1;

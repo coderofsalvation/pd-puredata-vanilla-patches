@@ -1,0 +1,45 @@
+#N canvas 405 31 663 721 12;
+#X obj 31 468 cnv 15 400 30 empty empty inlet 160 14 0 14 -233017 -66577
+0;
+#X obj 49 141 cnv 15 400 30 empty empty panel 160 14 0 14 -233017 -66577
+0;
+#X text 39 559 Inlet 1 =;
+#X text 41 619 Inlet 2 =;
+#X obj 49 289 tgl 15 1 empty empty link 17 7 0 10 -262144 -1 -1 0 1
+;
+#X obj 20 355 tgl 15 0 \$1-soutsby \$1-soutrby computerout 17 7 0 10
+-262144 -1 -1 0 1;
+#X text 40 690 Inlet 3 =;
+#X text 38 731 Inlet 4 =;
+#X text 37 768 Outlet 1 =;
+#X text 38 800 Outlet 2 =;
+#X text 53 505 (in- and outlets \, numbered from left to right);
+#X text 44 25 The abunch 'sound-out' objects sends the incoming sound
+to the sound output of your computer. You can adjust the volume of
+the left and right output channel. There are also two extra outlets
+that send out the sound after this amplitude adjustment (to record
+the output or to use this object as a very simple 2-channel mixer).
+;
+#X text 47 209 fader 'L':;
+#X text 48 227 fader 'R':;
+#X text 139 210 Use these faders to adjust the amplitude of the sound
+enetering in the first inlet (L-eft) and the second outlet (R-ight).
+;
+#X text 140 286 If this toggle is on (crossed) the two faders ('L'
+and 'R') are linked to each other.;
+#X text 181 352 If this toggle is on (crossed) \, the sound is sent
+to the sound output of the computer (after the amplitude adjustment
+by the faders 'L' and 'R') and to the two outlets. If this is off \,
+the sound is only sent to the two outlets of this 'sound-out' object.
+In this case you can use it as a kind of simple mixer.;
+#X text 128 616 (audio) inlet (Right) for the sound that will be sent
+to the right outlet of the computer and/or to the second outlet of
+this 'sound-out' object.;
+#X text 135 558 (audio) inlet (Left) for the sound that will be sent
+to the left outlet of the computer and/or to the first outlet of this
+'sound-out' object.;
+#X text 133 688 (event) inlet to control the fader 'L';
+#X text 127 729 (event) inlet to control the fader 'R';
+#X text 129 769 (audio) outlet for the sound from the first inlet;
+#X text 129 799 (audio) outlet for the sound from the second inlet
+;

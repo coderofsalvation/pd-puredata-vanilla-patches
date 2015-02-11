@@ -1,0 +1,44 @@
+#N canvas 1125 239 450 300 10;
+#N canvas 94 323 518 565 plateverb1 0;
+#X obj -98 324 abs_platereverb1;
+#X obj 106 134 hsl 128 8 220.5 22050 1 1 empty empty damping -2 5 0
+10 -262144 -1 -1 10800 1;
+#X obj 106 145 hsl 128 8 0 1 0 1 empty empty decay -2 5 0 10 -262144
+-1 -1 5900 1;
+#X obj 106 112 hsl 128 8 0 250 0 1 empty empty predelay -2 5 0 10 -262144
+-1 -1 0 1;
+#X obj 106 123 hsl 128 8 220.5 22050 1 1 empty empty bandwidth -2 5
+0 10 -262144 -1 -1 9000 1;
+#X obj 106 167 hsl 128 8 0 1 0 1 empty empty input_diffusion_2 -2 5
+0 10 -262144 -1 -1 9300 1;
+#X obj 106 156 hsl 128 8 0 1 0 1 empty empty input_diffusion_1 -2 5
+0 10 -262144 -1 -1 7200 1;
+#X obj 106 189 hsl 128 8 0 1 0 1 empty empty decay_diffusion_2 -2 5
+0 10 -262144 -1 -1 9400 1;
+#X obj 106 178 hsl 128 8 0 1 0 1 empty empty decay_diffusion_1 -2 5
+0 10 -262144 -1 -1 6600 1;
+#X obj 106 200 hsl 128 8 0 5 0 1 empty empty excursion -2 5 0 10 -262144
+-1 -1 2200 1;
+#X obj -119 104 inlet~;
+#X obj -109 409 outlet~;
+#X obj -1 410 outlet~;
+#X text -20 17 Reverb abstraction based on "Simplified plate-class
+reverberation topology in the style of Griesinger" from the article
+"Effect Design \, Part 1: Reverberator and Other Filters" by Jon Dattorro.
+;
+#X text -18 74 based on a Pd implementation by Anton Hornquist \, and
+rjdj;
+#X connect 0 0 11 0;
+#X connect 0 1 12 0;
+#X connect 1 0 0 5;
+#X connect 2 0 0 6;
+#X connect 3 0 0 1;
+#X connect 4 0 0 2;
+#X connect 5 0 0 4;
+#X connect 6 0 0 3;
+#X connect 7 0 0 8;
+#X connect 8 0 0 7;
+#X connect 9 0 0 9;
+#X connect 10 0 0 0;
+#X coords 0 -1 1 1 140 110 1 100 100;
+#X restore -4 61 pd plateverb1;
