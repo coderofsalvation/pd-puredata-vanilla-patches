@@ -1,0 +1,22 @@
+#N canvas 0 29 1600 849 10;
+#X obj 78 168 editmode;
+#X floatatom 86 199 5 0 0 0 - - -;
+#X obj 56 219 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X floatatom 78 130 5 0 0 0 - - -;
+#X text 284 144 editmode - detect when edit mode is on.;
+#X text 281 208 [editmode] detects the state of edit mode. when edit
+mode is on \, [editmode] will output 1.. when it's off \, it will output
+0..;
+#X text 285 266 you can change the window that [editmode] detects edit
+mode in by providing an argument to [editmode] or by sending a float
+to the inlet. if you send 0 \, [editmode] detects edit mode in its
+own window (i.e. the one that'd pop up if you right-clicked [editmode]
+and selected "Open"). if you send 1 \, [editmode] detects edit mode
+in the parent window of [editmode]'s window (i.e. this window). if
+you send 2 \, the parent of this window is used \, and so on.;
+#X text 288 401 see also:;
+#X obj 354 402 nems;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 3 0 0 0;
