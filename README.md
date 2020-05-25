@@ -10,6 +10,11 @@ I figured it would be convenient for others as well to collect it here on github
 <br>
 `Please contact me if you notice any license-conflict`
 
-> If you're learning puredata, check [this](https://github.com/danomatika/BangYourHead) first, and particularly the help items:
-the 'Help'-menu item of the puredata application.
+> This repo references other repos, to import them run:
+
+```
+$ git submodule update --init --recursive
+```
+
+> If you're learning puredata, check `BangYourHead` first, and the excellent 'Help'-menu item of the puredata application.
 
