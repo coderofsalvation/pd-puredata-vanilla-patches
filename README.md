@@ -22,3 +22,5 @@ $ git submodule update --init --recursive
 
 * [puredata.info](http://puredata.info) starting point for puredata
 * [pdpatchrepo.info](http://www.pdpatchrepo.info) online repository-website with many community repos
+
+> Last but not least: [get in touch with the community here](http://puredata.info/community)
