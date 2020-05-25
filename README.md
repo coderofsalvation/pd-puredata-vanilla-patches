@@ -16,5 +16,9 @@ I figured it would be convenient for others as well to collect it here on github
 $ git submodule update --init --recursive
 ```
 
+# Awesome (better) resources
+
 > If you're learning puredata, check `BangYourHead` first, and the excellent 'Help'-menu item of the puredata application.
 
+* [puredata.info](http://puredata.info) starting point for puredata
+* [pdpatchrepo.info](http://www.pdpatchrepo.info) online repository-website with many community repos
