@@ -1,3 +1,9 @@
 [submodule "BangYourHead"]
 	path = BangYourHead
 	url = https://github.com/danomatika/BangYourHead
+[submodule "PdStuff"]
+	path = PdStuff
+	url = https://github.com/maximosigniorini/PdStuff
+[submodule "pd-sandbox"]
+	path = pd-sandbox
+	url = https://github.com/taylor-vann/pd-sandbox
