@@ -7,3 +7,6 @@
 [submodule "pd-sandbox"]
 	path = pd-sandbox
 	url = https://github.com/taylor-vann/pd-sandbox
+[submodule "pdkvabs"]
+	path = pdkvabs
+	url = https://github.com/derekxkwan/pdkvabs
