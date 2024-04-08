@@ -1,0 +1,9 @@
+#N canvas 505 114 250 336 10;
+#N canvas 388 274 201 229 guts 0;
+#X obj 56 50 r #shake;
+#X obj 56 144 s \$0-shake;
+#X connect 0 0 1 0;
+#X restore 93 263 pd guts;
+#X obj 91 104 bng 50 250 50 0 empty \$0-shake shaken 0 -8 0 10 #fcfcfc
+#000000 #000000;
+#X text 27 25 system #shake (aka cancel) event;

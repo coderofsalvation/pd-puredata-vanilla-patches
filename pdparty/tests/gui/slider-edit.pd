@@ -1,0 +1,15 @@
+#N canvas 189 381 255 247 10;
+#X obj 37 34 hsl 128 15 0 127 0 0 \$0-hsl-out \$0-hsl-in a_slider -2
+-8 0 10 -262144 -1 -1 0 1;
+#X obj 23 154 r \$0-hsl-out;
+#X obj 137 217 s \$0-hsl-in;
+#X obj 137 133 r #osc-in;
+#X text 21 90 use the edit subpatch in slider-help;
+#X text 21 74 run tests/edit-osc &;
+#X obj 160 161 print #osc-in;
+#X obj 23 183 print hsl-out;
+#X obj 137 188 route edit;
+#X connect 1 0 7 0;
+#X connect 3 0 6 0;
+#X connect 3 0 8 0;
+#X connect 8 0 2 0;
